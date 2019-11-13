@@ -156,7 +156,7 @@ _clearRuck = {
 // - Adds ruck to the unit.
 // - Adds a backpack and cargo to that backpack.
 // - Note that these cases are mostly similar to the unit's loadout case.
-// - Possible Cases: 	plt, medic, fac, uavop, tl, ar, aar, rm, brcr, rmammo, rmat, rmsc, dmr, gren, mmg, mmgass, matgun, matass, hat, hatass, aa, aaass, crew, crewman, 
+// - Possible Cases: 	plt, medic, fac, uavop, tl, ar, aar, rm, brcr, rmammo, rmat, rmsc, dmr, gren, mmg, mmgass, matgun, matass, hat, hatass, aa, aaass, crew, crewman,
 // 						pilot, aircrew, hmggun, hmgass, shatgun, shatass, mortgun, mortass, divertl, diver, sniper, amsniper, spotter, engi, demoman
 // - Example: ["plt"] call _addRuck;
 
@@ -210,7 +210,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeTwo,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeThree,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeFour,2];
-		};	
+		};
 		case "ar" : {
 			_unit addBackpack _armgRuck;
 			call _clearRuck;
@@ -255,7 +255,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleTracerMag,4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smoke,2];
-		}; 
+		};
 		case "rmat" : {
 			_unit addBackpack _smallRuck;
 			call _clearRuck;
@@ -265,7 +265,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smoke,2];
-		}; 
+		};
 		case "rmsc" : {
 			_unit addBackpack _smallRuck;
 			call _clearRuck;
@@ -315,7 +315,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_matATMag,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_matHEMag,1];
 			if (_matSpot != "") then { (unitBackpack _unit) addMagazineCargoGlobal [_matSpot,2]; };
-		}; 
+		};
 		case "matass" : {
 			_unit addBackpack _atRuck;
 			call _clearRuck;
@@ -356,7 +356,7 @@ _addRuck = {
 			call _clearRuck;
 			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,1];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];
-		};   
+		};
 		case "crewman" : {
 			_unit addBackpack _smallRuck;
 			call _clearRuck;
@@ -377,7 +377,7 @@ _addRuck = {
 			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,4];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,4];
 			(unitBackpack _unit) addItemCargoGlobal [_bloodTwo,2];
-		};		
+		};
 		case "hmggun" : {
 			_unit addBackpack _hmgBarrel;
 		};
@@ -427,13 +427,13 @@ _addRuck = {
 		case "spotter" : {
 			_unit addBackpack _radioRuck;
 			call _clearRuck;
-			(unitBackpack _unit) addItemCargoGlobal [_designatorBat,1];	
+			(unitBackpack _unit) addItemCargoGlobal [_designatorBat,1];
 			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,6];	// bandages
 			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,2];	// morphine
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];	// epinephrine
 			(unitBackpack _unit) addItemCargoGlobal [_bloodTwo,1];		// bloodbag
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleGLMag,2];
-			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeOne,1];	
+			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeOne,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeTwo,1];
 		};
 		case "engi" : {
@@ -490,7 +490,7 @@ _addAttachments = {
 	if (!isNil "_primaryAttachments") then { { _unit removePrimaryWeaponItem _x } forEach _primaryAttachments; };
 	if (!isNil "_secondaryAttachments") then { { _unit removeSecondaryWeaponItem _x } forEach _secondaryAttachments; };
 	if (!isNil "_handgunAttachments") then { { _unit removeHandgunItem _x } forEach _handgunAttachments; };
-		
+
 	switch (_type) do {
 		// ===================================================================================================
 		case "general" : {
@@ -726,7 +726,7 @@ _para = {
 
 // ============================================================
 // Add Sidearm
-// Adds loaded sidearm to unit 
+// Adds loaded sidearm to unit
 // Call: call _addSidearm;
 
 _addSidearm = {

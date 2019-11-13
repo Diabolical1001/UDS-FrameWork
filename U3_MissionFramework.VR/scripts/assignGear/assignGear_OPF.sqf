@@ -48,43 +48,43 @@ switch (_teamOne) do {
 		_gunOne = "ar";
 		_assOne = "aar";
 	};
-	
+
 	// medium machinegun
 	case "mmg" : {
 		_gunOne = "mmg";
 		_assOne = "mmgass";
 	};
-	
+
 	// medium at
 	case "mat" : {
 		_gunOne = "matgun";
 		_assOne = "matammo";
 	};
-	
+
 	// heavy at
 	case "hat" : {
 		_gunOne = "hatgun";
 		_assOne = "hatammo";
 	};
-	
+
 	// heavy at
 	case "aa" : {
 		_gunOne = "aagun";
 		_assOne = "aaammo";
 	};
-	
+
 	// csw - heavy machinegun
 	case "hmg" : {
 		_gunOne = "hmggun";
 		_assOne = "hmgass";
 	};
-	
+
 	// csw - static heavy at
 	case "shat" : {
 		_gunOne = "shatgun";
-		_assOne = "shatass";	
+		_assOne = "shatass";
 	};
-	
+
 	// incorrect case
 	default {
 		systemChat format ["No or incorrectly defined Team One weaponry: %2, for unit: %1",_unit,toUpper (_teamOne)];
@@ -99,32 +99,32 @@ switch (_teamTwo) do {
 		_gunTwo = "ar";
 		_assTwo = "aar";
 	};
-	
+
 	case "mmg" : {
 		_gunTwo = "mmg";
 		_assTwo = "mmgass";
 	};
-	
+
 	case "mat" : {
 		_gunTwo = "matgun";
 		_assTwo = "matammo";
 	};
-	
+
 	case "hat" : {
 		_gunTwo = "hatgun";
 		_assTwo = "hatammo";
 	};
-	
+
 	case "hmg" : {
 		_gunTwo = "hmggun";
 		_assTwo = "hmgass";
 	};
-	
+
 	case "shat" : {
 		_gunTwo = "shatgun";
-		_assTwo = "shatass";	
+		_assTwo = "shatass";
 	};
-	
+
 	default {
 		systemChat format ["No or incorrectly defined Team Two weaponry: %2, for unit: %1",_unit,toUpper (_teamOne)];
 		_gunTwo = "ar";
@@ -135,22 +135,22 @@ switch (_teamTwo) do {
 // set applicable loadouts
 if (_loadout in ["gunone","assone","guntwo","asstwo"]) then {
 	switch (_loadout) do {
-	
+
 		// first team gunner
-		case "gunone" : { 
+		case "gunone" : {
 			_loadout = _gunOne;
 		};
-		
+
 		// first team assistant
-		case "assone" : { 
+		case "assone" : {
 			_loadout = _assOne;
 		};
-		
+
 		// second team gunner
-		case "guntwo" : { 
+		case "guntwo" : {
 			_loadout = _gunTwo;
 		};
-		
+
 		// second team assistant
 		case "asstwo" : {
 			_loadout = _assTwo;
@@ -164,14 +164,14 @@ if (_loadout in ["gunone","assone","guntwo","asstwo"]) then {
 // set applicable loadouts
 if (_loadout in ["rmone","rmtwo"]) then {
 	switch (_loadout) do {
-	
+
 		// first team rifleman
-		case "rmone" : { 
+		case "rmone" : {
 			_loadout = _rmOne;
 		};
-		
+
 		// second team rifleman
-		case "rmtwo" : { 
+		case "rmtwo" : {
 			_loadout = _rmTwo;
 		};
 	};
@@ -305,7 +305,7 @@ if (_unit isKindOf "Man") then {
 			["general",false,false,false] call _addAttachments;
 			["vest"] call _IFAK;
 		};
-		
+
 		// ========================================
 		// ============ Section Roles =============
 		// ========================================
@@ -315,6 +315,7 @@ if (_unit isKindOf "Man") then {
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
 			{ _unit addItemToUniform _x; } foreach _throwG;
+			{ _unit addItemToUniform _x; _unit addItemToUniform _x; } foreach _facSmokes;
 			_unit addMagazines [_rifleMag,6];
 			_unit addMagazines [_rifleTracerMag,2];
 			_unit addWeapon _rifle;
@@ -483,7 +484,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["pilot"] call _addRuck;
 			["pack"] call _IFAK;
-			
+
 		};
 		case "rotarycrew" : {
 			["rcrew"] call _addClothes;
@@ -817,12 +818,12 @@ if (!(_unit isKindOf "Man")) then {
 	clearWeaponCargoGlobal _unit;
 	clearBackpackCargoGlobal _unit;
 	clearItemCargoGlobal _unit;
-	
+
 	switch (_loadout) do {
 		// ========================================
 		// ============= Ammo Only Crates =========
 		// ========================================
-		
+
 		case "sectionammo" : {
 			_unit addMagazineCargoGlobal [_rifleMag,40];
 			_unit addMagazineCargoGlobal [_autoRifleMag,_arboxMagCount];
@@ -892,7 +893,7 @@ if (!(_unit isKindOf "Man")) then {
 		// ========================================
 		// =========== Medical Supplies ===========
 		// ========================================
-		
+
 		case "meds" : {
 			_unit addItemCargoGlobal [_injectorOne,25];
 			_unit addItemCargoGlobal [_injectorTwo,18];
@@ -905,7 +906,7 @@ if (!(_unit isKindOf "Man")) then {
 		// ========================================
 		// ============== Weapons Teams ===========
 		// ========================================
-		
+
 		case "snipercrate" : {
 			_unit addWeaponCargoGlobal [_boltRifle,1];
 			_unit addWeaponCargoGlobal [_designator,1];
@@ -952,7 +953,7 @@ if (!(_unit isKindOf "Man")) then {
 		// ========================================
 		// ============== Explosives ==============
 		// ========================================
-		
+
 		case "atmines" : {
 			_unit addItemCargoGlobal [_atMine,6];
 		};
@@ -975,7 +976,7 @@ if (!(_unit isKindOf "Man")) then {
 		// ========================================
 		// =========== Heavy Weapons Teams ========
 		// ========================================
-		
+
 		case "hmgweapon" : {
 			_unit addBackpackCargoGlobal [_hmgBarrel,1];
 			_unit addBackpackCargoGlobal [_hmgTripod,1];
@@ -984,11 +985,11 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addBackpackCargoGlobal [_shatBarrel,1];
 			_unit addBackpackCargoGlobal [_shatTripod,1];
 		};
-		
+
 		// ========================================
 		// ================= Tools ================
 		// ========================================
-		
+
 		case "engitools" : {
 			_unit addItemCargoGlobal [_toolbox,2];
 			_unit addItemCargoGlobal [_wireCutters,2];
@@ -1036,7 +1037,7 @@ if (!(_unit isKindOf "Man")) then {
 		// ========================================
 		// =================== Misc ===============
 		// ========================================
-		
+
 		case "steerchutes" : {
 			_unit addBackpackCargoGlobal [_steerableChute,30];
 		};
