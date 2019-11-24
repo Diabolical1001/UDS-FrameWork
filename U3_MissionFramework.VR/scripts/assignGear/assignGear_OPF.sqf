@@ -315,7 +315,6 @@ if (_unit isKindOf "Man") then {
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
 			{ _unit addItemToUniform _x; } foreach _throwG;
-			{ _unit addItemToUniform _x; _unit addItemToUniform _x; } foreach _facSmokes;
 			_unit addMagazines [_rifleMag,6];
 			_unit addMagazines [_rifleTracerMag,2];
 			_unit addWeapon _rifle;
@@ -421,7 +420,7 @@ if (_unit isKindOf "Man") then {
 		};
 		// Designated Marksman
 		case "dmr" : {
-			["rflm"] call _addClothes;
+			["dmr"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_dmrMag,8];

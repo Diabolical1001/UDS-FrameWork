@@ -49,6 +49,10 @@ _addClothes = {
 			_unit addHeadgear _rflmHelmet;
 			_unit addVest _rflmVest;
 		};
+		case "dmr" : {
+			_unit addHeadgear _sniperHelmet;
+			_unit addVest _sniperVest;
+		};
 		case "rpilot" : {
 			removeUniform _unit;
 			_unit forceAddUniform _rpilotUniform;

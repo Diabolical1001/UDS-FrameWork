@@ -31,9 +31,9 @@ switch (_variant) do {
 
 	// AFRF - AK-74M - 5.45x39
 	case "ak74m" :  {
-
+	
 		// ============ Weaponry ===========
-
+		
 		_rifleArray = ["rhs_weap_ak74m"];
 		_rifleRandom = (floor(random (count _rifleArray)));
 		_rifle = _rifleArray select _rifleRandom;
@@ -44,12 +44,12 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
-
+		
 		_autoRifle = "dd_weap_rpk74m_75";
 		_mmg = "rhs_weap_pkp";
-
+		
 		_shotty = "rhs_weap_M590_8RD";
-
+		
 		_dmr = "rhs_weap_svdp";
 		_boltRifle = "rhs_weap_t5000";
 		_amRifle = "srifle_GM6_F";
@@ -64,25 +64,25 @@ switch (_variant) do {
 		_carbineMag = "rhs_30Rnd_545x39_7N22_AK";
 		_smgMag = "rhs_mag_9x19mm_7n31_20";
 		_pistolMag = "rhs_mag_9x18_8_57N181S";
-
+		
 		_autoRifleMag = "rhs_75Rnd_545X39_7N22_AK";
 		_autoTracerMag = "rhs_75Rnd_545X39_AK_Green";
 		_autoSubsonicMag = "rhs_75Rnd_545X39_7U1_AK";
 		_arMagCount = 4;
 		_arboxMagCount = 10;
-
+		
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N13";
 		_mmgTracerMag = "rhs_100Rnd_762x54mmR_green";
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
-
+		
 		_shottyBuck = "rhsusf_8Rnd_00Buck";
 		_shottySlug = "rhsusf_8Rnd_Slug";
-
+		
 		_dmrMag = "rhs_10Rnd_762x54mmR_7N1";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
-
+		
 		_glExplody = "rhs_VOG25";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
@@ -90,23 +90,23 @@ switch (_variant) do {
 		_glSmokeFour = "rhs_GRD40_White";
 		_glFlareOne = "rhs_VG40OP_white";
 		_glFlareTwo = "rhs_VG40OP_red";
-
+		
 		_grenade = "rhs_mag_rgd5";
 		_smoke = "rhs_mag_rdg2_white";
 		_flashbang = "rhs_mag_fakels";
 		_throwG = [_smoke,_grenade,_grenade];
-		_facSmokes = ["rhs_mag_nspn_green","rhs_mag_nspn_red"];
+		_facSmokes = ["rhs_mag_rdg2_black","rhs_mag_nspn_red"];
 
 		// ========== Attachments ==========
-
+		
 		_generalAttachments_reflex = "rhs_acc_1p63";
 		_generalAttachments_scoped = "rhs_acc_1p29";
 		_generalAttachments_muzz = "rhs_acc_dtk";
 		_generalAttachments_supp = "rhs_acc_dtk4short";
 		_generalAttachments_gunLight = "rhs_acc_2dpZenit";
 		_generalAttachments_gunIR = "rhs_acc_perst1ik";
-		_generalAttachments_grip = "";
-
+		_generalAttachments_grip = ""; 
+				
 		_autoRifleAttachments_reflex = "rhs_acc_1p63";
 		_autoRifleAttachments_scoped = "rhs_acc_1p29";
 		_autoRifleAttachments_muzz = "rhs_acc_dtk2";
@@ -114,7 +114,7 @@ switch (_variant) do {
 		_autoRifleAttachments_gunLight = "rhs_acc_2dpZenit";
 		_autoRifleAttachments_gunIR = "rhs_acc_perst1ik";
 		_autoRifleAttachments_grip = "";
-
+		
 		_mmgAttachments_reflex = "rhs_acc_1p63";
 		_mmgAttachments_scoped = "rhs_acc_1p78";
 		_mmgAttachments_muzz = "";
@@ -122,7 +122,7 @@ switch (_variant) do {
 		_mmgAttachments_gunLight = "";
 		_mmgAttachments_gunIR = "";
 		_mmgAttachments_grip = "";
-
+		
 		_dmrAttachments_reflex = "";
 		_dmrAttachments_scoped = "rhs_acc_pso1m2";
 		_dmrAttachments_muzz = "";
@@ -130,27 +130,27 @@ switch (_variant) do {
 		_dmrAttachments_gunLight = "";
 		_dmrAttachments_gunIR = "";
 		_dmrAttachments_grip = "";
-
+		
 		_boltRifleAttachments_base = ["rhs_acc_dh520x56","rhsusf_acc_harris_bipod"];
 		_boltRifleAttachments_muzz = "";
 		_boltRifleAttachments_supp = "";
-
+		
 		_amRifleAttachments_base = ["rhs_acc_dh520x56"];
-
+		
 		_pistolAttachments_reflex = "";
 		_pistolAttachments_muzz = "";
 		_pistolAttachments_supp = "";
 		_pistolAttachments_gunLight = "";
 		_pistolAttachments_gunIR = "";
-
+		
 		// =================================
 	};
 
 	// AFRF - AK-103 - 7.62x39
 	case "ak103" :  {
-
+	
 		// ============ Weaponry ===========
-
+		
 		_rifleArray = ["rhs_weap_ak103"];
 		_rifleRandom = (floor(random (count _rifleArray)));
 		_rifle = _rifleArray select _rifleRandom;
@@ -161,12 +161,12 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
-
+		
 		_autoRifle = "dd_weap_rpk74m_75";
 		_mmg = "rhs_weap_pkp";
-
+		
 		_shotty = "rhs_weap_M590_8RD";
-
+		
 		_dmr = "rhs_weap_svdp";
 		_boltRifle = "rhs_weap_t5000";
 		_amRifle = "srifle_GM6_F";
@@ -181,25 +181,25 @@ switch (_variant) do {
 		_carbineMag = "rhs_30Rnd_545x39_7N22_AK";
 		_smgMag = "rhs_mag_9x19mm_7n31_20";
 		_pistolMag = "rhs_mag_9x18_8_57N181S";
-
+		
 		_autoRifleMag = "rhs_75Rnd_545X39_7N22_AK";
 		_autoTracerMag = "rhs_75Rnd_545X39_AK_Green";
 		_autoSubsonicMag = "rhs_75Rnd_545X39_7U1_AK";
 		_arMagCount = 4;
 		_arboxMagCount = 10;
-
+		
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N13";
 		_mmgTracerMag = "rhs_100Rnd_762x54mmR_green";
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
-
+		
 		_shottyBuck = "rhsusf_8Rnd_00Buck";
 		_shottySlug = "rhsusf_8Rnd_Slug";
-
+		
 		_dmrMag = "rhs_10Rnd_762x54mmR_7N1";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
-
+		
 		_glExplody = "rhs_VOG25";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
@@ -207,23 +207,23 @@ switch (_variant) do {
 		_glSmokeFour = "rhs_GRD40_White";
 		_glFlareOne = "rhs_VG40OP_white";
 		_glFlareTwo = "rhs_VG40OP_red";
-
+		
 		_grenade = "rhs_mag_rgd5";
 		_smoke = "rhs_mag_rdg2_white";
 		_flashbang = "rhs_mag_fakels";
 		_throwG = [_smoke,_grenade,_grenade];
-		_facSmokes = ["rhs_mag_nspn_green","rhs_mag_nspn_red"];
+		_facSmokes = ["rhs_mag_rdg2_black","rhs_mag_nspn_red"];
 
 		// ========== Attachments ==========
-
+		
 		_generalAttachments_reflex = "rhs_acc_ekp8_02";
 		_generalAttachments_scoped = "rhs_acc_1p29";
 		_generalAttachments_muzz = "rhs_acc_dtk";
 		_generalAttachments_supp = "rhs_acc_dtk4screws";
 		_generalAttachments_gunLight = "rhs_acc_2dpZenit";
 		_generalAttachments_gunIR = "rhs_acc_perst1ik";
-		_generalAttachments_grip = "";
-
+		_generalAttachments_grip = ""; 
+				
 		_autoRifleAttachments_reflex = "rhs_acc_ekp8_02";
 		_autoRifleAttachments_scoped = "rhs_acc_1p29";
 		_autoRifleAttachments_muzz = "rhs_acc_dtk2";
@@ -231,7 +231,7 @@ switch (_variant) do {
 		_autoRifleAttachments_gunLight = "rhs_acc_2dpZenit";
 		_autoRifleAttachments_gunIR = "rhs_acc_perst1ik";
 		_autoRifleAttachments_grip = "";
-
+		
 		_mmgAttachments_reflex = "rhs_acc_1p63";
 		_mmgAttachments_scoped = "rhs_acc_1p78";
 		_mmgAttachments_muzz = "";
@@ -239,7 +239,7 @@ switch (_variant) do {
 		_mmgAttachments_gunLight = "";
 		_mmgAttachments_gunIR = "";
 		_mmgAttachments_grip = "";
-
+		
 		_dmrAttachments_reflex = "";
 		_dmrAttachments_scoped = "rhs_acc_pso1m2";
 		_dmrAttachments_muzz = "";
@@ -247,27 +247,27 @@ switch (_variant) do {
 		_dmrAttachments_gunLight = "";
 		_dmrAttachments_gunIR = "";
 		_dmrAttachments_grip = "";
-
+		
 		_boltRifleAttachments_base = ["rhs_acc_dh520x56","rhsusf_acc_harris_bipod"];
 		_boltRifleAttachments_muzz = "";
 		_boltRifleAttachments_supp = "";
-
+		
 		_amRifleAttachments_base = ["rhs_acc_dh520x56"];
-
+		
 		_pistolAttachments_reflex = "";
 		_pistolAttachments_muzz = "";
 		_pistolAttachments_supp = "";
 		_pistolAttachments_gunLight = "";
 		_pistolAttachments_gunIR = "";
-
+		
 		// =================================
 	};
 
 	// AFRF - AK-74MR - 5.45x39
 	case "ak74mr" :  {
-
+	
 		// ============ Weaponry ===========
-
+		
 		_rifleArray = ["rhs_weap_ak74mr"];
 		_rifleRandom = (floor(random (count _rifleArray)));
 		_rifle = _rifleArray select _rifleRandom;
@@ -278,12 +278,12 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_pya";
-
+		
 		_autoRifle = "dd_weap_rpk74m_75";
 		_mmg = "rhs_weap_pkp";
-
+		
 		_shotty = "rhs_weap_M590_8RD";
-
+		
 		_dmr = "rhs_weap_svdp";
 		_boltRifle = "rhs_weap_t5000";
 		_amRifle = "srifle_GM6_F";
@@ -298,25 +298,25 @@ switch (_variant) do {
 		_carbineMag = "rhs_30Rnd_545x39_7N22_AK";
 		_smgMag = "rhs_mag_9x19mm_7n31_20";
 		_pistolMag = "rhs_mag_9x19_17";
-
+		
 		_autoRifleMag = "rhs_75Rnd_545X39_7N22_AK";
 		_autoTracerMag = "rhs_75Rnd_545X39_AK_Green";
 		_autoSubsonicMag = "rhs_75Rnd_545X39_7U1_AK";
 		_arMagCount = 4;
 		_arboxMagCount = 10;
-
+		
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N13";
 		_mmgTracerMag = "rhs_100Rnd_762x54mmR_green";
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
-
+		
 		_shottyBuck = "rhsusf_8Rnd_00Buck";
 		_shottySlug = "rhsusf_8Rnd_Slug";
-
+		
 		_dmrMag = "rhs_10Rnd_762x54mmR_7N1";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
-
+		
 		_glExplody = "rhs_VOG25";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
@@ -324,23 +324,23 @@ switch (_variant) do {
 		_glSmokeFour = "rhs_GRD40_White";
 		_glFlareOne = "rhs_VG40OP_white";
 		_glFlareTwo = "rhs_VG40OP_red";
-
+		
 		_grenade = "rhs_mag_rgd5";
 		_smoke = "rhs_mag_rdg2_white";
 		_flashbang = "rhs_mag_fakels";
 		_throwG = [_smoke,_grenade,_grenade];
-		_facSmokes = ["rhs_mag_nspn_green","rhs_mag_nspn_red"];
+		_facSmokes = ["rhs_mag_rdg2_black","rhs_mag_nspn_red"];
 
 		// ========== Attachments ==========
-
+		
 		_generalAttachments_reflex = "rhs_acc_1p87";
 		_generalAttachments_scoped = "rhsusf_acc_ACOG2";
 		_generalAttachments_muzz = "rhs_acc_uuk";
 		_generalAttachments_supp = "rhs_acc_tgpa";
 		_generalAttachments_gunLight = "rhs_acc_2dpZenit_ris";
 		_generalAttachments_gunIR = "rhs_acc_perst3";
-		_generalAttachments_grip = "rhs_acc_grip_ffg2";
-
+		_generalAttachments_grip = "rhs_acc_grip_ffg2"; 
+				
 		_autoRifleAttachments_reflex = "rhs_acc_1p63";
 		_autoRifleAttachments_scoped = "rhs_acc_1p29";
 		_autoRifleAttachments_muzz = "rhs_acc_dtk2";
@@ -348,7 +348,7 @@ switch (_variant) do {
 		_autoRifleAttachments_gunLight = "rhs_acc_2dpZenit";
 		_autoRifleAttachments_gunIR = "rhs_acc_perst1ik";
 		_autoRifleAttachments_grip = "";
-
+		
 		_mmgAttachments_reflex = "rhs_acc_1p63";
 		_mmgAttachments_scoped = "rhs_acc_1p78";
 		_mmgAttachments_muzz = "";
@@ -356,7 +356,7 @@ switch (_variant) do {
 		_mmgAttachments_gunLight = "";
 		_mmgAttachments_gunIR = "";
 		_mmgAttachments_grip = "";
-
+		
 		_dmrAttachments_reflex = "";
 		_dmrAttachments_scoped = "rhs_acc_pso1m2";
 		_dmrAttachments_muzz = "";
@@ -364,27 +364,27 @@ switch (_variant) do {
 		_dmrAttachments_gunLight = "";
 		_dmrAttachments_gunIR = "";
 		_dmrAttachments_grip = "";
-
+		
 		_boltRifleAttachments_base = ["rhs_acc_dh520x56","rhsusf_acc_harris_bipod"];
 		_boltRifleAttachments_muzz = "";
 		_boltRifleAttachments_supp = "";
-
+		
 		_amRifleAttachments_base = ["rhs_acc_dh520x56"];
-
+		
 		_pistolAttachments_reflex = "";
 		_pistolAttachments_muzz = "";
 		_pistolAttachments_supp = "";
 		_pistolAttachments_gunLight = "";
 		_pistolAttachments_gunIR = "";
-
+		
 		// =================================
 	};
 
 	// AFRF - AK-74M(Zenitco) - 5.45x39
 	case "ak103_zenitco" :  {
-
+	
 		// ============ Weaponry ===========
-
+		
 		_rifleArray = ["rhs_weap_ak103_zenitco01_b33"];
 		_rifleRandom = (floor(random (count _rifleArray)));
 		_rifle = _rifleArray select _rifleRandom;
@@ -395,12 +395,12 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_pya";
-
+		
 		_autoRifle = "rhs_weap_ak103_zenitco01_b33";
 		_mmg = "rhs_weap_pkp";
-
+		
 		_shotty = "rhs_weap_M590_8RD";
-
+		
 		_dmr = "rhs_weap_svdp";
 		_boltRifle = "rhs_weap_t5000";
 		_amRifle = "srifle_GM6_F";
@@ -415,25 +415,25 @@ switch (_variant) do {
 		_carbineMag = "rhs_30Rnd_545x39_7N22_AK";
 		_smgMag = "rhs_mag_9x19mm_7n31_20";
 		_pistolMag = "rhs_mag_9x19_17";
-
+		
 		_autoRifleMag = "rhs_75Rnd_762x39mm";
 		_autoTracerMag = "rhs_75Rnd_545X39_AK_Green";
 		_autoSubsonicMag = "rhs_75Rnd_762x39mm";
 		_arMagCount = 4;
 		_arboxMagCount = 10;
-
+		
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N13";
 		_mmgTracerMag = "rhs_100Rnd_762x54mmR_green";
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
-
+		
 		_shottyBuck = "rhsusf_8Rnd_00Buck";
 		_shottySlug = "rhsusf_8Rnd_Slug";
-
+		
 		_dmrMag = "rhs_10Rnd_762x54mmR_7N1";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
-
+		
 		_glExplody = "rhs_VOG25";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
@@ -441,23 +441,23 @@ switch (_variant) do {
 		_glSmokeFour = "rhs_GRD40_White";
 		_glFlareOne = "rhs_VG40OP_white";
 		_glFlareTwo = "rhs_VG40OP_red";
-
+		
 		_grenade = "rhs_mag_rgd5";
 		_smoke = "rhs_mag_rdg2_white";
 		_flashbang = "rhs_mag_fakels";
 		_throwG = [_smoke,_grenade,_grenade];
-		_facSmokes = ["rhs_mag_nspn_green","rhs_mag_nspn_red"];
+		_facSmokes = ["rhs_mag_rdg2_black","rhs_mag_nspn_red"];	
 
 		// ========== Attachments ==========
-
+		
 		_generalAttachments_reflex = "rhsusf_acc_eotech_552";
 		_generalAttachments_scoped = "rhs_acc_1p29";
 		_generalAttachments_muzz = "rhs_acc_dtk3";
 		_generalAttachments_supp = "rhs_acc_dtk4screws";
 		_generalAttachments_gunLight = "rhs_acc_2dpZenit_ris";
 		_generalAttachments_gunIR = "rhs_acc_perst3";
-		_generalAttachments_grip = "rhs_acc_grip_rk2";
-
+		_generalAttachments_grip = "rhs_acc_grip_rk2"; 
+				
 		_autoRifleAttachments_reflex = "rhsusf_acc_eotech_552";
 		_autoRifleAttachments_scoped = "rhs_acc_1p29";
 		_autoRifleAttachments_muzz = "rhs_acc_dtk3";
@@ -465,7 +465,7 @@ switch (_variant) do {
 		_autoRifleAttachments_gunLight = "rhs_acc_2dpZenit";
 		_autoRifleAttachments_gunIR = "rhs_acc_perst1ik";
 		_autoRifleAttachments_grip = "";
-
+		
 		_mmgAttachments_reflex = "rhs_acc_1p63";
 		_mmgAttachments_scoped = "rhs_acc_1p78";
 		_mmgAttachments_muzz = "";
@@ -473,7 +473,7 @@ switch (_variant) do {
 		_mmgAttachments_gunLight = "";
 		_mmgAttachments_gunIR = "";
 		_mmgAttachments_grip = "";
-
+		
 		_dmrAttachments_reflex = "";
 		_dmrAttachments_scoped = "rhs_acc_pso1m2";
 		_dmrAttachments_muzz = "";
@@ -481,27 +481,27 @@ switch (_variant) do {
 		_dmrAttachments_gunLight = "";
 		_dmrAttachments_gunIR = "";
 		_dmrAttachments_grip = "";
-
+		
 		_boltRifleAttachments_base = ["rhs_acc_dh520x56","rhsusf_acc_harris_bipod"];
 		_boltRifleAttachments_muzz = "";
 		_boltRifleAttachments_supp = "";
-
+		
 		_amRifleAttachments_base = ["rhs_acc_dh520x56"];
-
+		
 		_pistolAttachments_reflex = "";
 		_pistolAttachments_muzz = "";
 		_pistolAttachments_supp = "";
 		_pistolAttachments_gunLight = "";
 		_pistolAttachments_gunIR = "";
-
+		
 		// =================================
 	};
 
 	// AFRF - AKMS - 7.62x39
 	case "ak_insurgent" :  {
-
+	
 		// ============ Weaponry ===========
-
+		
 		_rifleArray = ["rhs_weap_akms","rhs_weap_akmn","rhs_weap_pm63"];
 		_rifleRandom = (floor(random (count _rifleArray)));
 		_rifle = _rifleArray select _rifleRandom;
@@ -512,12 +512,12 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_savz61";
 		_pistol = "rhs_weap_makarov_pm";
-
+		
 		_autoRifle = "dd_weap_rpk74m_75";
 		_mmg = "rhs_weap_pkm";
-
+		
 		_shotty = "rhs_weap_M590_8RD";
-
+		
 		_dmr = "rhs_weap_m38";
 		_boltRifle = "rhs_weap_m38_rail";
 		_amRifle = "srifle_GM6_F";
@@ -532,25 +532,25 @@ switch (_variant) do {
 		_carbineMag = "rhs_30Rnd_545x39_7N22_AK";
 		_smgMag = "rhsgref_20rnd_765x17_vz61";
 		_pistolMag = "rhs_mag_9x18_8_57N181S";
-
+		
 		_autoRifleMag = "rhs_75Rnd_545X39_7N22_AK";
 		_autoTracerMag = "rhs_75Rnd_545X39_AK_Green";
 		_autoSubsonicMag = "rhs_75Rnd_545X39_7U1_AK";
 		_arMagCount = 4;
 		_arboxMagCount = 10;
-
+		
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N13";
 		_mmgTracerMag = "rhs_100Rnd_762x54mmR_green";
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
-
+				
 		_shottyBuck = "rhsusf_8Rnd_00Buck";
 		_shottySlug = "rhsusf_8Rnd_Slug";
-
+		
 		_dmrMag = "rhsgref_5Rnd_762x54_m38";
 		_boltRifleMag = "rhsgref_5Rnd_762x54_m38";
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
-
+		
 		_glExplody = "rhs_VOG25";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
@@ -558,23 +558,23 @@ switch (_variant) do {
 		_glSmokeFour = "rhs_GRD40_White";
 		_glFlareOne = "rhs_VG40OP_white";
 		_glFlareTwo = "rhs_VG40OP_red";
-
+		
 		_grenade = "rhs_mag_rgd5";
 		_smoke = "rhs_mag_rdg2_white";
 		_flashbang = "rhs_mag_fakels";
 		_throwG = [_smoke,_grenade,_grenade];
-		_facSmokes = ["rhs_mag_nspn_green","rhs_mag_nspn_red"];
+		_facSmokes = ["rhs_mag_rdg2_black","rhs_mag_nspn_red"];
 
 		// ========== Attachments ==========
-
+		
 		_generalAttachments_reflex = "";
 		_generalAttachments_scoped = "rhs_acc_pso1m2";
 		_generalAttachments_muzz = "rhs_acc_dtkakm";
 		_generalAttachments_supp = "rhs_acc_pbs1";
 		_generalAttachments_gunLight = "rhs_acc_2dpZenit";
 		_generalAttachments_gunIR = "";
-		_generalAttachments_grip = "";
-
+		_generalAttachments_grip = ""; 
+				
 		_autoRifleAttachments_reflex = "";
 		_autoRifleAttachments_scoped = "";
 		_autoRifleAttachments_muzz = "rhs_acc_dtkakm";
@@ -582,7 +582,7 @@ switch (_variant) do {
 		_autoRifleAttachments_gunLight = "rhs_acc_2dpZenit";
 		_autoRifleAttachments_gunIR = "";
 		_autoRifleAttachments_grip = "";
-
+		
 		_mmgAttachments_reflex = "";
 		_mmgAttachments_scoped = "";
 		_mmgAttachments_muzz = "";
@@ -590,7 +590,7 @@ switch (_variant) do {
 		_mmgAttachments_gunLight = "";
 		_mmgAttachments_gunIR = "";
 		_mmgAttachments_grip = "";
-
+		
 		_dmrAttachments_reflex = "";
 		_dmrAttachments_scoped = "";
 		_dmrAttachments_muzz = "";
@@ -598,27 +598,27 @@ switch (_variant) do {
 		_dmrAttachments_gunLight = "";
 		_dmrAttachments_gunIR = "";
 		_dmrAttachments_grip = "";
-
+		
 		_boltRifleAttachments_base = ["rhs_acc_dh520x56","rhsusf_acc_harris_bipod"];
 		_boltRifleAttachments_muzz = "";
 		_boltRifleAttachments_supp = "";
-
+		
 		_amRifleAttachments_base = ["rhs_acc_dh520x56"];
-
+		
 		_pistolAttachments_reflex = "";
 		_pistolAttachments_muzz = "";
 		_pistolAttachments_supp = "";
 		_pistolAttachments_gunLight = "";
 		_pistolAttachments_gunIR = "";
-
+		
 		// =================================
 	};
 
 	// AFRF - AS VAL - 9x39mm
 	case "asval" :  {
-
+	
 		// ============ Weaponry ===========
-
+		
 		_rifleArray = ["rhs_weap_asval_grip"];
 		_rifleRandom = (floor(random (count _rifleArray)));
 		_rifle = _rifleArray select _rifleRandom;
@@ -629,12 +629,12 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_pb_6p9";
-
+		
 		_autoRifle = "rhs_weap_ak103_zenitco01";
 		_mmg = "rhs_weap_pkp";
-
+		
 		_shotty = "rhs_weap_M590_8RD";
-
+		
 		_dmr = "rhs_weap_vss_grip";
 		_boltRifle = "rhs_weap_t5000";
 		_amRifle = "srifle_GM6_F";
@@ -649,25 +649,25 @@ switch (_variant) do {
 		_carbineMag = "rhs_30Rnd_545x39_7N22_AK";
 		_smgMag = "rhs_mag_9x19mm_7n31_20";
 		_pistolMag = "rhs_mag_9x18_8_57N181S";
-
+		
 		_autoRifleMag = "rhs_75Rnd_762x39mm";
 		_autoTracerMag = "rhs_75Rnd_762x39mm_tracer";
 		_autoSubsonicMag = "rhs_75Rnd_762x39mm";
 		_arMagCount = 4;
 		_arboxMagCount = 10;
-
+		
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N13";
 		_mmgTracerMag = "rhs_100Rnd_762x54mmR_green";
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
-
+		
 		_shottyBuck = "rhsusf_8Rnd_00Buck";
 		_shottySlug = "rhsusf_8Rnd_Slug";
-
+		
 		_dmrMag = "rhs_20rnd_9x39mm_SP6";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
-
+		
 		_glExplody = "rhs_mag_rgo";
 		_glSmokeOne = "rhs_mag_fakels";
 		_glSmokeTwo = "rhsgref_mag_rkg3em";
@@ -675,23 +675,23 @@ switch (_variant) do {
 		_glSmokeFour = "rhs_mag_fakels";
 		_glFlareOne = "rhs_VG40OP_white";
 		_glFlareTwo = "rhs_VG40OP_red";
-
+		
 		_grenade = "rhs_mag_rgd5";
 		_smoke = "rhs_mag_rdg2_white";
 		_flashbang = "rhs_mag_fakels";
 		_throwG = [_smoke,_grenade,_grenade];
-		_facSmokes = ["rhs_mag_nspn_green","rhs_mag_nspn_red"];
+		_facSmokes = ["rhs_mag_rdg2_black","rhs_mag_nspn_red"];
 
 		// ========== Attachments ==========
-
+		
 		_generalAttachments_reflex = "rhs_acc_pkas";
 		_generalAttachments_scoped = "rhs_acc_1p78";
 		_generalAttachments_muzz = "";
 		_generalAttachments_supp = "";
 		_generalAttachments_gunLight = "rhs_acc_2dpZenit_ris";
 		_generalAttachments_gunIR = "rhs_acc_perst1ik";
-		_generalAttachments_grip = "rhs_acc_grip_rk2";
-
+		_generalAttachments_grip = "rhs_acc_grip_rk2"; 
+				
 		_autoRifleAttachments_reflex = "rhs_acc_ekp8_02";
 		_autoRifleAttachments_scoped = "rhs_acc_1p78";
 		_autoRifleAttachments_muzz = "rhs_acc_pbs1";
@@ -699,7 +699,7 @@ switch (_variant) do {
 		_autoRifleAttachments_gunLight = "rhs_acc_2dpZenit_ris";
 		_autoRifleAttachments_gunIR = "rhs_acc_perst1ik";
 		_autoRifleAttachments_grip = "";
-
+		
 		_mmgAttachments_reflex = "rhs_acc_1p63";
 		_mmgAttachments_scoped = "rhs_acc_1p78";
 		_mmgAttachments_muzz = "";
@@ -707,7 +707,7 @@ switch (_variant) do {
 		_mmgAttachments_gunLight = "";
 		_mmgAttachments_gunIR = "";
 		_mmgAttachments_grip = "";
-
+		
 		_dmrAttachments_reflex = "";
 		_dmrAttachments_scoped = "rhs_acc_pso1m21";
 		_dmrAttachments_muzz = "";
@@ -715,19 +715,19 @@ switch (_variant) do {
 		_dmrAttachments_gunLight = "";
 		_dmrAttachments_gunIR = "";
 		_dmrAttachments_grip = "";
-
+		
 		_boltRifleAttachments_base = ["rhs_acc_dh520x56","rhsusf_acc_harris_bipod"];
 		_boltRifleAttachments_muzz = "";
 		_boltRifleAttachments_supp = "";
-
+		
 		_amRifleAttachments_base = ["rhs_acc_dh520x56"];
-
+		
 		_pistolAttachments_reflex = "";
 		_pistolAttachments_muzz = "";
 		_pistolAttachments_supp = "rhs_acc_6p9_suppressor";
 		_pistolAttachments_gunLight = "";
 		_pistolAttachments_gunIR = "";
-
+		
 		// =================================
 	};
 
