@@ -34,7 +34,7 @@ if (hasInterface) then {
 	// OPFOR
 	if (_side == "east") then {
 		r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_OPF.sqf";
-	};	
+	};
 } else {
 	// define for the assignGear script based spawner, which currently does not exist
 	r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_BLU.sqf";
@@ -58,6 +58,11 @@ enableSaving [false, false];
 // Mute Orders and Reports
 
 enableSentences false;
+
+//===================================================================================
+// CLY remvoveDead disable for players
+
+[] execVM "scripts\zeusaiSkill.sqf";
 
 //===================================================================================
 // CLY remvoveDead disable for players
