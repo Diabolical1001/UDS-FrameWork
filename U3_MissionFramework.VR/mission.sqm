@@ -8,14 +8,14 @@ class EditorData
 	toggles=33;
 	class ItemIDProvider
 	{
-		nextID=805;
+		nextID=806;
 	};
 	class Camera
 	{
-		pos[]={3998.5747,21.020653,4005.9834};
-		dir[]={0.49262396,-0.86757034,-0.068502359};
-		up[]={0.85930538,0.49731216,-0.11949127};
-		aside[]={-0.13773471,5.1688403e-007,-0.99049437};
+		pos[]={3972.2957,10.226426,4017.4258};
+		dir[]={0.50712907,-0.29804942,0.80880922};
+		up[]={0.1583899,0.95452416,0.25261113};
+		aside[]={0.84730315,8.6321961e-007,-0.53126353};
 	};
 };
 binarizationWanted=0;
@@ -42,13 +42,14 @@ addons[]=
 	"A3_Modules_F_Intel",
 	"ace_gforces",
 	"ace_parachute",
-	"A3_Structures_F_Mil_Flags"
+	"A3_Structures_F_Mil_Flags",
+	"UK3CB_Factions_Common_Editor"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=17;
+		items=18;
 		class Item0
 		{
 			className="A3_Modules_F_Curator";
@@ -164,6 +165,13 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item17
+		{
+			className="UK3CB_Factions_Common";
+			name="3CB Factions - Common";
+			author="3 Commando Brigade";
+			url="www.3commandobrigade.com";
+		};
 	};
 };
 randomSeed=7918587;
@@ -194,7 +202,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=109;
+		items=110;
 		class Item0
 		{
 			dataType="Logic";
@@ -2097,7 +2105,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""rmonealpha"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A First Rifleman";
 						isPlayable=1;
 					};
@@ -2446,14 +2454,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4012.9634,5.0014391,4010.8044};
+						position[]={4012.9629,5.0014391,4010.804};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""gunonealpha"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A First Gunner";
 						isPlayable=1;
 					};
@@ -2802,14 +2810,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4012.968,5.0014391,4008.8132};
+						position[]={4012.968,5.0014391,4008.813};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""assonealpha"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A First Assistant";
 						isPlayable=1;
 					};
@@ -3226,7 +3234,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""rmtwoalpha"",""BLUE""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A Second Rifleman";
 						isPlayable=1;
 					};
@@ -3575,14 +3583,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4012.9849,5.0014391,4002.8337};
+						position[]={4012.9851,5.0014391,4002.834};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""guntwoalpha"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A Second Gunner";
 						isPlayable=1;
 					};
@@ -3931,14 +3939,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4012.9578,5.0014391,4000.8303};
+						position[]={4012.958,5.0014391,4000.8301};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""asstwoalpha"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A Second Assistant";
 						isPlayable=1;
 					};
@@ -4368,7 +4376,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""rmonebravo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B First Rifleman";
 						isPlayable=1;
 					};
@@ -4717,14 +4725,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4010.9866,5.0014391,4010.8303};
+						position[]={4010.9871,5.0014391,4010.8301};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""gunonebravo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B First Gunner";
 						isPlayable=1;
 					};
@@ -5073,14 +5081,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4010.9644,5.0014391,4008.8137};
+						position[]={4010.9641,5.0014391,4008.814};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""assonebravo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B First Assistant";
 						isPlayable=1;
 					};
@@ -5497,7 +5505,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""rmtwobravo"",""BLUE""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B Second Rifleman";
 						isPlayable=1;
 					};
@@ -5846,14 +5854,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4010.9983,5.0014391,4002.7983};
+						position[]={4010.998,5.0014391,4002.7981};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""guntwobravo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B Second Gunner";
 						isPlayable=1;
 					};
@@ -6202,14 +6210,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4010.9639,5.0014391,4000.8157};
+						position[]={4010.9641,5.0014391,4000.8162};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""asstwobravo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B Second Assistant";
 						isPlayable=1;
 					};
@@ -6639,7 +6647,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""rmonecharlie"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C First Rifleman";
 						isPlayable=1;
 					};
@@ -6988,14 +6996,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4009.0093,5.0014391,4010.8235};
+						position[]={4009.009,5.0014391,4010.823};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""gunonecharlie"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C First Gunner";
 						isPlayable=1;
 					};
@@ -7344,14 +7352,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4008.9688,5.0014391,4008.8218};
+						position[]={4008.969,5.0014391,4008.822};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""assonecharlie"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C First Assistant";
 						isPlayable=1;
 					};
@@ -7768,7 +7776,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""rmtwocharlie"",""BLUE""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C Second Rifleman";
 						isPlayable=1;
 					};
@@ -8117,14 +8125,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4008.981,5.0014391,4002.8274};
+						position[]={4008.981,5.0014391,4002.8271};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""guntwocharlie"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C Second Gunner";
 						isPlayable=1;
 					};
@@ -8473,14 +8481,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4008.9763,5.0014391,4000.8123};
+						position[]={4008.9761,5.0014391,4000.812};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""asstwocharlie"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C Second Assistant";
 						isPlayable=1;
 					};
@@ -8910,7 +8918,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""rmonedelta"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D  First Rifleman";
 						isPlayable=1;
 					};
@@ -9259,14 +9267,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4006.9539,5.0014391,4010.8252};
+						position[]={4006.9541,5.0014391,4010.825};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""gunonedelta"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D First Gunner";
 						isPlayable=1;
 					};
@@ -9615,14 +9623,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4006.9788,5.0014391,4008.8069};
+						position[]={4006.979,5.0014391,4008.8071};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""assonedelta"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D First Assistant";
 						isPlayable=1;
 					};
@@ -10039,7 +10047,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""rmtwodelta"",""BLUE""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D Second Rifleman";
 						isPlayable=1;
 					};
@@ -10388,14 +10396,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4006.978,5.0014391,4002.7966};
+						position[]={4006.978,5.0014391,4002.7971};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""guntwodelta"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D Second Gunner";
 						isPlayable=1;
 					};
@@ -10744,14 +10752,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={4006.9551,5.0014391,4000.7988};
+						position[]={4006.9551,5.0014391,4000.7991};
 						angles[]={0,1.5707964,0};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""asstwodelta"",""RED""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D Second Assistant";
 						isPlayable=1;
 					};
@@ -16664,7 +16672,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""rmonealpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A First Rifleman";
 						isPlayable=1;
 					};
@@ -17020,7 +17028,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""gunonealpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A First Gunner";
 						isPlayable=1;
 					};
@@ -17376,7 +17384,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""assonealpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A First Assistant";
 						isPlayable=1;
 					};
@@ -17793,7 +17801,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""rmtwoalpha"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A Second Rifleman";
 						isPlayable=1;
 					};
@@ -18149,7 +18157,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""guntwoalpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A Second Gunner";
 						isPlayable=1;
 					};
@@ -18505,7 +18513,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+						init="call{nul = [this,""asstwoalpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 						description="1-1-A Second Assistant";
 						isPlayable=1;
 					};
@@ -18935,7 +18943,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""rmonebravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B First Rifleman";
 						isPlayable=1;
 					};
@@ -19291,7 +19299,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""gunonebravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B First Gunner";
 						isPlayable=1;
 					};
@@ -19647,7 +19655,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""assonebravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B First Assistant";
 						isPlayable=1;
 					};
@@ -20064,7 +20072,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""rmtwobravo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B Second Rifleman";
 						isPlayable=1;
 					};
@@ -20420,7 +20428,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""guntwobravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B Second Gunner";
 						isPlayable=1;
 					};
@@ -20776,7 +20784,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+						init="call{nul = [this,""asstwobravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 						description="1-1-B Second Assistant";
 						isPlayable=1;
 					};
@@ -21206,7 +21214,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""rmonecharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C First Rifleman";
 						isPlayable=1;
 					};
@@ -21562,7 +21570,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""gunonecharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C First Gunner";
 						isPlayable=1;
 					};
@@ -21918,7 +21926,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""assonecharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C First Assistant";
 						isPlayable=1;
 					};
@@ -22335,7 +22343,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""rmtwocharlie"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C Second Rifleman";
 						isPlayable=1;
 					};
@@ -22691,7 +22699,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""guntwocharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C Second Gunner";
 						isPlayable=1;
 					};
@@ -23047,7 +23055,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+						init="call{nul = [this,""asstwocharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 						description="1-1-C Second Assistant";
 						isPlayable=1;
 					};
@@ -23477,7 +23485,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""rmonedelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D First Rifleman";
 						isPlayable=1;
 					};
@@ -23833,7 +23841,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""gunonedelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D First Gunner";
 						isPlayable=1;
 					};
@@ -24189,7 +24197,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""assonedelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D First Assistant";
 						isPlayable=1;
 					};
@@ -24606,7 +24614,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""rmtwodelta"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D Second Rifleman";
 						isPlayable=1;
 					};
@@ -24962,7 +24970,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""guntwodelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D Second Gunner";
 						isPlayable=1;
 					};
@@ -25318,7 +25326,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+						init="call{nul = [this,""asstwodelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 						description="1-1-D Second Assistant";
 						isPlayable=1;
 					};
@@ -38243,6 +38251,267 @@ class Mission
 					};
 				};
 				nAttributes=8;
+			};
+		};
+		class Item109
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={3856.0791,5,4592.3262};
+			};
+			id=805;
+			type="UK3CB_Factions_Loadout";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_reducedMedicalSupplies";
+					expression="_this setVariable ['UK3CB_Factions_reducedMedicalSupplies',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_loadout_quantity";
+					expression="_this setVariable ['UK3CB_Factions_loadout_quantity',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=75;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_addcTab";
+					expression="_this setVariable ['UK3CB_Factions_addcTab',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_remove_night_equipment";
+					expression="_this setVariable ['UK3CB_Factions_remove_night_equipment',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_loadouts";
+					expression="_this setVariable ['UK3CB_Factions_enable_loadouts',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_on_spawn";
+					expression="_this setVariable ['UK3CB_Factions_enable_on_spawn',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_removeNVG";
+					expression="_this setVariable ['UK3CB_Factions_removeNVG',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_vehicle_randomisation";
+					expression="_this setVariable ['UK3CB_Factions_enable_vehicle_randomisation',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute8
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_removeGPS";
+					expression="_this setVariable ['UK3CB_Factions_removeGPS',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute9
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_removeFrags";
+					expression="_this setVariable ['UK3CB_Factions_removeFrags',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute10
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_on_respawn";
+					expression="_this setVariable ['UK3CB_Factions_enable_on_respawn',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute11
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_randomisation";
+					expression="_this setVariable ['UK3CB_Factions_enable_randomisation',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute12
+				{
+					property="UK3CB_Factions_Loadout_UK3CB_Factions_replaceScopes";
+					expression="_this setVariable ['UK3CB_Factions_replaceScopes',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=13;
 			};
 		};
 	};

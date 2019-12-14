@@ -1,7 +1,8 @@
 private [
 "_nightGear","_scopes","_muzzles","_pointers","_grips","_headgear","_parachutes","_flashbangs","_incendiarys","_cableTies","_radioSelection","_underwaterWeapons","_subSonicAmmo",
 "_delay","_delayRadio","_unit","_loadout",
-"_teamOne","_teamTwo","_rmOne","_rmTwo","_gunOne","_gunTwo","_assOne","_assTwo"
+"_rmOneAlpha","_teamOneAlpha","_rmTwoAlpha","_teamTwoAlpha","_rmOneBravo","_teamOneBravo","_rmTwoBravo","_teamTwoBravo","_rmOneCharlie","_teamOneCharlie","_rmTwoCharlie","_teamTwoCharlie","_rmOneDelta","_teamOneDelta","_rmTwoDelta","_teamTwoDelta",
+"_gunOneAlpha","_assOneAlpha","_gunTwoAlpha","_assTwoAlpha","_gunOneBravo","_assOneBravo","_gunTwoBravo","_assTwoBravo","_gunOneCharlie","_assOneCharlie","_gunTwoCharlie","_assTwoCharlie","_gunOneDelta","_assOneDelta","_gunTwoDelta","_assTwoDelta"
 ];
 
 // ============================================== Variables ===================================================================
@@ -23,10 +24,32 @@ _cableTies = 0;						// add number for amount
 _radioSelection = "rhs_us";			// tfar radio selection
 _underwaterWeapons = true;
 _subSonicAmmo = false;				// whether subsonic ammo gets assigned
-_teamOne = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
-_teamTwo = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
-_rmOne = "gren";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
-_rmTwo = "rmat";					// rifleman loadout for second rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default rmat
+
+//Section Values
+
+// Alpha
+_rmOneAlpha = "gren";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
+_teamOneAlpha = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
+_rmTwoAlpha = "rmat";					// rifleman loadout for second rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default rmat
+_teamTwoAlpha = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
+
+// Bravo
+_rmOneBravo = "gren";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
+_teamOneBravo = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
+_rmTwoBravo = "rmat";					// rifleman loadout for second rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default rmat
+_teamTwoBravo = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
+
+// Charlie
+_rmOneCharlie = "gren";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
+_teamOneCharlie = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
+_rmTwoCharlie = "rmat";					// rifleman loadout for second rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default rmat
+_teamTwoCharlie = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
+
+// Delta
+_rmOneDelta = "gren";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
+_teamOneDelta = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
+_rmTwoDelta = "rmat";					// rifleman loadout for second rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default rmat
+_teamTwoDelta = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
 
 // ============================================================================================================================
 // Variable Assignment
@@ -301,9 +324,7 @@ if (_unit isKindOf "Man") then {
 			["none"] call _addBasics;
 			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
-			_unit addMagazines [_glExplody,4];
-			_unit addMagazines [_glSmokeOne,1];
-			_unit addMagazines [_glSmokeTwo,1];
+			_unit addMagazines [_glExplody,6];
 			_unit addWeapon _rifleGL;
 			["gren"] call _addRuck;
 			["general",false,false,false] call _addAttachments;

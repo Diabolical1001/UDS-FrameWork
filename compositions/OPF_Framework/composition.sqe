@@ -1,14 +1,14 @@
 version=53;
-center[]={4007.3267,5,4974.8047};
+center[]={4006.7317,5,4969.438};
 class items
 {
-	items=37;
+	items=45;
 	class Item0
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-18.34668,2.0487332,-6.5029297};
+			position[]={-17.751709,2.0487332,-1.1362305};
 			angles[]={0,1.5707964,0};
 		};
 		side="Empty";
@@ -247,7 +247,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.607666,0.0014390945,-0.0014648438};
+					position[]={8.2026367,0.0014390945,5.3652344};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -308,7 +308,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6616211,0.0014390945,-1.9604492};
+					position[]={8.2565918,0.0014390945,3.40625};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -369,7 +369,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6491699,0.0014390945,-4.019043};
+					position[]={8.2441406,0.0014390945,1.3476563};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -431,7 +431,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6711426,0.0014390945,-5.9941406};
+					position[]={8.2661133,0.0014390945,-0.62744141};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -492,7 +492,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6369629,0.0014390945,-8.0043945};
+					position[]={8.2319336,0.0014390945,-2.6376953};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -553,7 +553,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6323242,0.0014390945,-10};
+					position[]={8.2272949,0.0014390945,-4.6333008};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -614,7 +614,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6303711,0.0014390945,-11.993164};
+					position[]={8.2253418,0.0014390945,-6.6264648};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -688,7 +688,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6035156,0.0014390945,0.0083007813};
+					position[]={6.1984863,0.0014390945,5.375};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -749,14 +749,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6213379,0.0014390945,-1.9980469};
+					position[]={6.2163086,0.0014390945,3.3686523};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+					init="call{nul = [this,""rmonealpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 					description="1-1-A First Rifleman";
 					isPlayable=1;
 				};
@@ -1105,14 +1105,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6184082,0.0014390945,-4.0039063};
+					position[]={6.2133789,0.0014390945,1.362793};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+					init="call{nul = [this,""gunonealpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 					description="1-1-A First Gunner";
 					isPlayable=1;
 				};
@@ -1461,14 +1461,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6274414,0.0014390945,-5.9960938};
+					position[]={6.2224121,0.0014390945,-0.62939453};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+					init="call{nul = [this,""assonealpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 					description="1-1-A First Assistant";
 					isPlayable=1;
 				};
@@ -1817,7 +1817,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.623291,0.0014390945,-8.0004883};
+					position[]={6.2182617,0.0014390945,-2.6337891};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -1878,14 +1878,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6193848,0.0014390945,-10};
+					position[]={6.2143555,0.0014390945,-4.6333008};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+					init="call{nul = [this,""rmtwoalpha"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 					description="1-1-A Second Rifleman";
 					isPlayable=1;
 				};
@@ -2234,14 +2234,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6142578,0.0014390945,-11.986816};
+					position[]={6.2092285,0.0014390945,-6.6201172};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+					init="call{nul = [this,""guntwoalpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 					description="1-1-A Second Gunner";
 					isPlayable=1;
 				};
@@ -2590,14 +2590,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6132813,0.0014390945,-13.989746};
+					position[]={6.208252,0.0014390945,-8.6230469};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
+					init="call{nul = [this,""asstwoalpha"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-A""];}";
 					description="1-1-A Second Assistant";
 					isPlayable=1;
 				};
@@ -2959,7 +2959,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6196289,0.0014390945,0.001953125};
+					position[]={4.2145996,0.0014390945,5.3686523};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -3020,14 +3020,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6213379,0.0014390945,-1.9960938};
+					position[]={4.2163086,0.0014390945,3.3706055};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+					init="call{nul = [this,""rmonebravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 					description="1-1-B First Rifleman";
 					isPlayable=1;
 				};
@@ -3376,14 +3376,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6184082,0.0014390945,-4.0009766};
+					position[]={4.2133789,0.0014390945,1.3657227};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+					init="call{nul = [this,""gunonebravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 					description="1-1-B First Gunner";
 					isPlayable=1;
 				};
@@ -3732,14 +3732,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6113281,0.0014390945,-5.9907227};
+					position[]={4.2062988,0.0014390945,-0.62402344};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+					init="call{nul = [this,""assonebravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 					description="1-1-B First Assistant";
 					isPlayable=1;
 				};
@@ -4088,7 +4088,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6196289,0.0014390945,-7.9946289};
+					position[]={4.2145996,0.0014390945,-2.6279297};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -4149,14 +4149,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6184082,0.0014390945,-9.9916992};
+					position[]={4.2133789,0.0014390945,-4.625};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+					init="call{nul = [this,""rmtwobravo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 					description="1-1-B Second Rifleman";
 					isPlayable=1;
 				};
@@ -4505,14 +4505,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6242676,0.0014390945,-11.992676};
+					position[]={4.2192383,0.0014390945,-6.6259766};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+					init="call{nul = [this,""guntwobravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 					description="1-1-B Second Gunner";
 					isPlayable=1;
 				};
@@ -4861,14 +4861,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6184082,0.0014390945,-13.998047};
+					position[]={4.2133789,0.0014390945,-8.6313477};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
+					init="call{nul = [this,""asstwobravo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-B""];}";
 					description="1-1-B Second Assistant";
 					isPlayable=1;
 				};
@@ -5230,7 +5230,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6252441,0.0014390945,0.036621094};
+					position[]={2.2202148,0.0014390945,5.4033203};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -5291,14 +5291,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6213379,0.0014390945,-1.9790039};
+					position[]={2.2163086,0.0014390945,3.3876953};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+					init="call{nul = [this,""rmonecharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 					description="1-1-C First Rifleman";
 					isPlayable=1;
 				};
@@ -5647,14 +5647,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6303711,0.0014390945,-3.9980469};
+					position[]={2.2253418,0.0014390945,1.3686523};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+					init="call{nul = [this,""gunonecharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 					description="1-1-C First Gunner";
 					isPlayable=1;
 				};
@@ -6003,14 +6003,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6362305,0.0014390945,-6.0048828};
+					position[]={2.2312012,0.0014390945,-0.63818359};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+					init="call{nul = [this,""assonecharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 					description="1-1-C First Assistant";
 					isPlayable=1;
 				};
@@ -6359,7 +6359,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6311035,0.0014390945,-7.9838867};
+					position[]={2.2260742,0.0014390945,-2.6171875};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -6420,14 +6420,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6213379,0.0014390945,-9.9868164};
+					position[]={2.2163086,0.0014390945,-4.6201172};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+					init="call{nul = [this,""rmtwocharlie"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 					description="1-1-C Second Rifleman";
 					isPlayable=1;
 				};
@@ -6776,14 +6776,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6542969,0.0014390945,-12.014648};
+					position[]={2.2492676,0.0014390945,-6.6479492};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+					init="call{nul = [this,""guntwocharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 					description="1-1-C Second Gunner";
 					isPlayable=1;
 				};
@@ -7132,14 +7132,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6213379,0.0014390945,-13.98291};
+					position[]={2.2163086,0.0014390945,-8.6162109};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
+					init="call{nul = [this,""asstwocharlie"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-C""];}";
 					description="1-1-C Second Assistant";
 					isPlayable=1;
 				};
@@ -7501,7 +7501,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.38500977,0.0014390945,0.01953125};
+					position[]={0.20996094,0.0014390945,5.3862305};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -7562,14 +7562,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.36767578,0.0014390945,-1.96875};
+					position[]={0.22729492,0.0014390945,3.3979492};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""rmone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+					init="call{nul = [this,""rmonedelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 					description="1-1-D First Rifleman";
 					isPlayable=1;
 				};
@@ -7918,14 +7918,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.38354492,0.0014390945,-3.9970703};
+					position[]={0.21142578,0.0014390945,1.3696289};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""gunone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+					init="call{nul = [this,""gunonedelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 					description="1-1-D First Gunner";
 					isPlayable=1;
 				};
@@ -8274,14 +8274,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.37573242,0.0014390945,-5.9926758};
+					position[]={0.21923828,0.0014390945,-0.62597656};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""assone"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+					init="call{nul = [this,""assonedelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 					description="1-1-D First Assistant";
 					isPlayable=1;
 				};
@@ -8630,7 +8630,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.36889648,0.0014390945,-7.9848633};
+					position[]={0.22607422,0.0014390945,-2.6181641};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -8691,14 +8691,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.3605957,0.0014390945,-10.011719};
+					position[]={0.234375,0.0014390945,-4.6450195};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""rmtwo"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+					init="call{nul = [this,""rmtwodelta"",""BLUE""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 					description="1-1-D Second Rifleman";
 					isPlayable=1;
 				};
@@ -9047,14 +9047,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.34570313,0.0014390945,-12.010742};
+					position[]={0.24926758,0.0014390945,-6.644043};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""guntwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+					init="call{nul = [this,""guntwodelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 					description="1-1-D Second Gunner";
 					isPlayable=1;
 				};
@@ -9403,14 +9403,14 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.36572266,0.0014390945,-13.990723};
+					position[]={0.22924805,0.0014390945,-8.6240234};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=5;
 				class Attributes
 				{
-					init="call{nul = [this,""asstwo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
+					init="call{nul = [this,""asstwodelta"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1-D""];}";
 					description="1-1-D Second Assistant";
 					isPlayable=1;
 				};
@@ -9766,13 +9766,3401 @@ class items
 		side="East";
 		class Entities
 		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={8.229248,0.0014390945,-12.600586};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					init="call{nul = [this,""secco"",""YELLOW""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(MG)-A Section Commander";
+					isPlayable=1;
+				};
+				id=165;
+				type="O_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={8.2709961,0.0014390945,-14.690918};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""mmg"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(MG)-A Machine-Gunner";
+					isPlayable=1;
+				};
+				id=166;
+				type="O_Soldier_AR_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={8.2697754,0.0014390945,-16.675293};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""mmgass"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(MG)-A Asst. Machine-Gunner";
+					isPlayable=1;
+				};
+				id=167;
+				type="O_Soldier_AAR_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={8.2702637,0.0014390945,-18.653809};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""rm"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(MG)-A Rifleman";
+					isPlayable=1;
+				};
+				id=168;
+				type="O_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=164;
+	};
+	class Item7
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.1711426,0.0014390945,-12.589355};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					init="call{nul = [this,""secco"",""YELLOW""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(MG)-B Section Commander";
+					isPlayable=1;
+				};
+				id=170;
+				type="O_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.2426758,0.0014390945,-14.61084};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""mmg"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(MG)-B Machine-Gunner";
+					isPlayable=1;
+				};
+				id=171;
+				type="O_Soldier_AR_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.97000003;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.2275391,0.0014390945,-16.634766};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""mmgass"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(MG)-B Asst. Machine-Gunner";
+					isPlayable=1;
+				};
+				id=172;
+				type="O_Soldier_AAR_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={6.232666,0.0014390945,-18.630371};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""rm"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(MG)-B Rifleman";
+					isPlayable=1;
+				};
+				id=173;
+				type="O_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=169;
+	};
+	class Item8
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.2543945,0.0014390945,-12.607422};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					init="call{nul = [this,""secco"",""YELLOW""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""MAT""];}";
+					description="1-1-(MAT) Section Commander";
+					isPlayable=1;
+				};
+				id=175;
+				type="O_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="Enh_HoldAction";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=14;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=10;
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1000;
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="Enh_AmbientAnimations";
+						expression="		if !(_value # 0 isEqualTo '') then		{			_value params ['_animSet','_anims','_canExit','_attach'];						_this setVariable ['Enh_ambientAnimations_anims',_anims];			_this disableAI 'all';			if (_attach && !is3DEN) then			{				private _logic = group _this createUnit ['Logic',getPosATL _this,[],0,'NONE'];				_this setVariable ['Enh_ambientAnimations_logic',_logic];				[_this,_logic] call BIS_fnc_attachToRelative;			};						Enh_fnc_ambientAnimations_play =			{				params ['_unit'];				private _anim = selectRandom (_unit getVariable ['Enh_ambientAnimations_anims',[]]);				[_unit,_anim] remoteExec ['switchMove',0];			};						Enh_fnc_ambientAnimations_exit =			{				params ['_unit'];				if !(_unit getVariable ['Enh_ambientAnimations_exit',true]) exitWith {false};				_unit setVariable ['Enh_ambientAnimations_exit',true];				detach _unit;				deleteVehicle (_unit getVariable ['Enh_ambientAnimations_logic',objNull]);				[_unit,''] remoteExec ['switchMove',0];								_unit enableAI 'all';								_unit removeEventHandler ['Killed',_unit getVariable ['Enh_EHKilled',-1]];				_unit removeEventHandler ['Dammaged',_unit getVariable ['Enh_EHDammaged',-1]];				_unit removeEventHandler ['AnimDone',_unit getVariable ['Enh_EHAnimDone',-1]];			};						private _EHAnimDone = _this addEventHandler			[				'AnimDone',				{					params ['_unit'];					if (alive _unit) then					{						_unit call Enh_fnc_ambientAnimations_play;					}					else					{						_unit call Enh_fnc_ambientAnimations_exit;					};				}			];			_this setVariable ['Enh_EHAnimDone',_EHAnimDone];						if (_canExit) then			{				private _EHKilled = _this addEventHandler				[					'Killed',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHKilled',_EHKilled];				private _EHDammaged = _this addEventHandler				[					'Dammaged',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHDammaged',_EHDammaged];				_this spawn				{					params ['_unit'];					waitUntil					{						sleep 1; (!isNull (_unit findNearestEnemy _unit) || {_unit getVariable ['Enh_ambientAnimations_exit',false]}) || {behaviour _unit == 'COMBAT'}					};					_unit call Enh_fnc_ambientAnimations_exit;				};			};			_this call Enh_fnc_ambientAnimations_play;		};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=4;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.208252,0.0014390945,-14.603027};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""matgun"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""MAT""];}";
+					description="1-1-(MAT) Medium Anti-Tank";
+					isPlayable=1;
+				};
+				id=176;
+				type="O_Soldier_AT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="Enh_HoldAction";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=14;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=10;
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1000;
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="Enh_AmbientAnimations";
+						expression="		if !(_value # 0 isEqualTo '') then		{			_value params ['_animSet','_anims','_canExit','_attach'];						_this setVariable ['Enh_ambientAnimations_anims',_anims];			_this disableAI 'all';			if (_attach && !is3DEN) then			{				private _logic = group _this createUnit ['Logic',getPosATL _this,[],0,'NONE'];				_this setVariable ['Enh_ambientAnimations_logic',_logic];				[_this,_logic] call BIS_fnc_attachToRelative;			};						Enh_fnc_ambientAnimations_play =			{				params ['_unit'];				private _anim = selectRandom (_unit getVariable ['Enh_ambientAnimations_anims',[]]);				[_unit,_anim] remoteExec ['switchMove',0];			};						Enh_fnc_ambientAnimations_exit =			{				params ['_unit'];				if !(_unit getVariable ['Enh_ambientAnimations_exit',true]) exitWith {false};				_unit setVariable ['Enh_ambientAnimations_exit',true];				detach _unit;				deleteVehicle (_unit getVariable ['Enh_ambientAnimations_logic',objNull]);				[_unit,''] remoteExec ['switchMove',0];								_unit enableAI 'all';								_unit removeEventHandler ['Killed',_unit getVariable ['Enh_EHKilled',-1]];				_unit removeEventHandler ['Dammaged',_unit getVariable ['Enh_EHDammaged',-1]];				_unit removeEventHandler ['AnimDone',_unit getVariable ['Enh_EHAnimDone',-1]];			};						private _EHAnimDone = _this addEventHandler			[				'AnimDone',				{					params ['_unit'];					if (alive _unit) then					{						_unit call Enh_fnc_ambientAnimations_play;					}					else					{						_unit call Enh_fnc_ambientAnimations_exit;					};				}			];			_this setVariable ['Enh_EHAnimDone',_EHAnimDone];						if (_canExit) then			{				private _EHKilled = _this addEventHandler				[					'Killed',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHKilled',_EHKilled];				private _EHDammaged = _this addEventHandler				[					'Dammaged',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHDammaged',_EHDammaged];				_this spawn				{					params ['_unit'];					waitUntil					{						sleep 1; (!isNull (_unit findNearestEnemy _unit) || {_unit getVariable ['Enh_ambientAnimations_exit',false]}) || {behaviour _unit == 'COMBAT'}					};					_unit call Enh_fnc_ambientAnimations_exit;				};			};			_this call Enh_fnc_ambientAnimations_play;		};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=4;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male08ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.1762695,0.0014390945,-16.608398};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""matammo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""MAT""];}";
+					description="1-1-(MAT) Asst. Medium Anti-Tank";
+					isPlayable=1;
+				};
+				id=177;
+				type="O_Soldier_AAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="Enh_HoldAction";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=14;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=10;
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1000;
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="Enh_AmbientAnimations";
+						expression="		if !(_value # 0 isEqualTo '') then		{			_value params ['_animSet','_anims','_canExit','_attach'];						_this setVariable ['Enh_ambientAnimations_anims',_anims];			_this disableAI 'all';			if (_attach && !is3DEN) then			{				private _logic = group _this createUnit ['Logic',getPosATL _this,[],0,'NONE'];				_this setVariable ['Enh_ambientAnimations_logic',_logic];				[_this,_logic] call BIS_fnc_attachToRelative;			};						Enh_fnc_ambientAnimations_play =			{				params ['_unit'];				private _anim = selectRandom (_unit getVariable ['Enh_ambientAnimations_anims',[]]);				[_unit,_anim] remoteExec ['switchMove',0];			};						Enh_fnc_ambientAnimations_exit =			{				params ['_unit'];				if !(_unit getVariable ['Enh_ambientAnimations_exit',true]) exitWith {false};				_unit setVariable ['Enh_ambientAnimations_exit',true];				detach _unit;				deleteVehicle (_unit getVariable ['Enh_ambientAnimations_logic',objNull]);				[_unit,''] remoteExec ['switchMove',0];								_unit enableAI 'all';								_unit removeEventHandler ['Killed',_unit getVariable ['Enh_EHKilled',-1]];				_unit removeEventHandler ['Dammaged',_unit getVariable ['Enh_EHDammaged',-1]];				_unit removeEventHandler ['AnimDone',_unit getVariable ['Enh_EHAnimDone',-1]];			};						private _EHAnimDone = _this addEventHandler			[				'AnimDone',				{					params ['_unit'];					if (alive _unit) then					{						_unit call Enh_fnc_ambientAnimations_play;					}					else					{						_unit call Enh_fnc_ambientAnimations_exit;					};				}			];			_this setVariable ['Enh_EHAnimDone',_EHAnimDone];						if (_canExit) then			{				private _EHKilled = _this addEventHandler				[					'Killed',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHKilled',_EHKilled];				private _EHDammaged = _this addEventHandler				[					'Dammaged',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHDammaged',_EHDammaged];				_this spawn				{					params ['_unit'];					waitUntil					{						sleep 1; (!isNull (_unit findNearestEnemy _unit) || {_unit getVariable ['Enh_ambientAnimations_exit',false]}) || {behaviour _unit == 'COMBAT'}					};					_unit call Enh_fnc_ambientAnimations_exit;				};			};			_this call Enh_fnc_ambientAnimations_play;		};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=4;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={4.2302246,0.0014390945,-18.63623};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""rm"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""MAT""];}";
+					description="1-1-(MAT)-A Rifleman";
+					isPlayable=1;
+				};
+				id=178;
+				type="O_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="Enh_HoldAction";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=14;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=10;
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1000;
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="Enh_AmbientAnimations";
+						expression="		if !(_value # 0 isEqualTo '') then		{			_value params ['_animSet','_anims','_canExit','_attach'];						_this setVariable ['Enh_ambientAnimations_anims',_anims];			_this disableAI 'all';			if (_attach && !is3DEN) then			{				private _logic = group _this createUnit ['Logic',getPosATL _this,[],0,'NONE'];				_this setVariable ['Enh_ambientAnimations_logic',_logic];				[_this,_logic] call BIS_fnc_attachToRelative;			};						Enh_fnc_ambientAnimations_play =			{				params ['_unit'];				private _anim = selectRandom (_unit getVariable ['Enh_ambientAnimations_anims',[]]);				[_unit,_anim] remoteExec ['switchMove',0];			};						Enh_fnc_ambientAnimations_exit =			{				params ['_unit'];				if !(_unit getVariable ['Enh_ambientAnimations_exit',true]) exitWith {false};				_unit setVariable ['Enh_ambientAnimations_exit',true];				detach _unit;				deleteVehicle (_unit getVariable ['Enh_ambientAnimations_logic',objNull]);				[_unit,''] remoteExec ['switchMove',0];								_unit enableAI 'all';								_unit removeEventHandler ['Killed',_unit getVariable ['Enh_EHKilled',-1]];				_unit removeEventHandler ['Dammaged',_unit getVariable ['Enh_EHDammaged',-1]];				_unit removeEventHandler ['AnimDone',_unit getVariable ['Enh_EHAnimDone',-1]];			};						private _EHAnimDone = _this addEventHandler			[				'AnimDone',				{					params ['_unit'];					if (alive _unit) then					{						_unit call Enh_fnc_ambientAnimations_play;					}					else					{						_unit call Enh_fnc_ambientAnimations_exit;					};				}			];			_this setVariable ['Enh_EHAnimDone',_EHAnimDone];						if (_canExit) then			{				private _EHKilled = _this addEventHandler				[					'Killed',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHKilled',_EHKilled];				private _EHDammaged = _this addEventHandler				[					'Dammaged',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHDammaged',_EHDammaged];				_this spawn				{					params ['_unit'];					waitUntil					{						sleep 1; (!isNull (_unit findNearestEnemy _unit) || {_unit getVariable ['Enh_ambientAnimations_exit',false]}) || {behaviour _unit == 'COMBAT'}					};					_unit call Enh_fnc_ambientAnimations_exit;				};			};			_this call Enh_fnc_ambientAnimations_play;		};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=4;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male07ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.05;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=174;
+	};
+	class Item9
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.1982422,0.0014390945,-12.615234};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					init="call{nul = [this,""secco"",""YELLOW""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""HAT""];}";
+					description="1-1-(HAT) Section Commander";
+					isPlayable=1;
+				};
+				id=180;
+				type="O_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="Enh_HoldAction";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=14;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=10;
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1000;
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="Enh_AmbientAnimations";
+						expression="		if !(_value # 0 isEqualTo '') then		{			_value params ['_animSet','_anims','_canExit','_attach'];						_this setVariable ['Enh_ambientAnimations_anims',_anims];			_this disableAI 'all';			if (_attach && !is3DEN) then			{				private _logic = group _this createUnit ['Logic',getPosATL _this,[],0,'NONE'];				_this setVariable ['Enh_ambientAnimations_logic',_logic];				[_this,_logic] call BIS_fnc_attachToRelative;			};						Enh_fnc_ambientAnimations_play =			{				params ['_unit'];				private _anim = selectRandom (_unit getVariable ['Enh_ambientAnimations_anims',[]]);				[_unit,_anim] remoteExec ['switchMove',0];			};						Enh_fnc_ambientAnimations_exit =			{				params ['_unit'];				if !(_unit getVariable ['Enh_ambientAnimations_exit',true]) exitWith {false};				_unit setVariable ['Enh_ambientAnimations_exit',true];				detach _unit;				deleteVehicle (_unit getVariable ['Enh_ambientAnimations_logic',objNull]);				[_unit,''] remoteExec ['switchMove',0];								_unit enableAI 'all';								_unit removeEventHandler ['Killed',_unit getVariable ['Enh_EHKilled',-1]];				_unit removeEventHandler ['Dammaged',_unit getVariable ['Enh_EHDammaged',-1]];				_unit removeEventHandler ['AnimDone',_unit getVariable ['Enh_EHAnimDone',-1]];			};						private _EHAnimDone = _this addEventHandler			[				'AnimDone',				{					params ['_unit'];					if (alive _unit) then					{						_unit call Enh_fnc_ambientAnimations_play;					}					else					{						_unit call Enh_fnc_ambientAnimations_exit;					};				}			];			_this setVariable ['Enh_EHAnimDone',_EHAnimDone];						if (_canExit) then			{				private _EHKilled = _this addEventHandler				[					'Killed',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHKilled',_EHKilled];				private _EHDammaged = _this addEventHandler				[					'Dammaged',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHDammaged',_EHDammaged];				_this spawn				{					params ['_unit'];					waitUntil					{						sleep 1; (!isNull (_unit findNearestEnemy _unit) || {_unit getVariable ['Enh_ambientAnimations_exit',false]}) || {behaviour _unit == 'COMBAT'}					};					_unit call Enh_fnc_ambientAnimations_exit;				};			};			_this call Enh_fnc_ambientAnimations_play;		};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=4;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.94999999;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.2043457,0.0014390945,-14.63623};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""hatgun"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""HAT""];}";
+					description="1-1-(HAT) Heavy Anti-Tank";
+					isPlayable=1;
+				};
+				id=181;
+				type="O_Soldier_AT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="Enh_HoldAction";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=14;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=10;
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1000;
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="Enh_AmbientAnimations";
+						expression="		if !(_value # 0 isEqualTo '') then		{			_value params ['_animSet','_anims','_canExit','_attach'];						_this setVariable ['Enh_ambientAnimations_anims',_anims];			_this disableAI 'all';			if (_attach && !is3DEN) then			{				private _logic = group _this createUnit ['Logic',getPosATL _this,[],0,'NONE'];				_this setVariable ['Enh_ambientAnimations_logic',_logic];				[_this,_logic] call BIS_fnc_attachToRelative;			};						Enh_fnc_ambientAnimations_play =			{				params ['_unit'];				private _anim = selectRandom (_unit getVariable ['Enh_ambientAnimations_anims',[]]);				[_unit,_anim] remoteExec ['switchMove',0];			};						Enh_fnc_ambientAnimations_exit =			{				params ['_unit'];				if !(_unit getVariable ['Enh_ambientAnimations_exit',true]) exitWith {false};				_unit setVariable ['Enh_ambientAnimations_exit',true];				detach _unit;				deleteVehicle (_unit getVariable ['Enh_ambientAnimations_logic',objNull]);				[_unit,''] remoteExec ['switchMove',0];								_unit enableAI 'all';								_unit removeEventHandler ['Killed',_unit getVariable ['Enh_EHKilled',-1]];				_unit removeEventHandler ['Dammaged',_unit getVariable ['Enh_EHDammaged',-1]];				_unit removeEventHandler ['AnimDone',_unit getVariable ['Enh_EHAnimDone',-1]];			};						private _EHAnimDone = _this addEventHandler			[				'AnimDone',				{					params ['_unit'];					if (alive _unit) then					{						_unit call Enh_fnc_ambientAnimations_play;					}					else					{						_unit call Enh_fnc_ambientAnimations_exit;					};				}			];			_this setVariable ['Enh_EHAnimDone',_EHAnimDone];						if (_canExit) then			{				private _EHKilled = _this addEventHandler				[					'Killed',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHKilled',_EHKilled];				private _EHDammaged = _this addEventHandler				[					'Dammaged',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHDammaged',_EHDammaged];				_this spawn				{					params ['_unit'];					waitUntil					{						sleep 1; (!isNull (_unit findNearestEnemy _unit) || {_unit getVariable ['Enh_ambientAnimations_exit',false]}) || {behaviour _unit == 'COMBAT'}					};					_unit call Enh_fnc_ambientAnimations_exit;				};			};			_this call Enh_fnc_ambientAnimations_play;		};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=4;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male08ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.2353516,0.0014390945,-16.638184};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""hatammo"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""HAT""];}";
+					description="1-1-(HAT) Asst. Heavy Anti-Tank";
+					isPlayable=1;
+				};
+				id=182;
+				type="O_Soldier_AAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="Enh_HoldAction";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=14;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=10;
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1000;
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="Enh_AmbientAnimations";
+						expression="		if !(_value # 0 isEqualTo '') then		{			_value params ['_animSet','_anims','_canExit','_attach'];						_this setVariable ['Enh_ambientAnimations_anims',_anims];			_this disableAI 'all';			if (_attach && !is3DEN) then			{				private _logic = group _this createUnit ['Logic',getPosATL _this,[],0,'NONE'];				_this setVariable ['Enh_ambientAnimations_logic',_logic];				[_this,_logic] call BIS_fnc_attachToRelative;			};						Enh_fnc_ambientAnimations_play =			{				params ['_unit'];				private _anim = selectRandom (_unit getVariable ['Enh_ambientAnimations_anims',[]]);				[_unit,_anim] remoteExec ['switchMove',0];			};						Enh_fnc_ambientAnimations_exit =			{				params ['_unit'];				if !(_unit getVariable ['Enh_ambientAnimations_exit',true]) exitWith {false};				_unit setVariable ['Enh_ambientAnimations_exit',true];				detach _unit;				deleteVehicle (_unit getVariable ['Enh_ambientAnimations_logic',objNull]);				[_unit,''] remoteExec ['switchMove',0];								_unit enableAI 'all';								_unit removeEventHandler ['Killed',_unit getVariable ['Enh_EHKilled',-1]];				_unit removeEventHandler ['Dammaged',_unit getVariable ['Enh_EHDammaged',-1]];				_unit removeEventHandler ['AnimDone',_unit getVariable ['Enh_EHAnimDone',-1]];			};						private _EHAnimDone = _this addEventHandler			[				'AnimDone',				{					params ['_unit'];					if (alive _unit) then					{						_unit call Enh_fnc_ambientAnimations_play;					}					else					{						_unit call Enh_fnc_ambientAnimations_exit;					};				}			];			_this setVariable ['Enh_EHAnimDone',_EHAnimDone];						if (_canExit) then			{				private _EHKilled = _this addEventHandler				[					'Killed',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHKilled',_EHKilled];				private _EHDammaged = _this addEventHandler				[					'Dammaged',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHDammaged',_EHDammaged];				_this spawn				{					params ['_unit'];					waitUntil					{						sleep 1; (!isNull (_unit findNearestEnemy _unit) || {_unit getVariable ['Enh_ambientAnimations_exit',false]}) || {behaviour _unit == 'COMBAT'}					};					_unit call Enh_fnc_ambientAnimations_exit;				};			};			_this call Enh_fnc_ambientAnimations_play;		};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=4;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male12ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.04;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={2.2653809,0.0014390945,-18.651367};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""rm"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""HAT""];}";
+					description="1-1-(HAT) Rifleman";
+					isPlayable=1;
+				};
+				id=183;
+				type="O_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="Enh_HoldAction";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=14;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=10;
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=1000;
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+									class Item13
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="Enh_AmbientAnimations";
+						expression="		if !(_value # 0 isEqualTo '') then		{			_value params ['_animSet','_anims','_canExit','_attach'];						_this setVariable ['Enh_ambientAnimations_anims',_anims];			_this disableAI 'all';			if (_attach && !is3DEN) then			{				private _logic = group _this createUnit ['Logic',getPosATL _this,[],0,'NONE'];				_this setVariable ['Enh_ambientAnimations_logic',_logic];				[_this,_logic] call BIS_fnc_attachToRelative;			};						Enh_fnc_ambientAnimations_play =			{				params ['_unit'];				private _anim = selectRandom (_unit getVariable ['Enh_ambientAnimations_anims',[]]);				[_unit,_anim] remoteExec ['switchMove',0];			};						Enh_fnc_ambientAnimations_exit =			{				params ['_unit'];				if !(_unit getVariable ['Enh_ambientAnimations_exit',true]) exitWith {false};				_unit setVariable ['Enh_ambientAnimations_exit',true];				detach _unit;				deleteVehicle (_unit getVariable ['Enh_ambientAnimations_logic',objNull]);				[_unit,''] remoteExec ['switchMove',0];								_unit enableAI 'all';								_unit removeEventHandler ['Killed',_unit getVariable ['Enh_EHKilled',-1]];				_unit removeEventHandler ['Dammaged',_unit getVariable ['Enh_EHDammaged',-1]];				_unit removeEventHandler ['AnimDone',_unit getVariable ['Enh_EHAnimDone',-1]];			};						private _EHAnimDone = _this addEventHandler			[				'AnimDone',				{					params ['_unit'];					if (alive _unit) then					{						_unit call Enh_fnc_ambientAnimations_play;					}					else					{						_unit call Enh_fnc_ambientAnimations_exit;					};				}			];			_this setVariable ['Enh_EHAnimDone',_EHAnimDone];						if (_canExit) then			{				private _EHKilled = _this addEventHandler				[					'Killed',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHKilled',_EHKilled];				private _EHDammaged = _this addEventHandler				[					'Dammaged',					{						(_this select 0) call Enh_fnc_ambientAnimations_exit;					}				];				_this setVariable ['Enh_EHDammaged',_EHDammaged];				_this spawn				{					params ['_unit'];					waitUntil					{						sleep 1; (!isNull (_unit findNearestEnemy _unit) || {_unit getVariable ['Enh_ambientAnimations_exit',false]}) || {behaviour _unit == 'COMBAT'}					};					_unit call Enh_fnc_ambientAnimations_exit;				};			};			_this call Enh_fnc_ambientAnimations_play;		};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=4;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"ARRAY"
+												};
+											};
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute2
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male07ENG";
+							};
+						};
+					};
+					class Attribute3
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.05;
+							};
+						};
+					};
+					nAttributes=4;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=179;
+	};
+	class Item10
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
 			items=2;
 			class Item0
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.7531738,0.0014390945,-16.29834};
+					position[]={0.24731445,0.0014390945,-12.634766};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9833,7 +13221,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.7207031,0.0014390945,-18.277832};
+					position[]={0.21484375,0.0014390945,-14.614258};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9895,7 +13283,1035 @@ class items
 		};
 		id=184;
 	};
-	class Item7
+	class Item11
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.8181152,0.0014390945,-12.609863};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					init="call{nul = [this,""secco"",""YELLOW""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(HMG)-A Section Commander";
+					isPlayable=1;
+				};
+				id=188;
+				type="O_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male09ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.7897949,0.0014390945,-14.630371};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""hmggun"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(HMG)-A Gunner";
+					isPlayable=1;
+				};
+				id=189;
+				type="O_support_MG_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.7912598,0.0014390945,-16.642578};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""hmgass"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(HMG)-A Asst. Gunner";
+					isPlayable=1;
+				};
+				id=190;
+				type="O_support_AMG_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male01ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-1.8098145,0.0014390945,-18.660156};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""rm"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(HMG)-A Rifleman";
+					isPlayable=1;
+				};
+				id=191;
+				type="O_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=187;
+	};
+	class Item12
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.7924805,0.0014390945,-12.589355};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					init="call{nul = [this,""secco"",""YELLOW""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(HMG)-B Section Commander";
+					isPlayable=1;
+				};
+				id=193;
+				type="O_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male09ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.7734375,0.0014390945,-14.626953};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""hmggun"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(HMG)-B Gunner";
+					isPlayable=1;
+				};
+				id=194;
+				type="O_support_MG_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.7666016,0.0014390945,-16.64209};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""hmgass"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(HMG)-B Asst. Gunner";
+					isPlayable=1;
+				};
+				id=195;
+				type="O_support_AMG_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male01ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-3.802002,0.0014390945,-18.624512};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""rm"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(HMG)-B Rifleman";
+					isPlayable=1;
+				};
+				id=196;
+				type="O_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male11ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=192;
+	};
+	class Item13
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.7409668,0.0014390945,-12.633301};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					init="call{nul = [this,""secco"",""YELLOW""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(SHAT)-A Section Commander";
+					isPlayable=1;
+				};
+				id=198;
+				type="O_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.7780762,0.0014390945,-14.607422};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=4;
+				class Attributes
+				{
+					init="call{nul = [this,""shatgun"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""}";
+					description="1-1-(SHAT)-A Gunner";
+					isPlayable=1;
+				};
+				id=199;
+				type="O_Soldier_AT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.7927246,0.0014390945,-16.605957};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""shatass"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""}";
+					description="1-1-(SHAT)-A Asst. Gunner";
+					isPlayable=1;
+				};
+				id=200;
+				type="O_Soldier_AAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-5.8032227,0.0014390945,-18.647461};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""rm"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""}";
+					description="1-1-(SHAT)-A Rifleman";
+					isPlayable=1;
+				};
+				id=201;
+				type="O_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=197;
+	};
+	class Item14
+	{
+		dataType="Group";
+		side="East";
+		class Entities
+		{
+			items=4;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.78125,0.0014390945,-12.617676};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=7;
+				class Attributes
+				{
+					init="call{nul = [this,""secco"",""YELLOW""] execVM ""scripts\assignGear\assignGear_OPF.sqf"";}";
+					description="1-1-(SHAT)-B Section Commander";
+					isPlayable=1;
+				};
+				id=203;
+				type="O_Soldier_SL_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.99000001;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item1
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.8195801,0.0014390945,-14.626953};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=4;
+				class Attributes
+				{
+					init="call{nul = [this,""shatgun"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""}";
+					description="1-1-(SHAT)-B Gunner";
+					isPlayable=1;
+				};
+				id=204;
+				type="O_Soldier_AT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.02;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item2
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.8088379,0.0014390945,-16.61377};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""shatass"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""}";
+					description="1-1-(SHAT)-B Asst. Gunner";
+					isPlayable=1;
+				};
+				id=205;
+				type="O_Soldier_AAT_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male02ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item3
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={-7.8044434,0.0014390945,-18.64502};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""rm"",""RED""] execVM ""scripts\assignGear\assignGear_OPF.sqf""}";
+					description="1-1-(SHAT)-B Rifleman";
+					isPlayable=1;
+				};
+				id=206;
+				type="O_Soldier_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male04ENG";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1.03;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=202;
+	};
+	class Item15
 	{
 		dataType="Group";
 		side="East";
@@ -9907,7 +14323,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4382324,0.0014390945,-16.518066};
+					position[]={-9.8037109,0.0014390945,-12.593262};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9968,7 +14384,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4560547,0.0014390945,-20.562988};
+					position[]={-9.7858887,0.0014390945,-16.638184};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10029,8 +14445,8 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.454834,0.0014390945,-18.589844};
-					angles[]={-0,1.5707964,0};
+					position[]={-9.7871094,0.0014390945,-14.665039};
+					angles[]={0,1.5707964,0};
 				};
 				side="East";
 				flags=4;
@@ -10091,12 +14507,12 @@ class items
 		};
 		id=207;
 	};
-	class Item8
+	class Item16
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.063965,0,6.6513672};
+			position[]={-18.468994,0,12.018066};
 			angles[]={0,1.5707964,0};
 		};
 		side="Empty";
@@ -10151,12 +14567,12 @@ class items
 			nAttributes=2;
 		};
 	};
-	class Item9
+	class Item17
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-23.012451,0.28405476,6.9765625};
+			position[]={-22.41748,0.28405476,12.343262};
 			angles[]={0,1.5707964,0};
 		};
 		side="Empty";
@@ -10190,12 +14606,12 @@ class items
 			nAttributes=1;
 		};
 	};
-	class Item10
+	class Item18
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-22.900635,0.41794205,4.0205078};
+			position[]={-22.305664,0.41794205,9.387207};
 			angles[]={0,4.712389,0};
 		};
 		side="Empty";
@@ -10468,12 +14884,12 @@ class items
 			nAttributes=3;
 		};
 	};
-	class Item11
+	class Item19
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-18.916992,0.28405476,0.88232422};
+			position[]={-18.322021,0.28405476,6.2490234};
 			angles[]={0,1.5707964,0};
 		};
 		side="Empty";
@@ -10528,12 +14944,12 @@ class items
 			nAttributes=2;
 		};
 	};
-	class Item12
+	class Item20
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.102295,0.14963102,2.4560547};
+			position[]={-18.507324,0.14963102,7.8227539};
 			angles[]={0,1.5707964,0};
 		};
 		side="Empty";
@@ -10588,12 +15004,12 @@ class items
 			nAttributes=2;
 		};
 	};
-	class Item13
+	class Item21
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.060059,0.14872551,4.7836914};
+			position[]={-18.465088,0.14872551,10.150391};
 			angles[]={0,1.5707964,0};
 		};
 		side="Empty";
@@ -10648,12 +15064,12 @@ class items
 			nAttributes=2;
 		};
 	};
-	class Item14
+	class Item22
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.022461,0.14872551,8.7929688};
+			position[]={-18.42749,0.14872551,14.159668};
 			angles[]={0,1.5707964,0};
 		};
 		side="Empty";
@@ -10708,12 +15124,12 @@ class items
 			nAttributes=2;
 		};
 	};
-	class Item15
+	class Item23
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-7.3447266,0,-4.8017578};
+			position[]={-6.7497559,0,0.56494141};
 			angles[]={0,1.5707964,0};
 		};
 		id=222;
@@ -10818,12 +15234,12 @@ class items
 			nAttributes=5;
 		};
 	};
-	class Item16
+	class Item24
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-7.3444824,0,-8.7919922};
+			position[]={-6.7495117,0,-3.425293};
 			angles[]={0,1.5707964,0};
 		};
 		id=224;
@@ -10909,12 +15325,12 @@ class items
 			nAttributes=4;
 		};
 	};
-	class Item17
+	class Item25
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-18.402344,0,-9.0507813};
+			position[]={-17.807373,0,-3.684082};
 			angles[]={0,1.5707964,0};
 		};
 		id=225;
@@ -11019,7 +15435,7 @@ class items
 			nAttributes=5;
 		};
 	};
-	class Item18
+	class Item26
 	{
 		dataType="Group";
 		side="East";
@@ -11031,7 +15447,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6989746,0.0014390945,7.9848633};
+					position[]={8.2939453,0.0014390945,13.351563};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11093,7 +15509,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6633301,0.0014390945,6.0083008};
+					position[]={8.2583008,0.0014390945,11.375};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11154,7 +15570,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.7145996,0.0014390945,3.9790039};
+					position[]={8.3095703,0.0014390945,9.3457031};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11216,7 +15632,7 @@ class items
 		};
 		id=242;
 	};
-	class Item19
+	class Item27
 	{
 		dataType="Group";
 		side="East";
@@ -11228,7 +15644,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6279297,0.0014390945,8.0146484};
+					position[]={6.2229004,0.0014390945,13.381348};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11289,7 +15705,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.5864258,0.0014390945,6.0039063};
+					position[]={6.1813965,0.0014390945,11.370605};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11350,7 +15766,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6367188,0.0014390945,3.9960938};
+					position[]={6.2316895,0.0014390945,9.362793};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11412,7 +15828,7 @@ class items
 		};
 		id=246;
 	};
-	class Item20
+	class Item28
 	{
 		dataType="Group";
 		side="East";
@@ -11424,7 +15840,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6608887,0.0014390945,8.0288086};
+					position[]={4.2558594,0.0014390945,13.395508};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11485,7 +15901,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6633301,0.0014390945,6.0107422};
+					position[]={4.2583008,0.0014390945,11.377441};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11546,7 +15962,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6044922,0.0014390945,4.0180664};
+					position[]={4.1994629,0.0014390945,9.3847656};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11608,7 +16024,7 @@ class items
 		};
 		id=250;
 	};
-	class Item21
+	class Item29
 	{
 		dataType="Group";
 		side="East";
@@ -11620,7 +16036,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.38574219,0.0014390945,8.0097656};
+					position[]={0.20922852,0.0014390945,13.376465};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11681,7 +16097,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.36669922,0.0014390945,6.0126953};
+					position[]={0.22827148,0.0014390945,11.379395};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11742,7 +16158,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.34570313,0.0014390945,3.9848633};
+					position[]={0.24926758,0.0014390945,9.3515625};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11804,7 +16220,7 @@ class items
 		};
 		id=254;
 	};
-	class Item22
+	class Item30
 	{
 		dataType="Group";
 		side="East";
@@ -11816,7 +16232,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.3464355,0.0014390945,7.9995117};
+					position[]={-3.7514648,0.0014390945,13.366211};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11877,7 +16293,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.3395996,0.0014390945,6.0043945};
+					position[]={-3.7446289,0.0014390945,11.371094};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11938,7 +16354,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.3513184,0.0014390945,4.0014648};
+					position[]={-3.7563477,0.0014390945,9.3681641};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12000,7 +16416,7 @@ class items
 		};
 		id=258;
 	};
-	class Item23
+	class Item31
 	{
 		dataType="Group";
 		side="East";
@@ -12012,7 +16428,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6184082,0.0014390945,8.0683594};
+					position[]={2.2133789,0.0014390945,13.435059};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12073,7 +16489,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6340332,0.0014390945,5.9960938};
+					position[]={2.2290039,0.0014390945,11.362793};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12134,7 +16550,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.6669922,0.0014390945,4.0107422};
+					position[]={2.2619629,0.0014390945,9.3774414};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12196,7 +16612,7 @@ class items
 		};
 		id=262;
 	};
-	class Item24
+	class Item32
 	{
 		dataType="Group";
 		side="East";
@@ -12208,7 +16624,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.3395996,0.0014390945,8.078125};
+					position[]={-1.7446289,0.0014390945,13.444824};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12269,7 +16685,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.3249512,0.0014390945,6.0058594};
+					position[]={-1.7299805,0.0014390945,11.372559};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12330,7 +16746,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.3549805,0.0014390945,3.9643555};
+					position[]={-1.7600098,0.0014390945,9.3310547};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12392,7 +16808,7 @@ class items
 		};
 		id=266;
 	};
-	class Item25
+	class Item33
 	{
 		dataType="Group";
 		side="East";
@@ -12404,7 +16820,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.4133301,0.0014390945,8.0126953};
+					position[]={-5.8183594,0.0014390945,13.379395};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12465,7 +16881,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.3789063,0.0014390945,5.9545898};
+					position[]={-5.7839355,0.0014390945,11.321289};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12526,7 +16942,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.362793,0.0014390945,3.9985352};
+					position[]={-5.7678223,0.0014390945,9.3652344};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12588,7 +17004,7 @@ class items
 		};
 		id=270;
 	};
-	class Item26
+	class Item34
 	{
 		dataType="Group";
 		side="East";
@@ -12600,7 +17016,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6665039,0.0014390945,13.977539};
+					position[]={8.2614746,0.0014390945,19.344238};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12661,7 +17077,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6791992,0.0014390945,11.982422};
+					position[]={8.2741699,0.0014390945,17.349121};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12723,7 +17139,7 @@ class items
 		};
 		id=327;
 	};
-	class Item27
+	class Item35
 	{
 		dataType="Group";
 		side="East";
@@ -12735,7 +17151,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6296387,0.0014390945,14.016113};
+					position[]={6.2246094,0.0014390945,19.382813};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12796,7 +17212,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.6374512,0.0014390945,12.061035};
+					position[]={6.2324219,0.0014390945,17.427734};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12858,7 +17274,7 @@ class items
 		};
 		id=330;
 	};
-	class Item28
+	class Item36
 	{
 		dataType="Group";
 		side="East";
@@ -12870,7 +17286,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6413574,0.0014390945,14.038086};
+					position[]={4.2363281,0.0014390945,19.404785};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12931,7 +17347,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.6264648,0.0014390945,12.0625};
+					position[]={4.2214355,0.0014390945,17.429199};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12993,7 +17409,7 @@ class items
 		};
 		id=333;
 	};
-	class Item29
+	class Item37
 	{
 		dataType="Group";
 		side="East";
@@ -13005,7 +17421,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.40966797,0.0014390945,14.064453};
+					position[]={0.18530273,0.0014390945,19.431152};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -13067,7 +17483,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.3449707,0.0014390945,12.070313};
+					position[]={0.25,0.0014390945,17.437012};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -13130,7 +17546,7 @@ class items
 		};
 		id=336;
 	};
-	class Item30
+	class Item38
 	{
 		dataType="Group";
 		side="East";
@@ -13142,7 +17558,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.3903809,0.0014390945,14.057129};
+					position[]={-1.7954102,0.0014390945,19.423828};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -13204,7 +17620,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.3806152,0.0014390945,12.054688};
+					position[]={-1.7856445,0.0014390945,17.421387};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -13267,12 +17683,12 @@ class items
 		};
 		id=339;
 	};
-	class Item31
+	class Item39
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-5.3222656,0,-4.8105469};
+			position[]={-4.7272949,0,0.55615234};
 			angles[]={0,1.5707964,0};
 		};
 		id=342;
@@ -13377,12 +17793,12 @@ class items
 			nAttributes=5;
 		};
 	};
-	class Item32
+	class Item40
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-5.3261719,0,-8.8081055};
+			position[]={-4.7312012,0,-3.4414063};
 			angles[]={0,1.5707964,0};
 		};
 		id=343;
@@ -13487,7 +17903,7 @@ class items
 			nAttributes=5;
 		};
 	};
-	class Item33
+	class Item41
 	{
 		dataType="Group";
 		side="East";
@@ -13499,7 +17915,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.3781738,0.0014390945,-5.9453125};
+					position[]={-1.7832031,0.0014390945,-0.57861328};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -13562,7 +17978,7 @@ class items
 		};
 		id=344;
 	};
-	class Item34
+	class Item42
 	{
 		dataType="Group";
 		side="East";
@@ -13574,7 +17990,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.4189453,0.0014390945,-7.949707};
+					position[]={-1.8239746,0.0014390945,-2.5830078};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -13637,12 +18053,12 @@ class items
 		};
 		id=346;
 	};
-	class Item35
+	class Item43
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-23.144775,3.9768047,8.5834961};
+			position[]={-22.549805,3.9768047,13.950195};
 			angles[]={0,3.1415927,0};
 		};
 		side="Empty";
@@ -13877,12 +18293,12 @@ class items
 			nAttributes=1;
 		};
 	};
-	class Item36
+	class Item44
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-18.474609,0.78980827,-1.5356445};
+			position[]={-17.879639,0.78980827,3.8310547};
 			angles[]={0,1.5707964,0};
 		};
 		side="Empty";
