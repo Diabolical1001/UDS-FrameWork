@@ -181,12 +181,14 @@ _addRuck = {
 			_unit addBackpack _medicRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,40];	// bandages
+			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,30];	// bandages
 			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,10];	// morphine
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,10];	// epinephrine
 			(unitBackpack _unit) addItemCargoGlobal [_bloodThree,8];	// bloodbag 1000
 			(unitBackpack _unit) addItemCargoGlobal [_bloodTwo,2];		// bloodbag 500
 			(unitBackpack _unit) addItemCargoGlobal [_bloodOne,2];		// bloodbag 250
+			(unitBackpack _unit) addItemCargoGlobal [_splint,6];		// bloodbag 250
+			(unitBackpack _unit) addItemCargoGlobal [_tourniquet,6];		// bloodbag 250
 		};
 		case "fac" : {
 			_unit addBackpack _radioRuck;
@@ -663,19 +665,27 @@ _IFAK = {
 			if (!isNull (unitBackpack _unit)) then {
 				(unitBackpack _unit) addItemCargoGlobal [_injectorOne,1];
 				(unitBackpack _unit) addItemCargoGlobal [_bandageOne,8];
+				(unitBackpack _unit) addItemCargoGlobal [_tourniquet,2];
+				(unitBackpack _unit) addItemCargoGlobal [_splint,1];
 			};
 		};
 		case "vest" : {
 			for "_i" from 1 to 4 do {_unit addItemToVest _bandageOne};
+			(unitBackpack _unit) addItemCargoGlobal [_tourniquet,2];
+			(unitBackpack _unit) addItemCargoGlobal [_splint,1];
 		};
 		case "uniform" : {
 			for "_i" from 1 to 8 do {_unit addItemToUniform _bandageOne};
 			for "_i" from 1 to 2 do {_unit addItemToUniform _injectorOne};
+			(unitBackpack _unit) addItemCargoGlobal [_tourniquet,2];
+			(unitBackpack _unit) addItemCargoGlobal [_splint,1];
 		};
 		default {
 			if (!isNull (unitBackpack _unit)) then {
 				(unitBackpack _unit) addItemCargoGlobal [_bandageOne,6];
 				(unitBackpack _unit) addItemCargoGlobal [_injectorOne,2];
+				(unitBackpack _unit) addItemCargoGlobal [_tourniquet,2];
+				(unitBackpack _unit) addItemCargoGlobal [_splint,1];
 			};
 		};
 	};

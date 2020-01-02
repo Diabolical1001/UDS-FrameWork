@@ -21,7 +21,7 @@ private [
 "_medkitOne","_medkitTwo",
 "_plasmaOne","_plasmaTwo","_plasmaThree",
 "_salineOne","_salineTwo","_salineThree",
-"_tourniquet","_bodybag"
+"_tourniquet","_splint","_bodybag"
 ];
 
 // =======================================================================
@@ -115,6 +115,8 @@ _bloodThree = "ACE_bloodIV";
 _injectorOne = "ACE_morphine";
 _injectorTwo = "ACE_epinephrine";
 _bodybag = "ACE_bodyBag";
+_tourniquet = "ACE_tourniquet";
+_splint = "ACE_splint";
 
 // ================ Advanced Gear =================
 
@@ -130,6 +132,5 @@ _plasmaThree = "ACE_plasmaIV";
 _salineOne = "ACE_salineIV_250";
 _salineTwo = "ACE_salineIV_500";
 _salineThree = "ACE_salineIV";
-_tourniquet = "ACE_tourniquet";
 
 // =======================================================================

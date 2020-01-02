@@ -726,6 +726,8 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addItemCargoGlobal [_bandageOne,16];
 			_unit addItemCargoGlobal [_injectorOne,4];
 			_unit addItemCargoGlobal [_designatorBat,1];
+			_unit addItemCargoGlobal [_tourniquet,5];
+			_unit addItemCargoGlobal [_splint,5];
 		};
 		case "rifleammo" : {
 			_unit addMagazineCargoGlobal [_rifleMag,30];
@@ -786,6 +788,8 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addItemCargoGlobal [_bloodOne,12];
 			_unit addItemCargoGlobal [_bloodTwo,12];
 			_unit addItemCargoGlobal [_bloodThree,12];
+			_unit addItemCargoGlobal [_tourniquet,15];
+			_unit addItemCargoGlobal [_splint,15];
 		};
 
 		// ========================================
