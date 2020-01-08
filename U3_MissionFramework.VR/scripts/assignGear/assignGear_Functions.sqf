@@ -328,6 +328,7 @@ _addRuck = {
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_matATMag,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_matHEMag,1];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "hat" : {
 			_unit addBackpack _largeRuck;
@@ -342,6 +343,7 @@ _addRuck = {
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_hatMag,2];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "aa" : {
 			_unit addBackpack _medRuck;
@@ -356,6 +358,7 @@ _addRuck = {
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_aaMag,2];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "crew" : {
 			_unit addBackpack _radioRuck;
@@ -451,6 +454,7 @@ _addRuck = {
 			(unitBackpack _unit) addItemCargoGlobal [_defuseKit,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smoke,2];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "demoman" : {
 			_unit addBackpack _medRuck;
@@ -462,6 +466,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_satchelCharge,1];
 			(unitBackpack _unit) addItemCargoGlobal [_clackOne,1];
 			(unitBackpack _unit) addItemCargoGlobal [_defuseKit,1];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		default {
 			hint format ["[ERROR] Incorrect ruck call: %2, for unit: %1", _unit, _pack];
