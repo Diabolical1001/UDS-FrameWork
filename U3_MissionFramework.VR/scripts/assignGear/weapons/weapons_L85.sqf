@@ -13,7 +13,7 @@
 private [
 "_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_shotty","_boltRifle","_amRifle",
 "_rifleMag","_rifleTracerMag","_rifleSubsonicMag","_rifleGLMag","_rifleScopedMag","_autoRifleMag","_autoTracerMag","_autoSubsonicMag","_carbineMag","_dmrMag","_mmgMag","_mmgTracerMag","_smgMag","_pistolMag","_shottyBuck","_shottySlug","_boltRifleMag","_amRifleMag",
-"_glExplody","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_smoke","_flashbang","_throwG","_facSmokes",
+"_glExplody","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_flashbang","_smokeOne","_smokeTwo","_smokeThree",
 "_arMagCount","_arboxMagCount","_mmgMagCount","_mmgboxMagCount",
 "_generalAttachments_reflex","_generalAttachments_scoped","_generalAttachments_muzz","_generalAttachments_supp","_generalAttachments_gunLight","_generalAttachments_gunIR","_generalAttachments_grip",
 "_autoRifleAttachments_reflex","_autoRifleAttachments_scoped","_autoRifleAttachments_muzz","_autoRifleAttachments_supp","_autoRifleAttachments_gunLight","_autoRifleAttachments_gunIR","_autoRifleAttachments_grip",
@@ -86,16 +86,16 @@ switch (_variant) do {
 		_glExplody = "UK3CB_BAF_1Rnd_HE_Grenade_Shell";
 		_glSmokeOne = "UK3CB_BAF_1Rnd_Smoke_Grenade_shell";
 		_glSmokeTwo = "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell";
-		_glSmokeThree = "UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell";
+		_glSmokeThree = "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
 		_glSmokeFour = "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
 		_glFlareOne = "UK3CB_BAF_UGL_FlareWhite_F";
 		_glFlareTwo = "UK3CB_BAF_UGL_FlareRed_F";
 
 		_grenade = "rhs_mag_m67";
-		_smoke = "rhs_mag_an_m8hc";
 		_flashbang = "rhs_mag_mk84";
-		_throwG = [_smoke,_grenade,_grenade];
-		_facSmokes = ["rhs_mag_m18_red","rhs_mag_m18_purple"];
+		_smokeOne = "UK3CB_BAF_SmokeShell";
+		_smokeTwo = "UK3CB_BAF_SmokeShellRed";
+		_smokeThree = "UK3CB_BAF_SmokeShellPurple";
 
 		// ========== Attachments ==========
 
@@ -202,16 +202,16 @@ switch (_variant) do {
 		_glExplody = "UK3CB_BAF_1Rnd_HE_Grenade_Shell";
 		_glSmokeOne = "UK3CB_BAF_1Rnd_Smoke_Grenade_shell";
 		_glSmokeTwo = "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell";
-		_glSmokeThree = "UK3CB_BAF_1Rnd_SmokeGreen_Grenade_shell";
+		_glSmokeThree = "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
 		_glSmokeFour = "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
 		_glFlareOne = "UK3CB_BAF_UGL_FlareWhite_F";
 		_glFlareTwo = "UK3CB_BAF_UGL_FlareRed_F";
 
 		_grenade = "rhs_mag_m67";
-		_smoke = "rhs_mag_an_m8hc";
 		_flashbang = "rhs_mag_mk84";
-		_throwG = [_smoke,_grenade,_grenade];
-		_facSmokes = ["rhs_mag_m18_red","rhs_mag_m18_purple"];
+		_smokeOne = "UK3CB_BAF_SmokeShell";
+		_smokeTwo = "UK3CB_BAF_SmokeShellRed";
+		_smokeThree = "UK3CB_BAF_SmokeShellPurple";
 
 		// ========== Attachments ==========
 

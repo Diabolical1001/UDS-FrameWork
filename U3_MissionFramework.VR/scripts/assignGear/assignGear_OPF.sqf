@@ -135,7 +135,6 @@ if (_unit isKindOf "Man") then {
 			["commander"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,2];
 			_unit addMagazines [_rifleTracerMag,2];
 			_unit addWeapon _rifle;
@@ -149,7 +148,7 @@ if (_unit isKindOf "Man") then {
 			["medic"] call _addClothes;
 			["binocular"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 4 do {_unit addItemToUniform _smoke};
+			for "_i" from 1 to 4 do {_unit addItemToUniform _smokeOneOne};
 			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			for "_i" from 1 to 10 do {_unit addItemToVest _bandageOne};
 			for "_i" from 1 to 10 do {_unit addItemToUniform _bandageOne};
@@ -165,7 +164,6 @@ if (_unit isKindOf "Man") then {
 			["rflm"] call _addClothes;
 			["westdesignator"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x; _unit addItemToUniform _x; } foreach _facSmokes;
 			_unit addItemToVest _dagr;
 			_unit addItemToVest _eastrangefinder;
 			_unit addMagazines [_rifleMag,6];
@@ -184,7 +182,6 @@ if (_unit isKindOf "Man") then {
 			_unit addItemToVest _uavTool;
 			_unit addItemToVest _dagr;
 			_unit addItemToVest _eastrangefinder;
-			{ _unit addItemToVest _x; _unit addItemToVest _x; } foreach _facSmokes;
 			_unit addMagazines [_rifleMag,6];
 			_unit addMagazines [_rifleTracerMag,2];
 			_unit addWeapon _rifle;
@@ -202,7 +199,6 @@ if (_unit isKindOf "Man") then {
 			["secco"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,6];
 			_unit addMagazines [_rifleTracerMag,2];
 			_unit addWeapon _rifle;
@@ -216,7 +212,6 @@ if (_unit isKindOf "Man") then {
 			["teamleader"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleGLMag,6];
 			_unit addMagazines [_rifleTracerMag,2];
 			_unit addMagazines [_glExplody,4];
@@ -231,7 +226,6 @@ if (_unit isKindOf "Man") then {
 		case "ar" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_autoRifleMag,_arMagCount];
 			_unit addWeapon _autoRifle;
 			_unit addMagazine _autoTracerMag;
@@ -244,7 +238,6 @@ if (_unit isKindOf "Man") then {
 		case "aar" : {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["aar"] call _addRuck;
@@ -255,7 +248,6 @@ if (_unit isKindOf "Man") then {
 		case "rm" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["rm"] call _addRuck;
@@ -265,7 +257,6 @@ if (_unit isKindOf "Man") then {
 		case "brcr" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_shottyBuck,4];
 			_unit addMagazines [_shottySlug,4];
 			_unit addWeapon _shotty;
@@ -276,7 +267,6 @@ if (_unit isKindOf "Man") then {
 		case "rmammo" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["rmammo"] call _addRuck;
@@ -287,7 +277,6 @@ if (_unit isKindOf "Man") then {
 		case "rmat" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["rmat"] call _addRuck;
@@ -299,7 +288,6 @@ if (_unit isKindOf "Man") then {
 		case "rmsc" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifleScoped;
 			["rmsc"] call _addRuck;
@@ -310,7 +298,6 @@ if (_unit isKindOf "Man") then {
 		case "dmr" : {
 			["dmr"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_dmrMag,8];
 			_unit addWeapon _dmr;
 			call _addSidearm;
@@ -322,7 +309,6 @@ if (_unit isKindOf "Man") then {
 		case "gren" : {
 			["gren"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addMagazines [_glExplody,6];
 			_unit addWeapon _rifleGL;
@@ -334,7 +320,6 @@ if (_unit isKindOf "Man") then {
 		case "mmg" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_mmgMag,2];
 			_unit addWeapon _mmg;
 			_unit addMagazine _mmgMag;
@@ -347,7 +332,6 @@ if (_unit isKindOf "Man") then {
 		case "mmgass" : {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["mmgass"] call _addRuck;
@@ -363,7 +347,6 @@ if (_unit isKindOf "Man") then {
 			["rpilot"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x; _unit addItemToUniform _x; } foreach _facSmokes;
 			for "_i" from 1 to 6 do {_unit addItemToVest _smgMag};
 			_unit addWeapon _smg;
 			call _addSidearm;
@@ -375,7 +358,6 @@ if (_unit isKindOf "Man") then {
 			["rcrew"] call _addClothes;
 			["binocular"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x; _unit addItemToUniform _x; } foreach _facSmokes;
 			for "_i" from 1 to 6 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
 			call _addSidearm;
@@ -387,7 +369,6 @@ if (_unit isKindOf "Man") then {
 			["fpilot"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x; _unit addItemToUniform _x; } foreach _facSmokes;
 			call _addSidearm;
 			["pilot"] call _addRuck;
 			["pack"] call _IFAK;
@@ -397,7 +378,6 @@ if (_unit isKindOf "Man") then {
 			["crew"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 2 do {_unit addItemToUniform _smoke};
 			for "_i" from 1 to 6 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
 			call _addSidearm;
@@ -409,7 +389,6 @@ if (_unit isKindOf "Man") then {
 			["crew"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 2 do {_unit addItemToUniform _smoke};
 			{ _unit linkItem _x } foreach _ftlItems;
 			for "_i" from 1 to 6 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
@@ -425,7 +404,6 @@ if (_unit isKindOf "Man") then {
 		case "hmggun" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			call _addSidearm;
@@ -437,7 +415,6 @@ if (_unit isKindOf "Man") then {
 		case "hmgass" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			call _addSidearm;
@@ -449,7 +426,6 @@ if (_unit isKindOf "Man") then {
 		case "shatgun" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			call _addSidearm;
@@ -461,7 +437,6 @@ if (_unit isKindOf "Man") then {
 		case "shatass" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			call _addSidearm;
@@ -473,7 +448,6 @@ if (_unit isKindOf "Man") then {
 		case "mortgun" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			call _addSidearm;
@@ -485,7 +459,6 @@ if (_unit isKindOf "Man") then {
 		case "mortgun" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			call _addSidearm;
@@ -501,7 +474,6 @@ if (_unit isKindOf "Man") then {
 		case "matgun" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["matgun"] call _addRuck;
@@ -513,7 +485,6 @@ if (_unit isKindOf "Man") then {
 		case "matammo" : {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["matass"] call _addRuck;
@@ -524,7 +495,6 @@ if (_unit isKindOf "Man") then {
 		case "hatgun" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["hat"] call _addRuck;
@@ -536,7 +506,6 @@ if (_unit isKindOf "Man") then {
 		case "hatammo" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["hatass"] call _addRuck;
@@ -547,7 +516,6 @@ if (_unit isKindOf "Man") then {
 		case "aagun" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["aa"] call _addRuck;
@@ -559,7 +527,6 @@ if (_unit isKindOf "Man") then {
 		case "aaammo" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["aaass"] call _addRuck;
@@ -576,7 +543,6 @@ if (_unit isKindOf "Man") then {
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
 			{ _unit addItemToUniform _x } foreach _sniperItems;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			for "_i" from 1 to 9 do {_unit addItemToVest _boltRifleMag};
 			_unit addWeapon _boltRifle;
 			call _addSidearm;
@@ -590,7 +556,6 @@ if (_unit isKindOf "Man") then {
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
 			{ _unit addItemToUniform _x } foreach _sniperItems;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			for "_i" from 1 to 9 do {_unit addItemToVest _amRifleMag};
 			_unit addWeapon _amRifle;
 			call _addSidearm;
@@ -604,7 +569,6 @@ if (_unit isKindOf "Man") then {
 			["westdesignator"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
 			{ _unit addItemToUniform _x } foreach _sniperItems;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleGLMag,8];
 			_unit addMagazines [_glExplody,5];
 			_unit addMagazines [_glSmokeOne,2];
@@ -620,7 +584,6 @@ if (_unit isKindOf "Man") then {
 			{ _unit addItem _x } foreach _secItems;
 			_unit addMagazines [_rifleDiverMagOne,3];
 			_unit addMagazines [_rifleDiverMagTwo,3];
-			{ _unit addMagazines [_x,2]; } foreach _throwG;
 			_unit addWeapon _rifleDiver;
 			["divertl"] call _addRuck;
 			["diver",false,false,false] call _addAttachments;
@@ -632,7 +595,6 @@ if (_unit isKindOf "Man") then {
 			["none"] call _addBasics;
 			_unit addMagazines [_rifleDiverMagOne,3];
 			_unit addMagazines [_rifleDiverMagTwo,3];
-			{ _unit addMagazines [_x,2]; } foreach _throwG;
 			_unit addWeapon _rifleDiver;
 			["diver"] call _addRuck;
 			["diver",false,false,false] call _addAttachments;
@@ -643,7 +605,6 @@ if (_unit isKindOf "Man") then {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["engi"] call _addRuck;
@@ -655,7 +616,6 @@ if (_unit isKindOf "Man") then {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			_unit addMagazines [_rifleMag,8];
 			_unit addWeapon _rifle;
 			["demoman"] call _addRuck; // largeruck
@@ -668,7 +628,6 @@ if (_unit isKindOf "Man") then {
 			_unit groupChat format ["No or incorrectly defined loadout: %2, for unit: %1",_unit,toUpper (_loadout)];
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			for "_i" from 1 to 9 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["rm"] call _addRuck;
@@ -715,12 +674,13 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addMagazineCargoGlobal [_autoTracerMag,2];
 			_unit addMagazineCargoGlobal [_dmrMag,8];
 			_unit addMagazineCargoGlobal [_grenade,16];
-			_unit addMagazineCargoGlobal [_smoke,24];
+			_unit addMagazineCargoGlobal [_smokeOne,24];
+			_unit addMagazineCargoGlobal [_smokeTwo,4];
+			_unit addMagazineCargoGlobal [_smokeThree,4];
 			_unit addMagazineCargoGlobal [_glExplody,12];
 			_unit addMagazineCargoGlobal [_glSmokeOne,8];
 			_unit addMagazineCargoGlobal [_glSmokeTwo,3];
 			_unit addMagazineCargoGlobal [_glSmokeThree,3];
-			_unit addMagazineCargoGlobal [_glSmokeFour,3];
 			_unit addMagazineCargoGlobal [_shottyBuck,4];
 			_unit addMagazineCargoGlobal [_shottySlug,4];
 			_unit addItemCargoGlobal [_bandageOne,16];
@@ -732,7 +692,7 @@ if (!(_unit isKindOf "Man")) then {
 		case "rifleammo" : {
 			_unit addMagazineCargoGlobal [_rifleMag,30];
 			_unit addMagazineCargoGlobal [_grenade,5];
-			_unit addMagazineCargoGlobal [_smoke,5];
+			_unit addMagazineCargoGlobal [_smokeOne,5];
 		};
 		case "glammo" : {
 			_unit addMagazineCargoGlobal [_rifleGLMag,10];
@@ -740,24 +700,23 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addMagazineCargoGlobal [_glSmokeOne,6];
 			_unit addMagazineCargoGlobal [_glSmokeTwo,6];
 			_unit addMagazineCargoGlobal [_glSmokeThree,4];
-			_unit addMagazineCargoGlobal [_glSmokeFour,4];
 		};
 		case "arammo" : {
 			_unit addMagazineCargoGlobal [_autoRifleMag,_arboxMagCount];
 			_unit addMagazineCargoGlobal [_autoTracerMag,2];
 			_unit addMagazineCargoGlobal [_grenade,4];
-			_unit addMagazineCargoGlobal [_smoke,4];
+			_unit addMagazineCargoGlobal [_smokeOne,4];
 		};
 		case "mmgammo" : {
 			_unit addMagazineCargoGlobal [_mmgMag,_mmgboxMagCount];
 			_unit addMagazineCargoGlobal [_mmgTracerMag,2];
 			_unit addMagazineCargoGlobal [_grenade,4];
-			_unit addMagazineCargoGlobal [_smoke,4];
+			_unit addMagazineCargoGlobal [_smokeOne,4];
 		};
 		case "dmrammo" : {
 			_unit addMagazineCargoGlobal [_dmrMag,8];
 			_unit addMagazineCargoGlobal [_grenade,2];
-			_unit addMagazineCargoGlobal [_smoke,2];
+			_unit addMagazineCargoGlobal [_smokeOne,2];
 		};
 		case "latammo" : {
 			_unit addWeaponCargoGlobal [_lat,4];
@@ -830,7 +789,7 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addMagazineCargoGlobal [_rifleDiverMagOne,20];
 			_unit addMagazineCargoGlobal [_rifleDiverMagTwo,20];
 			_unit addMagazineCargoGlobal [_grenade,8];
-			_unit addMagazineCargoGlobal [_smoke,8];
+			_unit addMagazineCargoGlobal [_smokeOne,8];
 			_unit addItemCargoGlobal [_diverUniform,2];
 			_unit addItemCargoGlobal [_diverVest,2];
 			_unit addBackpackCargoGlobal [_diverRuck,2];
