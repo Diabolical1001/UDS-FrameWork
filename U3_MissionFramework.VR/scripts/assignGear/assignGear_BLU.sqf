@@ -141,14 +141,14 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["plt"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Plt Medic - doubles for COY Medic
 		case "pltmed" : {
 			["medic"] call _addClothes;
 			["binocular"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 4 do {_unit addItemToUniform _smokeOneOne};
+			for "_i" from 1 to 4 do {_unit addItemToUniform _smokeOne};
 			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			for "_i" from 1 to 10 do {_unit addItemToVest _bandageOne};
 			for "_i" from 1 to 10 do {_unit addItemToUniform _bandageOne};
@@ -171,7 +171,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifleGL;
 			["fac"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Plt UAV Operator
 		case "pltuavop" : {
@@ -188,7 +188,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["uavop"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["vest"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 
 		// ========================================
@@ -205,7 +205,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["plt"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Section Team Leader / 2iC
 		case "sectl" : {
@@ -220,7 +220,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["tl"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Automatic Rifleman
 		case "ar" : {
@@ -232,7 +232,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["ar"] call _addRuck;
 			["ar",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Assistant Automatic Rifleman
 		case "aar" : {
@@ -242,7 +242,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["aar"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Rifleman
 		case "rm" : {
@@ -252,7 +252,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["rm"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		case "brcr" : {
 			["rflm"] call _addClothes;
@@ -261,7 +261,7 @@ if (_unit isKindOf "Man") then {
 			_unit addMagazines [_shottySlug,6];
 			_unit addWeapon _shotty;
 			["brcr"] call _addRuck;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Rifleman
 		case "rmammo" : {
@@ -271,7 +271,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["rmammo"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Rifleman (disposable light AT)
 		case "rmat" : {
@@ -282,7 +282,7 @@ if (_unit isKindOf "Man") then {
 			["rmat"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			_unit addWeapon _lat;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Scoped Rifleman
 		case "rmsc" : {
@@ -292,7 +292,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifleScoped;
 			["rmsc"] call _addRuck;
 			["dmr",true,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Designated Marksman
 		case "dmr" : {
@@ -303,7 +303,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["dmr"] call _addRuck;
 			["dmr",true,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Grenadier
 		case "gren" : {
@@ -314,7 +314,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifleGL;
 			["gren"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Machinegunner
 		case "mmg" : {
@@ -326,7 +326,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["mmg"] call _addRuck;
 			["mmg",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Assistant Machinegunner
 		case "mmgass" : {
@@ -336,7 +336,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["mmgass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 
 		// ========================================
@@ -347,21 +347,21 @@ if (_unit isKindOf "Man") then {
 			["rpilot"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 6 do {_unit addItemToVest _smgMag};
+			for "_i" from 1 to 4 do {_unit addItemToVest _smgMag};
 			_unit addWeapon _smg;
 			call _addSidearm;
 			["pilot"] call _addRuck;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		case "rotarycrew" : {
 			["rcrew"] call _addClothes;
 			["binocular"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 6 do {_unit addItemToVest _carbineMag};
+			for "_i" from 1 to 4 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
 			call _addSidearm;
 			["aircrew"] call _addRuck;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Fixed Wing Pilot
 		case "fixedpilot" : {
@@ -370,18 +370,18 @@ if (_unit isKindOf "Man") then {
 			{ _unit linkItem _x } foreach _secItems;
 			call _addSidearm;
 			["pilot"] call _addRuck;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Crew Commander
 		case "crewmander" : {
 			["crew"] call _addClothes;
 			["westrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 6 do {_unit addItemToVest _carbineMag};
+			for "_i" from 1 to 4 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
 			call _addSidearm;
 			["crew"] call _addRuck;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Crewman
 		case "crewman" : {
@@ -389,11 +389,11 @@ if (_unit isKindOf "Man") then {
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
 			{ _unit linkItem _x } foreach _ftlItems;
-			for "_i" from 1 to 6 do {_unit addItemToVest _carbineMag};
+			for "_i" from 1 to 4 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
 			call _addSidearm;
 			["crewman"] call _addRuck;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 
 		// ========================================
@@ -408,7 +408,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["hmggun"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["vest"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// HMG Assistant
 		case "hmgass" : {
@@ -419,7 +419,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["hmgass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["vest"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// SHAT Gunner
 		case "shatgun" : {
@@ -430,7 +430,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["shatgun"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["vest"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// SHAT Assistant
 		case "shatass" : {
@@ -441,7 +441,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["shatass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["vest"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// MORT Gunner
 		case "mortgun" : {
@@ -452,7 +452,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["mortgun"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["vest"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// MORT Assistant
 		case "mortgun" : {
@@ -463,7 +463,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["mortass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["vest"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 
 		// ========================================
@@ -478,7 +478,7 @@ if (_unit isKindOf "Man") then {
 			["matgun"] call _addRuck;
 			_unit addWeapon _matLaunch;
 			["carlito",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// MAT Assisstant
 		case "matammo" : {
@@ -488,7 +488,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["matass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// HAT Gunner
 		case "hatgun" : {
@@ -499,7 +499,7 @@ if (_unit isKindOf "Man") then {
 			["hat"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			_unit addWeapon _hatLaunch;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// HAT Assistant
 		case "hatammo" : {
@@ -509,7 +509,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["hatass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// AA Gunner
 		case "aagun" : {
@@ -520,7 +520,7 @@ if (_unit isKindOf "Man") then {
 			["aa"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			_unit addWeapon _aaLaunch;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// AA Assistant
 		case "aaammo" : {
@@ -530,7 +530,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["aaass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 
 		// ========================================
@@ -547,7 +547,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["sniper"] call _addRuck;
 			["sniper",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Anti-Material Sniper
 		case "amsniper" : {
@@ -560,7 +560,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["amsniper"] call _addRuck;
 			["amsniper",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Spotter
 		case "spotter" : {
@@ -586,7 +586,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifleDiver;
 			["divertl"] call _addRuck;
 			["diver",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Diver General
 		case "diver" : {
@@ -597,7 +597,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifleDiver;
 			["diver"] call _addRuck;
 			["diver",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Engineer
 		case "engi" : {
@@ -608,7 +608,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["engi"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 		// Demo Man
 		case "demoman" : {
@@ -619,7 +619,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["demoman"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
-			["pack"] call _IFAK;
+			["uniform"] call _IFAK;
 		};
 
 		// ========================================
@@ -628,7 +628,6 @@ if (_unit isKindOf "Man") then {
 			_unit groupChat format ["No or incorrectly defined loadout: %2, for unit: %1",_unit,toUpper (_loadout)];
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit addItemToUniform _x; } foreach _throwG;
 			for "_i" from 1 to 9 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["rm"] call _addRuck;

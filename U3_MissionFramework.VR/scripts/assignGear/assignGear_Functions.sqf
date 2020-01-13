@@ -173,7 +173,6 @@ _addRuck = {
 			call _clearRuck;
 			sleep _delay;
 			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,8];
-			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,1];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,2];
@@ -213,7 +212,6 @@ _addRuck = {
 			_unit addBackpack _smallRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,1];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
