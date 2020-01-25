@@ -1,230 +1,12 @@
 version=53;
-center[]={3944.5391,5,4552.2822};
+center[]={3914.0293,5,4530.6177};
 class items
 {
 	items=8;
 	class Item0
 	{
-		dataType="Logic";
-		class PositionInfo
-		{
-			position[]={-56.549316,0,7.706543};
-		};
-		id=0;
-		type="ModuleCurator_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="ModuleCurator_F_Owner";
-				expression="_this setVariable ['Owner',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="#adminLogged";
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="ModuleCurator_F_Forced";
-				expression="_this setVariable ['Forced',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute2
-			{
-				property="ModuleCurator_F_Name";
-				expression="_this setVariable ['Name',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="";
-					};
-				};
-			};
-			class Attribute3
-			{
-				property="ModuleInfo";
-				expression="false";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute4
-			{
-				property="ModuleCurator_F_Addons";
-				expression="_this setVariable ['Addons',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=3;
-					};
-				};
-			};
-			nAttributes=5;
-		};
-	};
-	class Item1
-	{
-		dataType="Logic";
-		class PositionInfo
-		{
-			position[]={-56.548096,0,-24.291016};
-		};
-		id=1;
-		type="ModuleCurator_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="ModuleCurator_F_Owner";
-				expression="_this setVariable ['Owner',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="#adminVoted";
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="ModuleCurator_F_Forced";
-				expression="_this setVariable ['Forced',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute2
-			{
-				property="ModuleCurator_F_Name";
-				expression="_this setVariable ['Name',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="";
-					};
-				};
-			};
-			class Attribute3
-			{
-				property="ModuleInfo";
-				expression="false";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute4
-			{
-				property="ModuleCurator_F_Addons";
-				expression="_this setVariable ['Addons',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=3;
-					};
-				};
-			};
-			nAttributes=5;
-		};
-	};
-	class Item2
-	{
 		dataType="Trigger";
-		position[]={5.7573242,0,-2.7324219};
+		position[]={36.26709,0,18.932129};
 		class Attributes
 		{
 			name="AOCover";
@@ -235,22 +17,22 @@ class items
 		id=25;
 		type="EmptyDetector";
 	};
-	class Item3
+	class Item1
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={103.46533,0,-2.2744141};
+			position[]={133.9751,0,19.390137};
 		};
 		id=26;
 		type="LocationArea_F";
 	};
-	class Item4
+	class Item2
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={205.44385,0,-1.9003906};
+			position[]={235.95361,0,19.76416};
 		};
 		areaSize[]={50,0,50};
 		areaIsRectangle=1;
@@ -258,12 +40,12 @@ class items
 		id=27;
 		type="ModuleCoverMap_F";
 	};
-	class Item5
+	class Item3
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-56.558594,0,-56.270508};
+			position[]={-113.94531,0,-30.231934};
 		};
 		id=240;
 		type="ModuleTaskCreate_F";
@@ -481,14 +263,26 @@ class items
 			nAttributes=11;
 		};
 	};
-	class Item6
+	class Item4
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-56.551025,0,39.71582};
+			position[]={-84.771973,0,-7.1508789};
 		};
-		id=792;
+		name="HC1";
+		isPlayable=1;
+		id=806;
+		type="HeadlessClient_F";
+	};
+	class Item5
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={-113.80298,0,-6.0634766};
+		};
+		id=807;
 		type="ModuleCurator_F";
 		class CustomAttributes
 		{
@@ -507,7 +301,7 @@ class items
 								"STRING"
 							};
 						};
-						value="#adminVoted";
+						value="76561198058510706";
 					};
 				};
 			};
@@ -590,21 +384,97 @@ class items
 			nAttributes=5;
 		};
 	};
-	class Item7
+	class Item6
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-88.459961,0,40.043945};
+			position[]={-56.91626,0,-7.1240234};
 		};
-		id=805;
-		type="UK3CB_Factions_Loadout";
+		id=808;
+		type="Werthles_moduleWHM";
 		class CustomAttributes
 		{
 			class Attribute0
 			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_reducedMedicalSupplies";
-				expression="_this setVariable ['UK3CB_Factions_reducedMedicalSupplies',_value,true];";
+				property="Werthles_moduleWHM_Ignores";
+				expression="_this setVariable ['Ignores',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="Werthles_moduleWHM_Debug";
+				expression="_this setVariable ['Debug',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="Werthles_moduleWHM_UseServer";
+				expression="_this setVariable ['UseServer',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute3
+			{
+				property="Werthles_moduleWHM_Wait";
+				expression="_this setVariable ['Wait',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=5;
+					};
+				};
+			};
+			class Attribute4
+			{
+				property="Werthles_moduleWHM_NoDebug";
+				expression="_this setVariable ['NoDebug',_value,true];";
 				class Value
 				{
 					class data
@@ -620,86 +490,10 @@ class items
 					};
 				};
 			};
-			class Attribute1
-			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_loadout_quantity";
-				expression="_this setVariable ['UK3CB_Factions_loadout_quantity',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=75;
-					};
-				};
-			};
-			class Attribute2
-			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_addcTab";
-				expression="_this setVariable ['UK3CB_Factions_addcTab',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute3
-			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_remove_night_equipment";
-				expression="_this setVariable ['UK3CB_Factions_remove_night_equipment',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute4
-			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_loadouts";
-				expression="_this setVariable ['UK3CB_Factions_enable_loadouts',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
 			class Attribute5
 			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_on_spawn";
-				expression="_this setVariable ['UK3CB_Factions_enable_on_spawn',_value,true];";
+				property="Werthles_moduleWHM_Advanced";
+				expression="_this setVariable ['Advanced',_value,true];";
 				class Value
 				{
 					class data
@@ -717,8 +511,8 @@ class items
 			};
 			class Attribute6
 			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_removeNVG";
-				expression="_this setVariable ['UK3CB_Factions_removeNVG',_value,true];";
+				property="Werthles_moduleWHM_Units";
+				expression="_this setVariable ['Units',_value,true];";
 				class Value
 				{
 					class data
@@ -727,17 +521,17 @@ class items
 						{
 							type[]=
 							{
-								"BOOL"
+								"STRING"
 							};
 						};
-						value=0;
+						value="1";
 					};
 				};
 			};
 			class Attribute7
 			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_vehicle_randomisation";
-				expression="_this setVariable ['UK3CB_Factions_enable_vehicle_randomisation',_value,true];";
+				property="Werthles_moduleWHM_Pause";
+				expression="_this setVariable ['Pause',_value,true];";
 				class Value
 				{
 					class data
@@ -746,17 +540,17 @@ class items
 						{
 							type[]=
 							{
-								"BOOL"
+								"SCALAR"
 							};
 						};
-						value=1;
+						value=0.5;
 					};
 				};
 			};
 			class Attribute8
 			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_removeGPS";
-				expression="_this setVariable ['UK3CB_Factions_removeGPS',_value,true];";
+				property="Werthles_moduleWHM_Delay";
+				expression="_this setVariable ['Delay',_value,true];";
 				class Value
 				{
 					class data
@@ -765,17 +559,17 @@ class items
 						{
 							type[]=
 							{
-								"BOOL"
+								"SCALAR"
 							};
 						};
-						value=0;
+						value=60;
 					};
 				};
 			};
 			class Attribute9
 			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_removeFrags";
-				expression="_this setVariable ['UK3CB_Factions_removeFrags',_value,true];";
+				property="Werthles_moduleWHM_DebugOnly";
+				expression="_this setVariable ['DebugOnly',_value,true];";
 				class Value
 				{
 					class data
@@ -793,8 +587,8 @@ class items
 			};
 			class Attribute10
 			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_on_respawn";
-				expression="_this setVariable ['UK3CB_Factions_enable_on_respawn',_value,true];";
+				property="Werthles_moduleWHM_Repeating";
+				expression="_this setVariable ['Repeating',_value,true];";
 				class Value
 				{
 					class data
@@ -812,8 +606,8 @@ class items
 			};
 			class Attribute11
 			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_enable_randomisation";
-				expression="_this setVariable ['UK3CB_Factions_enable_randomisation',_value,true];";
+				property="Werthles_moduleWHM_Report";
+				expression="_this setVariable ['Report',_value,true];";
 				class Value
 				{
 					class data
@@ -829,10 +623,24 @@ class items
 					};
 				};
 			};
-			class Attribute12
+			nAttributes=12;
+		};
+	};
+	class Item7
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={-36.760254,0,-7.5166016};
+		};
+		id=809;
+		type="Werthles_moduleWHIgnore";
+		class CustomAttributes
+		{
+			class Attribute0
 			{
-				property="UK3CB_Factions_Loadout_UK3CB_Factions_replaceScopes";
-				expression="_this setVariable ['UK3CB_Factions_replaceScopes',_value,true];";
+				property="Werthles_moduleWHIgnore_Units";
+				expression="_this setVariable ['Units',_value,true];";
 				class Value
 				{
 					class data
@@ -841,14 +649,14 @@ class items
 						{
 							type[]=
 							{
-								"BOOL"
+								"STRING"
 							};
 						};
-						value=0;
+						value="0";
 					};
 				};
 			};
-			nAttributes=13;
+			nAttributes=1;
 		};
 	};
 };
@@ -856,11 +664,11 @@ class connections
 {
 	class LinkIDProvider
 	{
-		nextID=2;
+		nextID=3;
 	};
 	class Links
 	{
-		items=2;
+		items=3;
 		class Item0
 		{
 			linkID=0;
@@ -876,6 +684,16 @@ class connections
 			linkID=1;
 			item0=26;
 			item1=27;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item2
+		{
+			linkID=2;
+			item0=806;
+			item1=808;
 			class CustomData
 			{
 				type="Sync";
