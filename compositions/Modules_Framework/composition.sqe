@@ -1,12 +1,12 @@
 version=53;
-center[]={3914.0293,5,4530.6177};
+center[]={3949.9546,5,4553.4746};
 class items
 {
-	items=8;
+	items=6;
 	class Item0
 	{
 		dataType="Trigger";
-		position[]={36.26709,0,18.932129};
+		position[]={0.34179688,0,-3.9248047};
 		class Attributes
 		{
 			name="AOCover";
@@ -22,7 +22,7 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={133.9751,0,19.390137};
+			position[]={98.049805,0,-3.4667969};
 		};
 		id=26;
 		type="LocationArea_F";
@@ -32,7 +32,7 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={235.95361,0,19.76416};
+			position[]={200.02832,0,-3.0927734};
 		};
 		areaSize[]={50,0,50};
 		areaIsRectangle=1;
@@ -45,7 +45,7 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-113.94531,0,-30.231934};
+			position[]={-109.24561,0,-12.255371};
 		};
 		id=240;
 		type="ModuleTaskCreate_F";
@@ -268,7 +268,7 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-84.771973,0,-7.1508789};
+			position[]={-80.072266,0,10.825684};
 		};
 		name="HC1";
 		isPlayable=1;
@@ -280,7 +280,7 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-113.80298,0,-6.0634766};
+			position[]={-109.10327,0,11.913086};
 		};
 		id=807;
 		type="ModuleCurator_F";
@@ -384,291 +384,16 @@ class items
 			nAttributes=5;
 		};
 	};
-	class Item6
-	{
-		dataType="Logic";
-		class PositionInfo
-		{
-			position[]={-56.91626,0,-7.1240234};
-		};
-		id=808;
-		type="Werthles_moduleWHM";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="Werthles_moduleWHM_Ignores";
-				expression="_this setVariable ['Ignores',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="";
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="Werthles_moduleWHM_Debug";
-				expression="_this setVariable ['Debug',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute2
-			{
-				property="Werthles_moduleWHM_UseServer";
-				expression="_this setVariable ['UseServer',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute3
-			{
-				property="Werthles_moduleWHM_Wait";
-				expression="_this setVariable ['Wait',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=5;
-					};
-				};
-			};
-			class Attribute4
-			{
-				property="Werthles_moduleWHM_NoDebug";
-				expression="_this setVariable ['NoDebug',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute5
-			{
-				property="Werthles_moduleWHM_Advanced";
-				expression="_this setVariable ['Advanced',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute6
-			{
-				property="Werthles_moduleWHM_Units";
-				expression="_this setVariable ['Units',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="1";
-					};
-				};
-			};
-			class Attribute7
-			{
-				property="Werthles_moduleWHM_Pause";
-				expression="_this setVariable ['Pause',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0.5;
-					};
-				};
-			};
-			class Attribute8
-			{
-				property="Werthles_moduleWHM_Delay";
-				expression="_this setVariable ['Delay',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=60;
-					};
-				};
-			};
-			class Attribute9
-			{
-				property="Werthles_moduleWHM_DebugOnly";
-				expression="_this setVariable ['DebugOnly',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute10
-			{
-				property="Werthles_moduleWHM_Repeating";
-				expression="_this setVariable ['Repeating',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute11
-			{
-				property="Werthles_moduleWHM_Report";
-				expression="_this setVariable ['Report',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			nAttributes=12;
-		};
-	};
-	class Item7
-	{
-		dataType="Logic";
-		class PositionInfo
-		{
-			position[]={-36.760254,0,-7.5166016};
-		};
-		id=809;
-		type="Werthles_moduleWHIgnore";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="Werthles_moduleWHIgnore_Units";
-				expression="_this setVariable ['Units',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="0";
-					};
-				};
-			};
-			nAttributes=1;
-		};
-	};
 };
 class connections
 {
 	class LinkIDProvider
 	{
-		nextID=3;
+		nextID=2;
 	};
 	class Links
 	{
-		items=3;
+		items=2;
 		class Item0
 		{
 			linkID=0;
@@ -684,16 +409,6 @@ class connections
 			linkID=1;
 			item0=26;
 			item1=27;
-			class CustomData
-			{
-				type="Sync";
-			};
-		};
-		class Item2
-		{
-			linkID=2;
-			item0=806;
-			item1=808;
 			class CustomData
 			{
 				type="Sync";
