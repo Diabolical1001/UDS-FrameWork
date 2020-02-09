@@ -24,7 +24,7 @@ if (("HeadlessClient_Controller" call BIS_fnc_GetParamValue) == 1) then { r_var_
 // Dictates whether applicable scripts will run on the Headless Client or Server, for non zeus missions using sqf calls.
 
 uds_var_headlessClient = false;
-if (isMultiplayer && !isServer && !hasInterface) then {uds_var_headlessClient = true; publicVariable “uds_var_headlessClient”; };
+if (isMultiplayer && !isServer && !hasInterface) then {uds_var_headlessClient = true; publicVariable "uds_var_headlessClient"; };
 
 //=====================================================================================
 // JIP Menu Scripts
