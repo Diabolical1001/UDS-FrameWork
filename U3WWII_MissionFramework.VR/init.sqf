@@ -68,6 +68,11 @@ enableSentences false;
 //===================================================================================
 // CLY remvoveDead disable for players
 
+[] execVM "scripts\zeusaiSkill.sqf";
+
+//===================================================================================
+// CLY remvoveDead disable for players
+
 if (hasInterface) then { player setVariable ["CLY_removedead",false,true]; };
 
 // ====================================================================================
