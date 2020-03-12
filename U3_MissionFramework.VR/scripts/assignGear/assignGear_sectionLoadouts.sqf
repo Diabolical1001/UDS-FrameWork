@@ -453,7 +453,7 @@ if (_loadout in ["gunonealpha","assonealpha","guntwoalpha","asstwoalpha","gunone
 // Define variable rifleman roles in section
 
 // set applicable loadouts
-if (_loadout in ["rmonealpha","rmtwoalpha","rmonebravo","rmtwoalphabravo","rmonecharlie","rmtwocharlie","rmonedelta","rmtwoalphadelta"]) then {
+if (_loadout in ["rmonealpha","rmtwoalpha","rmonebravo","rmtwobravo","rmonecharlie","rmtwocharlie","rmonedelta","rmtwoalphadelta"]) then {
 	switch (_loadout) do {
 
 		// first team rifleman
