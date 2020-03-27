@@ -99,7 +99,7 @@ _ftlItems = ["itemGPS"];
 _secItems = ["itemGPS"];
 _pltTools = [];
 _pltItems = ["itemGPS"];
-_sniperItems = ["ACE_Kestrel4500"];
+_sniperItems = ["ACE_Kestrel4500","ACE_RangeCard"];
 _backupSight = "";
 
 // =======================================================================

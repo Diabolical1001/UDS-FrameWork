@@ -195,7 +195,7 @@ _addRuck = {
 		case "fac" : {
 			_unit addBackpack _radioRuck;
 			call _clearRuck;
-			(unitBackpack _unit) addItemCargoGlobal [_designatorBat,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_designatorBat,1];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glExplody,4];
@@ -448,7 +448,7 @@ _addRuck = {
 		case "spotter" : {
 			_unit addBackpack _radioRuck;
 			call _clearRuck;
-			(unitBackpack _unit) addItemCargoGlobal [_designatorBat,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_designatorBat,1];
 			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,6];	// bandages
 			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,2];	// morphine
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];	// epinephrine

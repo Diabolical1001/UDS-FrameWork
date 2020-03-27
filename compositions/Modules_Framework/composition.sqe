@@ -1,12 +1,121 @@
 version=53;
-center[]={3949.9546,5,4553.4746};
+center[]={3958.074,5,4532.7095};
 class items
 {
 	items=6;
 	class Item0
 	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={-70.505615,0,-29.550293};
+		};
+		id=0;
+		type="ModuleCurator_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ModuleCurator_F_Owner";
+				expression="_this setVariable ['Owner',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="#adminLogged";
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ModuleCurator_F_Forced";
+				expression="_this setVariable ['Forced',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="ModuleCurator_F_Name";
+				expression="_this setVariable ['Name',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"STRING"
+							};
+						};
+						value="";
+					};
+				};
+			};
+			class Attribute3
+			{
+				property="ModuleInfo";
+				expression="false";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute4
+			{
+				property="ModuleCurator_F_Addons";
+				expression="_this setVariable ['Addons',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=3;
+					};
+				};
+			};
+			nAttributes=5;
+		};
+	};
+	class Item1
+	{
 		dataType="Trigger";
-		position[]={0.34179688,0,-3.9248047};
+		position[]={-7.7775879,0,16.840332};
 		class Attributes
 		{
 			name="AOCover";
@@ -17,22 +126,22 @@ class items
 		id=25;
 		type="EmptyDetector";
 	};
-	class Item1
-	{
-		dataType="Logic";
-		class PositionInfo
-		{
-			position[]={98.049805,0,-3.4667969};
-		};
-		id=26;
-		type="LocationArea_F";
-	};
 	class Item2
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={200.02832,0,-3.0927734};
+			position[]={89.93042,0,17.29834};
+		};
+		id=26;
+		type="LocationArea_F";
+	};
+	class Item3
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={191.90894,0,17.672363};
 		};
 		areaSize[]={50,0,50};
 		areaIsRectangle=1;
@@ -40,12 +149,12 @@ class items
 		id=27;
 		type="ModuleCoverMap_F";
 	};
-	class Item3
+	class Item4
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-109.24561,0,-12.255371};
+			position[]={-70.093506,0,-36.697754};
 		};
 		id=240;
 		type="ModuleTaskCreate_F";
@@ -263,126 +372,19 @@ class items
 			nAttributes=11;
 		};
 	};
-	class Item4
-	{
-		dataType="Logic";
-		class PositionInfo
-		{
-			position[]={-80.072266,0,10.825684};
-		};
-		name="HC1";
-		isPlayable=1;
-		id=806;
-		type="HeadlessClient_F";
-	};
 	class Item5
 	{
-		dataType="Logic";
-		class PositionInfo
+		dataType="Trigger";
+		position[]={-133.46289,0,14.436523};
+		class Attributes
 		{
-			position[]={-109.10327,0,11.913086};
+			name="zoneTrigger_1_1";
+			condition="call{this}";
+			onActivation="call{if (uds_var_headlessClient) then { if (!isServer && !hasInterface) then {execVM ""mission\zone_1_1.sqf""; }; } else { if (isServer) then {execVM ""mission\zone_1_1.sqf""; }; };}";
+			activationBy="ANYPLAYER";
 		};
-		id=807;
-		type="ModuleCurator_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="ModuleCurator_F_Owner";
-				expression="_this setVariable ['Owner',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="76561198058510706";
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="ModuleCurator_F_Forced";
-				expression="_this setVariable ['Forced',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute2
-			{
-				property="ModuleCurator_F_Name";
-				expression="_this setVariable ['Name',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"STRING"
-							};
-						};
-						value="";
-					};
-				};
-			};
-			class Attribute3
-			{
-				property="ModuleInfo";
-				expression="false";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=1;
-					};
-				};
-			};
-			class Attribute4
-			{
-				property="ModuleCurator_F_Addons";
-				expression="_this setVariable ['Addons',_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=3;
-					};
-				};
-			};
-			nAttributes=5;
-		};
+		id=823;
+		type="EmptyDetectorAreaR50";
 	};
 };
 class connections
