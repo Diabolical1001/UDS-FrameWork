@@ -3,56 +3,59 @@
 
 		_rflmUniformArray = [""];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
-		_rflmUniform = _rflmUniformArray select _rflmRandom;	// leave as "" for default, or enter single string value to remove randommess
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
+		_crewCommanderUniform = "";
 		_crewUniform = "";
-		_leaderUniform = "";
-		_rpilotUniform = "";
-		_fpilotUniform = "";
+		_coyUniform = "";
+		_slUniform = "";
+		_tlUniform = "";
+		_medicUniform = "";
+		_pilotUniform = "";
 		_sniperUniform = "";
 
 		// ==================== Headgear ==================
 
 		switch (_headgear) do {
-			case "none" : {
+			case "m42" : {
 				_rflmHelmetArray = [""];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	// enter single string value to remove randommess
-				_crewmanHelmetArray = [""];
-				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; // enter single string value to remove randommess
-				_rotaryPilotHelmet = "";
-				_rotaryCrewHelmet = "";
-				_fixedPilotHelmet = "";
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewcomHelmet = "";
+				_crewHelmet = "";
+				_pilotHelmet = "";
 				_coyHelmet = "";
 				_slHelmet = "";
 				_tlHelmet = "";
+				_medHelmet = "";
 				_sniperHelmet = "";
 			};
 			default {
 				_rflmHelmetArray = [""];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	// enter single string value to remove randommess
-				_crewmanHelmetArray = [""];
-				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; // enter single string value to remove randommess
-				_rotaryPilotHelmet = "";
-				_rotaryCrewHelmet = "";
-				_fixedPilotHelmet = "";
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewcomHelmet = "";
+				_crewHelmet = "";
+				_pilotHelmet = "";
 				_coyHelmet = "";
 				_slHelmet = "";
 				_tlHelmet = "";
+				_medHelmet = "";
 				_sniperHelmet = "";
 			};
 		};
 
 		// ===================== Vests ====================
 
-		_rflmVest = "";
+		_rflmvestOne = "";
+		_rflmvestTwo = "";
+		_rflmvestThree = "";
+		_rflmvestFour = "";
+		_rflmvestFive = "";
 		_gunnerVest = "";
-		_glVest = "";
-		_medVest = "";
-		_pilotVest = "";
+		_medicVest = "";
+		_crewcomVest = "";
 		_crewVest = "";
+		_pilotVest = "";
 		_coyVest = "";
 		_slVest = "";
 		_tlVest = "";
@@ -61,16 +64,18 @@
 		// ===================== Rucks ====================
 
 		_smallRuck = "";
-		_medRuck = "";
-		_armgRuck = "";
+		_mediumRuck = "";
 		_largeRuck = "";
 		_medicRuck = "";
 		_atRuck = "";
 		_sniperRuck = "";
+		_fireRuck = "";
 
-		// ===================== NVGs ====================
+		// =================== Goggles ===================
 
-		_nightVision = "";
+		_gogglesArray = [""];
+		_gogglesRandom = (floor(random (count _gogglesArray)));
+		_goggles = _gogglesArray select _gogglesRandom;
 
 		// ================================================
 	};

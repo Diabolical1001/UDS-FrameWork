@@ -33,25 +33,27 @@ if (isMultiplayer && !isServer && !hasInterface) then {uds_var_headlessClient = 
 if (hasInterface) then {
 	_side = toLower format ["%1", side player];
 
-	// BLUFOR
+	// GERMAN
 	if (_side == "west") then {
-		r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_BLU.sqf";
+		r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_GER.sqf";
 	};
-	// OPFOR
+	// USSR
 	if (_side == "east") then {
-		r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_OPF.sqf";
+		r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_RUS.sqf";
 	};
-} else {
-	// define for the assignGear script based spawner, which currently does not exist
-	r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_BLU.sqf";
+	// ALLIES
+	if (_side == "guer") then {
+		r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_ALL.sqf";
+	};
 };
 
 // ====================================================================================
 // CratePicker
 // defines for the cratepicker script based spawner, which currently exists via conveniently coloured flags
 
-r_fnc_cratePicker_BLU = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_BLU.sqf";
-r_fnc_cratePicker_OPF = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_OPF.sqf";
+r_fnc_cratePicker_GER = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_GER.sqf";
+r_fnc_cratePicker_RUS = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_RUS.sqf";
+r_fnc_cratePicker_ALL = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_ALL.sqf";
 
 // ====================================================================================
 // ========================== SCRIPTS AND FUNCTIONS ===================================
@@ -64,11 +66,6 @@ enableSaving [false, false];
 // Mute Orders and Reports
 
 enableSentences false;
-
-//===================================================================================
-// CLY remvoveDead disable for players
-
-[] execVM "scripts\zeusaiSkill.sqf";
 
 //===================================================================================
 // CLY remvoveDead disable for players

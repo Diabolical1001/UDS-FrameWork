@@ -1,5 +1,7 @@
 //by diabolical
-//this addAction ["Teleport MHQ1", "teleportMHQ.sqf", MHQ1]; this addAction ["Teleport MHQ2", "teleportMHQ.sqf", MHQ2];
+// MHQ1 being the name of the vehicle
+//add this to a flag
+//this addAction ["Teleport MHQ1", "scripts\teleports\MHQ.sqf", MHQ1];
 _unit = _this select 0;
 _caller = _this select 1;
 _id = _this select 2;

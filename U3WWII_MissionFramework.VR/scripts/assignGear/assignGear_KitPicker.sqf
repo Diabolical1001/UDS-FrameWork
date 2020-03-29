@@ -16,52 +16,30 @@ _loadoutArray = [
 
 	// Platoon Roles
 	["Platoon Commander","pltld"],
-	["Platoon Sergeant","secco"],
 	["Platoon FAC","pltfac"],
-	["Platoon UAV Operator","pltuavop"],
 	["Platoon Medic","pltmed"],
 
 	// Section Roles
-	["Section Commander","secco"],
-	["Team Leader (2iC)","sectl"],
-	["Automatic Rifleman","ar"],
-	["Asst. Automatic Rifleman","aar"],
-	["Rifleman","rm"],
-	["Rifleman (AT)","rmat"],
+	["Squad Leader","secco"],
+	["Team Leader","sectl"],
+	["Rifleman One (Bolt)","rmone"],
+	["Rifleman Two (Semi)","rmtwo"],
+	["Rifleman Three (Semi)","rmthree"],
+	["Rifleman Four (Assault)","rmfour"],
+	["Rifleman Five (Sub)","rmfive"],
 	["Grenadier","gren"],
-	["Designated Marksman","dmr"],
+	["Light Anti-Tank","rmlat"],
+	["Medium Anti-Tank","rmmat"],
+	["Mediaum Anti-Tank Ass","rmmatass"],
 	["Machinegunner","mmg"],
-	["Asst. Machinegunner","mmgass"],
-		
+	["Machinegunner Ass","mmgass"],
+	["Sniper Spotter","spotter"],
+	["Sniper","sniper"],
+
 	// Vehicles
 	["Crew Commander","crewmander"],
 	["Crewman","crewman"],
-	["Rotary Wing Pilot","rotarypilot"],
-	["Rotary Wing Aircrew","rotarycrew"],
-	["Fixed Wing Pilot","fixedpilot"],
-		
-	// CSW and Weapons
-	["MAT Gunner","matgun"],
-	["MAT Assistant","matammo"],
-	["HAT Gunner","hatgun"],
-	["HAT Assistant","hatammo"],
-	["AA Gunner","aagun"],
-	["AA Assistant","aaammo"],
-	["HMG Gunner","hmggun"],
-	["HMG Assistant","hmgass"],
-	["SHAT Gunner","shatgun"],
-	["SHAT Assistant","shatass"],
-		
-	// Specialist Roles
-	["Scoped Rifleman","rmsc"],
-	["Breacher","brcr"],
-	["Engineer","engi"],
-	["Demo Specialist","demoman"],
-	["Sniper","sniper"],
-	["AM Sniper","amsniper"],
-	["Spotter","spotter"],
-	["Diver Team Leader","divertl"],
-	["Diver","diver"]
+	["Pilot","fixedpilot"]
 ];
 
 // pull out the strings - to be used as option text

@@ -1,3 +1,3 @@
 # UDS-FrameWork
- UDS Arma mission framework (Zeus)
-Version: 12032020
+ UDS Arma mission framework (COOP)
+Version: 29032020
