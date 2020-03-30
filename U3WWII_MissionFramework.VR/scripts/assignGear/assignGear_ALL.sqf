@@ -16,20 +16,20 @@ _radioSelection = "allies";			// tfar radio selection
 //Section Values
 
 // Alpha
-_rmOneAlpha = "rmone";					// rifleman loadout for first rifleman - recommended cases: rmone, rmtwo, rmthree, rmfour, rmfive, gren, rmlat
-_teamOneAlpha = "mmg";					// weapons platform for first fireteam gunner/assistant - cases: mmg, mat, assault
+_rmOneAlpha = "gren";					// rifleman loadout for first rifleman - recommended cases: rmone, rmtwo, rmthree, rmfour, rmfive, gren, rmlat
+_teamOneAlpha = "assault";					// weapons platform for first fireteam gunner/assistant - cases: mmg, mat, assault
 _rmTwoAlpha = "rmtwo";					// rifleman loadout for second rifleman - recommended cases: rmone, rmtwo, rmthree, rmfour, rmfive, gren, rmlat
 _teamTwoAlpha = "assault";					// weapons platform for second fireteam gunner/assistant - cases: rmteamone, rmteamtwo, assault
 
 // Bravo
-_rmOneBravo = "rmone";					// rifleman loadout for first rifleman - recommended cases: rmone, rmtwo, rmthree, rmfour, rmfive, gren, rmlat
+_rmOneBravo = "rmthree";					// rifleman loadout for first rifleman - recommended cases: rmone, rmtwo, rmthree, rmfour, rmfive, gren, rmlat
 _teamOneBravo = "mmg";					// weapons platform for first fireteam gunner/assistant - cases: mmg, mat, assault
 _rmTwoBravo = "rmtwo";					// rifleman loadout for second rifleman - recommended cases: rmone, rmtwo, rmthree, rmfour, rmfive, gren, rmlat
-_teamTwoBravo = "assault";					// weapons platform for second fireteam gunner/assistant - cases: rmteamone, rmteamtwo, assault
+_teamTwoBravo = "rmteamtwo";					// weapons platform for second fireteam gunner/assistant - cases: rmteamone, rmteamtwo, assault
 
 // Charlie
-_rmOneCharlie = "rmone";					// rifleman loadout for first rifleman - recommended cases: rmone, rmtwo, rmthree, rmfour, rmfive, gren, rmlat
-_teamOneCharlie = "mmg";					// weapons platform for first fireteam gunner/assistant - cases: mmg, mat, assault
+_rmOneCharlie = "gren";					// rifleman loadout for first rifleman - recommended cases: rmone, rmtwo, rmthree, rmfour, rmfive, gren, rmlat
+_teamOneCharlie = "assault";					// weapons platform for first fireteam gunner/assistant - cases: mmg, mat, assault
 _rmTwoCharlie = "rmtwo";					// rifleman loadout for second rifleman - recommended cases: rmone, rmtwo, rmthree, rmfour, rmfive, gren, rmlat
 _teamTwoCharlie = "assault";					// weapons platform for second fireteam gunner/assistant - cases: rmteamone, rmteamtwo, assault
 
