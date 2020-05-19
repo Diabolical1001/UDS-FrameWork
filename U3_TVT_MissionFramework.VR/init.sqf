@@ -66,6 +66,13 @@ if (hasInterface) then { player setVariable ["CLY_removedead",false,true]; };
 
 // ====================================================================================
 // Briefing Script
+// Briefing Variable
+// Set to true so different sides have different briefings (e.g. in TvTs) or set to false so ALL sides have the same briefing (e.g. Coops).
+// Edit relevant briefingSIDE.sqf with your intended SMEAC in the scripts\briefing folder.
+// If you've left the 'r_var_brief_separateBriefings' variable false, use briefingGeneric.sqf.
+// If set to true, use the relevant side's scripts.
+
+u3_var_brief_separateBriefings = true;
 
 [] execVM "u3_briefing.sqf";
 
@@ -82,7 +89,7 @@ if (hasInterface) then { player setVariable ["CLY_removedead",false,true]; };
 //=====================================================================================
 // Spectator Initialisation
 
-if (!isDedicated) then {
+/*if (!isDedicated) then {
     [] spawn {
         while {true} do {
             if (([side (group player)]  call bis_fnc_respawntickets == 0) && (!alive player)) exitWith {
@@ -96,6 +103,6 @@ if (!isDedicated) then {
             sleep 0.1;
         };
     };
-};
+};*/
 
 //=====================================================================================

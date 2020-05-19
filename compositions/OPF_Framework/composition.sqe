@@ -1,5 +1,5 @@
 version=53;
-center[]={4007.4373,5,4974.7842};
+center[]={7636.5981,5,5093.4956};
 class items
 {
 	items=37;
@@ -8,8 +8,8 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-18.457275,2.0487332,-6.4824219};
-			angles[]={0,1.5707964,0};
+			position[]={-18.52002,2.0487332,-6.3598633};
+			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
 		flags=4;
@@ -19,7 +19,7 @@ class items
 			lock="UNLOCKED";
 			init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}]; }";
 		};
-		id=24;
+		id=126;
 		type="rhs_tigr_vdv";
 		class CustomAttributes
 		{
@@ -241,13 +241,13 @@ class items
 		side="East";
 		class Entities
 		{
-			items=7;
+			items=8;
 			class Item0
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.4970703,0.0014390945,0.019042969};
+					position[]={7.434082,0.0014390945,0.14111328};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -256,13 +256,218 @@ class items
 				{
 					init="call{nul = [this,""pltld""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1""];}";
 					description="1-1 Platoon Commander";
+					isPlayer=1;
 					isPlayable=1;
 				};
-				id=121;
+				id=128;
 				type="O_officer_F";
 				class CustomAttributes
 				{
 					class Attribute0
+					{
+						property="ENH_HoldAction";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"ARRAY"
+									};
+								};
+								class value
+								{
+									items=13;
+									class Item0
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item1
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item2
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
+										};
+									};
+									class Item3
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item4
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="true";
+										};
+									};
+									class Item5
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item6
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item7
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item8
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"STRING"
+												};
+											};
+											value="";
+										};
+									};
+									class Item9
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=10;
+										};
+									};
+									class Item10
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"SCALAR"
+												};
+											};
+											value=991;
+										};
+									};
+									class Item11
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=0;
+										};
+									};
+									class Item12
+									{
+										class data
+										{
+											class type
+											{
+												type[]=
+												{
+													"BOOL"
+												};
+											};
+											value=1;
+										};
+									};
+								};
+							};
+						};
+					};
+					class Attribute1
 					{
 						property="speaker";
 						expression="_this setspeaker _value;";
@@ -281,7 +486,7 @@ class items
 							};
 						};
 					};
-					class Attribute1
+					class Attribute2
 					{
 						property="pitch";
 						expression="_this setpitch _value;";
@@ -300,7 +505,7 @@ class items
 							};
 						};
 					};
-					nAttributes=2;
+					nAttributes=3;
 				};
 			};
 			class Item1
@@ -308,7 +513,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5510254,0.0014390945,-1.9399414};
+					position[]={7.487793,0.0014390945,-1.8173828};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -319,7 +524,7 @@ class items
 					description="1-1 Platoon Sgt";
 					isPlayable=1;
 				};
-				id=122;
+				id=129;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -369,7 +574,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5385742,0.0014390945,-3.9985352};
+					position[]={7.4755859,0.0014390945,-3.8759766};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -381,7 +586,7 @@ class items
 					isPlayable=1;
 					reportRemoteTargets=1;
 				};
-				id=123;
+				id=130;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -431,7 +636,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5605469,0.0014390945,-5.9736328};
+					position[]={7.4975586,0.0014390945,-5.8510742};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -442,7 +647,7 @@ class items
 					description="1-1 Platoon Medic";
 					isPlayable=1;
 				};
-				id=124;
+				id=131;
 				type="O_medic_F";
 				class CustomAttributes
 				{
@@ -492,7 +697,68 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5263672,0.0014390945,-7.9838867};
+					position[]={7.3696289,0.0014390945,-7.8574219};
+					angles[]={0,1.5707964,0};
+				};
+				side="East";
+				flags=5;
+				class Attributes
+				{
+					init="call{nul = [this,""pltmed""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; this setGroupID [""1-1""];}";
+					description="1-1 Platoon Medic";
+					isPlayable=1;
+				};
+				id=244;
+				type="O_medic_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male03PER";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=0.95999998;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+			class Item5
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={7.3945313,0.0014390945,-9.9125977};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -503,7 +769,7 @@ class items
 					description="1-1 Platoon Explosive Specialist";
 					isPlayable=1;
 				};
-				id=125;
+				id=246;
 				type="O_soldier_exp_F";
 				class CustomAttributes
 				{
@@ -548,12 +814,12 @@ class items
 					nAttributes=2;
 				};
 			};
-			class Item5
+			class Item6
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5217285,0.0014390945,-9.9794922};
+					position[]={7.3896484,0.0014390945,-11.908203};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -564,7 +830,7 @@ class items
 					description="1-1 Platoon Drone Operator";
 					isPlayable=1;
 				};
-				id=126;
+				id=247;
 				type="O_soldier_UAV_F";
 				class CustomAttributes
 				{
@@ -609,12 +875,12 @@ class items
 					nAttributes=2;
 				};
 			};
-			class Item6
+			class Item7
 			{
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5197754,0.0014390945,-11.972656};
+					position[]={7.3876953,0.0014390945,-13.901367};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -625,7 +891,7 @@ class items
 					description="1-1 Platoon Rifleman";
 					isPlayable=1;
 				};
-				id=127;
+				id=248;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
@@ -674,7 +940,7 @@ class items
 		class Attributes
 		{
 		};
-		id=120;
+		id=127;
 	};
 	class Item2
 	{
@@ -688,7 +954,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4929199,0.0014390945,0.028808594};
+					position[]={5.4301758,0.0014390945,0.15136719};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -699,7 +965,7 @@ class items
 					description="1-1-A Section Commander";
 					isPlayable=1;
 				};
-				id=129;
+				id=136;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -749,7 +1015,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.5107422,0.0014390945,-1.9775391};
+					position[]={5.4477539,0.0014390945,-1.8549805};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -760,14 +1026,14 @@ class items
 					description="1-1-A First Rifleman";
 					isPlayable=1;
 				};
-				id=130;
+				id=137;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -1105,7 +1371,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.5078125,0.0014390945,-3.9833984};
+					position[]={5.4448242,0.0014390945,-3.8608398};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -1116,14 +1382,14 @@ class items
 					description="1-1-A First Gunner";
 					isPlayable=1;
 				};
-				id=131;
+				id=138;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -1461,7 +1727,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.5168457,0.0014390945,-5.9755859};
+					position[]={5.4536133,0.0014390945,-5.8530273};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -1472,14 +1738,14 @@ class items
 					description="1-1-A First Assistant";
 					isPlayable=1;
 				};
-				id=132;
+				id=139;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -1817,7 +2083,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.5126953,0.0014390945,-7.9799805};
+					position[]={5.449707,0.0014390945,-7.8574219};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -1828,7 +2094,7 @@ class items
 					description="1-1-A Team Leader";
 					isPlayable=1;
 				};
-				id=133;
+				id=140;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -1878,7 +2144,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.5087891,0.0014390945,-9.9794922};
+					position[]={5.4458008,0.0014390945,-9.8569336};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -1889,14 +2155,14 @@ class items
 					description="1-1-A Second Rifleman";
 					isPlayable=1;
 				};
-				id=134;
+				id=141;
 				type="O_Soldier_LAT_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -2234,7 +2500,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.5036621,0.0014390945,-11.966309};
+					position[]={5.440918,0.0014390945,-11.84375};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -2245,14 +2511,14 @@ class items
 					description="1-1-A Second Gunner";
 					isPlayable=1;
 				};
-				id=135;
+				id=142;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -2590,7 +2856,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.5026855,0.0014390945,-13.969238};
+					position[]={5.4399414,0.0014390945,-13.84668};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -2601,14 +2867,14 @@ class items
 					description="1-1-A Second Assistant";
 					isPlayable=1;
 				};
-				id=136;
+				id=143;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -2945,7 +3211,7 @@ class items
 		class Attributes
 		{
 		};
-		id=128;
+		id=135;
 	};
 	class Item3
 	{
@@ -2959,7 +3225,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5090332,0.0014390945,0.022460938};
+					position[]={3.4458008,0.0014390945,0.14501953};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -2970,7 +3236,7 @@ class items
 					description="1-1-B Section Commander";
 					isPlayable=1;
 				};
-				id=138;
+				id=145;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -3020,7 +3286,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5107422,0.0014390945,-1.9755859};
+					position[]={3.4477539,0.0014390945,-1.8530273};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -3031,14 +3297,14 @@ class items
 					description="1-1-B First Rifleman";
 					isPlayable=1;
 				};
-				id=139;
+				id=146;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -3376,7 +3642,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5078125,0.0014390945,-3.9804688};
+					position[]={3.4448242,0.0014390945,-3.8579102};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -3387,14 +3653,14 @@ class items
 					description="1-1-B First Gunner";
 					isPlayable=1;
 				};
-				id=140;
+				id=147;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -3732,7 +3998,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5007324,0.0014390945,-5.9702148};
+					position[]={3.4379883,0.0014390945,-5.8476563};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -3743,14 +4009,14 @@ class items
 					description="1-1-B First Assistant";
 					isPlayable=1;
 				};
-				id=141;
+				id=148;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -4088,7 +4354,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5090332,0.0014390945,-7.9741211};
+					position[]={3.4458008,0.0014390945,-7.8515625};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -4099,7 +4365,7 @@ class items
 					description="1-1-B Team Leader";
 					isPlayable=1;
 				};
-				id=142;
+				id=149;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -4149,7 +4415,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5078125,0.0014390945,-9.9711914};
+					position[]={3.4448242,0.0014390945,-9.8486328};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -4160,14 +4426,14 @@ class items
 					description="1-1-B Second Rifleman";
 					isPlayable=1;
 				};
-				id=143;
+				id=150;
 				type="O_Soldier_LAT_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -4505,7 +4771,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5136719,0.0014390945,-11.972168};
+					position[]={3.4506836,0.0014390945,-11.849609};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -4516,14 +4782,14 @@ class items
 					description="1-1-B Second Gunner";
 					isPlayable=1;
 				};
-				id=144;
+				id=151;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -4861,7 +5127,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5078125,0.0014390945,-13.977539};
+					position[]={3.4448242,0.0014390945,-13.85498};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -4872,14 +5138,14 @@ class items
 					description="1-1-B Second Assistant";
 					isPlayable=1;
 				};
-				id=145;
+				id=152;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -5216,7 +5482,7 @@ class items
 		class Attributes
 		{
 		};
-		id=137;
+		id=144;
 	};
 	class Item4
 	{
@@ -5230,7 +5496,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5146484,0.0014390945,0.057128906};
+					position[]={1.4516602,0.0014390945,0.1796875};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -5241,7 +5507,7 @@ class items
 					description="1-1-C Section Commander";
 					isPlayable=1;
 				};
-				id=147;
+				id=154;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -5291,7 +5557,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5107422,0.0014390945,-1.9584961};
+					position[]={1.4477539,0.0014390945,-1.8359375};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -5302,14 +5568,14 @@ class items
 					description="1-1-C First Rifleman";
 					isPlayable=1;
 				};
-				id=148;
+				id=155;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -5647,7 +5913,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5197754,0.0014390945,-3.9775391};
+					position[]={1.456543,0.0014390945,-3.8549805};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -5658,14 +5924,14 @@ class items
 					description="1-1-C First Gunner";
 					isPlayable=1;
 				};
-				id=149;
+				id=156;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -6003,7 +6269,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5256348,0.0014390945,-5.984375};
+					position[]={1.4624023,0.0014390945,-5.8618164};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -6014,14 +6280,14 @@ class items
 					description="1-1-C First Assistant";
 					isPlayable=1;
 				};
-				id=150;
+				id=157;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -6359,7 +6625,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5205078,0.0014390945,-7.9633789};
+					position[]={1.4575195,0.0014390945,-7.8408203};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -6370,7 +6636,7 @@ class items
 					description="1-1-C Team Leader";
 					isPlayable=1;
 				};
-				id=151;
+				id=158;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -6420,7 +6686,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5107422,0.0014390945,-9.9663086};
+					position[]={1.4477539,0.0014390945,-9.84375};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -6431,14 +6697,14 @@ class items
 					description="1-1-C Second Rifleman";
 					isPlayable=1;
 				};
-				id=152;
+				id=159;
 				type="O_Soldier_LAT_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -6776,7 +7042,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5437012,0.0014390945,-11.994141};
+					position[]={1.480957,0.0014390945,-11.871582};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -6787,14 +7053,14 @@ class items
 					description="1-1-C Second Gunner";
 					isPlayable=1;
 				};
-				id=153;
+				id=160;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -7132,7 +7398,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5107422,0.0014390945,-13.962402};
+					position[]={1.4477539,0.0014390945,-13.839844};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -7143,14 +7409,14 @@ class items
 					description="1-1-C Second Assistant";
 					isPlayable=1;
 				};
-				id=154;
+				id=161;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -7487,7 +7753,7 @@ class items
 		class Attributes
 		{
 		};
-		id=146;
+		id=153;
 	};
 	class Item5
 	{
@@ -7501,7 +7767,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.49560547,0.0014390945,0.040039063};
+					position[]={-0.55859375,0.0014390945,0.16259766};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -7512,7 +7778,7 @@ class items
 					description="1-1-D Section Commander";
 					isPlayable=1;
 				};
-				id=156;
+				id=163;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -7562,7 +7828,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.47827148,0.0014390945,-1.9482422};
+					position[]={-0.54150391,0.0014390945,-1.8256836};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -7573,14 +7839,14 @@ class items
 					description="1-1-D First Rifleman";
 					isPlayable=1;
 				};
-				id=157;
+				id=164;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -7918,7 +8184,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.49414063,0.0014390945,-3.9765625};
+					position[]={-0.55712891,0.0014390945,-3.8540039};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -7929,14 +8195,14 @@ class items
 					description="1-1-D First Gunner";
 					isPlayable=1;
 				};
-				id=158;
+				id=165;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -8274,7 +8540,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.48632813,0.0014390945,-5.972168};
+					position[]={-0.54931641,0.0014390945,-5.8496094};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -8285,14 +8551,14 @@ class items
 					description="1-1-D First Assistant";
 					isPlayable=1;
 				};
-				id=159;
+				id=166;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -8630,7 +8896,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.47949219,0.0014390945,-7.9643555};
+					position[]={-0.54248047,0.0014390945,-7.8417969};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -8641,7 +8907,7 @@ class items
 					description="1-1-D Team Leader";
 					isPlayable=1;
 				};
-				id=160;
+				id=167;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -8691,7 +8957,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.47119141,0.0014390945,-9.9912109};
+					position[]={-0.53417969,0.0014390945,-9.8686523};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -8702,14 +8968,14 @@ class items
 					description="1-1-D Second Rifleman";
 					isPlayable=1;
 				};
-				id=161;
+				id=168;
 				type="O_Soldier_LAT_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -9047,7 +9313,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.45629883,0.0014390945,-11.990234};
+					position[]={-0.51904297,0.0014390945,-11.867676};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9058,14 +9324,14 @@ class items
 					description="1-1-D Second Gunner";
 					isPlayable=1;
 				};
-				id=162;
+				id=169;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -9403,7 +9669,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.47631836,0.0014390945,-13.970215};
+					position[]={-0.53955078,0.0014390945,-13.847656};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9414,14 +9680,14 @@ class items
 					description="1-1-D Second Assistant";
 					isPlayable=1;
 				};
-				id=163;
+				id=170;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
 					class Attribute0
 					{
 						property="ENH_HoldAction";
-						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+						expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 						class Value
 						{
 							class data
@@ -9758,7 +10024,7 @@ class items
 		class Attributes
 		{
 		};
-		id=155;
+		id=162;
 	};
 	class Item6
 	{
@@ -9772,7 +10038,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.2277832,0.0014390945,-17.506348};
+					position[]={7.1645508,0.0014390945,-17.383789};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9783,7 +10049,7 @@ class items
 					description="1-1-Sniper Spotter";
 					isPlayable=1;
 				};
-				id=185;
+				id=172;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -9833,7 +10099,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.1953125,0.0014390945,-19.48584};
+					position[]={7.1323242,0.0014390945,-19.363281};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9844,7 +10110,7 @@ class items
 					description="1-1-Sniper Marksman";
 					isPlayable=1;
 				};
-				id=186;
+				id=173;
 				type="O_soldier_M_F";
 				class CustomAttributes
 				{
@@ -9893,7 +10159,7 @@ class items
 		class Attributes
 		{
 		};
-		id=184;
+		id=171;
 	};
 	class Item7
 	{
@@ -9907,7 +10173,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.1884766,0.0014390945,-17.395508};
+					position[]={5.1254883,0.0014390945,-17.272949};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9918,7 +10184,7 @@ class items
 					description="1-1-(Mortar)-A Section Commander";
 					isPlayable=1;
 				};
-				id=208;
+				id=175;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -9968,7 +10234,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.2062988,0.0014390945,-21.44043};
+					position[]={5.1430664,0.0014390945,-21.317871};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9979,7 +10245,7 @@ class items
 					description="1-1-(Mortar)-A Asst. Gunner";
 					isPlayable=1;
 				};
-				id=209;
+				id=176;
 				type="O_support_AMort_F";
 				class CustomAttributes
 				{
@@ -10029,7 +10295,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.2050781,0.0014390945,-19.467285};
+					position[]={5.1420898,0.0014390945,-19.344727};
 					angles[]={-0,1.5707964,0};
 				};
 				side="East";
@@ -10040,7 +10306,7 @@ class items
 					description="1-1-(Mortar)-A Gunner";
 					isPlayable=1;
 				};
-				id=210;
+				id=177;
 				type="O_support_Mort_F";
 				class CustomAttributes
 				{
@@ -10089,15 +10355,15 @@ class items
 		class Attributes
 		{
 		};
-		id=207;
+		id=174;
 	};
 	class Item8
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.174561,0,6.671875};
-			angles[]={0,1.5707964,0};
+			position[]={-19.237793,0,6.7944336};
+			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
 		flags=4;
@@ -10106,7 +10372,7 @@ class items
 			skill=0.2;
 			init="call{nul = [this,""meds""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
 		};
-		id=211;
+		id=178;
 		type="ACE_medicalSupplyCrate";
 		class CustomAttributes
 		{
@@ -10156,10 +10422,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-7.4553223,0,-4.78125};
+			position[]={-7.5180664,0,-4.6586914};
 			angles[]={0,1.5707964,0};
 		};
-		id=222;
+		id=179;
 		type="ModuleRespawnPosition_F";
 		class CustomAttributes
 		{
@@ -10266,10 +10532,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-7.4550781,0,-8.7714844};
+			position[]={-7.5180664,0,-8.6489258};
 			angles[]={0,1.5707964,0};
 		};
-		id=224;
+		id=180;
 		type="ModuleRespawnTickets_F";
 		class CustomAttributes
 		{
@@ -10357,10 +10623,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-18.512939,0,-9.0302734};
+			position[]={-18.575684,0,-8.9077148};
 			angles[]={0,1.5707964,0};
 		};
-		id=225;
+		id=181;
 		type="ModuleRespawnPosition_F";
 		class CustomAttributes
 		{
@@ -10474,7 +10740,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5883789,0.0014390945,8.0053711};
+					position[]={7.5253906,0.0014390945,8.1279297};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10486,7 +10752,7 @@ class items
 					description="2-2-A Crew Commander";
 					isPlayable=1;
 				};
-				id=243;
+				id=183;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -10536,7 +10802,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5527344,0.0014390945,6.0288086};
+					position[]={7.4897461,0.0014390945,6.1513672};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10547,7 +10813,7 @@ class items
 					description="2-2-A Crew Gunner";
 					isPlayable=1;
 				};
-				id=244;
+				id=184;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -10597,7 +10863,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.6040039,0.0014390945,3.9995117};
+					position[]={7.5410156,0.0014390945,4.1220703};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10608,7 +10874,7 @@ class items
 					description="2-2-A Crew Driver";
 					isPlayable=1;
 				};
-				id=245;
+				id=185;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -10657,7 +10923,7 @@ class items
 		class Attributes
 		{
 		};
-		id=242;
+		id=182;
 	};
 	class Item13
 	{
@@ -10671,7 +10937,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.517334,0.0014390945,8.0351563};
+					position[]={5.4545898,0.0014390945,8.1577148};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10682,7 +10948,7 @@ class items
 					description="2-3-A Crew Commander";
 					isPlayable=1;
 				};
-				id=247;
+				id=187;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -10732,7 +10998,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4758301,0.0014390945,6.0244141};
+					position[]={5.4125977,0.0014390945,6.1469727};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10743,7 +11009,7 @@ class items
 					description="2-3-A Crew Gunner";
 					isPlayable=1;
 				};
-				id=248;
+				id=188;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -10793,7 +11059,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.526123,0.0014390945,4.0166016};
+					position[]={5.4633789,0.0014390945,4.1391602};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10804,7 +11070,7 @@ class items
 					description="2-3-A Crew Driver";
 					isPlayable=1;
 				};
-				id=249;
+				id=189;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -10853,7 +11119,7 @@ class items
 		class Attributes
 		{
 		};
-		id=246;
+		id=186;
 	};
 	class Item14
 	{
@@ -10867,7 +11133,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.550293,0.0014390945,8.0493164};
+					position[]={3.4873047,0.0014390945,8.171875};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10878,7 +11144,7 @@ class items
 					description="2-2-B Crew Commander";
 					isPlayable=1;
 				};
-				id=251;
+				id=191;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -10928,7 +11194,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5527344,0.0014390945,6.03125};
+					position[]={3.4897461,0.0014390945,6.1538086};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10939,7 +11205,7 @@ class items
 					description="2-2-B Crew Gunner";
 					isPlayable=1;
 				};
-				id=252;
+				id=192;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -10989,7 +11255,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4938965,0.0014390945,4.0385742};
+					position[]={3.4311523,0.0014390945,4.1611328};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11000,7 +11266,7 @@ class items
 					description="2-2-B Crew Driver";
 					isPlayable=1;
 				};
-				id=253;
+				id=193;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11049,7 +11315,7 @@ class items
 		class Attributes
 		{
 		};
-		id=250;
+		id=190;
 	};
 	class Item15
 	{
@@ -11063,7 +11329,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.49633789,0.0014390945,8.0302734};
+					position[]={-0.55908203,0.0014390945,8.152832};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11074,7 +11340,7 @@ class items
 					description="2-2-C Crew Commander";
 					isPlayable=1;
 				};
-				id=255;
+				id=195;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11124,7 +11390,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.47729492,0.0014390945,6.0332031};
+					position[]={-0.54052734,0.0014390945,6.1557617};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11135,7 +11401,7 @@ class items
 					description="2-2-C Crew Gunner";
 					isPlayable=1;
 				};
-				id=256;
+				id=196;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11185,7 +11451,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.45629883,0.0014390945,4.0053711};
+					position[]={-0.51904297,0.0014390945,4.1279297};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11196,7 +11462,7 @@ class items
 					description="2-2-C Crew Driver";
 					isPlayable=1;
 				};
-				id=257;
+				id=197;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11245,7 +11511,7 @@ class items
 		class Attributes
 		{
 		};
-		id=254;
+		id=194;
 	};
 	class Item16
 	{
@@ -11259,7 +11525,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.4570313,0.0014390945,8.0200195};
+					position[]={-4.5200195,0.0014390945,8.1425781};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11270,7 +11536,7 @@ class items
 					description="2-2-D Crew Commander";
 					isPlayable=1;
 				};
-				id=259;
+				id=199;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11320,7 +11586,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.4501953,0.0014390945,6.0249023};
+					position[]={-4.5131836,0.0014390945,6.1474609};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11331,7 +11597,7 @@ class items
 					description="2-2-D Crew Gunner";
 					isPlayable=1;
 				};
-				id=260;
+				id=200;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11381,7 +11647,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.4619141,0.0014390945,4.0219727};
+					position[]={-4.5249023,0.0014390945,4.1445313};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11392,7 +11658,7 @@ class items
 					description="2-2-D Crew Driver";
 					isPlayable=1;
 				};
-				id=261;
+				id=201;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11441,7 +11707,7 @@ class items
 		class Attributes
 		{
 		};
-		id=258;
+		id=198;
 	};
 	class Item17
 	{
@@ -11455,7 +11721,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5078125,0.0014390945,8.0888672};
+					position[]={1.4448242,0.0014390945,8.2114258};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11466,7 +11732,7 @@ class items
 					description="2-3-B Crew Commander";
 					isPlayable=1;
 				};
-				id=263;
+				id=203;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11516,7 +11782,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5234375,0.0014390945,6.0166016};
+					position[]={1.4604492,0.0014390945,6.1391602};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11527,7 +11793,7 @@ class items
 					description="2-3-B Crew Gunner";
 					isPlayable=1;
 				};
-				id=264;
+				id=204;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11577,7 +11843,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.5563965,0.0014390945,4.03125};
+					position[]={1.4936523,0.0014390945,4.1538086};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11588,7 +11854,7 @@ class items
 					description="2-3-B Crew Driver";
 					isPlayable=1;
 				};
-				id=265;
+				id=205;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11637,7 +11903,7 @@ class items
 		class Attributes
 		{
 		};
-		id=262;
+		id=202;
 	};
 	class Item18
 	{
@@ -11651,7 +11917,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.4501953,0.0014390945,8.0986328};
+					position[]={-2.5131836,0.0014390945,8.2211914};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11662,7 +11928,7 @@ class items
 					description="2-3-C Crew Commander";
 					isPlayable=1;
 				};
-				id=267;
+				id=207;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11712,7 +11978,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.4355469,0.0014390945,6.0263672};
+					position[]={-2.4985352,0.0014390945,6.1489258};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11723,7 +11989,7 @@ class items
 					description="2-3-C Crew Gunner";
 					isPlayable=1;
 				};
-				id=268;
+				id=208;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11773,7 +12039,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.4655762,0.0014390945,3.9848633};
+					position[]={-2.5288086,0.0014390945,4.1074219};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11784,7 +12050,7 @@ class items
 					description="2-3-C Crew Driver";
 					isPlayable=1;
 				};
-				id=269;
+				id=209;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11833,7 +12099,7 @@ class items
 		class Attributes
 		{
 		};
-		id=266;
+		id=206;
 	};
 	class Item19
 	{
@@ -11847,7 +12113,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.5239258,0.0014390945,8.0332031};
+					position[]={-6.5869141,0.0014390945,8.1557617};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11858,7 +12124,7 @@ class items
 					description="2-3-D Crew Commander";
 					isPlayable=1;
 				};
-				id=271;
+				id=211;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11908,7 +12174,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.489502,0.0014390945,5.9750977};
+					position[]={-6.5522461,0.0014390945,6.0976563};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11919,7 +12185,7 @@ class items
 					description="2-3-D Crew Gunner";
 					isPlayable=1;
 				};
-				id=272;
+				id=212;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11969,7 +12235,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.4733887,0.0014390945,4.019043};
+					position[]={-6.5366211,0.0014390945,4.1416016};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11980,7 +12246,7 @@ class items
 					description="2-3-D Crew Driver";
 					isPlayable=1;
 				};
-				id=273;
+				id=213;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -12029,7 +12295,7 @@ class items
 		class Attributes
 		{
 		};
-		id=270;
+		id=210;
 	};
 	class Item20
 	{
@@ -12043,7 +12309,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5559082,0.0014390945,13.998047};
+					position[]={7.4926758,0.0014390945,14.120605};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12054,7 +12320,7 @@ class items
 					description="Helicopter-1-1 Pilot";
 					isPlayable=1;
 				};
-				id=328;
+				id=215;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12104,7 +12370,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5686035,0.0014390945,12.00293};
+					position[]={7.5053711,0.0014390945,12.125488};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12115,7 +12381,7 @@ class items
 					description="Helicopter-1-1 Co-Pilot";
 					isPlayable=1;
 				};
-				id=329;
+				id=216;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12164,7 +12430,7 @@ class items
 		class Attributes
 		{
 		};
-		id=327;
+		id=214;
 	};
 	class Item21
 	{
@@ -12178,7 +12444,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.519043,0.0014390945,14.036621};
+					position[]={5.4560547,0.0014390945,14.15918};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12189,7 +12455,7 @@ class items
 					description="Helicopter-1-2 Pilot";
 					isPlayable=1;
 				};
-				id=331;
+				id=218;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12239,7 +12505,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.5268555,0.0014390945,12.081543};
+					position[]={5.4638672,0.0014390945,12.204102};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12250,7 +12516,7 @@ class items
 					description="Helicopter-1-2 Co-Pilot";
 					isPlayable=1;
 				};
-				id=332;
+				id=219;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12299,7 +12565,7 @@ class items
 		class Attributes
 		{
 		};
-		id=330;
+		id=217;
 	};
 	class Item22
 	{
@@ -12313,7 +12579,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5307617,0.0014390945,14.058594};
+					position[]={3.4677734,0.0014390945,14.181152};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12324,7 +12590,7 @@ class items
 					description="Helicopter-1-3 Pilot";
 					isPlayable=1;
 				};
-				id=334;
+				id=221;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12374,7 +12640,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.5158691,0.0014390945,12.083008};
+					position[]={3.4526367,0.0014390945,12.205566};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12385,7 +12651,7 @@ class items
 					description="Helicopter-1-3 Co-Pilot";
 					isPlayable=1;
 				};
-				id=335;
+				id=222;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12434,7 +12700,7 @@ class items
 		class Attributes
 		{
 		};
-		id=333;
+		id=220;
 	};
 	class Item23
 	{
@@ -12448,7 +12714,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.52026367,0.0014390945,14.084961};
+					position[]={-0.58349609,0.0014390945,14.20752};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12460,7 +12726,7 @@ class items
 					description="Fixedwing-1-1 Pilot";
 					isPlayable=1;
 				};
-				id=337;
+				id=224;
 				type="O_Pilot_F";
 				class CustomAttributes
 				{
@@ -12510,7 +12776,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.45556641,0.0014390945,12.09082};
+					position[]={-0.51855469,0.0014390945,12.213379};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12522,7 +12788,7 @@ class items
 					description="Fixedwing-1-1 Co-Pilot";
 					isPlayable=1;
 				};
-				id=338;
+				id=225;
 				type="O_Pilot_F";
 				class CustomAttributes
 				{
@@ -12571,7 +12837,7 @@ class items
 		class Attributes
 		{
 		};
-		id=336;
+		id=223;
 	};
 	class Item24
 	{
@@ -12585,7 +12851,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.5009766,0.0014390945,14.077637};
+					position[]={-2.5639648,0.0014390945,14.200195};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12597,7 +12863,7 @@ class items
 					description="Fixedwing-1-2 Pilot";
 					isPlayable=1;
 				};
-				id=340;
+				id=227;
 				type="O_Pilot_F";
 				class CustomAttributes
 				{
@@ -12647,7 +12913,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.4912109,0.0014390945,12.075195};
+					position[]={-2.5541992,0.0014390945,12.197754};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12659,7 +12925,7 @@ class items
 					description="Fixedwing-1-2 Co-Pilot";
 					isPlayable=1;
 				};
-				id=341;
+				id=228;
 				type="O_Pilot_F";
 				class CustomAttributes
 				{
@@ -12708,17 +12974,17 @@ class items
 		class Attributes
 		{
 		};
-		id=339;
+		id=226;
 	};
 	class Item25
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-5.4328613,0,-4.7900391};
+			position[]={-5.4956055,0,-4.6674805};
 			angles[]={0,1.5707964,0};
 		};
-		id=342;
+		id=229;
 		type="ModuleCurator_F";
 		class CustomAttributes
 		{
@@ -12825,10 +13091,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-5.4367676,0,-8.7875977};
+			position[]={-5.4995117,0,-8.6650391};
 			angles[]={0,1.5707964,0};
 		};
-		id=343;
+		id=230;
 		type="ModuleCurator_F";
 		class CustomAttributes
 		{
@@ -12942,7 +13208,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.4887695,0.0014390945,-5.9248047};
+					position[]={-2.5517578,0.0014390945,-5.8022461};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12954,7 +13220,7 @@ class items
 					description="Game-Master-1";
 					isPlayable=1;
 				};
-				id=345;
+				id=232;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -13003,7 +13269,7 @@ class items
 		class Attributes
 		{
 		};
-		id=344;
+		id=231;
 	};
 	class Item28
 	{
@@ -13017,7 +13283,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.529541,0.0014390945,-7.9291992};
+					position[]={-2.5922852,0.0014390945,-7.8066406};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -13029,7 +13295,7 @@ class items
 					description="Game-Master-2";
 					isPlayable=1;
 				};
-				id=347;
+				id=234;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -13078,22 +13344,22 @@ class items
 		class Attributes
 		{
 		};
-		id=346;
+		id=233;
 	};
 	class Item29
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-18.585205,0.78980827,-1.5151367};
-			angles[]={0,1.5707964,0};
+			position[]={-18.647949,0.78980827,-1.3925781};
+			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
 		flags=4;
 		class Attributes
 		{
 		};
-		id=804;
+		id=235;
 		type="Box_IND_AmmoVeh_F";
 		class CustomAttributes
 		{
@@ -13119,7 +13385,7 @@ class items
 			class Attribute1
 			{
 				property="ENH_HoldAction";
-				expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+				expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 				class Value
 				{
 					class data
@@ -13456,8 +13722,8 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-23.255371,0.41794205,8.6040039};
-			angles[]={0,3.1415927,0};
+			position[]={-23.318359,0.41794205,8.7265625};
+			angles[]={-0,3.1415927,0};
 		};
 		side="Empty";
 		flags=4;
@@ -13466,7 +13732,7 @@ class items
 			init="call{nul = [this] execVM ""scripts\cratePicker\cratePicker_opf.sqf"";}";
 			name="OPF_CRATEPICKER";
 		};
-		id=807;
+		id=236;
 		type="rhs_weapon_crate";
 		class CustomAttributes
 		{
@@ -13492,7 +13758,7 @@ class items
 			class Attribute1
 			{
 				property="ENH_HoldAction";
-				expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+				expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 				class Value
 				{
 					class data
@@ -13701,24 +13967,281 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-23.01123,0.78980827,4.0410156};
-			angles[]={0,4.712389,0};
+			position[]={-19.196289,0.2725153,8.9365234};
+			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
 		flags=4;
 		class Attributes
 		{
-			init="call{this addAction[""<t color='#dddd00'>"" + ""Select Loadout"" + ""</t>"", ""scripts\assignGear\assignGear_KitPicker.sqf"", [], 6, true, false, """"];}";
+			skill=0.2;
+			init="nul = [this,""sectionammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; ";
+		};
+		id=238;
+		type="Section_o_Ammo_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ace_isMedicalFacility";
+				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_cargo_size";
+				expression="[_this,_value] call ace_cargo_fnc_setSize;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0.2;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item32
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-19.23291,0.14872551,4.9262695};
+			angles[]={-0,1.5707964,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.2;
+			init="nul = [this,""mmgammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; ";
+		};
+		id=239;
+		type="MG_Ammo_o_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ace_isMedicalFacility";
+				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_cargo_size";
+				expression="[_this,_value] call ace_cargo_fnc_setSize;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0.2;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item33
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-19.275879,0.17998457,2.5996094};
+			angles[]={-0,1.5707964,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.2;
+			init="call{nul = [this,""latammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
+		};
+		id=240;
+		type="LAT_Ammo_o_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ace_isMedicalFacility";
+				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_cargo_size";
+				expression="[_this,_value] call ace_cargo_fnc_setSize;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0.2;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item34
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-19.090332,0.14872551,1.0253906};
+			angles[]={-0,1.5707964,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			skill=0.2;
+			init="call{nul = [this,""demosmall""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
+		};
+		id=241;
+		type="LExplosives_Ammo_o_F";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="ace_isMedicalFacility";
+				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="ace_cargo_size";
+				expression="[_this,_value] call ace_cargo_fnc_setSize;";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0.2;
+					};
+				};
+			};
+			nAttributes=2;
+		};
+	};
+	class Item35
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-22.681152,3.9768047,12.027344};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+			init="call{this addAction [""Teleport TO MHQ"", ""scripts\teleports\MHQ.sqf"", MHQ_OPF];}";
+			name="MHQ_Teleporter_opf";
+		};
+		id=242;
+		type="Flag_Red_F";
+	};
+	class Item36
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-23.074219,0.89242268,4.1635742};
+			angles[]={-0,4.712389,0};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+			init="call{this addAction[""<t color='#dddd00'>"" + ""Select Loadout"" + ""</t>"", ""scripts\assignGear\assignGear_KitPicker.sqf"", [], 6, true, false, """", """", 3];}";
 			name="OPF_loadout";
 		};
-		id=808;
-		type="Box_EAF_AmmoVeh_F";
+		id=250;
+		type="O_supplyCrate_F";
 		class CustomAttributes
 		{
 			class Attribute0
 			{
 				property="ENH_HoldAction";
-				expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && !(_name isEqualTo '')) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
+				expression="			_value params ['_name','_iconIdle','_iconProgress','_conditionShow','_conditionProgress','_codeStart','_codeProgress','_codeCompletion','_codeInterrupt','_duration','_priority','_showUnconscious','_showWindow'];			if (!is3DEN && {!(_name isEqualTo '')}) then			{				[					_this,					_name,					_iconIdle,					_iconProgress,					_conditionShow,					_conditionProgress,					compile _codeStart,					compile _codeProgress,					compile format ['%1 %2','[_this select 0,_this select 2] remoteExecCall [''removeAction'',0]; remoteExecCall ['''',_this select 0];',_codeCompletion],					compile _codeInterrupt,					nil,					_duration,					_priority,					true,					_showUnconscious,					_showWindow				] remoteExecCall ['BIS_fnc_holdActionAdd',0,_this];			};";
 				class Value
 				{
 					class data
@@ -13884,7 +14407,7 @@ class items
 											"SCALAR"
 										};
 									};
-									value=1000;
+									value=991;
 								};
 							};
 							class Item11
@@ -13960,273 +14483,16 @@ class items
 			nAttributes=3;
 		};
 	};
-	class Item32
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-19.133301,0.2725153,8.8139648};
-			angles[]={0,1.5707964,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			skill=0.2;
-			init="nul = [this,""sectionammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; ";
-		};
-		id=809;
-		type="Section_o_Ammo_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="ace_isMedicalFacility";
-				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="ace_cargo_size";
-				expression="[_this,_value] call ace_cargo_fnc_setSize;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0.2;
-					};
-				};
-			};
-			nAttributes=2;
-		};
-	};
-	class Item33
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-19.170166,0.14872551,4.8037109};
-			angles[]={0,1.5707964,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			skill=0.2;
-			init="nul = [this,""mmgammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; ";
-		};
-		id=810;
-		type="MG_Ammo_o_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="ace_isMedicalFacility";
-				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="ace_cargo_size";
-				expression="[_this,_value] call ace_cargo_fnc_setSize;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0.2;
-					};
-				};
-			};
-			nAttributes=2;
-		};
-	};
-	class Item34
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-19.213135,0.17998457,2.4770508};
-			angles[]={0,1.5707964,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			skill=0.2;
-			init="call{nul = [this,""latammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
-		};
-		id=811;
-		type="LAT_Ammo_o_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="ace_isMedicalFacility";
-				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="ace_cargo_size";
-				expression="[_this,_value] call ace_cargo_fnc_setSize;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0.2;
-					};
-				};
-			};
-			nAttributes=2;
-		};
-	};
-	class Item35
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-19.027344,0.14872551,0.90283203};
-			angles[]={0,1.5707964,0};
-		};
-		side="Empty";
-		flags=4;
-		class Attributes
-		{
-			skill=0.2;
-			init="call{nul = [this,""demosmall""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
-		};
-		id=812;
-		type="LExplosives_Ammo_o_F";
-		class CustomAttributes
-		{
-			class Attribute0
-			{
-				property="ace_isMedicalFacility";
-				expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"BOOL"
-							};
-						};
-						value=0;
-					};
-				};
-			};
-			class Attribute1
-			{
-				property="ace_cargo_size";
-				expression="[_this,_value] call ace_cargo_fnc_setSize;";
-				class Value
-				{
-					class data
-					{
-						class type
-						{
-							type[]=
-							{
-								"SCALAR"
-							};
-						};
-						value=0.2;
-					};
-				};
-			};
-			nAttributes=2;
-		};
-	};
-	class Item36
-	{
-		dataType="Object";
-		class PositionInfo
-		{
-			position[]={-22.618164,3.9768047,11.904785};
-		};
-		side="Empty";
-		flags=5;
-		class Attributes
-		{
-			init="call{this addAction [""Teleport TO MHQ"", ""scripts\teleports\MHQ.sqf"", MHQ_OPF];}";
-			name="MHQ_Teleporter_opf";
-		};
-		id=813;
-		type="Flag_Red_F";
-	};
 };
 class connections
 {
 	class LinkIDProvider
 	{
-		nextID=3;
+		nextID=6;
 	};
 	class Links
 	{
-		items=3;
+		items=6;
 		class Item0
 		{
 			linkID=0;
@@ -14252,6 +14518,36 @@ class connections
 			linkID=2;
 			item0=343;
 			item1=347;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item3
+		{
+			linkID=3;
+			item0=181;
+			item1=126;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item4
+		{
+			linkID=4;
+			item0=229;
+			item1=232;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item5
+		{
+			linkID=5;
+			item0=230;
+			item1=234;
 			class CustomData
 			{
 				type="Sync";
