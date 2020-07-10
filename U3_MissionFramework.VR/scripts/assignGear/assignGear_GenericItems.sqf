@@ -58,7 +58,7 @@ _rangeFinderBat = "";			// no batteries as of yet
 
 // ================== Laser Des ===================
 
-_westdesignator = "LaserDesignator";
+_westdesignator = "Laserdesignator_03";
 _eastdesignator = "Laserdesignator_01_khk_F";
 _designatorBat = "Laserbatteries";
 _dagr = "ACE_microDAGR";

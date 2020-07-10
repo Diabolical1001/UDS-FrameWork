@@ -320,9 +320,8 @@ if (_unit isKindOf "Man") then {
 		case "mmg" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_mmgMag,2];
+			_unit addItemToVest [_mmgMag,2];
 			_unit addWeapon _mmg;
-			_unit addMagazine _mmgMag;
 			call _addSidearm;
 			["mmg"] call _addRuck;
 			["mmg",false,false,false] call _addAttachments;
