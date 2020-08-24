@@ -130,6 +130,9 @@ _addBasics = {
 		case "eastdesignator" : {
 			_unit addWeapon _eastdesignator;
 		};
+		case "vector" : {
+			_unit addWeapon _vector;
+		};
 		case "binocular" : {
 			 _unit addWeapon _binos;
 		};
@@ -251,9 +254,10 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
 		};
 		case "brcr" : {
-			_unit addBackpack _smallRuck;
+			_unit addBackpack _largeRuck;
 			call _clearRuck;
 			sleep _delay;
+			(unitBackpack _unit) addWeaponCargoGlobal [_shotty,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_shottyBuck,4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_shottySlug,4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
@@ -294,7 +298,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
 		};
 		case "gren" : {
-			_unit addBackpack _smallRuck;
+			_unit addBackpack _medRuck;
 			call _clearRuck;
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleGLMag,2];
@@ -305,7 +309,7 @@ _addRuck = {
 			_unit addBackpack _medRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addMagazineCargoGlobal [_mmgMag,2];
+			(unitBackpack _unit) addMagazineCargoGlobal [_mmgMag,1];
 			(unitBackpack _unit) addItemCargoGlobal [_spareBarrel,1];
 		};
 		case "mmgass" : {
@@ -454,6 +458,7 @@ _addRuck = {
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];	// epinephrine
 			(unitBackpack _unit) addItemCargoGlobal [_bloodTwo,1];		// bloodbag
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleGLMag,2];
+			(unitBackpack _unit) addMagazineCargoGlobal [_glExplody,5];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeOne,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeTwo,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeTwo,1];

@@ -1,3 +1,13 @@
+// A3TI
+force force A3TI_ALLOW_TANK_DRIVER = true;
+force force A3TI_ALLOW_VANILLA_TI = false;
+force force A3TI_ENABLE_ZEUS = true;
+force force A3TI_HD_VISION_FIGHTER = true;
+force force A3TI_HD_VISION_LANDVEH = true;
+force force A3TI_HD_VISION_SHIP = true;
+force force A3TI_HD_VISION_UAV = true;
+force force A3TI_REMOVE_FILMGRAIN_RHS = true;
+
 // ACE Advanced Ballistics
 force force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
@@ -84,6 +94,10 @@ force force ace_frag_maxTrackPerFrame = 10;
 force force ace_frag_reflectionsEnabled = true;
 force force ace_frag_spallEnabled = true;
 
+// ACE G-Forces
+force ace_gforces_coef = 1;
+force force ace_gforces_enabledFor = 0;
+
 // ACE Goggles
 force force ace_goggles_effects = 0;
 ace_goggles_showClearGlasses = false;
@@ -121,7 +135,7 @@ ace_interact_menu_selectorColor = [1,0,0];
 ace_interact_menu_shadowSetting = 2;
 ace_interact_menu_textSize = 3;
 ace_interact_menu_useListMenu = true;
-ace_interact_menu_useListMenuSelf = false;
+force ace_interact_menu_useListMenuSelf = true;
 
 // ACE Logistics
 force force ace_cargo_enable = true;
@@ -171,6 +185,7 @@ force force ace_map_gestures_enabled = true;
 force force ace_map_gestures_interval = 0.03;
 force force ace_map_gestures_maxRange = 9.95246;
 force force ace_map_gestures_nameTextColor = [0.2,0.2,0.2,0.3];
+force ace_map_gestures_onlyShowFriendlys = false;
 
 // ACE Map Tools
 force force ace_maptools_drawStraightLines = true;
@@ -228,6 +243,7 @@ force ace_medical_treatment_medicIV = 1;
 force force ace_medical_treatment_medicPAK = 0;
 force force ace_medical_treatment_medicSurgicalKit = 0;
 force force ace_medical_treatment_timeCoefficientPAK = 1;
+force ace_medical_treatment_woundReopenChance = 1;
 
 // ACE Name Tags
 force force ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
@@ -319,7 +335,7 @@ force force ace_switchunits_switchToWest = false;
 
 // ACE Uncategorized
 force force ace_fastroping_requireRopeItems = true;
-force force ace_gforces_enabledFor = 0;
+force ace_gunbag_swapGunbagEnabled = true;
 force force ace_hitreactions_minDamageToTrigger = 0.1;
 force force ace_inventory_inventoryDisplaySize = 1;
 force force ace_laser_dispersionCount = 2;
@@ -462,6 +478,30 @@ Achilles_var_BLU_T_F = true;
 Achilles_var_BLU_W_F = true;
 Achilles_var_CIV_F = true;
 Achilles_var_CIV_IDAP_F = true;
+Achilles_var_CUP_B_CDF = true;
+Achilles_var_CUP_B_CZ = true;
+Achilles_var_CUP_B_GB = true;
+Achilles_var_CUP_B_GER = true;
+Achilles_var_CUP_B_HIL = true;
+Achilles_var_CUP_B_RNZN = true;
+Achilles_var_CUP_B_US = true;
+Achilles_var_CUP_B_US_Army = true;
+Achilles_var_CUP_B_USMC = true;
+Achilles_var_CUP_C_CHERNARUS = true;
+Achilles_var_CUP_C_RU = true;
+Achilles_var_CUP_C_SAHRANI = true;
+Achilles_var_CUP_C_Special = true;
+Achilles_var_CUP_C_TK = true;
+Achilles_var_CUP_I_NAPA = true;
+Achilles_var_CUP_I_PMC_ION = true;
+Achilles_var_CUP_I_RACS = true;
+Achilles_var_CUP_I_TK_GUE = true;
+Achilles_var_CUP_I_UN = true;
+Achilles_var_CUP_O_ChDKZ = true;
+Achilles_var_CUP_O_RU = true;
+Achilles_var_CUP_O_SLA = true;
+Achilles_var_CUP_O_TK = true;
+Achilles_var_CUP_O_TK_MILITIA = true;
 Achilles_var_IND_C_F = true;
 Achilles_var_IND_E_F = true;
 Achilles_var_IND_F = true;
@@ -514,66 +554,6 @@ Achilles_var_rhssaf_faction_un = true;
 Achilles_var_Ryanzombiesfaction = true;
 Achilles_var_Ryanzombiesfactionmodule = true;
 Achilles_var_Ryanzombiesfactionopfor = true;
-Achilles_var_UK3CB_ANA_B = true;
-Achilles_var_UK3CB_ANP_B = true;
-Achilles_var_UK3CB_BAF_Faction = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce_Arctic = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce_CS95_DPM = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce_DDPM = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce_Desert = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce_DPM = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce_MTP = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce_Temperate = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce_Tropical = true;
-Achilles_var_UK3CB_BAF_Faction_Airforce_Woodland = true;
-Achilles_var_UK3CB_BAF_Faction_Army_Arctic = true;
-Achilles_var_UK3CB_BAF_Faction_Army_CS95_DPM = true;
-Achilles_var_UK3CB_BAF_Faction_Army_DDPM = true;
-Achilles_var_UK3CB_BAF_Faction_Army_Desert = true;
-Achilles_var_UK3CB_BAF_Faction_Army_DPM = true;
-Achilles_var_UK3CB_BAF_Faction_Army_MTP = true;
-Achilles_var_UK3CB_BAF_Faction_Army_Temperate = true;
-Achilles_var_UK3CB_BAF_Faction_Army_Tropical = true;
-Achilles_var_UK3CB_BAF_Faction_Army_Woodland = true;
-Achilles_var_UK3CB_BAF_Faction_Navy_Arctic = true;
-Achilles_var_UK3CB_BAF_Faction_Navy_CS95_DPM = true;
-Achilles_var_UK3CB_BAF_Faction_Navy_DDPM = true;
-Achilles_var_UK3CB_BAF_Faction_Navy_Desert = true;
-Achilles_var_UK3CB_BAF_Faction_Navy_DPM = true;
-Achilles_var_UK3CB_BAF_Faction_Navy_MTP = true;
-Achilles_var_UK3CB_BAF_Faction_Navy_Temperate = true;
-Achilles_var_UK3CB_BAF_Faction_Navy_Tropical = true;
-Achilles_var_UK3CB_BAF_Faction_Navy_Woodland = true;
-Achilles_var_UK3CB_CCM_B = true;
-Achilles_var_UK3CB_CCM_I = true;
-Achilles_var_UK3CB_CCM_O = true;
-Achilles_var_UK3CB_CHC_B = true;
-Achilles_var_UK3CB_CHC_C = true;
-Achilles_var_UK3CB_CHC_I = true;
-Achilles_var_UK3CB_CHC_O = true;
-Achilles_var_UK3CB_CPD_B = true;
-Achilles_var_UK3CB_CPD_I = true;
-Achilles_var_UK3CB_CPD_O = true;
-Achilles_var_UK3CB_CW_SOV_O_EARLY = true;
-Achilles_var_UK3CB_CW_SOV_O_LATE = true;
-Achilles_var_UK3CB_CW_US_B_EARLY = true;
-Achilles_var_UK3CB_CW_US_B_LATE = true;
-Achilles_var_UK3CB_TKA_B = true;
-Achilles_var_UK3CB_TKA_I = true;
-Achilles_var_UK3CB_TKA_O = true;
-Achilles_var_UK3CB_TKC_B = true;
-Achilles_var_UK3CB_TKC_C = true;
-Achilles_var_UK3CB_TKC_I = true;
-Achilles_var_UK3CB_TKC_O = true;
-Achilles_var_UK3CB_TKM_B = true;
-Achilles_var_UK3CB_TKM_I = true;
-Achilles_var_UK3CB_TKM_O = true;
-Achilles_var_UK3CB_TKP_B = true;
-Achilles_var_UK3CB_TKP_I = true;
-Achilles_var_UK3CB_TKP_O = true;
-Achilles_var_UK3CB_UN_B = true;
-Achilles_var_UK3CB_UN_I = true;
 Achilles_var_USAF = true;
 Achilles_var_Virtual_F = true;
 
@@ -775,6 +755,9 @@ force force CF_BAI_suppression_reloadSpeed = 1;
 force force CF_BAI_suppression_spotDistance = 0.05;
 force force CF_BAI_suppression_spotTime = 0.1;
 
+// CUP
+CUP_Vehicles_PreventBarrelClip = true;
+
 // GRAD Trenches
 force force grad_trenches_functions_allowBigEnvelope = false;
 force force grad_trenches_functions_allowCamouflage = true;
@@ -789,12 +772,13 @@ force force grad_trenches_functions_buildFatigueFactor = 1;
 force force grad_trenches_functions_camouflageRequireEntrenchmentTool = true;
 force force grad_trenches_functions_giantEnvelopeDigTime = 90;
 force force grad_trenches_functions_LongEnvelopeDigTime = 100;
-force force grad_trenches_functions_shortEnvelopeDigTime = 30;
+force force grad_trenches_functions_shortEnvelopeDigTime = 15;
 force force grad_trenches_functions_smallEnvelopeDigTime = 40;
 force force grad_trenches_functions_stopBuildingAtFatigueMax = true;
 force force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
 
 // LAMBS Danger
+force lambs_danger_combatShareRange = 200;
 force force lambs_danger_CQB_formations_COLUMN = false;
 force force lambs_danger_CQB_formations_DIAMOND = true;
 force force lambs_danger_CQB_formations_ECH LEFT = false;
@@ -839,7 +823,25 @@ force force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
 force force lambs_eventhandlers_ExplosionReactionTime = 9;
 
 // LAMBS Danger WP
-force force lambs_wp_autoAddArtillery = true;
+force force lambs_wp_autoAddArtillery = false;
+
+// Simplex Support Services
+force force SSS_setting_adminFullAccess = false;
+force force SSS_setting_adminLimitSide = false;
+force force SSS_setting_cleanupCrew = true;
+force force SSS_setting_deleteVehicleOnEntityRemoval = true;
+force force SSS_setting_directActionRequirement = true;
+force force SSS_setting_GiveUAVTerminal = true;
+force force SSS_setting_milsimModeArtillery = false;
+force force SSS_setting_milsimModeCAS = false;
+force force SSS_setting_milsimModeLogistics = true;
+force force SSS_setting_milsimModeTransport = false;
+force force SSS_setting_removeSupportOnVehicleDeletion = true;
+force force SSS_setting_resetVehicleOnRTB = true;
+force force SSS_setting_restoreCrewOnRTB = true;
+force force SSS_setting_slingLoadSearchRadius = 100;
+force force SSS_setting_slingLoadWhitelist = "";
+force force SSS_setting_useChatNotifications = false;
 
 // STUI Settings
 force force STGI_Settings_Enabled = true;
@@ -852,6 +854,7 @@ force force STHud_Settings_RemoveDeadViaProximity = false;
 force force STHud_Settings_SquadBar = true;
 force force STHud_Settings_TextShadow = 2;
 force force STHud_Settings_UnconsciousFadeEnabled = true;
+STNT_Settings_Enabled = true;
 
 // TFAR - Clientside settings
 TFAR_default_radioVolume = 5;
@@ -919,7 +922,7 @@ force force tfar_terrain_interception_coefficient = 7;
 force force TFAR_voiceCone = true;
 
 // USAF
-force force USAF_allowNuke = true;
+force force USAF_allowNuke = false;
 force force usaf_debug_setting_enabled_clients = false;
 force force usaf_debug_setting_enabled_server = false;
 force force usaf_serviceMenu_setting_allowHangarRearm = true;
@@ -931,13 +934,17 @@ force force usaf_serviceMenu_setting_refuelTime = "100";
 force force usaf_serviceMenu_setting_reloadTime = "10";
 force force usaf_serviceMenu_setting_repairTime = "100";
 force force usaf_serviceMenu_setting_replaceSources = false;
+force usaf_serviceMenu_setting_selectorSearchRadius = "15";
+force usaf_utility_core_allow_move_in_cargo = false;
 
 // Zeus Enhanced
 zen_camera_adaptiveSpeed = true;
 zen_camera_defaultSpeedCoef = 1;
 zen_camera_fastSpeedCoef = 1;
 zen_camera_followTerrain = true;
+force zen_common_ascensionMessages = false;
 force force zen_common_autoAddObjects = false;
+force zen_common_cameraBird = false;
 zen_common_darkMode = false;
 force force zen_common_disableGearAnim = true;
 force force zen_common_preferredArsenal = 1;

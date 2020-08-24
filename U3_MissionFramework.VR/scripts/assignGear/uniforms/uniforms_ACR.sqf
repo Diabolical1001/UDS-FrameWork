@@ -27,51 +27,36 @@ _insignia = "";
 
 switch (_camoPattern) do {
 
-	// PMC
-	case "pmc" : {
+	// ACR Woodland
+	case "acr_wd" : {
 		// ==================== Uniforms ==================
 
-		_rflmUniformArray = ["CUP_I_B_PMC_Unit_42","CUP_I_B_PMC_Unit_41","CUP_I_B_PMC_Unit_43","CUP_I_B_PMC_Unit_40","CUP_I_B_PMC_Unit_39","CUP_I_B_PMC_Unit_36","CUP_I_B_PMC_Unit_38","CUP_I_B_PMC_Unit_37"];
+		_rflmUniformArray = ["CUP_U_B_CZ_WDL_NoKneepads","CUP_U_B_CZ_WDL_Kneepads_Gloves"];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
 		_rflmUniform = _rflmUniformArray select _rflmRandom;
-		_crewUniform = "CUP_I_B_PMC_Unit_40";
-		_leaderUniform = "CUP_I_B_PMC_Unit_39";
-		_rpilotUniform = "CUP_I_B_PMC_Unit_38";
+		_crewUniform = "CUP_U_B_CZ_WDL_NoKneepads";
+		_leaderUniform = "CUP_U_B_CZ_WDL_NoKneepads";
+		_rpilotUniform = "CUP_U_B_CZ_WDL_NoKneepads";
 		_fpilotUniform = "U_B_PilotCoveralls";
-		_sniperUniform = "CUP_I_B_PMC_Unit_37";
+		_sniperUniform = "CUP_U_B_CZ_WDL_NoKneepads";
 
 		// ==================== Headgear ==================
 
 		switch (_headgear) do {
-			case "soft" : {
-				_rflmHelmetArray = ["CUP_H_PMC_Cap_PRR_Tan","CUP_H_PMC_Cap_PRR_Grey","CUP_H_FR_Cap_Headset_Green","CUP_H_PMC_Cap_EP_Tan","CUP_H_PMC_Cap_EP_Grey","CUP_H_PMC_Cap_Back_PRR_Tan","CUP_H_PMC_Cap_Back_PRR_Grey","CUP_H_PMC_Cap_Back_EP_Tan","CUP_H_PMC_Cap_Back_EP_Grey","rhsusf_bowman_cap"];
+			case "combat_wood" : {
+				_rflmHelmetArray = ["CUP_H_CZ_Helmet03","rhsusf_lwh_helmet_marpatwd_blk_ess"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
 				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
-				_crewmanHelmetArray = ["rhsusf_Bowman"];
+				_crewmanHelmetArray = ["rhsusf_cvc_green_alt_helmet","rhsusf_cvc_green_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
-				_rotaryPilotHelmet = "rhsusf_Bowman";
-				_rotaryCrewHelmet = "rhsusf_Bowman";
+				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_green";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_green";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
-				_coyHelmet = "rhsusf_Bowman";
-				_slHelmet = "CUP_H_FR_Cap_Headset_Green";
-				_tlHelmet = "CUP_H_FR_Cap_Headset_Green";
-				_sniperHelmet = "CUP_H_PMC_Cap_Back_PRR_Tan";
-			};
-			case "ball" : {
-				_rflmHelmetArray = ["rhsusf_opscore_paint_pelt"];
-				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
-				_crewmanHelmetArray = ["rhsusf_Bowman"];
-				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
-				_rotaryPilotHelmet = "rhsusf_Bowman";
-				_rotaryCrewHelmet = "rhsusf_Bowman";
-				_fixedPilotHelmet = "RHS_jetpilot_usaf";
-				_coyHelmet = "rhsusf_Bowman";
-				_slHelmet = "rhsusf_opscore_paint_pelt_nsw";
-				_tlHelmet = "rhsusf_opscore_paint_pelt_nsw";
-				_sniperHelmet = "rhsusf_opscore_paint_pelt";
+				_coyHelmet = "CUP_H_CZ_Helmet04";
+				_slHelmet = "CUP_H_CZ_Helmet04";
+				_tlHelmet = "CUP_H_CZ_Helmet04";
+				_sniperHelmet = "CUP_H_CZ_Cap_Headphones";
 			};
 			default {
 				_rflmHelmetArray = [""];
@@ -92,34 +77,34 @@ switch (_camoPattern) do {
 
 		// ===================== Vests ====================
 
-		_rflmVest = "rhsusf_mbav_rifleman";
-		_gunnerVest = "rhsusf_mbav_mg";
-		_glVest = "rhsusf_mbav_grenadier";
-		_medVest = "rhsusf_mbav_medic";
-		_pilotVest = "rhsusf_mbav";
-		_crewVest = "rhsusf_mbav";
-		_coyVest = "rhsusf_mbav_light";
-		_slVest = "rhsusf_mbav_light";
-		_tlVest = "rhsusf_mbav_grenadier";
-		_sniperVest = "rhsusf_mbav_light";
+		_rflmVest = "CUP_V_CZ_vest04";
+		_gunnerVest = "CUP_V_CZ_vest12";
+		_glVest = "CUP_V_CZ_vest06";
+		_medVest = "CUP_V_CZ_vest10";
+		_pilotVest = "CUP_V_CZ_vest19";
+		_crewVest = "CUP_V_CZ_vest19";
+		_coyVest = "CUP_V_CZ_vest08";
+		_slVest = "CUP_V_CZ_vest08";
+		_tlVest = "CUP_V_CZ_vest06";
+		_sniperVest = "CUP_V_CZ_vest15";
 
 		// ===================== Rucks ====================
 
-		_smallRuck = "B_AssaultPack_cbr";
-		_medRuck = "tacpac_tan";
-		_armgRuck = "tacpac_tan";
-		_largeRuck = "B_Carryall_mcamo";
-		_medicRuck = "tacpac_tan";
-		_atRuck = "tacpac_tan";
-		_sniperRuck = "B_AssaultPack_cbr";
+		_smallRuck = "CUP_B_ACRScout_m95";
+		_medRuck = "CUP_B_ACRPara_m95";
+		_armgRuck = "CUP_B_ACRPara_m95";
+		_largeRuck = "rhsgref_wdl_alicepack";
+		_medicRuck = "CUP_B_ACRPara_m95";
+		_atRuck = "CUP_B_ACRScout_m95";
+		_sniperRuck = "CUP_B_ACRScout_m95";
 
 		// ===================== NVGs ====================
 
-		_nightVision = "CUP_NVG_PVS14";
+		_nightVision = "rhsusf_ANPVS_15";
 
 		// =================== Goggles ===================
 
-		_gogglesArray = ["G_Aviator","G_Bandanna_blk","G_Bandanna_khk","G_Bandanna_oli","G_Bandanna_sport","G_Sport_Blackred","rhs_googles_black","rhs_googles_yellow","rhsusf_shemagh2_od","rhsusf_shemagh2_tan"];
+		_gogglesArray = ["rhs_googles_black","rhs_scarf","rhs_balaclava"];
 		_gogglesRandom = (floor(random (count _gogglesArray)));
 		_goggles = _gogglesArray select _gogglesRandom;
 

@@ -73,7 +73,7 @@ switch (_variant) do {
 
 		_mmgMag = "rhsusf_100Rnd_762x51";
 		_mmgTracerMag = "rhsusf_100Rnd_762x51_m62_tracer";
-		_mmgMagCount = 1;
+		_mmgMagCount = 2;
 		_mmgboxMagCount = 4;
 
 		_shottyBuck = "rhsusf_5Rnd_00Buck";
@@ -598,6 +598,124 @@ switch (_variant) do {
 		_dmrAttachments_gunLight = "rhsusf_acc_M952V";
 		_dmrAttachments_gunIR = "rhsusf_acc_anpeq15side_bk";
 		_dmrAttachments_grip = "rhsusf_acc_harris_bipod";
+
+		_boltRifleAttachments_base = ["rhsusf_acc_M8541","rhsusf_acc_harris_swivel"];
+		_boltRifleAttachments_muzz = "";
+		_boltRifleAttachments_supp = "rhsusf_acc_M2010S_wd";
+
+		_amRifleAttachments_base = ["rhsusf_acc_premier"];
+
+		_pistolAttachments_reflex = "";
+		_pistolAttachments_muzz = "";
+		_pistolAttachments_supp = "rhsusf_acc_omega9k";
+		_pistolAttachments_gunLight = "acc_flashlight_pistol";
+		_pistolAttachments_gunIR = "acc_flashlight_pistol";
+
+
+		// =================================
+	};
+
+	// USAF - M16A1(Carryhandle) - 5.56x45
+	case "m16a1_carryhandle" :  {
+
+		// ============ Weaponry ===========
+
+		_rifleArray = ["CUP_arifle_M16A1"];
+		_rifleRandom = (floor(random (count _rifleArray)));
+		_rifle = _rifleArray select _rifleRandom;
+		_rifleGLArray = ["CUP_arifle_M16A1"];
+		_rifleGLRandom = (floor(random (count _rifleGLArray)));
+		_rifleGL = _rifleGLArray select _rifleGLRandom;
+		_rifleScoped = "rhs_weap_mk18_KAC_bk";
+		_carbine = "rhs_weap_mk18_KAC_bk";
+		_smg = "rhsusf_weap_MP7A2";
+		_pistol = "rhsusf_weap_glock17g4";
+
+		_autoRifle = "rhs_weap_m27iar";
+		_mmg = "CUP_lmg_M60";
+
+		_shotty = "rhs_weap_M590_8RD";
+
+		_dmr = "rhs_weap_m14";
+		_boltRifle = "rhs_weap_XM2010";
+		_amRifle = "rhs_weap_M107";
+
+		// =========== Ammunition ==========
+
+		_rifleMag = "rhs_mag_20Rnd_556x45_M855A1_Stanag";
+		_rifleTracerMag = "rhs_mag_20Rnd_556x45_M196_Stanag_Tracer_Red";
+		_rifleSubsonicMag = "rhs_mag_20Rnd_556x45_Mk262_Stanag";
+		_rifleGLMag = "rhs_mag_20Rnd_556x45_M855A1_Stanag";
+		_rifleScopedMag = "rhs_mag_20Rnd_556x45_M855A1_Stanag";
+		_carbineMag = "rhs_mag_20Rnd_556x45_M855A1_Stanag";
+		_smgMag = "rhsusf_mag_40Rnd_46x30_AP";
+		_pistolMag = "rhsusf_mag_17Rnd_9x19_JHP";
+
+		_autoRifleMag = "rhs_mag_100Rnd_556x45_M855A1_cmag";
+		_autoTracerMag = "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
+		_autoSubsonicMag = "rhs_mag_100Rnd_556x45_Mk318_cmag";
+		_arMagCount = 2;
+		_arboxMagCount = 6;
+
+		_mmgMag = "rhsusf_100Rnd_762x51_m61_ap";
+		_mmgTracerMag = "rhsusf_100Rnd_762x51_m62_tracer";
+		_mmgMagCount = 1;
+		_mmgboxMagCount = 4;
+
+		_shottyBuck = "rhsusf_8Rnd_00Buck";
+		_shottySlug = "rhsusf_8Rnd_Slug";
+
+		_dmrMag = "rhsusf_20Rnd_762x51_m993_Mag";
+		_boltRifleMag = "rhsusf_10Rnd_762x51_m993_Mag";
+		_amRifleMag = "rhsusf_5Rnd_300winmag_xm2010";
+
+		_glExplody = "1Rnd_HE_Grenade_shell";
+		_glSmokeOne = "1Rnd_Smoke_Grenade_shell";
+		_glSmokeTwo = "1Rnd_SmokeRed_Grenade_shell";
+		_glSmokeThree = "1Rnd_SmokePurple_Grenade_shell";
+		_glSmokeFour = "1Rnd_SmokePurple_Grenade_shell";
+		_glFlareOne = "UGL_FlareWhite_F";
+		_glFlareTwo = "UGL_FlareRed_F";
+
+		_grenade = "rhs_mag_m67";
+		_flashbang = "rhs_mag_mk84";
+		_smokeOne = "rhs_mag_an_m8hc";
+		_smokeTwo = "rhs_mag_m18_red";
+		_smokeThree = "rhs_mag_m18_purple";
+
+		// ========== Attachments ==========
+
+		_generalAttachments_reflex = "";
+		_generalAttachments_scoped = "";
+		_generalAttachments_muzz = "";
+		_generalAttachments_supp = "";
+		_generalAttachments_gunLight = "rhsusf_acc_wmx_bk";
+		_generalAttachments_gunIR = "";
+		_generalAttachments_grip = "";
+
+		_autoRifleAttachments_reflex = "";
+		_autoRifleAttachments_scoped = "";
+		_autoRifleAttachments_muzz = "";
+		_autoRifleAttachments_supp = "";
+		_autoRifleAttachments_gunLight = "";
+		_autoRifleAttachments_gunIR = "";
+		_autoRifleAttachments_grip = "";
+
+		_mmgAttachments_reflex = "";
+		_mmgAttachments_scoped = "";
+		_mmgAttachments_muzz = "";
+		_mmgAttachments_supp = "";
+		_mmgAttachments_gunLight = "";
+		_mmgAttachments_gunIR = "";
+		_mmgAttachments_grip = "";
+
+		_dmrAttachments_reflex = "";
+		_dmrAttachments_scoped = "";
+		_dmrAttachments_muzz = "";
+		_dmrAttachments_supp = "";
+		_dmrAttachments_gunLight = "";
+		_dmrAttachments_gunIR = "";
+		_dmrAttachments_grip = "rhsusf_acc_harris_swivel";
 
 		_boltRifleAttachments_base = ["rhsusf_acc_M8541","rhsusf_acc_harris_swivel"];
 		_boltRifleAttachments_muzz = "";

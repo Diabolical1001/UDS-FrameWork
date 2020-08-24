@@ -9,7 +9,7 @@ private [
 "_binos","_toolbox","_wireCutters","_cableTieItem","_bananas","_backupSight","_strobe","_mapLight","_uavBat","_ladder","_etool",
 "_steerableChute","_nonsteerableChute","_incendiary",
 "_facItems",
-"_westrangeFinder","_eastrangeFinder","_rangeFinderBat",
+"_westrangeFinder","_eastrangeFinder","_vector","_rangeFinderBat",
 "_westdesignator","_eastdesignator","_designatorBat","_dagr",
 "_chemlightOne","_chemlightTwo","_handFlareOne","_handFlareTwo",
 "_atMine","_apersMine","_apersBound","_apersTrip","_slam","_claymore","_demoCharge","_satchelCharge",
@@ -54,6 +54,7 @@ _facItems = ["ACE_MapTools"];
 _binos = "Binocular";
 _westrangeFinder = "lerca_1200_black";
 _eastrangeFinder = "rhs_pdu4";
+_vector = "ACE_VectorDay";
 _rangeFinderBat = "";			// no batteries as of yet
 
 // ================== Laser Des ===================
@@ -99,7 +100,7 @@ _ftlItems = ["itemGPS"];
 _secItems = ["itemGPS"];
 _pltTools = [];
 _pltItems = ["itemGPS"];
-_sniperItems = ["ACE_Kestrel4500","ACE_RangeCard"];
+_sniperItems = ["ACE_Kestrel4500","ACE_RangeCard","ACE_DAGR","ACE_ATragMX"];
 _backupSight = "";
 
 // =======================================================================

@@ -48,7 +48,7 @@ switch (_variant) do {
 		_autoRifle = "dd_weap_rpk74m_75";
 		_mmg = "rhs_weap_pkp";
 
-		_shotty = "rhs_weap_M590_8RD";
+		_shotty = "CUP_sgun_Saiga12K";
 
 		_dmr = "rhs_weap_svdp";
 		_boltRifle = "rhs_weap_t5000";
@@ -76,8 +76,8 @@ switch (_variant) do {
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
 
-		_shottyBuck = "rhsusf_8Rnd_00Buck";
-		_shottySlug = "rhsusf_8Rnd_Slug";
+		_shottyBuck = "CUP_8Rnd_B_Saiga12_74Pellets_M";
+		_shottySlug = "CUP_8Rnd_B_Saiga12_74Slug_M";
 
 		_dmrMag = "rhs_10Rnd_762x54mmR_7N1";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";
@@ -165,7 +165,7 @@ switch (_variant) do {
 		_autoRifle = "dd_weap_rpk74m_75";
 		_mmg = "rhs_weap_pkp";
 
-		_shotty = "rhs_weap_M590_8RD";
+		_shotty = "CUP_sgun_Saiga12K";
 
 		_dmr = "rhs_weap_svdp";
 		_boltRifle = "rhs_weap_t5000";
@@ -193,8 +193,8 @@ switch (_variant) do {
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
 
-		_shottyBuck = "rhsusf_8Rnd_00Buck";
-		_shottySlug = "rhsusf_8Rnd_Slug";
+		_shottyBuck = "CUP_8Rnd_B_Saiga12_74Pellets_M";
+		_shottySlug = "CUP_8Rnd_B_Saiga12_74Slug_M";
 
 		_dmrMag = "rhs_10Rnd_762x54mmR_7N1";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";
@@ -282,7 +282,7 @@ switch (_variant) do {
 		_autoRifle = "dd_weap_rpk74m_75";
 		_mmg = "rhs_weap_pkp";
 
-		_shotty = "rhs_weap_M590_8RD";
+		_shotty = "CUP_sgun_Saiga12K";
 
 		_dmr = "rhs_weap_svdp";
 		_boltRifle = "rhs_weap_t5000";
@@ -310,8 +310,8 @@ switch (_variant) do {
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
 
-		_shottyBuck = "rhsusf_8Rnd_00Buck";
-		_shottySlug = "rhsusf_8Rnd_Slug";
+		_shottyBuck = "CUP_8Rnd_B_Saiga12_74Pellets_M";
+		_shottySlug = "CUP_8Rnd_B_Saiga12_74Slug_M";
 
 		_dmrMag = "rhs_10Rnd_762x54mmR_7N1";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";
@@ -399,7 +399,7 @@ switch (_variant) do {
 		_autoRifle = "rhs_weap_ak103_zenitco01_b33";
 		_mmg = "rhs_weap_pkp";
 
-		_shotty = "rhs_weap_M590_8RD";
+		_shotty = "CUP_sgun_Saiga12K";
 
 		_dmr = "rhs_weap_svdp";
 		_boltRifle = "rhs_weap_t5000";
@@ -427,8 +427,8 @@ switch (_variant) do {
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
 
-		_shottyBuck = "rhsusf_8Rnd_00Buck";
-		_shottySlug = "rhsusf_8Rnd_Slug";
+		_shottyBuck = "CUP_8Rnd_B_Saiga12_74Pellets_M";
+		_shottySlug = "CUP_8Rnd_B_Saiga12_74Slug_M";
 
 		_dmrMag = "rhs_10Rnd_762x54mmR_7N1";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";
@@ -516,7 +516,7 @@ switch (_variant) do {
 		_autoRifle = "dd_weap_rpk74m_75";
 		_mmg = "rhs_weap_pkm";
 
-		_shotty = "rhs_weap_M590_8RD";
+		_shotty = "CUP_sgun_Saiga12K";
 
 		_dmr = "rhs_weap_m38";
 		_boltRifle = "rhs_weap_m38_rail";
@@ -544,8 +544,8 @@ switch (_variant) do {
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
 
-		_shottyBuck = "rhsusf_8Rnd_00Buck";
-		_shottySlug = "rhsusf_8Rnd_Slug";
+		_shottyBuck = "CUP_8Rnd_B_Saiga12_74Pellets_M";
+		_shottySlug = "CUP_8Rnd_B_Saiga12_74Slug_M";
 
 		_dmrMag = "rhsgref_5Rnd_762x54_m38";
 		_boltRifleMag = "rhsgref_5Rnd_762x54_m38";
@@ -633,7 +633,7 @@ switch (_variant) do {
 		_autoRifle = "rhs_weap_ak103_zenitco01";
 		_mmg = "rhs_weap_pkp";
 
-		_shotty = "rhs_weap_M590_8RD";
+		_shotty = "CUP_sgun_Saiga12K";
 
 		_dmr = "rhs_weap_vss_grip";
 		_boltRifle = "rhs_weap_t5000";
@@ -661,8 +661,8 @@ switch (_variant) do {
 		_mmgMagCount = 1;
 		_mmgboxMagCount = 4;
 
-		_shottyBuck = "rhsusf_8Rnd_00Buck";
-		_shottySlug = "rhsusf_8Rnd_Slug";
+		_shottyBuck = "CUP_8Rnd_B_Saiga12_74Pellets_M";
+		_shottySlug = "CUP_8Rnd_B_Saiga12_74Slug_M";
 
 		_dmrMag = "rhs_20rnd_9x39mm_SP6";
 		_boltRifleMag = "rhs_5Rnd_338lapua_t5000";

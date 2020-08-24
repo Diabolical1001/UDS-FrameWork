@@ -1,5 +1,5 @@
 version=53;
-center[]={7636.5981,5,5093.4956};
+center[]={7976.8345,5,5249.8291};
 class items
 {
 	items=37;
@@ -8,7 +8,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-18.52002,2.0487332,-6.3598633};
+			position[]={-18.517578,2.0487332,-6.3642578};
 			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
@@ -18,8 +18,9 @@ class items
 			skill=0.2;
 			lock="UNLOCKED";
 			init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}]; }";
+			name="MHQ_OPF";
 		};
-		id=126;
+		id=354;
 		type="rhs_tigr_vdv";
 		class CustomAttributes
 		{
@@ -247,7 +248,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.434082,0.0014390945,0.14111328};
+					position[]={7.4370117,0.0014390945,0.13720703};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -259,7 +260,7 @@ class items
 					isPlayer=1;
 					isPlayable=1;
 				};
-				id=128;
+				id=356;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -513,7 +514,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.487793,0.0014390945,-1.8173828};
+					position[]={7.4907227,0.0014390945,-1.8212891};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -524,7 +525,7 @@ class items
 					description="1-1 Platoon Sgt";
 					isPlayable=1;
 				};
-				id=129;
+				id=357;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -574,7 +575,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.4755859,0.0014390945,-3.8759766};
+					position[]={7.4785156,0.0014390945,-3.8798828};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -586,7 +587,7 @@ class items
 					isPlayable=1;
 					reportRemoteTargets=1;
 				};
-				id=130;
+				id=358;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -636,7 +637,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.4975586,0.0014390945,-5.8510742};
+					position[]={7.5004883,0.0014390945,-5.8549805};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -647,7 +648,7 @@ class items
 					description="1-1 Platoon Medic";
 					isPlayable=1;
 				};
-				id=131;
+				id=359;
 				type="O_medic_F";
 				class CustomAttributes
 				{
@@ -697,7 +698,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.3696289,0.0014390945,-7.8574219};
+					position[]={7.3725586,0.0014390945,-7.8613281};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -708,7 +709,7 @@ class items
 					description="1-1 Platoon Medic";
 					isPlayable=1;
 				};
-				id=244;
+				id=360;
 				type="O_medic_F";
 				class CustomAttributes
 				{
@@ -758,7 +759,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.3945313,0.0014390945,-9.9125977};
+					position[]={7.3974609,0.0014390945,-9.9165039};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -769,7 +770,7 @@ class items
 					description="1-1 Platoon Explosive Specialist";
 					isPlayable=1;
 				};
-				id=246;
+				id=361;
 				type="O_soldier_exp_F";
 				class CustomAttributes
 				{
@@ -819,7 +820,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.3896484,0.0014390945,-11.908203};
+					position[]={7.3925781,0.0014390945,-11.912109};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -830,7 +831,7 @@ class items
 					description="1-1 Platoon Drone Operator";
 					isPlayable=1;
 				};
-				id=247;
+				id=362;
 				type="O_soldier_UAV_F";
 				class CustomAttributes
 				{
@@ -880,7 +881,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.3876953,0.0014390945,-13.901367};
+					position[]={7.390625,0.0014390945,-13.905273};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -891,7 +892,7 @@ class items
 					description="1-1 Platoon Rifleman";
 					isPlayable=1;
 				};
-				id=248;
+				id=363;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
@@ -940,7 +941,7 @@ class items
 		class Attributes
 		{
 		};
-		id=127;
+		id=355;
 	};
 	class Item2
 	{
@@ -954,7 +955,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4301758,0.0014390945,0.15136719};
+					position[]={5.4331055,0.0014390945,0.14746094};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -965,7 +966,7 @@ class items
 					description="1-1-A Section Commander";
 					isPlayable=1;
 				};
-				id=136;
+				id=365;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -1015,7 +1016,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4477539,0.0014390945,-1.8549805};
+					position[]={5.4506836,0.0014390945,-1.8588867};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -1026,7 +1027,7 @@ class items
 					description="1-1-A First Rifleman";
 					isPlayable=1;
 				};
-				id=137;
+				id=366;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
@@ -1371,7 +1372,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4448242,0.0014390945,-3.8608398};
+					position[]={5.4477539,0.0014390945,-3.8647461};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -1382,7 +1383,7 @@ class items
 					description="1-1-A First Gunner";
 					isPlayable=1;
 				};
-				id=138;
+				id=367;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
@@ -1727,7 +1728,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4536133,0.0014390945,-5.8530273};
+					position[]={5.456543,0.0014390945,-5.8569336};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -1738,7 +1739,7 @@ class items
 					description="1-1-A First Assistant";
 					isPlayable=1;
 				};
-				id=139;
+				id=368;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
@@ -2083,7 +2084,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.449707,0.0014390945,-7.8574219};
+					position[]={5.4526367,0.0014390945,-7.8613281};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -2094,7 +2095,7 @@ class items
 					description="1-1-A Team Leader";
 					isPlayable=1;
 				};
-				id=140;
+				id=369;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -2144,7 +2145,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4458008,0.0014390945,-9.8569336};
+					position[]={5.4487305,0.0014390945,-9.8608398};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -2155,7 +2156,7 @@ class items
 					description="1-1-A Second Rifleman";
 					isPlayable=1;
 				};
-				id=141;
+				id=370;
 				type="O_Soldier_LAT_F";
 				class CustomAttributes
 				{
@@ -2500,7 +2501,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.440918,0.0014390945,-11.84375};
+					position[]={5.4438477,0.0014390945,-11.847656};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -2511,7 +2512,7 @@ class items
 					description="1-1-A Second Gunner";
 					isPlayable=1;
 				};
-				id=142;
+				id=371;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
@@ -2856,7 +2857,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4399414,0.0014390945,-13.84668};
+					position[]={5.4428711,0.0014390945,-13.850586};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -2867,7 +2868,7 @@ class items
 					description="1-1-A Second Assistant";
 					isPlayable=1;
 				};
-				id=143;
+				id=372;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
@@ -3211,7 +3212,7 @@ class items
 		class Attributes
 		{
 		};
-		id=135;
+		id=364;
 	};
 	class Item3
 	{
@@ -3225,7 +3226,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4458008,0.0014390945,0.14501953};
+					position[]={3.4487305,0.0014390945,0.14111328};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -3236,7 +3237,7 @@ class items
 					description="1-1-B Section Commander";
 					isPlayable=1;
 				};
-				id=145;
+				id=374;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -3286,7 +3287,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4477539,0.0014390945,-1.8530273};
+					position[]={3.4506836,0.0014390945,-1.8569336};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -3297,7 +3298,7 @@ class items
 					description="1-1-B First Rifleman";
 					isPlayable=1;
 				};
-				id=146;
+				id=375;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
@@ -3642,7 +3643,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4448242,0.0014390945,-3.8579102};
+					position[]={3.4477539,0.0014390945,-3.8618164};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -3653,7 +3654,7 @@ class items
 					description="1-1-B First Gunner";
 					isPlayable=1;
 				};
-				id=147;
+				id=376;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
@@ -3998,7 +3999,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4379883,0.0014390945,-5.8476563};
+					position[]={3.440918,0.0014390945,-5.8515625};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -4009,7 +4010,7 @@ class items
 					description="1-1-B First Assistant";
 					isPlayable=1;
 				};
-				id=148;
+				id=377;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
@@ -4354,7 +4355,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4458008,0.0014390945,-7.8515625};
+					position[]={3.4487305,0.0014390945,-7.8554688};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -4365,7 +4366,7 @@ class items
 					description="1-1-B Team Leader";
 					isPlayable=1;
 				};
-				id=149;
+				id=378;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -4415,7 +4416,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4448242,0.0014390945,-9.8486328};
+					position[]={3.4477539,0.0014390945,-9.8525391};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -4426,7 +4427,7 @@ class items
 					description="1-1-B Second Rifleman";
 					isPlayable=1;
 				};
-				id=150;
+				id=379;
 				type="O_Soldier_LAT_F";
 				class CustomAttributes
 				{
@@ -4771,7 +4772,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4506836,0.0014390945,-11.849609};
+					position[]={3.4536133,0.0014390945,-11.853516};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -4782,7 +4783,7 @@ class items
 					description="1-1-B Second Gunner";
 					isPlayable=1;
 				};
-				id=151;
+				id=380;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
@@ -5127,7 +5128,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4448242,0.0014390945,-13.85498};
+					position[]={3.4477539,0.0014390945,-13.858887};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -5138,7 +5139,7 @@ class items
 					description="1-1-B Second Assistant";
 					isPlayable=1;
 				};
-				id=152;
+				id=381;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
@@ -5482,7 +5483,7 @@ class items
 		class Attributes
 		{
 		};
-		id=144;
+		id=373;
 	};
 	class Item4
 	{
@@ -5496,7 +5497,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.4516602,0.0014390945,0.1796875};
+					position[]={1.4545898,0.0014390945,0.17578125};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -5507,7 +5508,7 @@ class items
 					description="1-1-C Section Commander";
 					isPlayable=1;
 				};
-				id=154;
+				id=383;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -5557,7 +5558,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.4477539,0.0014390945,-1.8359375};
+					position[]={1.4506836,0.0014390945,-1.8398438};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -5568,7 +5569,7 @@ class items
 					description="1-1-C First Rifleman";
 					isPlayable=1;
 				};
-				id=155;
+				id=384;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
@@ -5913,7 +5914,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.456543,0.0014390945,-3.8549805};
+					position[]={1.4594727,0.0014390945,-3.8588867};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -5924,7 +5925,7 @@ class items
 					description="1-1-C First Gunner";
 					isPlayable=1;
 				};
-				id=156;
+				id=385;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
@@ -6269,7 +6270,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.4624023,0.0014390945,-5.8618164};
+					position[]={1.465332,0.0014390945,-5.8657227};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -6280,7 +6281,7 @@ class items
 					description="1-1-C First Assistant";
 					isPlayable=1;
 				};
-				id=157;
+				id=386;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
@@ -6625,7 +6626,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.4575195,0.0014390945,-7.8408203};
+					position[]={1.4604492,0.0014390945,-7.8447266};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -6636,7 +6637,7 @@ class items
 					description="1-1-C Team Leader";
 					isPlayable=1;
 				};
-				id=158;
+				id=387;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -6686,7 +6687,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.4477539,0.0014390945,-9.84375};
+					position[]={1.4506836,0.0014390945,-9.8476563};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -6697,7 +6698,7 @@ class items
 					description="1-1-C Second Rifleman";
 					isPlayable=1;
 				};
-				id=159;
+				id=388;
 				type="O_Soldier_LAT_F";
 				class CustomAttributes
 				{
@@ -7042,7 +7043,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.480957,0.0014390945,-11.871582};
+					position[]={1.4838867,0.0014390945,-11.875488};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -7053,7 +7054,7 @@ class items
 					description="1-1-C Second Gunner";
 					isPlayable=1;
 				};
-				id=160;
+				id=389;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
@@ -7398,7 +7399,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.4477539,0.0014390945,-13.839844};
+					position[]={1.4506836,0.0014390945,-13.84375};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -7409,7 +7410,7 @@ class items
 					description="1-1-C Second Assistant";
 					isPlayable=1;
 				};
-				id=161;
+				id=390;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
@@ -7753,7 +7754,7 @@ class items
 		class Attributes
 		{
 		};
-		id=153;
+		id=382;
 	};
 	class Item5
 	{
@@ -7767,7 +7768,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.55859375,0.0014390945,0.16259766};
+					position[]={-0.55566406,0.0014390945,0.15869141};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -7778,7 +7779,7 @@ class items
 					description="1-1-D Section Commander";
 					isPlayable=1;
 				};
-				id=163;
+				id=392;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -7828,7 +7829,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.54150391,0.0014390945,-1.8256836};
+					position[]={-0.53857422,0.0014390945,-1.8295898};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -7839,7 +7840,7 @@ class items
 					description="1-1-D First Rifleman";
 					isPlayable=1;
 				};
-				id=164;
+				id=393;
 				type="O_Soldier_F";
 				class CustomAttributes
 				{
@@ -8184,7 +8185,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.55712891,0.0014390945,-3.8540039};
+					position[]={-0.55419922,0.0014390945,-3.8579102};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -8195,7 +8196,7 @@ class items
 					description="1-1-D First Gunner";
 					isPlayable=1;
 				};
-				id=165;
+				id=394;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
@@ -8540,7 +8541,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.54931641,0.0014390945,-5.8496094};
+					position[]={-0.54638672,0.0014390945,-5.8535156};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -8551,7 +8552,7 @@ class items
 					description="1-1-D First Assistant";
 					isPlayable=1;
 				};
-				id=166;
+				id=395;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
@@ -8896,7 +8897,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.54248047,0.0014390945,-7.8417969};
+					position[]={-0.53955078,0.0014390945,-7.8457031};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -8907,7 +8908,7 @@ class items
 					description="1-1-D Team Leader";
 					isPlayable=1;
 				};
-				id=167;
+				id=396;
 				type="O_Soldier_TL_F";
 				class CustomAttributes
 				{
@@ -8957,7 +8958,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.53417969,0.0014390945,-9.8686523};
+					position[]={-0.53125,0.0014390945,-9.8725586};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -8968,7 +8969,7 @@ class items
 					description="1-1-D Second Rifleman";
 					isPlayable=1;
 				};
-				id=168;
+				id=397;
 				type="O_Soldier_LAT_F";
 				class CustomAttributes
 				{
@@ -9313,7 +9314,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.51904297,0.0014390945,-11.867676};
+					position[]={-0.51611328,0.0014390945,-11.871582};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9324,7 +9325,7 @@ class items
 					description="1-1-D Second Gunner";
 					isPlayable=1;
 				};
-				id=169;
+				id=398;
 				type="O_Soldier_AR_F";
 				class CustomAttributes
 				{
@@ -9669,7 +9670,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.53955078,0.0014390945,-13.847656};
+					position[]={-0.53662109,0.0014390945,-13.851563};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -9680,7 +9681,7 @@ class items
 					description="1-1-D Second Assistant";
 					isPlayable=1;
 				};
-				id=170;
+				id=399;
 				type="O_Soldier_AAR_F";
 				class CustomAttributes
 				{
@@ -10024,7 +10025,7 @@ class items
 		class Attributes
 		{
 		};
-		id=162;
+		id=391;
 	};
 	class Item6
 	{
@@ -10038,7 +10039,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.1645508,0.0014390945,-17.383789};
+					position[]={7.1674805,0.0014390945,-17.387695};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10049,7 +10050,7 @@ class items
 					description="1-1-Sniper Spotter";
 					isPlayable=1;
 				};
-				id=172;
+				id=401;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -10099,7 +10100,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.1323242,0.0014390945,-19.363281};
+					position[]={7.1352539,0.0014390945,-19.367188};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10110,7 +10111,7 @@ class items
 					description="1-1-Sniper Marksman";
 					isPlayable=1;
 				};
-				id=173;
+				id=402;
 				type="O_soldier_M_F";
 				class CustomAttributes
 				{
@@ -10159,7 +10160,7 @@ class items
 		class Attributes
 		{
 		};
-		id=171;
+		id=400;
 	};
 	class Item7
 	{
@@ -10173,7 +10174,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.1254883,0.0014390945,-17.272949};
+					position[]={5.128418,0.0014390945,-17.276855};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10184,7 +10185,7 @@ class items
 					description="1-1-(Mortar)-A Section Commander";
 					isPlayable=1;
 				};
-				id=175;
+				id=404;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -10234,7 +10235,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.1430664,0.0014390945,-21.317871};
+					position[]={5.1459961,0.0014390945,-21.321777};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10245,7 +10246,7 @@ class items
 					description="1-1-(Mortar)-A Asst. Gunner";
 					isPlayable=1;
 				};
-				id=176;
+				id=405;
 				type="O_support_AMort_F";
 				class CustomAttributes
 				{
@@ -10295,7 +10296,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.1420898,0.0014390945,-19.344727};
+					position[]={5.1450195,0.0014390945,-19.348633};
 					angles[]={-0,1.5707964,0};
 				};
 				side="East";
@@ -10306,7 +10307,7 @@ class items
 					description="1-1-(Mortar)-A Gunner";
 					isPlayable=1;
 				};
-				id=177;
+				id=406;
 				type="O_support_Mort_F";
 				class CustomAttributes
 				{
@@ -10355,14 +10356,14 @@ class items
 		class Attributes
 		{
 		};
-		id=174;
+		id=403;
 	};
 	class Item8
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.237793,0,6.7944336};
+			position[]={-19.234863,0,6.7905273};
 			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
@@ -10372,7 +10373,7 @@ class items
 			skill=0.2;
 			init="call{nul = [this,""meds""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
 		};
-		id=178;
+		id=407;
 		type="ACE_medicalSupplyCrate";
 		class CustomAttributes
 		{
@@ -10422,10 +10423,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-7.5180664,0,-4.6586914};
+			position[]={-7.5151367,0,-4.6625977};
 			angles[]={0,1.5707964,0};
 		};
-		id=179;
+		id=408;
 		type="ModuleRespawnPosition_F";
 		class CustomAttributes
 		{
@@ -10532,10 +10533,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-7.5180664,0,-8.6489258};
+			position[]={-7.5151367,0,-8.652832};
 			angles[]={0,1.5707964,0};
 		};
-		id=180;
+		id=409;
 		type="ModuleRespawnTickets_F";
 		class CustomAttributes
 		{
@@ -10623,10 +10624,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-18.575684,0,-8.9077148};
+			position[]={-18.572754,0,-8.9116211};
 			angles[]={0,1.5707964,0};
 		};
-		id=181;
+		id=410;
 		type="ModuleRespawnPosition_F";
 		class CustomAttributes
 		{
@@ -10740,7 +10741,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5253906,0.0014390945,8.1279297};
+					position[]={7.5283203,0.0014390945,8.1240234};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10752,7 +10753,7 @@ class items
 					description="2-2-A Crew Commander";
 					isPlayable=1;
 				};
-				id=183;
+				id=412;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -10802,7 +10803,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.4897461,0.0014390945,6.1513672};
+					position[]={7.4926758,0.0014390945,6.1474609};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10813,7 +10814,7 @@ class items
 					description="2-2-A Crew Gunner";
 					isPlayable=1;
 				};
-				id=184;
+				id=413;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -10863,7 +10864,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5410156,0.0014390945,4.1220703};
+					position[]={7.5439453,0.0014390945,4.1181641};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10874,7 +10875,7 @@ class items
 					description="2-2-A Crew Driver";
 					isPlayable=1;
 				};
-				id=185;
+				id=414;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -10923,7 +10924,7 @@ class items
 		class Attributes
 		{
 		};
-		id=182;
+		id=411;
 	};
 	class Item13
 	{
@@ -10937,7 +10938,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4545898,0.0014390945,8.1577148};
+					position[]={5.4575195,0.0014390945,8.1538086};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -10948,7 +10949,7 @@ class items
 					description="2-3-A Crew Commander";
 					isPlayable=1;
 				};
-				id=187;
+				id=416;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -10998,7 +10999,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4125977,0.0014390945,6.1469727};
+					position[]={5.4155273,0.0014390945,6.1430664};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11009,7 +11010,7 @@ class items
 					description="2-3-A Crew Gunner";
 					isPlayable=1;
 				};
-				id=188;
+				id=417;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11059,7 +11060,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4633789,0.0014390945,4.1391602};
+					position[]={5.4663086,0.0014390945,4.1352539};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11070,7 +11071,7 @@ class items
 					description="2-3-A Crew Driver";
 					isPlayable=1;
 				};
-				id=189;
+				id=418;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11119,7 +11120,7 @@ class items
 		class Attributes
 		{
 		};
-		id=186;
+		id=415;
 	};
 	class Item14
 	{
@@ -11133,7 +11134,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4873047,0.0014390945,8.171875};
+					position[]={3.4902344,0.0014390945,8.1679688};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11144,7 +11145,7 @@ class items
 					description="2-2-B Crew Commander";
 					isPlayable=1;
 				};
-				id=191;
+				id=420;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11194,7 +11195,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4897461,0.0014390945,6.1538086};
+					position[]={3.4926758,0.0014390945,6.1499023};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11205,7 +11206,7 @@ class items
 					description="2-2-B Crew Gunner";
 					isPlayable=1;
 				};
-				id=192;
+				id=421;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11255,7 +11256,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4311523,0.0014390945,4.1611328};
+					position[]={3.434082,0.0014390945,4.1572266};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11266,7 +11267,7 @@ class items
 					description="2-2-B Crew Driver";
 					isPlayable=1;
 				};
-				id=193;
+				id=422;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11315,7 +11316,7 @@ class items
 		class Attributes
 		{
 		};
-		id=190;
+		id=419;
 	};
 	class Item15
 	{
@@ -11329,7 +11330,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.55908203,0.0014390945,8.152832};
+					position[]={-0.55615234,0.0014390945,8.1489258};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11340,7 +11341,7 @@ class items
 					description="2-2-C Crew Commander";
 					isPlayable=1;
 				};
-				id=195;
+				id=424;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11390,7 +11391,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.54052734,0.0014390945,6.1557617};
+					position[]={-0.53759766,0.0014390945,6.1518555};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11401,7 +11402,7 @@ class items
 					description="2-2-C Crew Gunner";
 					isPlayable=1;
 				};
-				id=196;
+				id=425;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11451,7 +11452,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.51904297,0.0014390945,4.1279297};
+					position[]={-0.51611328,0.0014390945,4.1240234};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11462,7 +11463,7 @@ class items
 					description="2-2-C Crew Driver";
 					isPlayable=1;
 				};
-				id=197;
+				id=426;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11511,7 +11512,7 @@ class items
 		class Attributes
 		{
 		};
-		id=194;
+		id=423;
 	};
 	class Item16
 	{
@@ -11525,7 +11526,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.5200195,0.0014390945,8.1425781};
+					position[]={-4.5170898,0.0014390945,8.1386719};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11536,7 +11537,7 @@ class items
 					description="2-2-D Crew Commander";
 					isPlayable=1;
 				};
-				id=199;
+				id=428;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11586,7 +11587,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.5131836,0.0014390945,6.1474609};
+					position[]={-4.5102539,0.0014390945,6.1435547};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11597,7 +11598,7 @@ class items
 					description="2-2-D Crew Gunner";
 					isPlayable=1;
 				};
-				id=200;
+				id=429;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11647,7 +11648,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-4.5249023,0.0014390945,4.1445313};
+					position[]={-4.5219727,0.0014390945,4.140625};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11658,7 +11659,7 @@ class items
 					description="2-2-D Crew Driver";
 					isPlayable=1;
 				};
-				id=201;
+				id=430;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11707,7 +11708,7 @@ class items
 		class Attributes
 		{
 		};
-		id=198;
+		id=427;
 	};
 	class Item17
 	{
@@ -11721,7 +11722,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.4448242,0.0014390945,8.2114258};
+					position[]={1.4477539,0.0014390945,8.2075195};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11732,7 +11733,7 @@ class items
 					description="2-3-B Crew Commander";
 					isPlayable=1;
 				};
-				id=203;
+				id=432;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11782,7 +11783,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.4604492,0.0014390945,6.1391602};
+					position[]={1.4633789,0.0014390945,6.1352539};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11793,7 +11794,7 @@ class items
 					description="2-3-B Crew Gunner";
 					isPlayable=1;
 				};
-				id=204;
+				id=433;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11843,7 +11844,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={1.4936523,0.0014390945,4.1538086};
+					position[]={1.496582,0.0014390945,4.1499023};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11854,7 +11855,7 @@ class items
 					description="2-3-B Crew Driver";
 					isPlayable=1;
 				};
-				id=205;
+				id=434;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -11903,7 +11904,7 @@ class items
 		class Attributes
 		{
 		};
-		id=202;
+		id=431;
 	};
 	class Item18
 	{
@@ -11917,7 +11918,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.5131836,0.0014390945,8.2211914};
+					position[]={-2.5102539,0.0014390945,8.2172852};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11928,7 +11929,7 @@ class items
 					description="2-3-C Crew Commander";
 					isPlayable=1;
 				};
-				id=207;
+				id=436;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -11978,7 +11979,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.4985352,0.0014390945,6.1489258};
+					position[]={-2.4956055,0.0014390945,6.1450195};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -11989,7 +11990,7 @@ class items
 					description="2-3-C Crew Gunner";
 					isPlayable=1;
 				};
-				id=208;
+				id=437;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -12039,7 +12040,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.5288086,0.0014390945,4.1074219};
+					position[]={-2.5258789,0.0014390945,4.1035156};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12050,7 +12051,7 @@ class items
 					description="2-3-C Crew Driver";
 					isPlayable=1;
 				};
-				id=209;
+				id=438;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -12099,7 +12100,7 @@ class items
 		class Attributes
 		{
 		};
-		id=206;
+		id=435;
 	};
 	class Item19
 	{
@@ -12113,7 +12114,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.5869141,0.0014390945,8.1557617};
+					position[]={-6.5839844,0.0014390945,8.1518555};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12124,7 +12125,7 @@ class items
 					description="2-3-D Crew Commander";
 					isPlayable=1;
 				};
-				id=211;
+				id=440;
 				type="O_officer_F";
 				class CustomAttributes
 				{
@@ -12174,7 +12175,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.5522461,0.0014390945,6.0976563};
+					position[]={-6.5493164,0.0014390945,6.09375};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12185,7 +12186,7 @@ class items
 					description="2-3-D Crew Gunner";
 					isPlayable=1;
 				};
-				id=212;
+				id=441;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -12235,7 +12236,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-6.5366211,0.0014390945,4.1416016};
+					position[]={-6.5336914,0.0014390945,4.1376953};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12246,7 +12247,7 @@ class items
 					description="2-3-D Crew Driver";
 					isPlayable=1;
 				};
-				id=213;
+				id=442;
 				type="O_crew_F";
 				class CustomAttributes
 				{
@@ -12295,7 +12296,7 @@ class items
 		class Attributes
 		{
 		};
-		id=210;
+		id=439;
 	};
 	class Item20
 	{
@@ -12309,7 +12310,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.4926758,0.0014390945,14.120605};
+					position[]={7.4956055,0.0014390945,14.116699};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12320,7 +12321,7 @@ class items
 					description="Helicopter-1-1 Pilot";
 					isPlayable=1;
 				};
-				id=215;
+				id=444;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12370,7 +12371,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={7.5053711,0.0014390945,12.125488};
+					position[]={7.5083008,0.0014390945,12.121582};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12381,7 +12382,7 @@ class items
 					description="Helicopter-1-1 Co-Pilot";
 					isPlayable=1;
 				};
-				id=216;
+				id=445;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12430,7 +12431,7 @@ class items
 		class Attributes
 		{
 		};
-		id=214;
+		id=443;
 	};
 	class Item21
 	{
@@ -12444,7 +12445,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4560547,0.0014390945,14.15918};
+					position[]={5.4589844,0.0014390945,14.155273};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12455,7 +12456,7 @@ class items
 					description="Helicopter-1-2 Pilot";
 					isPlayable=1;
 				};
-				id=218;
+				id=447;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12505,7 +12506,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={5.4638672,0.0014390945,12.204102};
+					position[]={5.4667969,0.0014390945,12.200195};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12516,7 +12517,7 @@ class items
 					description="Helicopter-1-2 Co-Pilot";
 					isPlayable=1;
 				};
-				id=219;
+				id=448;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12565,7 +12566,7 @@ class items
 		class Attributes
 		{
 		};
-		id=217;
+		id=446;
 	};
 	class Item22
 	{
@@ -12579,7 +12580,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4677734,0.0014390945,14.181152};
+					position[]={3.4707031,0.0014390945,14.177246};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12590,7 +12591,7 @@ class items
 					description="Helicopter-1-3 Pilot";
 					isPlayable=1;
 				};
-				id=221;
+				id=450;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12640,7 +12641,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={3.4526367,0.0014390945,12.205566};
+					position[]={3.4555664,0.0014390945,12.20166};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12651,7 +12652,7 @@ class items
 					description="Helicopter-1-3 Co-Pilot";
 					isPlayable=1;
 				};
-				id=222;
+				id=451;
 				type="O_helipilot_F";
 				class CustomAttributes
 				{
@@ -12700,7 +12701,7 @@ class items
 		class Attributes
 		{
 		};
-		id=220;
+		id=449;
 	};
 	class Item23
 	{
@@ -12714,7 +12715,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.58349609,0.0014390945,14.20752};
+					position[]={-0.58056641,0.0014390945,14.203613};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12726,7 +12727,7 @@ class items
 					description="Fixedwing-1-1 Pilot";
 					isPlayable=1;
 				};
-				id=224;
+				id=453;
 				type="O_Pilot_F";
 				class CustomAttributes
 				{
@@ -12776,7 +12777,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-0.51855469,0.0014390945,12.213379};
+					position[]={-0.515625,0.0014390945,12.209473};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12788,7 +12789,7 @@ class items
 					description="Fixedwing-1-1 Co-Pilot";
 					isPlayable=1;
 				};
-				id=225;
+				id=454;
 				type="O_Pilot_F";
 				class CustomAttributes
 				{
@@ -12837,7 +12838,7 @@ class items
 		class Attributes
 		{
 		};
-		id=223;
+		id=452;
 	};
 	class Item24
 	{
@@ -12851,7 +12852,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.5639648,0.0014390945,14.200195};
+					position[]={-2.5610352,0.0014390945,14.196289};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12863,7 +12864,7 @@ class items
 					description="Fixedwing-1-2 Pilot";
 					isPlayable=1;
 				};
-				id=227;
+				id=456;
 				type="O_Pilot_F";
 				class CustomAttributes
 				{
@@ -12913,7 +12914,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.5541992,0.0014390945,12.197754};
+					position[]={-2.5512695,0.0014390945,12.193848};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -12925,7 +12926,7 @@ class items
 					description="Fixedwing-1-2 Co-Pilot";
 					isPlayable=1;
 				};
-				id=228;
+				id=457;
 				type="O_Pilot_F";
 				class CustomAttributes
 				{
@@ -12974,17 +12975,17 @@ class items
 		class Attributes
 		{
 		};
-		id=226;
+		id=455;
 	};
 	class Item25
 	{
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-5.4956055,0,-4.6674805};
+			position[]={-5.4926758,0,-4.6713867};
 			angles[]={0,1.5707964,0};
 		};
-		id=229;
+		id=458;
 		type="ModuleCurator_F";
 		class CustomAttributes
 		{
@@ -13091,10 +13092,10 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={-5.4995117,0,-8.6650391};
+			position[]={-5.496582,0,-8.6689453};
 			angles[]={0,1.5707964,0};
 		};
-		id=230;
+		id=459;
 		type="ModuleCurator_F";
 		class CustomAttributes
 		{
@@ -13208,7 +13209,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.5517578,0.0014390945,-5.8022461};
+					position[]={-2.5488281,0.0014390945,-5.8061523};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -13220,7 +13221,7 @@ class items
 					description="Game-Master-1";
 					isPlayable=1;
 				};
-				id=232;
+				id=461;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -13269,7 +13270,7 @@ class items
 		class Attributes
 		{
 		};
-		id=231;
+		id=460;
 	};
 	class Item28
 	{
@@ -13283,7 +13284,7 @@ class items
 				dataType="Object";
 				class PositionInfo
 				{
-					position[]={-2.5922852,0.0014390945,-7.8066406};
+					position[]={-2.5893555,0.0014390945,-7.8105469};
 					angles[]={0,1.5707964,0};
 				};
 				side="East";
@@ -13295,7 +13296,7 @@ class items
 					description="Game-Master-2";
 					isPlayable=1;
 				};
-				id=234;
+				id=463;
 				type="O_Soldier_SL_F";
 				class CustomAttributes
 				{
@@ -13344,14 +13345,14 @@ class items
 		class Attributes
 		{
 		};
-		id=233;
+		id=462;
 	};
 	class Item29
 	{
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-18.647949,0.78980827,-1.3925781};
+			position[]={-18.64502,0.78980827,-1.3964844};
 			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
@@ -13359,7 +13360,7 @@ class items
 		class Attributes
 		{
 		};
-		id=235;
+		id=464;
 		type="Box_IND_AmmoVeh_F";
 		class CustomAttributes
 		{
@@ -13722,7 +13723,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-23.318359,0.41794205,8.7265625};
+			position[]={-23.31543,0.41794205,8.7226563};
 			angles[]={-0,3.1415927,0};
 		};
 		side="Empty";
@@ -13732,7 +13733,7 @@ class items
 			init="call{nul = [this] execVM ""scripts\cratePicker\cratePicker_opf.sqf"";}";
 			name="OPF_CRATEPICKER";
 		};
-		id=236;
+		id=465;
 		type="rhs_weapon_crate";
 		class CustomAttributes
 		{
@@ -13967,7 +13968,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.196289,0.2725153,8.9365234};
+			position[]={-19.193359,0.2725153,8.9326172};
 			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
@@ -13977,7 +13978,7 @@ class items
 			skill=0.2;
 			init="nul = [this,""sectionammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; ";
 		};
-		id=238;
+		id=466;
 		type="Section_o_Ammo_F";
 		class CustomAttributes
 		{
@@ -14027,7 +14028,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.23291,0.14872551,4.9262695};
+			position[]={-19.22998,0.14872551,4.9223633};
 			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
@@ -14037,7 +14038,7 @@ class items
 			skill=0.2;
 			init="nul = [this,""mmgammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; ";
 		};
-		id=239;
+		id=467;
 		type="MG_Ammo_o_F";
 		class CustomAttributes
 		{
@@ -14087,7 +14088,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.275879,0.17998457,2.5996094};
+			position[]={-19.272949,0.17998457,2.5957031};
 			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
@@ -14097,7 +14098,7 @@ class items
 			skill=0.2;
 			init="call{nul = [this,""latammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
 		};
-		id=240;
+		id=468;
 		type="LAT_Ammo_o_F";
 		class CustomAttributes
 		{
@@ -14147,7 +14148,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-19.090332,0.14872551,1.0253906};
+			position[]={-19.087402,0.14872551,1.0214844};
 			angles[]={-0,1.5707964,0};
 		};
 		side="Empty";
@@ -14157,7 +14158,7 @@ class items
 			skill=0.2;
 			init="call{nul = [this,""demosmall""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
 		};
-		id=241;
+		id=469;
 		type="LExplosives_Ammo_o_F";
 		class CustomAttributes
 		{
@@ -14207,7 +14208,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-22.681152,3.9768047,12.027344};
+			position[]={-22.678711,3.9768047,12.023926};
 		};
 		side="Empty";
 		flags=5;
@@ -14216,7 +14217,7 @@ class items
 			init="call{this addAction [""Teleport TO MHQ"", ""scripts\teleports\MHQ.sqf"", MHQ_OPF];}";
 			name="MHQ_Teleporter_opf";
 		};
-		id=242;
+		id=470;
 		type="Flag_Red_F";
 	};
 	class Item36
@@ -14224,7 +14225,7 @@ class items
 		dataType="Object";
 		class PositionInfo
 		{
-			position[]={-23.074219,0.89242268,4.1635742};
+			position[]={-23.071289,0.89242268,4.159668};
 			angles[]={-0,4.712389,0};
 		};
 		side="Empty";
@@ -14234,7 +14235,7 @@ class items
 			init="call{this addAction[""<t color='#dddd00'>"" + ""Select Loadout"" + ""</t>"", ""scripts\assignGear\assignGear_KitPicker.sqf"", [], 6, true, false, """", """", 3];}";
 			name="OPF_loadout";
 		};
-		id=250;
+		id=471;
 		type="O_supplyCrate_F";
 		class CustomAttributes
 		{
@@ -14488,11 +14489,11 @@ class connections
 {
 	class LinkIDProvider
 	{
-		nextID=6;
+		nextID=13;
 	};
 	class Links
 	{
-		items=6;
+		items=13;
 		class Item0
 		{
 			linkID=0;
@@ -14548,6 +14549,76 @@ class connections
 			linkID=5;
 			item0=230;
 			item1=234;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item6
+		{
+			linkID=6;
+			item0=292;
+			item1=236;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item7
+		{
+			linkID=7;
+			item0=340;
+			item1=343;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item8
+		{
+			linkID=8;
+			item0=341;
+			item1=345;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item9
+		{
+			linkID=9;
+			item0=460;
+			item1=463;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item10
+		{
+			linkID=10;
+			item0=410;
+			item1=354;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item11
+		{
+			linkID=11;
+			item0=458;
+			item1=461;
+			class CustomData
+			{
+				type="Sync";
+			};
+		};
+		class Item12
+		{
+			linkID=12;
+			item0=459;
+			item1=463;
 			class CustomData
 			{
 				type="Sync";

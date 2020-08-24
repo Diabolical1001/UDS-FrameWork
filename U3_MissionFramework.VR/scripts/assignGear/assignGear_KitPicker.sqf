@@ -32,14 +32,14 @@ _loadoutArray = [
 	["Designated Marksman","dmr"],
 	["Machinegunner","mmg"],
 	["Asst. Machinegunner","mmgass"],
-		
+
 	// Vehicles
 	["Crew Commander","crewmander"],
 	["Crewman","crewman"],
 	["Rotary Wing Pilot","rotarypilot"],
 	["Rotary Wing Aircrew","rotarycrew"],
 	["Fixed Wing Pilot","fixedpilot"],
-		
+
 	// CSW and Weapons
 	["MAT Gunner","matgun"],
 	["MAT Assistant","matammo"],
@@ -51,7 +51,7 @@ _loadoutArray = [
 	["HMG Assistant","hmgass"],
 	["SHAT Gunner","shatgun"],
 	["SHAT Assistant","shatass"],
-		
+
 	// Specialist Roles
 	["Scoped Rifleman","rmsc"],
 	["Breacher","brcr"],
@@ -68,10 +68,10 @@ _loadoutArray = [
 _loadoutstrings = [];
 {_loadoutstrings pushback (_x select 0);} foreach _loadoutArray;
 
-_dialog_title = "Kit Picker - Select your Role";
-_dialog_options = [["Select Kit",_loadoutstrings]];
+_dialog_title = "Loadout Picker";
+_dialog_options = [["COMBOBOX","Select Role", _loadoutstrings]];
 
-_dialogResult = [_dialog_title, _dialog_options] call Ares_fnc_ShowChooseDialog;
+_dialogResult = [_dialog_title, _dialog_options] call UDSI_fnc_createDialog;
 
 // selection is cancelled
 _dialogCount = count _dialogResult;

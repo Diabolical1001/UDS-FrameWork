@@ -12,7 +12,7 @@ private ["_flag"];
 _flag = _this select 0;
 
 // the whole script will be within the addaction command, since it doesn't need to rely on anything external
-_flag addaction ["<t color='#dddd00'>" + "Spawn Crate" + "</t>", { 
+_flag addaction ["<t color='#dddd00'>" + "Spawn Crate" + "</t>", {
 
 	private ["_dialog_title","_dialog_options","_dialogCount","_dialogResult","_loadoutArray","_loadoutstrings","_loadout","_location"];
 
@@ -34,6 +34,7 @@ _flag addaction ["<t color='#dddd00'>" + "Spawn Crate" + "</t>", {
 		["Ammo - MAT", "mat_ammo_o_f", "matammo"],
 		["Ammo - HAT", "hat_ammo_o_f", "hatammo"],
 		["Ammo - AA", "aa_ammo_o_f", "aaammo"],
+		["Ammo - Sniper", "Sniper_Ammo_o_F", "snipercrate"],
 		["Explosives - Small", "sexplosives_ammo_o_f", "demosmall"],
 		["Explosives - Large", "lexplosives_ammo_o_f", "demobig"],
 		["Explosives - AP Mines", "apmines_ammo_o_f", "apmines"],
@@ -45,11 +46,11 @@ _flag addaction ["<t color='#dddd00'>" + "Spawn Crate" + "</t>", {
 	_loadoutstrings = [];
 	{ _loadoutstrings pushback (_x select 0); } foreach _loadoutArray;
 
-	_dialog_title = "Crate Picker";
-	_dialog_options = [["Select Crate", _loadoutstrings]];
-	
-	_dialogResult = [_dialog_title, _dialog_options] call Ares_fnc_ShowChooseDialog;
-	
+	_dialog_title = "Resupply Crates";
+	_dialog_options = [["COMBOBOX","Select Crate", _loadoutstrings]];
+
+	_dialogResult = [_dialog_title, _dialog_options] call UDSI_fnc_createDialog;
+
 	// selection is cancelled
 	_dialogCount = count _dialogResult;
 	if (_dialogCount == 0) exitWith {};
@@ -59,7 +60,7 @@ _flag addaction ["<t color='#dddd00'>" + "Spawn Crate" + "</t>", {
 
 	// the selection number is now stored in _ZNum. Apply to _loadoutArray to pull out box type string
 	_boxType = (_loadoutArray select _ZNum) select 1;
-	
+
 	// and the loadout string, for assigngear function
 	_loadout = (_loadoutArray select _ZNum) select 2;
 

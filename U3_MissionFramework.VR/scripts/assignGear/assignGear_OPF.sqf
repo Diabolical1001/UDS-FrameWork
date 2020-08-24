@@ -135,8 +135,8 @@ if (_unit isKindOf "Man") then {
 			["commander"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			_unit addMagazines [_rifleMag,2];
-			_unit addMagazines [_rifleTracerMag,2];
+			for "_i" from 1 to 4 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 2 do {_unit addItemToVest _rifleTracerMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
 			["plt"] call _addRuck;
@@ -162,12 +162,12 @@ if (_unit isKindOf "Man") then {
 		// Plt FAC/FO - doubles for COY FAC/FO
 		case "pltfac" : {
 			["rflm"] call _addClothes;
-			["westdesignator"] call _addBasics;
+			["eastdesignator"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
 			_unit addItemToVest _dagr;
-			_unit addItemToVest _eastrangefinder;
-			_unit addMagazines [_rifleMag,6];
-			_unit addMagazines [_rifleTracerMag,2];
+			_unit addItemToUniform _designatorBat;
+			for "_i" from 1 to 6 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 2 do {_unit addItemToVest _rifleTracerMag};
 			_unit addWeapon _rifleGL;
 			["fac"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -176,14 +176,13 @@ if (_unit isKindOf "Man") then {
 		// Plt UAV Operator
 		case "pltuavop" : {
 			["rflm"] call _addClothes;
-			["westdesignator"] call _addBasics;
+			["eastdesignator"] call _addBasics;
 			_unit addItemToUniform _uavBat;
 			_unit addItemToUniform _designatorBat;
 			_unit addItemToVest _uavTool;
 			_unit addItemToVest _dagr;
-			_unit addItemToVest _eastrangefinder;
-			_unit addMagazines [_rifleMag,6];
-			_unit addMagazines [_rifleTracerMag,2];
+			for "_i" from 1 to 6 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 2 do {_unit addItemToVest _rifleTracerMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
 			["uavop"] call _addRuck;
@@ -199,8 +198,8 @@ if (_unit isKindOf "Man") then {
 			["secco"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			_unit addMagazines [_rifleMag,6];
-			_unit addMagazines [_rifleTracerMag,2];
+			for "_i" from 1 to 6 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 2 do {_unit addItemToVest _rifleTracerMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
 			["plt"] call _addRuck;
@@ -212,10 +211,8 @@ if (_unit isKindOf "Man") then {
 			["teamleader"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			_unit addMagazines [_rifleGLMag,6];
-			_unit addMagazines [_rifleTracerMag,2];
-			_unit addMagazines [_glExplody,4];
-			_unit addMagazines [_glSmokeOne,2];
+			for "_i" from 1 to 6 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 2 do {_unit addItemToVest _rifleTracerMag};
 			_unit addWeapon _rifleGL;
 			call _addSidearm;
 			["tl"] call _addRuck;
@@ -226,9 +223,8 @@ if (_unit isKindOf "Man") then {
 		case "ar" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_autoRifleMag,_arMagCount];
+			for "_i" from 1 to _arMagCount do {_unit addItemToVest _autoRifleMag};
 			_unit addWeapon _autoRifle;
-			_unit addMagazine _autoTracerMag;
 			call _addSidearm;
 			["ar"] call _addRuck;
 			["ar",false,false,false] call _addAttachments;
@@ -238,7 +234,7 @@ if (_unit isKindOf "Man") then {
 		case "aar" : {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["aar"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -248,7 +244,7 @@ if (_unit isKindOf "Man") then {
 		case "rm" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["rm"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -257,9 +253,8 @@ if (_unit isKindOf "Man") then {
 		case "brcr" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_shottyBuck,4];
-			_unit addMagazines [_shottySlug,4];
-			_unit addWeapon _shotty;
+			for "_i" from 1 to 6 do {_unit addItemToVest _rifleMag};
+			_unit addWeapon _rifle;
 			["brcr"] call _addRuck;
 			["uniform"] call _IFAK;
 		};
@@ -267,7 +262,7 @@ if (_unit isKindOf "Man") then {
 		case "rmammo" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["rmammo"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -277,7 +272,7 @@ if (_unit isKindOf "Man") then {
 		case "rmat" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["rmat"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -288,7 +283,7 @@ if (_unit isKindOf "Man") then {
 		case "rmsc" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifleScoped;
 			["rmsc"] call _addRuck;
 			["dmr",true,false,false] call _addAttachments;
@@ -309,8 +304,7 @@ if (_unit isKindOf "Man") then {
 		case "gren" : {
 			["gren"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
-			_unit addMagazines [_glExplody,6];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifleGL;
 			["gren"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -320,7 +314,7 @@ if (_unit isKindOf "Man") then {
 		case "mmg" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addItemToVest [_mmgMag,2];
+			for "_i" from 1 to _mmgMagCount do {_unit addItemToVest _mmgMag};
 			_unit addWeapon _mmg;
 			call _addSidearm;
 			["mmg"] call _addRuck;
@@ -331,7 +325,7 @@ if (_unit isKindOf "Man") then {
 		case "mmgass" : {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["mmgass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -346,18 +340,17 @@ if (_unit isKindOf "Man") then {
 			["rpilot"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 6 do {_unit addItemToVest _smgMag};
+			for "_i" from 1 to 4 do {_unit addItemToVest _smgMag};
 			_unit addWeapon _smg;
 			call _addSidearm;
 			["pilot"] call _addRuck;
 			["uniform"] call _IFAK;
-
 		};
 		case "rotarycrew" : {
 			["rcrew"] call _addClothes;
 			["binocular"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 6 do {_unit addItemToVest _carbineMag};
+			for "_i" from 1 to 4 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
 			call _addSidearm;
 			["aircrew"] call _addRuck;
@@ -377,7 +370,7 @@ if (_unit isKindOf "Man") then {
 			["crew"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 6 do {_unit addItemToVest _carbineMag};
+			for "_i" from 1 to 4 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
 			call _addSidearm;
 			["crew"] call _addRuck;
@@ -387,9 +380,7 @@ if (_unit isKindOf "Man") then {
 		case "crewman" : {
 			["crew"] call _addClothes;
 			["none"] call _addBasics;
-			{ _unit linkItem _x } foreach _secItems;
-			{ _unit linkItem _x } foreach _ftlItems;
-			for "_i" from 1 to 6 do {_unit addItemToVest _carbineMag};
+			for "_i" from 1 to 4 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
 			call _addSidearm;
 			["crewman"] call _addRuck;
@@ -403,7 +394,7 @@ if (_unit isKindOf "Man") then {
 		case "hmggun" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
 			["hmggun"] call _addRuck;
@@ -414,7 +405,7 @@ if (_unit isKindOf "Man") then {
 		case "hmgass" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
 			["hmgass"] call _addRuck;
@@ -425,7 +416,7 @@ if (_unit isKindOf "Man") then {
 		case "shatgun" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
 			["shatgun"] call _addRuck;
@@ -436,7 +427,7 @@ if (_unit isKindOf "Man") then {
 		case "shatass" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
 			["shatass"] call _addRuck;
@@ -447,7 +438,7 @@ if (_unit isKindOf "Man") then {
 		case "mortgun" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
 			["mortgun"] call _addRuck;
@@ -458,7 +449,7 @@ if (_unit isKindOf "Man") then {
 		case "mortgun" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
 			["mortass"] call _addRuck;
@@ -473,7 +464,7 @@ if (_unit isKindOf "Man") then {
 		case "matgun" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["matgun"] call _addRuck;
 			_unit addWeapon _matLaunch;
@@ -484,7 +475,7 @@ if (_unit isKindOf "Man") then {
 		case "matammo" : {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["matass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -494,7 +485,7 @@ if (_unit isKindOf "Man") then {
 		case "hatgun" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["hat"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -505,7 +496,7 @@ if (_unit isKindOf "Man") then {
 		case "hatammo" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["hatass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -515,7 +506,7 @@ if (_unit isKindOf "Man") then {
 		case "aagun" : {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["aa"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -526,7 +517,7 @@ if (_unit isKindOf "Man") then {
 		case "aaammo" : {
 			["rflm"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["aaass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -539,8 +530,7 @@ if (_unit isKindOf "Man") then {
 		// Sniper
 		case "sniper" : {
 			["sniper"] call _addClothes;
-			["none"] call _addBasics;
-			{ _unit linkItem _x } foreach _secItems;
+			["vector"] call _addBasics;
 			{ _unit addItemToUniform _x } foreach _sniperItems;
 			for "_i" from 1 to 9 do {_unit addItemToVest _boltRifleMag};
 			_unit addWeapon _boltRifle;
@@ -552,8 +542,7 @@ if (_unit isKindOf "Man") then {
 		// Anti-Material Sniper
 		case "amsniper" : {
 			["sniper"] call _addClothes;
-			["none"] call _addBasics;
-			{ _unit linkItem _x } foreach _secItems;
+			["vector"] call _addBasics;
 			{ _unit addItemToUniform _x } foreach _sniperItems;
 			for "_i" from 1 to 9 do {_unit addItemToVest _amRifleMag};
 			_unit addWeapon _amRifle;
@@ -565,13 +554,9 @@ if (_unit isKindOf "Man") then {
 		// Spotter
 		case "spotter" : {
 			["sniper"] call _addClothes;
-			["westdesignator"] call _addBasics;
+			["eastdesignator"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			{ _unit addItemToUniform _x } foreach _sniperItems;
-			_unit addMagazines [_rifleGLMag,8];
-			_unit addMagazines [_glExplody,5];
-			_unit addMagazines [_glSmokeOne,2];
-			_unit addMagazines [_glSmokeTwo,2];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifleGL;
 			["spotter"] call _addRuck;
 			["general",false,true,false] call _addAttachments;
@@ -604,7 +589,7 @@ if (_unit isKindOf "Man") then {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
 			["engi"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -615,12 +600,13 @@ if (_unit isKindOf "Man") then {
 			["rflm"] call _addClothes;
 			["none"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			_unit addMagazines [_rifleMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifle;
-			["demoman"] call _addRuck; // largeruck
+			["demoman"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
 		};
+
 		// ========================================
 		// if undefined or incorrectly defined, give hint and assign standard rifleman gear
 		default {
@@ -636,6 +622,7 @@ if (_unit isKindOf "Man") then {
 	};
 	// ========================================
 	// Post Gear Assign Function, handles misc stuff.
+
 	call _postGearAssign;
 
 	// ========================================
@@ -755,13 +742,11 @@ if (!(_unit isKindOf "Man")) then {
 		// ========================================
 
 		case "snipercrate" : {
-			_unit addWeaponCargoGlobal [_boltRifle,1];
 			_unit addWeaponCargoGlobal [_designator,1];
-			_unit addMagazineCargoGlobal [_designatorBat,2];
+			_unit addWeaponCargoGlobal [_vector,1];
+			_unit addMagazineCargoGlobal [_designatorBat,1];
 			_unit addMagazineCargoGlobal [_boltRifleMag,10];
-			{ _unit addItemCargoGlobal [_x,2]; } forEach _sniperItems;
-			{ _unit addItemCargoGlobal [_x,1]; } forEach _sniperAttachments;
-			{ _unit addItemCargoGlobal [_x,2]; } forEach _secItems;
+			{ _unit addItemCargoGlobal [_x,1]; } forEach _sniperItems;
 		};
 		case "matcrate" : {
 			_unit addWeaponCargoGlobal [_matLaunch,1];

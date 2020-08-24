@@ -33,7 +33,7 @@ switch (_camoPattern) do {
 
 		_rflmUniformArray = ["rhs_uniform_FROG01_wd"];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
-		_rflmUniform = _rflmUniformArray select _rflmRandom;	
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
 		_crewUniform = "rhs_uniform_FROG01_wd";
 		_leaderUniform = "rhs_uniform_FROG01_wd";
 		_rpilotUniform = "rhs_uniform_FROG01_wd";
@@ -46,10 +46,10 @@ switch (_camoPattern) do {
 			case "lwh_helmet_marpatwd" : {
 				_rflmHelmetArray = ["rhsusf_lwh_helmet_marpatwd","rhsusf_lwh_helmet_marpatwd_blk_ess"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_green_alt_helmet","rhsusf_cvc_green_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_green";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_green";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -61,10 +61,10 @@ switch (_camoPattern) do {
 			default {
 				_rflmHelmetArray = [""];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -104,7 +104,7 @@ switch (_camoPattern) do {
 
 		// =================== Goggles ===================
 
-		_gogglesArray = [""]; 
+		_gogglesArray = [""];
 		_gogglesRandom = (floor(random (count _gogglesArray)));
 		_goggles = _gogglesArray select _gogglesRandom;
 
@@ -117,7 +117,7 @@ switch (_camoPattern) do {
 
 		_rflmUniformArray = ["rhs_uniform_FROG01_d"];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
-		_rflmUniform = _rflmUniformArray select _rflmRandom;	
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
 		_crewUniform = "rhs_uniform_FROG01_d";
 		_leaderUniform = "rhs_uniform_FROG01_d";
 		_rpilotUniform = "rhs_uniform_FROG01_d";
@@ -130,10 +130,10 @@ switch (_camoPattern) do {
 			case "lwh_helmet_marpatwd" : {
 				_rflmHelmetArray = ["rhsusf_lwh_helmet_marpatd","rhsusf_lwh_helmet_marpatd_ess"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -145,10 +145,10 @@ switch (_camoPattern) do {
 			default {
 				_rflmHelmetArray = [""];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -188,7 +188,7 @@ switch (_camoPattern) do {
 
 		// =================== Goggles ===================
 
-		_gogglesArray = [""]; 
+		_gogglesArray = [""];
 		_gogglesRandom = (floor(random (count _gogglesArray)));
 		_goggles = _gogglesArray select _gogglesRandom;
 
@@ -201,7 +201,7 @@ switch (_camoPattern) do {
 
 		_rflmUniformArray = ["rhs_uniform_cu_ocp_101st"];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
-		_rflmUniform = _rflmUniformArray select _rflmRandom;	
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
 		_crewUniform = "rhs_uniform_cu_ocp_101st";
 		_leaderUniform = "rhs_uniform_cu_ocp_101st";
 		_rpilotUniform = "rhs_uniform_cu_ocp_101st";
@@ -214,10 +214,10 @@ switch (_camoPattern) do {
 			case "ach_helmet" : {
 				_rflmHelmetArray = ["rhsusf_ach_helmet_ocp","rhsusf_ach_helmet_ESS_ocp"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -229,10 +229,10 @@ switch (_camoPattern) do {
 			case "fast_ballistic" : {
 				_rflmHelmetArray = ["rhsusf_opscore_mc_cover_pelt"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -244,10 +244,10 @@ switch (_camoPattern) do {
 			default {
 				_rflmHelmetArray = [""];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -287,7 +287,7 @@ switch (_camoPattern) do {
 
 		// =================== Goggles ===================
 
-		_gogglesArray = [""]; 
+		_gogglesArray = [""];
 		_gogglesRandom = (floor(random (count _gogglesArray)));
 		_goggles = _gogglesArray select _gogglesRandom;
 
@@ -300,7 +300,7 @@ switch (_camoPattern) do {
 
 		_rflmUniformArray = ["rhs_uniform_cu_ucp_101st"];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
-		_rflmUniform = _rflmUniformArray select _rflmRandom;	
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
 		_crewUniform = "rhs_uniform_cu_ucp_101st";
 		_leaderUniform = "rhs_uniform_cu_ucp_101st";
 		_rpilotUniform = "rhs_uniform_cu_ucp_101st";
@@ -313,10 +313,10 @@ switch (_camoPattern) do {
 			case "ach_helmet" : {
 				_rflmHelmetArray = ["rhsusf_ach_helmet_ucp","rhsusf_ach_helmet_ESS_ucp"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -328,10 +328,10 @@ switch (_camoPattern) do {
 			case "fast_ballistic" : {
 				_rflmHelmetArray = ["rhsusf_opscore_ut_pelt"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -343,10 +343,10 @@ switch (_camoPattern) do {
 			default {
 				_rflmHelmetArray = [""];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -386,7 +386,7 @@ switch (_camoPattern) do {
 
 		// =================== Goggles ===================
 
-		_gogglesArray = [""]; 
+		_gogglesArray = [""];
 		_gogglesRandom = (floor(random (count _gogglesArray)));
 		_goggles = _gogglesArray select _gogglesRandom;
 
@@ -399,7 +399,7 @@ switch (_camoPattern) do {
 
 		_rflmUniformArray = ["rhs_uniform_acu_ucp"];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
-		_rflmUniform = _rflmUniformArray select _rflmRandom;	
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
 		_crewUniform = "rhs_uniform_acu_ucp";
 		_leaderUniform = "rhs_uniform_acu_ucp";
 		_rpilotUniform = "rhs_uniform_acu_ucp";
@@ -412,10 +412,10 @@ switch (_camoPattern) do {
 			case "ach_helmet" : {
 				_rflmHelmetArray = ["rhsusf_ach_helmet_ucp","rhsusf_ach_helmet_ESS_ucp"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -427,10 +427,10 @@ switch (_camoPattern) do {
 			case "fast_ballistic" : {
 				_rflmHelmetArray = ["rhsusf_opscore_ut_pelt"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -442,10 +442,10 @@ switch (_camoPattern) do {
 			case "mich_2000_d" : {
 				_rflmHelmetArray = ["rhsusf_mich_bare_norotos_arc_tan"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -457,10 +457,10 @@ switch (_camoPattern) do {
 			default {
 				_rflmHelmetArray = [""];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -500,20 +500,20 @@ switch (_camoPattern) do {
 
 		// =================== Goggles ===================
 
-		_gogglesArray = [""]; 
+		_gogglesArray = [""];
 		_gogglesRandom = (floor(random (count _gogglesArray)));
 		_goggles = _gogglesArray select _gogglesRandom;
 
 		// ================================================
 	};
 
-	// M81 Ranger 
+	// M81 Ranger
 	case "ranger_m81_g3" : {
 		// ==================== Uniforms ==================
 
 		_rflmUniformArray = ["rhs_uniform_g3_m81"];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
-		_rflmUniform = _rflmUniformArray select _rflmRandom;	
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
 		_crewUniform = "rhs_uniform_g3_m81";
 		_leaderUniform = "rhs_uniform_g3_m81";
 		_rpilotUniform = "rhs_uniform_g3_m81";
@@ -526,10 +526,10 @@ switch (_camoPattern) do {
 			case "fast_ballistic" : {
 				_rflmHelmetArray = ["rhsusf_opscore_rg_cover_pelt"];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -541,10 +541,10 @@ switch (_camoPattern) do {
 			default {
 				_rflmHelmetArray = [""];
 				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
-				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;	
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
-				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom; 
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -584,7 +584,91 @@ switch (_camoPattern) do {
 
 		// =================== Goggles ===================
 
-		_gogglesArray = [""]; 
+		_gogglesArray = [""];
+		_gogglesRandom = (floor(random (count _gogglesArray)));
+		_goggles = _gogglesArray select _gogglesRandom;
+
+		// ================================================
+	};
+
+	// Vietnam era
+	case "og107" : {
+		// ==================== Uniforms ==================
+
+		_rflmUniformArray = ["rhsgref_uniform_og107_erdl","rhsgref_uniform_og107","rhsgref_uniform_ERDL"];
+		_rflmRandom = (floor(random (count _rflmUniformArray)));
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
+		_crewUniform = "rhsgref_uniform_og107";
+		_leaderUniform = "rhsgref_uniform_og107";
+		_rpilotUniform = "rhsgref_uniform_og107";
+		_fpilotUniform = "U_B_PilotCoveralls";
+		_sniperUniform = "rhsgref_uniform_ERDL";
+
+		// ==================== Headgear ==================
+
+		switch (_headgear) do {
+			case "m1" : {
+				_rflmHelmetArray = ["rhsgref_helmet_M1_erdl","rhsgref_helmet_M1_mit","rhsgref_helmet_M1_bare","rhsgref_helmet_M1_bare_alt01","rhsgref_helmet_M1_painted","rhsgref_helmet_M1_painted_alt01"];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = ["rhsusf_cvc_green_alt_helmet"];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_rotaryPilotHelmet = "rhsusf_cvc_green_alt_helmet";
+				_rotaryCrewHelmet = "rhsusf_cvc_green_alt_helmet";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "rhsgref_hat_M1951";
+				_slHelmet = "rhsgref_helmet_M1_liner";
+				_tlHelmet = "rhsgref_helmet_M1_liner";
+				_sniperHelmet = "rhs_Booniehat_m81";
+			};
+			default {
+				_rflmHelmetArray = [""];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = [""];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_rotaryPilotHelmet = "rhsusf_hgu56p";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "";
+				_slHelmet = "";
+				_tlHelmet = "";
+				_sniperHelmet = "";
+			};
+		};
+
+		// ===================== Vests ====================
+
+		_rflmVest = "rhsgref_chestrig";
+		_gunnerVest = "CUP_V_B_PASGT";
+		_glVest = "CUP_V_B_PASGT_OD";
+		_medVest = "rhsgref_chestrig";
+		_pilotVest = "CUP_V_B_PASGT_no_bags";
+		_crewVest = "CUP_V_B_PASGT_no_bags";
+		_coyVest = "rhsgref_alice_webbing";
+		_slVest = "rhsgref_alice_webbing";
+		_tlVest = "CUP_V_B_PASGT_OD";
+		_sniperVest = "CUP_V_B_PASGT_no_bags";
+
+		// ===================== Rucks ====================
+
+		_smallRuck = "CUP_B_ACRScout_m95";
+		_medRuck = "rhssaf_kitbag_md2camo";
+		_armgRuck = "rhssaf_kitbag_md2camo";
+		_largeRuck = "rhsgref_wdl_alicepack";
+		_medicRuck = "rhsgref_hidf_alicepack";
+		_atRuck = "CUP_B_ACRScout_m95";
+		_sniperRuck = "CUP_B_ACRScout_m95";
+
+		// ===================== NVGs ====================
+
+		_nightVision = "rhsusf_ANPVS_14";
+
+		// =================== Goggles ===================
+
+		_gogglesArray = [""];
 		_gogglesRandom = (floor(random (count _gogglesArray)));
 		_goggles = _gogglesArray select _gogglesRandom;
 

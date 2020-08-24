@@ -85,3 +85,25 @@ _music = this spawn {while {alive someobject} do {_this say selectRandom ["sound
 _nul = [] execVM "scripts\hint_1.sqf";
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+/////////////////////////////
+///   paradrop script ai  ///
+/////////////////////////////
+
+null = [] spawn {
+{
+if(((assignedVehicleRole _x)select 0) =="Cargo") then {
+removeBackpack _x;
+_x addBackpack "B_Parachute";
+[_x] ordergetin false;
+[_x] allowGetIn false;
+unassignvehicle _x;
+moveout _x;
+sleep 0.2;
+};
+} forEach(crew yourheliname);
+};
+
+//// set para vic height
+
+heli_0 flyInHeightASL [300, 300, 300];
