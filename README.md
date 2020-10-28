@@ -1,3 +1,3 @@
 # UDS-FrameWork
  UDS Arma mission framework (COOP)
-Version: 24082020
+Version: 38102020
