@@ -117,14 +117,7 @@ if ((_muzzles == 2) && _subSonicAmmo) then {
 if (_unit isKindOf "Man") then {
 
 	// Gear Removal
-	if (_rflmUniform != "") then { removeUniform _unit; };
 	if (_goggles != "") then { removeGoggles _unit; };
-	removeAllItems _unit;
-	removeAllWeapons _unit;
-	removeAllAssignedItems _unit;
-	removeVest _unit;
-	removeHeadgear _unit;
-	removeBackpack _unit;
 
 	switch (_loadout) do {
 		// ========================================
@@ -293,7 +286,7 @@ if (_unit isKindOf "Man") then {
 		case "dmr" : {
 			["dmr"] call _addClothes;
 			["none"] call _addBasics;
-			_unit addMagazines [_dmrMag,8];
+			for "_i" from 1 to 8 do {_unit addItemToVest _dmrMag};
 			_unit addWeapon _dmr;
 			call _addSidearm;
 			["dmr"] call _addRuck;
