@@ -76,6 +76,12 @@ _addClothes = {
 			_unit addHeadgear _crewmanHelmet;
 			_unit addVest _crewVest;
 		};
+		case "ncrew" : {
+			removeUniform _unit;
+			_unit forceAddUniform _crewUniform;
+			_unit addHeadgear _navalcrewmanHelmet;
+			_unit addVest _crewVest;
+		};
 		case "diver" : {
 			removeUniform _unit;
 			removeGoggles _unit;
@@ -296,6 +302,7 @@ _addRuck = {
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_dmrMag,4];
 		};
 		case "gren" : {
 			_unit addBackpack _medRuck;

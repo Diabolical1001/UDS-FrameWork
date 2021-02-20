@@ -1,6 +1,6 @@
 // ====================================================================================
 // File: description.ext
-// Last Modified By: Mr. Agnet
+// Last Modified By: Mr. Agnet \ Diabolical
 // http://community.bistudio.com/wiki/description.ext
 // ====================================================================================
 // =============================== CONFIGURABLE VARIABLES =============================
@@ -43,6 +43,14 @@ class Params {
 };
 
 // ====================================================================================
+// Functions Block
+
+class CfgFunctions
+{
+	#include "scripts\VehicleRespawn\CfgFunctions.hpp"
+};
+
+// ====================================================================================
 // BIS Notifications Config Block
 
 class cfgNotifications {
@@ -78,7 +86,7 @@ class cfgNotifications {
 
 respawnButton = 0;
 respawn = 3;
-respawnDelay = 80;
+respawnDelay = 120;
 respawnOnStart = 0;								// Dont respawn on start. Don't run respawn script on start.
 respawnTemplates[] = {"MenuPosition","tickets"};
 

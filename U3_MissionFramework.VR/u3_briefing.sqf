@@ -38,15 +38,20 @@ player createDiaryRecord ["diary", ["Radio / Freqs","
 <br/>
 <font color='#FFC800' size='16'>Rotary Wing:</font><br/>
 <br/>
-<font color='#FFC800'>HELI 1-1 SR</font>    : freq 130<br/>
-<font color='#FFC800'>HELI 1-2 SR</font>    : freq 131<br/>
-<font color='#FFC800'>HELI 1-3 SR</font>    : freq 132<br/>
+<font color='#FFC800'>Alpha 3-1 SR</font>    : freq 130<br/>
+<font color='#FFC800'>Bravo 3-1 SR</font>    : freq 131<br/>
 <br/>
 <font color='#FFC800' size='16'>Fixed Wing:</font><br/>
 <br/>
-<font color='#FFC800'>FIXW 1-1 SR</font>    : freq 140<br/>
-<font color='#FFC800'>FIXW 1-2 SR</font>    : freq 141<br/>
+<font color='#FFC800'>Alpha 4-1 SR</font>    : freq 140<br/>
+<font color='#FFC800'>Bravo 4-1 SR</font>    : freq 141<br/>
+<br/>
+<font color='#FFC800' size='16'>Naval:</font><br/>
+<br/>
+<font color='#FFC800'>Alpha 5-1 SR</font>    : freq 150<br/>
+<br/>
 <br/><br/>
+
 "]];
 
 // ====================================================================================

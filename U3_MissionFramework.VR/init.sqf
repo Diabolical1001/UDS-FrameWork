@@ -25,14 +25,14 @@ if (("HeadlessClient_Controller" call BIS_fnc_GetParamValue) == 1) then { r_var_
 // Needs to be changed to the respective gear script you are using, so JIP players can have the same gear as other players.
 
 if (hasInterface) then {
-	_side = toLower format ["%1", side player];
+	_side = toLower format ["%1", faction player];
 
 	// BLUFOR
-	if (_side == "west") then {
+	if (_side == "BLU_F") then {
 		r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_BLU.sqf";
 	};
 	// OPFOR
-	if (_side == "east") then {
+	if (_side == "OPF_F") then {
 		r_fnc_assignGear = compile preprocessfilelinenumbers "scripts\assignGear\assignGear_OPF.sqf";
 	};
 } else {
@@ -49,6 +49,11 @@ r_fnc_cratePicker_OPF = compile preprocessfilelinenumbers "scripts\assignGear\as
 
 // ====================================================================================
 // ========================== SCRIPTS AND FUNCTIONS ===================================
+// ====================================================================================
+// Mission Intro
+
+["Mission Name", "Author", "Location/Description", ''] execVM "scripts\missionIntro.sqf";
+
 // ====================================================================================
 // Disable Saving and Auto Saving
 

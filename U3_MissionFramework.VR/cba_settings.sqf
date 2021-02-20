@@ -1,6 +1,7 @@
 // A3TI
+force force A3TI_ACE_JAVELIN = true;
 force force A3TI_ALLOW_TANK_DRIVER = true;
-force force A3TI_ALLOW_VANILLA_TI = false;
+force force A3TI_ALLOW_VANILLA_TI = true;
 force force A3TI_ENABLE_ZEUS = true;
 force force A3TI_HD_VISION_FIGHTER = true;
 force force A3TI_HD_VISION_LANDVEH = true;
@@ -23,7 +24,7 @@ force force ace_advanced_fatigue_fadeStaminaBar = false;
 force force ace_advanced_fatigue_loadFactor = 0.549614;
 force force ace_advanced_fatigue_performanceFactor = 5;
 force force ace_advanced_fatigue_recoveryFactor = 5;
-force ace_advanced_fatigue_swayFactor = 1;
+force force ace_advanced_fatigue_swayFactor = 1;
 force force ace_advanced_fatigue_terrainGradientFactor = 0.401069;
 
 // ACE Advanced Throwing
@@ -83,6 +84,9 @@ force force ace_csw_handleExtraMagazines = false;
 force force ace_csw_progressBarTimeCoefficent = 1;
 
 // ACE Explosives
+force force ace_explosives_customTimerDefault = 30;
+force force ace_explosives_customTimerMax = 900;
+force force ace_explosives_customTimerMin = 5;
 force force ace_explosives_explodeOnDefuse = true;
 force force ace_explosives_punishNonSpecialists = false;
 force force ace_explosives_requireSpecialist = false;
@@ -95,12 +99,12 @@ force force ace_frag_reflectionsEnabled = true;
 force force ace_frag_spallEnabled = true;
 
 // ACE G-Forces
-force ace_gforces_coef = 1;
+force force ace_gforces_coef = 1;
 force force ace_gforces_enabledFor = 0;
 
 // ACE Goggles
 force force ace_goggles_effects = 0;
-ace_goggles_showClearGlasses = false;
+force force ace_goggles_showClearGlasses = false;
 force force ace_goggles_showInThirdPerson = false;
 
 // ACE Grenades
@@ -180,6 +184,9 @@ force force ace_map_mapLimitZoom = false;
 force force ace_map_mapShake = true;
 force force ace_map_mapShowCursorCoordinates = true;
 force force ace_markers_moveRestriction = 3;
+force force ace_markers_timestampEnabled = true;
+force force ace_markers_timestampFormat = "HH:MM";
+force force ace_markers_timestampHourFormat = 24;
 
 // ACE Map Gestures
 force force ace_map_gestures_allowCurator = true;
@@ -206,13 +213,14 @@ force force ace_medical_blood_bloodLifetime = 300;
 force force ace_medical_blood_enabledFor = 2;
 force force ace_medical_blood_maxBloodObjects = 50;
 force force ace_medical_fatalDamageSource = 2;
-ace_medical_feedback_bloodVolumeEffectType = 0;
+force force ace_medical_feedback_bloodVolumeEffectType = 0;
 ace_medical_feedback_painEffectType = 0;
 force force ace_medical_fractureChance = 0.6514;
 force force ace_medical_fractures = 1;
 force force ace_medical_gui_enableActions = 0;
 force force ace_medical_gui_enableMedicalMenu = 1;
 force force ace_medical_gui_enableSelfActions = true;
+ace_medical_gui_interactionMenuShowTriage = 1;
 force force ace_medical_gui_maxDistance = 3;
 force force ace_medical_gui_openAfterTreatment = true;
 force force ace_medical_ivFlowRate = 4.5;
@@ -222,12 +230,14 @@ force force ace_medical_playerDamageThreshold = 0.8;
 force force ace_medical_spontaneousWakeUpChance = 0.8;
 force force ace_medical_spontaneousWakeUpEpinephrineBoost = 1.2;
 force force ace_medical_statemachine_AIUnconsciousness = false;
-force force ace_medical_statemachine_cardiacArrestTime = 300;
+force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = true;
+force force ace_medical_statemachine_cardiacArrestTime = 480;
 force force ace_medical_statemachine_fatalInjuriesAI = 0;
 force force ace_medical_statemachine_fatalInjuriesPlayer = 1;
 force force ace_medical_treatment_advancedBandages = 0;
 force force ace_medical_treatment_advancedDiagnose = false;
 force force ace_medical_treatment_advancedMedication = false;
+force force ace_medical_treatment_allowBodyBagUnconscious = false;
 force force ace_medical_treatment_allowLitterCreation = true;
 force force ace_medical_treatment_allowSelfIV = 1;
 force force ace_medical_treatment_allowSelfPAK = 0;
@@ -250,7 +260,14 @@ force force ace_medical_treatment_medicIV = 1;
 force force ace_medical_treatment_medicPAK = 0;
 force force ace_medical_treatment_medicSurgicalKit = 0;
 force force ace_medical_treatment_timeCoefficientPAK = 1;
+force force ace_medical_treatment_treatmentTimeAutoinjector = 5;
+force force ace_medical_treatment_treatmentTimeBodyBag = 15;
+force force ace_medical_treatment_treatmentTimeCPR = 15;
+force force ace_medical_treatment_treatmentTimeIV = 12;
+force force ace_medical_treatment_treatmentTimeSplint = 7;
+force force ace_medical_treatment_treatmentTimeTourniquet = 7;
 force force ace_medical_treatment_woundReopenChance = 1;
+force ace_medical_treatment_woundStitchTime = 5;
 
 // ACE Name Tags
 force force ace_nametags_defaultNametagColor = [0.77,0.51,0.08,1];
@@ -304,7 +321,7 @@ force force ace_pylons_timePerPylon = 10;
 // ACE Quick Mount
 force force ace_quickmount_distance = 5;
 force force ace_quickmount_enabled = true;
-ace_quickmount_enableMenu = 3;
+force force ace_quickmount_enableMenu = 3;
 force force ace_quickmount_priority = 0;
 force force ace_quickmount_speed = 20;
 
@@ -402,7 +419,7 @@ force force ace_vehiclelock_vehicleStartingLockState = -1;
 
 // ACE Vehicles
 ace_vehicles_hideEjectAction = true;
-force ace_vehicles_keepEngineRunning = false;
+force force ace_vehicles_keepEngineRunning = true;
 ace_vehicles_speedLimiterStep = 5;
 
 // ACE View Distance Limiter
@@ -493,24 +510,24 @@ cba_events_repetitionMode = 1;
 cba_optics_usePipOptics = true;
 
 // CF_BAI
-force force CF_BAI_subskills_maximum_aimingAccuracy = 0.35;
+force force CF_BAI_subskills_maximum_aimingAccuracy = 0.25;
 force force CF_BAI_subskills_maximum_aimingShake = 0.2;
-force force CF_BAI_subskills_maximum_aimingSpeed = 0.25;
+force force CF_BAI_subskills_maximum_aimingSpeed = 0.2;
 force force CF_BAI_subskills_maximum_commanding = 1;
 force force CF_BAI_subskills_maximum_courage = 1;
 force force CF_BAI_subskills_maximum_general = 1;
 force force CF_BAI_subskills_maximum_reloadSpeed = 1;
 force force CF_BAI_subskills_maximum_spotDistance = 0.7;
 force force CF_BAI_subskills_maximum_spotTime = 0.65;
-force force CF_BAI_subskills_minimum_aimingAccuracy = 0.15;
-force force CF_BAI_subskills_minimum_aimingShake = 0.100909;
-force force CF_BAI_subskills_minimum_aimingSpeed = 0.15;
+force force CF_BAI_subskills_minimum_aimingAccuracy = 0.1;
+force force CF_BAI_subskills_minimum_aimingShake = 0.05;
+force force CF_BAI_subskills_minimum_aimingSpeed = 0.1;
 force force CF_BAI_subskills_minimum_commanding = 0.6;
-force force CF_BAI_subskills_minimum_courage = 0.35;
-force force CF_BAI_subskills_minimum_general = 0.7;
+force force CF_BAI_subskills_minimum_courage = 0.25;
+force force CF_BAI_subskills_minimum_general = 0.4;
 force force CF_BAI_subskills_minimum_reloadSpeed = 1;
 force force CF_BAI_subskills_minimum_spotDistance = 0.15;
-force force CF_BAI_subskills_minimum_spotTime = 0.45;
+force force CF_BAI_subskills_minimum_spotTime = 0.25;
 force force CF_BAI_subskills_sleep = 10;
 force force CF_BAI_subskills_terrain_maximum_default = 30;
 force force CF_BAI_subskills_terrain_maximum_world_code = "[[""pja310"",25],[""Panthera3"",25]]";
@@ -526,7 +543,7 @@ force force CF_BAI_boost_targetChangeSleepTime = 0.1;
 force force CF_BAI_boost_toleranceRange = 25;
 
 // CF_BAI_detect
-force force CF_BAI_detect_aiplayervision_max_distance = 800;
+force force CF_BAI_detect_aiplayervision_max_distance = 1200;
 force force CF_BAI_detect_aivision_aware_chance = 0.9;
 force force CF_BAI_detect_aivision_aware_knowledge = 1;
 force force CF_BAI_detect_aivision_careless_chance = 0.5;
@@ -546,7 +563,7 @@ force force CF_BAI_detect_aivision_stealth_chance = 0.75;
 force force CF_BAI_detect_aivision_stealth_knowledge = 0.75;
 force force CF_BAI_detect_disableDetect = false;
 force force CF_BAI_detect_environmentConiditions_fog = 0.3;
-force force CF_BAI_detect_environmentConiditions_nightTime = 0.3;
+force force CF_BAI_detect_environmentConiditions_nightTime = 0.5;
 force force CF_BAI_detect_environmentConiditions_rain = 0.3;
 force force CF_BAI_detect_overall_visibility_multiplier = 0.7;
 force force CF_BAI_detect_playerVisibility_crouch_chance = 0.4;
@@ -573,14 +590,6 @@ force force CF_BAI_suppression_heldTime = 20;
 force force CF_BAI_suppression_reloadSpeed = 1;
 force force CF_BAI_suppression_spotDistance = 0.05;
 force force CF_BAI_suppression_spotTime = 0.1;
-
-// CUP
-CUP_CheckCfgPatches = false;
-CUP_Vehicles_PreventBarrelClip = true;
-
-// CUP Static Weapons
-CUP_staticWeapons_allowMovement = false;
-CUP_staticWeapons_allowRotation = false;
 
 // DUI - Squad Radar - Indicators
 force force diwako_dui_indicators_crew_range_enabled = true;
@@ -675,7 +684,7 @@ force force diwako_dui_radar_showSpeaking_radioOnly = true;
 force force diwako_dui_radar_showSpeaking_replaceIcon = true;
 force force diwako_dui_radar_sortType = "none";
 force force diwako_dui_radar_sqlFirst = false;
-force diwako_dui_radar_vehicleCompassEnabled = true;
+force force diwako_dui_radar_vehicleCompassEnabled = false;
 diwako_dui_use_layout_editor = false;
 
 // GRAD Trenches
@@ -686,15 +695,18 @@ force force grad_trenches_functions_allowGiantEnvelope = false;
 force force grad_trenches_functions_allowLongEnvelope = false;
 force force grad_trenches_functions_allowShortEnvelope = true;
 force force grad_trenches_functions_allowSmallEnvelope = true;
+force force grad_trenches_functions_allowTrenchDecay = true;
 force force grad_trenches_functions_allowVehicleEnvelope = false;
 force force grad_trenches_functions_bigEnvelopeDigTime = 40;
 force force grad_trenches_functions_buildFatigueFactor = 1;
 force force grad_trenches_functions_camouflageRequireEntrenchmentTool = true;
+force force grad_trenches_functions_decayTime = 600;
 force force grad_trenches_functions_giantEnvelopeDigTime = 90;
 force force grad_trenches_functions_LongEnvelopeDigTime = 100;
 force force grad_trenches_functions_shortEnvelopeDigTime = 15;
 force force grad_trenches_functions_smallEnvelopeDigTime = 40;
 force force grad_trenches_functions_stopBuildingAtFatigueMax = true;
+force force grad_trenches_functions_timeoutToDecay = 1800;
 force force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
 
 // LAMBS Danger

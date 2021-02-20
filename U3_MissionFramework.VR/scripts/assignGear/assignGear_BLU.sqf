@@ -14,7 +14,7 @@ _scopes = 0; 						// 0 - none, 1 - reflex, 2 - optic
 _muzzles = 0;         				// 0 - none, 1 - muzzle, 2 - suppressor
 _pointers = 0;						// 0 - none, 1 - lights, 2 - ir pointer
 _grips = true;						// adds grips to most rhs weapons
-_launcher = "us_army";				// launchers statics
+_launcher = "usa";					// launchers statics
 _camoPattern = "usa_airborne_ocp";  // uniform
 _headgear = "ach_helmet";			// helmet type
 _parachutes = "none";				// Available cases: "steerable", "nonsteerable", "none".
@@ -89,7 +89,7 @@ if ((isMultiplayer && !isServer) && !isPlayer _unit) exitWith {};
 #include "uniforms\uniforms_USAF.sqf"; 		// uniform classes
 
 // fixed includes, do not alter
-#include "weapons\launchers_statics.sqf";  // launcher classes
+#include "weapons\launchers_statics_explosives.sqf";  // launcher classes
 #include "uniforms\tfar_radios.sqf"		   // radio classes
 
 // general includes
@@ -117,7 +117,14 @@ if ((_muzzles == 2) && _subSonicAmmo) then {
 if (_unit isKindOf "Man") then {
 
 	// Gear Removal
+	if (_rflmUniform != "") then { removeUniform _unit; };
 	if (_goggles != "") then { removeGoggles _unit; };
+	removeAllItems _unit;
+	removeAllWeapons _unit;
+	removeAllAssignedItems _unit;
+	removeVest _unit;
+	removeHeadgear _unit;
+	removeBackpack _unit;
 
 	switch (_loadout) do {
 		// ========================================
@@ -307,7 +314,7 @@ if (_unit isKindOf "Man") then {
 		case "mmg" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			for "_i" from 1 to _mmgMagCount do {_unit addItemToVest _mmgMag};
+			for "_i" from 1 to 3 do {_unit addItemToVest _mmgMag};
 			_unit addWeapon _mmg;
 			call _addSidearm;
 			["mmg"] call _addRuck;
@@ -373,6 +380,28 @@ if (_unit isKindOf "Man") then {
 		case "crewman" : {
 			["crew"] call _addClothes;
 			["none"] call _addBasics;
+			for "_i" from 1 to 4 do {_unit addItemToVest _carbineMag};
+			_unit addWeapon _carbine;
+			call _addSidearm;
+			["crewman"] call _addRuck;
+			["uniform"] call _IFAK;
+		};
+		// Crew Commander
+		case "navalcrewmander" : {
+			["ncrew"] call _addClothes;
+			["westrangefinder"] call _addBasics;
+			{ _unit linkItem _x } foreach _secItems;
+			for "_i" from 1 to 4 do {_unit addItemToVest _carbineMag};
+			_unit addWeapon _carbine;
+			call _addSidearm;
+			["crew"] call _addRuck;
+			["uniform"] call _IFAK;
+		};
+		// Crewman
+		case "navalcrewman" : {
+			["ncrew"] call _addClothes;
+			["none"] call _addBasics;
+			{ _unit linkItem _x } foreach _secItems;
 			for "_i" from 1 to 4 do {_unit addItemToVest _carbineMag};
 			_unit addWeapon _carbine;
 			call _addSidearm;
@@ -723,10 +752,10 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addItemCargoGlobal [_injectorOne,25];
 			_unit addItemCargoGlobal [_injectorTwo,18];
 			_unit addItemCargoGlobal [_bandageOne,60];
-			_unit addItemCargoGlobal [_bloodOne,12];
-			_unit addItemCargoGlobal [_bloodTwo,12];
-			_unit addItemCargoGlobal [_bloodThree,12];
-			_unit addItemCargoGlobal [_tourniquet,15];
+			_unit addItemCargoGlobal [_bloodOne,15];
+			_unit addItemCargoGlobal [_bloodTwo,15];
+			_unit addItemCargoGlobal [_bloodThree,15];
+			_unit addItemCargoGlobal [_tourniquet,6];
 			_unit addItemCargoGlobal [_splint,15];
 		};
 
@@ -735,11 +764,9 @@ if (!(_unit isKindOf "Man")) then {
 		// ========================================
 
 		case "snipercrate" : {
-			_unit addWeaponCargoGlobal [_designator,1];
 			_unit addWeaponCargoGlobal [_vector,1];
-			_unit addMagazineCargoGlobal [_designatorBat,1];
-			_unit addMagazineCargoGlobal [_boltRifleMag,10];
-			{ _unit addItemCargoGlobal [_x,1]; } forEach _sniperItems;
+			_unit addMagazineCargoGlobal [_boltRifleMag,12];
+			_unit addMagazineCargoGlobal [_rifleMag,8];
 		};
 		case "matcrate" : {
 			_unit addWeaponCargoGlobal [_matLaunch,1];
@@ -781,21 +808,25 @@ if (!(_unit isKindOf "Man")) then {
 
 		case "atmines" : {
 			_unit addItemCargoGlobal [_atMine,6];
+			_unit addItemCargoGlobal [_clackOne,1];
+			_unit addItemCargoGlobal [_clackTwo,1];
 		};
 		case "apmines" : {
-			_unit addItemCargoGlobal [_apersMine,5];
-			_unit addItemCargoGlobal [_apersBound,5];
-			_unit addItemCargoGlobal [_apersTrip,5];
-			_unit addItemCargoGlobal [_claymore,5];
-			_unit addItemCargoGlobal [_clackOne,2];
+			_unit addItemCargoGlobal [_apMine,5];
+			_unit addItemCargoGlobal [_tripFlare,5];
+			_unit addItemCargoGlobal [_tripapMine,5];
+			_unit addItemCargoGlobal [_clackOne,1];
+			_unit addItemCargoGlobal [_clackTwo,1];
 		};
 		case "demosmall" : {
-			_unit addItemCargoGlobal [_demoCharge,6];
-			_unit addItemCargoGlobal [_clackOne,2];
+			_unit addItemCargoGlobal [_satchelSmall,6];
+			_unit addItemCargoGlobal [_clackOne,1];
+			_unit addItemCargoGlobal [_clackTwo,1];
 		};
 		case "demobig" : {
-			_unit addItemCargoGlobal [_satchelCharge,4];
-			_unit addItemCargoGlobal [_clackOne,2];
+			_unit addItemCargoGlobal [_satchelLarge,4];
+			_unit addItemCargoGlobal [_clackOne,1];
+			_unit addItemCargoGlobal [_clackTwo,1];
 		};
 
 		// ========================================

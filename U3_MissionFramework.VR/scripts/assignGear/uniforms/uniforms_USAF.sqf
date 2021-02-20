@@ -13,7 +13,7 @@ private [
 "_rflmVest","_gunnerVest","_glVest","_medVest","_coyVest","_slVest","_tlVest",
 "_smallRuck","_medRuck","_largeRuck","_medicRuck","_atRuck","_armgRuck",
 "_crewUniform","_rpilotUniform","_fpilotUniform",
-"_crewmanHelmetArray","_crewmanHRandom","_crewmanHelmet","_crewmanHelmetArray","_crewmanHRandom","_rotaryPilotHelmet","_rotaryCrewHelmet","_fixedPilotHelmet",
+"_crewmanHelmetArray","_crewmanHRandom","_crewmanHelmet","_crewmanHelmetArray","_crewmanHRandom","_navalcrewmanHelmet","_rotaryPilotHelmet","_rotaryCrewHelmet","_fixedPilotHelmet",
 "_crewVest","_pilotVest",
 "_sniperUniform","_sniperVest","_sniperRuck",
 "_nightVision",
@@ -50,6 +50,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_green_alt_helmet","rhsusf_cvc_green_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_green";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_green";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -65,6 +66,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -134,6 +136,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -149,6 +152,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -218,6 +222,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -233,6 +238,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -248,6 +254,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -317,6 +324,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -332,6 +340,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -347,6 +356,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -416,6 +426,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -431,6 +442,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -446,6 +458,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -461,6 +474,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -530,6 +544,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_black";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_black";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -545,6 +560,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -592,10 +608,10 @@ switch (_camoPattern) do {
 	};
 
 	// Vietnam era
-	case "og107" : {
+	case "60susa" : {
 		// ==================== Uniforms ==================
 
-		_rflmUniformArray = ["rhsgref_uniform_og107_erdl","rhsgref_uniform_og107","rhsgref_uniform_ERDL"];
+		_rflmUniformArray = ["UK3CB_CW_US_B_Early_U_SF_CombatUniform_02_ERDL","UK3CB_CW_US_B_Early_U_SF_CombatUniform_04_ERDL_OLI","UK3CB_CW_US_B_Early_U_SF_CombatUniform_01_ERDL"];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
 		_rflmUniform = _rflmUniformArray select _rflmRandom;
 		_crewUniform = "rhsgref_uniform_og107";
@@ -614,6 +630,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = ["rhsusf_cvc_green_alt_helmet"];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
 				_rotaryPilotHelmet = "rhsusf_cvc_green_alt_helmet";
 				_rotaryCrewHelmet = "rhsusf_cvc_green_alt_helmet";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -629,6 +646,7 @@ switch (_camoPattern) do {
 				_crewmanHelmetArray = [""];
 				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
 				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
 				_rotaryPilotHelmet = "rhsusf_hgu56p";
 				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
 				_fixedPilotHelmet = "RHS_jetpilot_usaf";
@@ -641,26 +659,26 @@ switch (_camoPattern) do {
 
 		// ===================== Vests ====================
 
-		_rflmVest = "rhsgref_chestrig";
-		_gunnerVest = "CUP_V_B_PASGT";
-		_glVest = "CUP_V_B_PASGT_OD";
-		_medVest = "rhsgref_chestrig";
-		_pilotVest = "CUP_V_B_PASGT_no_bags";
-		_crewVest = "CUP_V_B_PASGT_no_bags";
+		_rflmVest = "UK3CB_CW_US_B_LATE_V_PASGT_Rif_Vest";
+		_gunnerVest = "UK3CB_CW_US_B_LATE_V_PASGT_MG_Vest";
+		_glVest = "UK3CB_CW_US_B_LATE_V_PASGT_Rif_Vest";
+		_medVest = "UK3CB_CW_US_B_LATE_V_PASGT_Medic_Vest";
+		_pilotVest = "UK3CB_CW_US_B_LATE_V_PASGT_Crew_Vest";
+		_crewVest = "UK3CB_CW_US_B_LATE_V_PASGT_Crew_Vest";
 		_coyVest = "rhsgref_alice_webbing";
 		_slVest = "rhsgref_alice_webbing";
-		_tlVest = "CUP_V_B_PASGT_OD";
-		_sniperVest = "CUP_V_B_PASGT_no_bags";
+		_tlVest = "UK3CB_CW_US_B_LATE_V_PASGT_Rif_Vest";
+		_sniperVest = "rhsgref_alice_webbing";
 
 		// ===================== Rucks ====================
 
-		_smallRuck = "CUP_B_ACRScout_m95";
-		_medRuck = "rhssaf_kitbag_md2camo";
-		_armgRuck = "rhssaf_kitbag_md2camo";
+		_smallRuck = "UK3CB_UN_B_B_ASS";
+		_medRuck = "UK3CB_B_US_Backpack";
+		_armgRuck = "UK3CB_CW_US_B_LATE_B_RIF";
 		_largeRuck = "rhsgref_wdl_alicepack";
-		_medicRuck = "rhsgref_hidf_alicepack";
-		_atRuck = "CUP_B_ACRScout_m95";
-		_sniperRuck = "CUP_B_ACRScout_m95";
+		_medicRuck = "UK3CB_B_US_Medic_Backpack";
+		_atRuck = "UK3CB_UN_B_B_ASS";
+		_sniperRuck = "UK3CB_UN_B_B_ASS";
 
 		// ===================== NVGs ====================
 

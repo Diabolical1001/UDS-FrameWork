@@ -12,8 +12,7 @@ private [
 "_westrangeFinder","_eastrangeFinder","_vector","_rangeFinderBat",
 "_westdesignator","_eastdesignator","_designatorBat","_dagr",
 "_chemlightOne","_chemlightTwo","_handFlareOne","_handFlareTwo",
-"_atMine","_apersMine","_apersBound","_apersTrip","_slam","_claymore","_demoCharge","_satchelCharge",
-"_clackOne","_clackTwo","_defuseKit","_deadManSwitch","_cellularDevice",
+"_defuseKit",
 "_basicTools","_basicItems","_spareBarrel","_ftlItems","_secItems","_pltTools","_pltItems","_sniperItems",
 "_bandageOne","_bandageTwo","_bandageThree","_bandageFour",
 "_bloodOne","_bloodTwo","_bloodThree",
@@ -85,11 +84,7 @@ _satchelCharge = "SatchelCharge_Remote_Mag";
 
 // =============== Explosive Tools ================
 
-_clackOne = "ACE_Clacker";
-_clackTwo = "ACE_M26_Clacker";
 _defuseKit = "ACE_DefusalKit";
-_deadManSwitch = "ACE_DeadManSwitch";
-_cellularDevice = "ACE_Cellphone";
 
 // ==================== Tools =====================
 

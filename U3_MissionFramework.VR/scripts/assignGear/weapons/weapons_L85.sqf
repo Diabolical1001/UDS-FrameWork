@@ -29,90 +29,90 @@ private [
 
 switch (_variant) do {
 
-	// BAF - L85A2 - 5.56x45
+	// 3CB BAF - L85A2 - 5.56x45
 	case "l85a2" :  {
 
 		// ============ Weaponry ===========
 
-		_rifleArray = ["CUP_arifle_L85A2_NG","CUP_arifle_L85A2_G"];
+		_rifleArray = ["UK3CB_BAF_L85A2"];
 		_rifleRandom = (floor(random (count _rifleArray)));
 		_rifle = _rifleArray select _rifleRandom;
-		_rifleGLArray = ["CUP_arifle_L85A2_GL"];
+		_rifleGLArray = ["UK3CB_BAF_L85A2_UGL"];
 		_rifleGLRandom = (floor(random (count _rifleGLArray)));
 		_rifleGL = _rifleGLArray select _rifleGLRandom;
-		_rifleScoped = "CUP_arifle_L85A2_NG";
-		_carbine = "CUP_smg_MP5A5";
-		_smg = "CUP_smg_MP5A5";
-		_pistol = "CUP_hgun_M9";
+		_rifleScoped = "UK3CB_BAF_L85A2";
+		_carbine = "UK3CB_BAF_L22";
+		_smg = "UK3CB_BAF_L91A1";
+		_pistol = "UK3CB_BAF_L9A1";
 
-		_autoRifle = "CUP_lmg_L110A1";
-		_mmg = "CUP_lmg_L7A2_Flat";
+		_autoRifle = "UK3CB_BAF_L110A2";
+		_mmg = "UK3CB_BAF_L7A2";
 
-		_shotty = "CUP_sgun_M1014_vfg";
+		_shotty = "UK3CB_BAF_L128A1";
 
-		_dmr = "CUP_srifle_L129A1_HG";
-		_boltRifle = "CUP_srifle_AWM_wdl";
-		_amRifle = "rhs_weap_M107";
+		_dmr = "UK3CB_BAF_L86A2";
+		_boltRifle = "UK3CB_BAF_L115A3";
+		_amRifle = "UK3CB_BAF_L135A1";
 
 		// =========== Ammunition ==========
 
-		_rifleMag = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-		_rifleTracerMag = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
-		_rifleSubsonicMag = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-		_rifleGLMag = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-		_rifleScopedMag = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
-		_carbineMag = "CUP_30Rnd_9x19_MP5";
-		_smgMag = "CUP_30Rnd_9x19_MP5";
-		_pistolMag = "rhsusf_mag_15Rnd_9x19_FMJ";
+		_rifleMag = "UK3CB_BAF_556_30Rnd";
+		_rifleTracerMag = "UK3CB_BAF_556_30Rnd_T";
+		_rifleSubsonicMag = "UK3CB_BAF_556_30Rnd";
+		_rifleGLMag = "UK3CB_BAF_556_30Rnd";
+		_rifleScopedMag = "UK3CB_BAF_556_30Rnd";
+		_carbineMag = "UK3CB_BAF_556_30Rnd";
+		_smgMag = "UK3CB_BAF_9_30Rnd";
+		_pistolMag = "UK3CB_BAF_9_13Rnd";
 
-		_autoRifleMag = "rhsusf_200Rnd_556x45_box";
-		_autoTracerMag = "rhsusf_200rnd_556x45_mixed_box";
-		_autoSubsonicMag = "rhsusf_200Rnd_556x45_box";
-		_arMagCount = 1;
-		_arboxMagCount = 4;
+		_autoRifleMag = "UK3CB_BAF_556_200Rnd";
+		_autoTracerMag = "UK3CB_BAF_556_200Rnd_T";
+		_autoSubsonicMag = "UK3CB_BAF_556_200Rnd";
+		_arMagCount = 2;
+		_arboxMagCount = 6;
 
-		_mmgMag = "rhsusf_100Rnd_762x51_m61_ap";
-		_mmgTracerMag = "rhsusf_100Rnd_762x51_m62_tracer";
-		_mmgMagCount = 1;
-		_mmgboxMagCount = 4;
+		_mmgMag = "UK3CB_BAF_762_100Rnd";
+		_mmgTracerMag = "UK3CB_BAF_762_100Rnd_T";
+		_mmgMagCount = 2;
+		_mmgboxMagCount = 6;
 
-		_shottyBuck = "CUP_8Rnd_B_Beneli_74Pellets";
-		_shottySlug = "CUP_8Rnd_B_Beneli_74Slug";
+		_shottyBuck = "UK3CB_BAF_12G_Pellets";
+		_shottySlug = "UK3CB_BAF_12G_Slugs";
 
-		_dmrMag = "rhsusf_20Rnd_762x51_SR25_m993_Mag";
-		_boltRifleMag = "CUP_5Rnd_86x70_L115A1";
-		_amRifleMag = "rhsusf_mag_10Rnd_STD_50BMG_M33";
+		_dmrMag = "UK3CB_BAF_556_30Rnd";
+		_boltRifleMag = "UK3CB_BAF_338_5Rnd";
+		_amRifleMag = "ACE_5Rnd_127x99_AMAX_Mag";
 
-		_glExplody = "CUP_1Rnd_HEDP_M203";
-		_glSmokeOne = "CUP_1Rnd_Smoke_M203";
-		_glSmokeTwo = "CUP_1Rnd_SmokeRed_M203";
-		_glSmokeThree = "1Rnd_SmokePurple_Grenade_shell";
-		_glSmokeFour = "CUP_1Rnd_SmokeYellow_M203";
-		_glFlareOne = "CUP_1Rnd_StarFlare_White_M203";
-		_glFlareTwo = "CUP_1Rnd_StarFlare_Red_M203";
+		_glExplody = "UK3CB_BAF_1Rnd_HE_Grenade_Shell";
+		_glSmokeOne = "UK3CB_BAF_1Rnd_Smoke_Grenade_shell";
+		_glSmokeTwo = "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell";
+		_glSmokeThree = "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
+		_glSmokeFour = "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell";
+		_glFlareOne = "UK3CB_BAF_UGL_FlareWhite_F";
+		_glFlareTwo = "UK3CB_BAF_UGL_FlareRed_F";
 
 		_grenade = "rhs_mag_m67";
 		_flashbang = "rhs_mag_mk84";
-		_smokeOne = "SmokeShell";
-		_smokeTwo = "SmokeShellRed";
-		_smokeThree = "SmokeShellPurple";
+		_smokeOne = "UK3CB_BAF_SmokeShell";
+		_smokeTwo = "UK3CB_BAF_SmokeShellRed";
+		_smokeThree = "UK3CB_BAF_SmokeShellPurple";
 
 		// ========== Attachments ==========
 
-		_generalAttachments_reflex = "rhsusf_acc_eotech_552";
-		_generalAttachments_scoped = "rhsusf_acc_ACOG_RMR";
-		_generalAttachments_muzz = "CUP_acc_sffh";
-		_generalAttachments_supp = "CUP_muzzle_snds_L85";
-		_generalAttachments_gunLight = "rhsusf_acc_M952V";
-		_generalAttachments_gunIR = "CUP_acc_LLM_black";
+		_generalAttachments_reflex = "RKSL_optic_EOT552";
+		_generalAttachments_scoped = "UK3CB_BAF_TA31F";
+		_generalAttachments_muzz = "UK3CB_BAF_SFFH";
+		_generalAttachments_supp = "UK3CB_BAF_Silencer_L85";
+		_generalAttachments_gunLight = "";
+		_generalAttachments_gunIR = "";
 		_generalAttachments_grip = "";
 
-		_autoRifleAttachments_reflex = "rhsusf_acc_eotech_552";
-		_autoRifleAttachments_scoped = "CUP_optic_SUSAT";
-		_autoRifleAttachments_muzz = "CUP_muzzle_mfsup_SCAR_L";
-		_autoRifleAttachments_supp = "rhsusf_acc_nt4_black";
-		_autoRifleAttachments_gunLight = "rhsusf_acc_M952V";
-		_autoRifleAttachments_gunIR = "CUP_acc_LLM_black";
+		_autoRifleAttachments_reflex = "RKSL_optic_EOT552";
+		_autoRifleAttachments_scoped = "UK3CB_BAF_SUSAT";
+		_autoRifleAttachments_muzz = "UK3CB_BAF_SFFH";
+		_autoRifleAttachments_supp = "UK3CB_BAF_Silencer_L110";
+		_autoRifleAttachments_gunLight = "";
+		_autoRifleAttachments_gunIR = "";
 		_autoRifleAttachments_grip = "";
 
 		_mmgAttachments_reflex = "";
@@ -123,23 +123,374 @@ switch (_variant) do {
 		_mmgAttachments_gunIR = "";
 		_mmgAttachments_grip = "";
 
-		_dmrAttachments_reflex = "rhsusf_acc_ACOG_RMR";
-		_dmrAttachments_scoped = "rhsusf_acc_ACOG_MDO";
-		_dmrAttachments_muzz = "CUP_acc_sffh";
-		_dmrAttachments_supp = "muzzle_snds_B";
-		_dmrAttachments_gunLight = "rhsusf_acc_M952V";
-		_dmrAttachments_gunIR = "CUP_acc_LLM_black";
-		_dmrAttachments_grip = "rhsusf_acc_harris_bipod";
+		_dmrAttachments_reflex = "UK3CB_BAF_SUSAT";
+		_dmrAttachments_scoped = "UK3CB_BAF_TA31F_Hornbill";
+		_dmrAttachments_muzz = "UK3CB_BAF_SFFH";
+		_dmrAttachments_supp = "UK3CB_BAF_Silencer_L85";
+		_dmrAttachments_gunLight = "";
+		_dmrAttachments_gunIR = "";
+		_dmrAttachments_grip = "";
 
-		_boltRifleAttachments_base = ["rhsusf_acc_LEUPOLDMK4_2","rhsusf_acc_harris_bipod"];
+		_boltRifleAttachments_base = ["RKSL_optic_PMII_525"];
 		_boltRifleAttachments_muzz = "";
-		_boltRifleAttachments_supp = "CUP_muzzle_snds_AWM";
+		_boltRifleAttachments_supp = "UK3CB_BAF_Silencer_L115A3";
 
-		_amRifleAttachments_base = ["rhsusf_acc_LEUPOLDMK4_2"];
+		_amRifleAttachments_base = ["RKSL_optic_PMII_525"];
 
 		_pistolAttachments_reflex = "";
 		_pistolAttachments_muzz = "";
-		_pistolAttachments_supp = "CUP_muzzle_snds_M9";
+		_pistolAttachments_supp = "rhsusf_acc_omega9k";
+		_pistolAttachments_gunLight = "";
+		_pistolAttachments_gunIR = "";
+
+		// =================================
+	};
+
+	// 3CB BAF - L85A2 - RIS - 5.56x45
+	case "l85a2ris" :  {
+
+		// ============ Weaponry ===========
+
+		_rifleArray = ["UK3CB_BAF_L85A2_RIS"];
+		_rifleRandom = (floor(random (count _rifleArray)));
+		_rifle = _rifleArray select _rifleRandom;
+		_rifleGLArray = ["UK3CB_BAF_L85A2_UGL_HWS"];
+		_rifleGLRandom = (floor(random (count _rifleGLArray)));
+		_rifleGL = _rifleGLArray select _rifleGLRandom;
+		_rifleScoped = "UK3CB_BAF_L85A2_RIS";
+		_carbine = "UK3CB_BAF_L22A2";
+		_smg = "UK3CB_BAF_L91A1";
+		_pistol = "UK3CB_BAF_L105A2";
+
+		_autoRifle = "UK3CB_BAF_L110A2RIS";
+		_mmg = "UK3CB_BAF_L7A2";
+
+		_shotty = "UK3CB_BAF_L128A1";
+
+		_dmr = "UK3CB_BAF_L129A1";
+		_boltRifle = "UK3CB_BAF_L115A3";
+		_amRifle = "UK3CB_BAF_L135A1";
+
+		// =========== Ammunition ==========
+
+		_rifleMag = "UK3CB_BAF_556_30Rnd";
+		_rifleTracerMag = "UK3CB_BAF_556_30Rnd_T";
+		_rifleSubsonicMag = "UK3CB_BAF_556_30Rnd";
+		_rifleGLMag = "UK3CB_BAF_556_30Rnd";
+		_rifleScopedMag = "UK3CB_BAF_556_30Rnd";
+		_carbineMag = "UK3CB_BAF_556_30Rnd";
+		_smgMag = "UK3CB_BAF_9_30Rnd";
+		_pistolMag = "UK3CB_BAF_9_15Rnd";
+
+		_autoRifleMag = "UK3CB_BAF_556_200Rnd";
+		_autoTracerMag = "UK3CB_BAF_556_200Rnd_T";
+		_autoSubsonicMag = "UK3CB_BAF_556_200Rnd";
+		_arMagCount = 2;
+		_arboxMagCount = 6;
+
+		_mmgMag = "UK3CB_BAF_762_100Rnd";
+		_mmgTracerMag = "UK3CB_BAF_762_100Rnd_T";
+		_mmgMagCount = 2;
+		_mmgboxMagCount = 6;
+
+		_shottyBuck = "UK3CB_BAF_12G_Pellets";
+		_shottySlug = "UK3CB_BAF_12G_Slugs";
+
+		_dmrMag = "UK3CB_BAF_762_L42A1_20Rnd";
+		_boltRifleMag = "UK3CB_BAF_338_5Rnd";
+		_amRifleMag = "ACE_5Rnd_127x99_AMAX_Mag";
+
+		_glExplody = "UK3CB_BAF_1Rnd_HE_Grenade_Shell";
+		_glSmokeOne = "UK3CB_BAF_1Rnd_Smoke_Grenade_shell";
+		_glSmokeTwo = "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell";
+		_glSmokeThree = "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
+		_glSmokeFour = "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell";
+		_glFlareOne = "UK3CB_BAF_UGL_FlareWhite_F";
+		_glFlareTwo = "UK3CB_BAF_UGL_FlareRed_F";
+
+		_grenade = "rhs_mag_m67";
+		_flashbang = "rhs_mag_mk84";
+		_smokeOne = "UK3CB_BAF_SmokeShell";
+		_smokeTwo = "UK3CB_BAF_SmokeShellRed";
+		_smokeThree = "UK3CB_BAF_SmokeShellPurple";
+
+		// ========== Attachments ==========
+
+		_generalAttachments_reflex = "RKSL_optic_EOT552";
+		_generalAttachments_scoped = "RKSL_optic_LDS";
+		_generalAttachments_muzz = "UK3CB_BAF_SFFH";
+		_generalAttachments_supp = "UK3CB_BAF_Silencer_L85";
+		_generalAttachments_gunLight = "UK3CB_BAF_LLM_Flashlight_Black";
+		_generalAttachments_gunIR = "UK3CB_BAF_LLM_IR_Black";
+		_generalAttachments_grip = "UK3CB_underbarrel_acc_grippod";
+
+		_autoRifleAttachments_reflex = "RKSL_optic_EOT552";
+		_autoRifleAttachments_scoped = "UK3CB_BAF_TA31F";
+		_autoRifleAttachments_muzz = "UK3CB_BAF_SFFH";
+		_autoRifleAttachments_supp = "UK3CB_BAF_Silencer_L110";
+		_autoRifleAttachments_gunLight = "UK3CB_BAF_LLM_Flashlight_Black";
+		_autoRifleAttachments_gunIR = "UK3CB_BAF_LLM_IR_Black";
+		_autoRifleAttachments_grip = "";
+
+		_mmgAttachments_reflex = "";
+		_mmgAttachments_scoped = "";
+		_mmgAttachments_muzz = "";
+		_mmgAttachments_supp = "";
+		_mmgAttachments_gunLight = "";
+		_mmgAttachments_gunIR = "";
+		_mmgAttachments_grip = "";
+
+		_dmrAttachments_reflex = "RKSL_optic_LDS";
+		_dmrAttachments_scoped = "UK3CB_BAF_TA648";
+		_dmrAttachments_muzz = "UK3CB_BAF_SFFH";
+		_dmrAttachments_supp = "UK3CB_BAF_Silencer_L115A3";
+		_dmrAttachments_gunLight = "UK3CB_BAF_LLM_Flashlight_Black";
+		_dmrAttachments_gunIR = "UK3CB_BAF_LLM_IR_Black";
+		_dmrAttachments_grip = "UK3CB_underbarrel_acc_fgrip_bipod";
+
+		_boltRifleAttachments_base = ["RKSL_optic_PMII_525"];
+		_boltRifleAttachments_muzz = "";
+		_boltRifleAttachments_supp = "UK3CB_BAF_Silencer_L115A3";
+
+		_amRifleAttachments_base = ["RKSL_optic_PMII_525"];
+
+		_pistolAttachments_reflex = "";
+		_pistolAttachments_muzz = "ACE_muzzle_mzls_smg_02";
+		_pistolAttachments_supp = "UK3CB_BAF_Silencer_L105A1";
+		_pistolAttachments_gunLight = "UK3CB_BAF_Flashlight_L105A1";
+		_pistolAttachments_gunIR = "UK3CB_BAF_L105A1_LLM_IR_G";
+
+		// =================================
+	};
+
+	// 3CB BAF - L85A3 - 5.56x45
+	case "l85a3" :  {
+
+		// ============ Weaponry ===========
+
+		_rifleArray = ["UK3CB_BAF_L85A3"];
+		_rifleRandom = (floor(random (count _rifleArray)));
+		_rifle = _rifleArray select _rifleRandom;
+		_rifleGLArray = ["UK3CB_BAF_L85A3_UGL"];
+		_rifleGLRandom = (floor(random (count _rifleGLArray)));
+		_rifleGL = _rifleGLArray select _rifleGLRandom;
+		_rifleScoped = "UK3CB_BAF_L85A3";
+		_carbine = "UK3CB_BAF_L22A2";
+		_smg = "UK3CB_BAF_L91A1";
+		_pistol = "UK3CB_BAF_L131A1";
+
+		_autoRifle = "UK3CB_BAF_L110A2RIS";
+		_mmg = "UK3CB_BAF_L7A2";
+
+		_shotty = "UK3CB_BAF_L128A1";
+
+		_dmr = "UK3CB_BAF_L129A1";
+		_boltRifle = "UK3CB_BAF_L115A3";
+		_amRifle = "UK3CB_BAF_L135A1";
+
+		// =========== Ammunition ==========
+
+		_rifleMag = "UK3CB_BAF_556_30Rnd";
+		_rifleTracerMag = "UK3CB_BAF_556_30Rnd_T";
+		_rifleSubsonicMag = "UK3CB_BAF_556_30Rnd";
+		_rifleGLMag = "UK3CB_BAF_556_30Rnd";
+		_rifleScopedMag = "UK3CB_BAF_556_30Rnd";
+		_carbineMag = "UK3CB_BAF_556_30Rnd";
+		_smgMag = "UK3CB_BAF_9_30Rnd";
+		_pistolMag = "UK3CB_BAF_9_17Rnd";
+
+		_autoRifleMag = "UK3CB_BAF_556_200Rnd";
+		_autoTracerMag = "UK3CB_BAF_556_200Rnd_T";
+		_autoSubsonicMag = "UK3CB_BAF_556_200Rnd";
+		_arMagCount = 2;
+		_arboxMagCount = 6;
+
+		_mmgMag = "UK3CB_BAF_762_100Rnd";
+		_mmgTracerMag = "UK3CB_BAF_762_100Rnd_T";
+		_mmgMagCount = 2;
+		_mmgboxMagCount = 6;
+
+		_shottyBuck = "UK3CB_BAF_12G_Pellets";
+		_shottySlug = "UK3CB_BAF_12G_Slugs";
+
+		_dmrMag = "UK3CB_BAF_762_L42A1_20Rnd";
+		_boltRifleMag = "UK3CB_BAF_338_5Rnd";
+		_amRifleMag = "ACE_5Rnd_127x99_AMAX_Mag";
+
+		_glExplody = "UK3CB_BAF_1Rnd_HE_Grenade_Shell";
+		_glSmokeOne = "UK3CB_BAF_1Rnd_Smoke_Grenade_shell";
+		_glSmokeTwo = "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell";
+		_glSmokeThree = "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
+		_glSmokeFour = "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell";
+		_glFlareOne = "UK3CB_BAF_UGL_FlareWhite_F";
+		_glFlareTwo = "UK3CB_BAF_UGL_FlareRed_F";
+
+		_grenade = "rhs_mag_m67";
+		_flashbang = "rhs_mag_mk84";
+		_smokeOne = "UK3CB_BAF_SmokeShell";
+		_smokeTwo = "UK3CB_BAF_SmokeShellRed";
+		_smokeThree = "UK3CB_BAF_SmokeShellPurple";
+
+		// ========== Attachments ==========
+
+		_generalAttachments_reflex = "RKSL_optic_EOT552";
+		_generalAttachments_scoped = "RKSL_optic_LDS";
+		_generalAttachments_muzz = "UK3CB_BAF_SFFH";
+		_generalAttachments_supp = "UK3CB_BAF_Silencer_L85";
+		_generalAttachments_gunLight = "UK3CB_BAF_LLM_Flashlight_Black";
+		_generalAttachments_gunIR = "UK3CB_BAF_LLM_IR_Black";
+		_generalAttachments_grip = "UK3CB_underbarrel_acc_grippod";
+
+		_autoRifleAttachments_reflex = "RKSL_optic_EOT552";
+		_autoRifleAttachments_scoped = "UK3CB_BAF_TA31F";
+		_autoRifleAttachments_muzz = "UK3CB_BAF_SFFH";
+		_autoRifleAttachments_supp = "UK3CB_BAF_Silencer_L110";
+		_autoRifleAttachments_gunLight = "UK3CB_BAF_LLM_Flashlight_Black";
+		_autoRifleAttachments_gunIR = "UK3CB_BAF_LLM_IR_Black";
+		_autoRifleAttachments_grip = "";
+
+		_mmgAttachments_reflex = "";
+		_mmgAttachments_scoped = "";
+		_mmgAttachments_muzz = "";
+		_mmgAttachments_supp = "";
+		_mmgAttachments_gunLight = "";
+		_mmgAttachments_gunIR = "";
+		_mmgAttachments_grip = "";
+
+		_dmrAttachments_reflex = "RKSL_optic_LDS";
+		_dmrAttachments_scoped = "UK3CB_BAF_TA648";
+		_dmrAttachments_muzz = "UK3CB_BAF_SFFH";
+		_dmrAttachments_supp = "UK3CB_BAF_Silencer_L115A3";
+		_dmrAttachments_gunLight = "UK3CB_BAF_LLM_Flashlight_Black";
+		_dmrAttachments_gunIR = "UK3CB_BAF_LLM_IR_Black";
+		_dmrAttachments_grip = "UK3CB_underbarrel_acc_fgrip_bipod";
+
+		_boltRifleAttachments_base = ["RKSL_optic_PMII_525"];
+		_boltRifleAttachments_muzz = "";
+		_boltRifleAttachments_supp = "UK3CB_BAF_Silencer_L115A3";
+
+		_amRifleAttachments_base = ["RKSL_optic_PMII_525"];
+
+		_pistolAttachments_reflex = "";
+		_pistolAttachments_muzz = "ACE_muzzle_mzls_smg_02";
+		_pistolAttachments_supp = "rhsusf_acc_omega9k";
+		_pistolAttachments_gunLight = "UK3CB_BAF_Flashlight_L131A1";
+		_pistolAttachments_gunIR = "UK3CB_BAF_Laser_L131A1";
+
+		// =================================
+	};
+
+	// 3CB BAF - SLR - 7.62 NATO
+	case "slr" :  {
+
+		// ============ Weaponry ===========
+
+		_rifleArray = ["UK3CB_BAF_L1A1"];
+		_rifleRandom = (floor(random (count _rifleArray)));
+		_rifle = _rifleArray select _rifleRandom;
+		_rifleGLArray = ["UK3CB_BAF_L1A1"];
+		_rifleGLRandom = (floor(random (count _rifleGLArray)));
+		_rifleGL = _rifleGLArray select _rifleGLRandom;
+		_rifleScoped = "UK3CB_BAF_L1A1";
+		_carbine = "UK3CB_Sten";
+		_smg = "UK3CB_MP5";
+		_pistol = "UK3CB_BHP";
+
+		_autoRifle = "UK3CB_Bren";
+		_mmg = "UK3CB_BAF_L7A2";
+
+		_shotty = "UK3CB_BAF_L128A1";
+
+		_dmr = "UK3CB_M21";
+		_boltRifle = "UK3CB_BAF_L115A3";
+		_amRifle = "UK3CB_BAF_L135A1";
+
+		// =========== Ammunition ==========
+
+		_rifleMag = "UK3CB_BAF_762_20Rnd";
+		_rifleTracerMag = "UK3CB_BAF_762_20Rnd_T";
+		_rifleSubsonicMag = "UK3CB_BAF_762_20Rnd";
+		_rifleGLMag = "UK3CB_BAF_762_20Rnd";
+		_rifleScopedMag = "UK3CB_BAF_762_20Rnd";
+		_carbineMag = "UK3CB_Sten_34Rnd_Magazine";
+		_smgMag = "UK3CB_MP5_30Rnd_Magazine";
+		_pistolMag = "UK3CB_BHP_9_13Rnd";
+
+		_autoRifleMag = "UK3CB_Bren_30Rnd_762x51_Magazine";
+		_autoTracerMag = "UK3CB_Bren_30Rnd_762x51_Magazine_RT";
+		_autoSubsonicMag = "UK3CB_Bren_30Rnd_762x51_Magazine";
+		_arMagCount = 10;
+		_arboxMagCount = 20;
+
+		_mmgMag = "UK3CB_BAF_762_100Rnd";
+		_mmgTracerMag = "UK3CB_BAF_762_100Rnd_T";
+		_mmgMagCount = 2;
+		_mmgboxMagCount = 6;
+
+		_shottyBuck = "UK3CB_BAF_12G_Pellets";
+		_shottySlug = "UK3CB_BAF_12G_Slugs";
+
+		_dmrMag = "UK3CB_M14_20rnd_762x51";
+		_boltRifleMag = "UK3CB_BAF_338_5Rnd";
+		_amRifleMag = "ACE_5Rnd_127x99_AMAX_Mag";
+
+		_glExplody = "UK3CB_BAF_1Rnd_HE_Grenade_Shell";
+		_glSmokeOne = "UK3CB_BAF_1Rnd_Smoke_Grenade_shell";
+		_glSmokeTwo = "UK3CB_BAF_1Rnd_SmokeRed_Grenade_shell";
+		_glSmokeThree = "UK3CB_BAF_1Rnd_SmokePurple_Grenade_shell";
+		_glSmokeFour = "UK3CB_BAF_1Rnd_SmokeYellow_Grenade_shell";
+		_glFlareOne = "UK3CB_BAF_UGL_FlareWhite_F";
+		_glFlareTwo = "UK3CB_BAF_UGL_FlareRed_F";
+
+		_grenade = "rhs_mag_m67";
+		_flashbang = "rhs_mag_mk84";
+		_smokeOne = "UK3CB_BAF_SmokeShell";
+		_smokeTwo = "UK3CB_BAF_SmokeShellRed";
+		_smokeThree = "UK3CB_BAF_SmokeShellPurple";
+
+		// ========== Attachments ==========
+
+		_generalAttachments_reflex = "";
+		_generalAttachments_scoped = "UK3CB_BAF_SUIT";
+		_generalAttachments_muzz = "";
+		_generalAttachments_supp = "rhsusf_acc_aac_762sd_silencer";
+		_generalAttachments_gunLight = "";
+		_generalAttachments_gunIR = "";
+		_generalAttachments_grip = "";
+
+		_autoRifleAttachments_reflex = "RKSL_optic_EOT552";
+		_autoRifleAttachments_scoped = "UK3CB_BAF_TA31F";
+		_autoRifleAttachments_muzz = "UK3CB_BAF_SFFH";
+		_autoRifleAttachments_supp = "UK3CB_BAF_Silencer_L110";
+		_autoRifleAttachments_gunLight = "UK3CB_BAF_LLM_Flashlight_Black";
+		_autoRifleAttachments_gunIR = "UK3CB_BAF_LLM_IR_Black";
+		_autoRifleAttachments_grip = "";
+
+		_mmgAttachments_reflex = "";
+		_mmgAttachments_scoped = "";
+		_mmgAttachments_muzz = "";
+		_mmgAttachments_supp = "";
+		_mmgAttachments_gunLight = "";
+		_mmgAttachments_gunIR = "";
+		_mmgAttachments_grip = "";
+
+		_dmrAttachments_reflex = "";
+		_dmrAttachments_scoped = "uk3cb_optic_artel_m14";
+		_dmrAttachments_muzz = "";
+		_dmrAttachments_supp = "uk3cb_muzzle_snds_M14";
+		_dmrAttachments_gunLight = "";
+		_dmrAttachments_gunIR = "";
+		_dmrAttachments_grip = "";
+
+		_boltRifleAttachments_base = ["RKSL_optic_PMII_525"];
+		_boltRifleAttachments_muzz = "";
+		_boltRifleAttachments_supp = "UK3CB_BAF_Silencer_L115A3";
+
+		_amRifleAttachments_base = ["RKSL_optic_PMII_525"];
+
+		_pistolAttachments_reflex = "";
+		_pistolAttachments_muzz = "";
+		_pistolAttachments_supp = "muzzle_snds_L";
 		_pistolAttachments_gunLight = "";
 		_pistolAttachments_gunIR = "";
 
