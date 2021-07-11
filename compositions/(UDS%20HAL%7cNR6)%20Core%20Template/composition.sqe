@@ -1,0 +1,599 @@
+version=54;
+center[]={3994.1797,5,4031.4133};
+class items
+{
+	items=3;
+	class Item0
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={5.8203125,0,-31.41333};
+		};
+		id=92;
+		type="NR6_HAL_Core_Module";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="NR6_HAL_Core_Module_RydHQ_Wait";
+				expression="_this setVariable ['RydHQ_Wait',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=30;
+					};
+				};
+			};
+			nAttributes=1;
+		};
+	};
+	class Item1
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={5.8203125,0,68.58667};
+		};
+		id=93;
+		type="NR6_HAL_GenSettings_Module";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_NoRestPlayers";
+				expression="_this setVariable ['RydxHQ_NoRestPlayers',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_NoCargoPlayers";
+				expression="_this setVariable ['RydxHQ_NoCargoPlayers',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_SynchroAttack";
+				expression="_this setVariable ['RydxHQ_SynchroAttack',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute3
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_MagicRearm";
+				expression="_this setVariable ['RydxHQ_MagicRearm',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute4
+			{
+				property="NR6_HAL_GenSettings_Module_RydHQ_Actions";
+				expression="_this setVariable ['RydHQ_Actions',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute5
+			{
+				property="NR6_HAL_GenSettings_Module_RydHQ_PathFinding";
+				expression="_this setVariable ['RydHQ_PathFinding',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute6
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_MagicRefuel";
+				expression="_this setVariable ['RydxHQ_MagicRefuel',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute7
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_InfoMarkersID";
+				expression="_this setVariable ['RydxHQ_InfoMarkersID',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute8
+			{
+				property="NR6_HAL_GenSettings_Module_RydHQ_ActionsMenu";
+				expression="_this setVariable ['RydHQ_ActionsMenu',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute9
+			{
+				property="NR6_HAL_GenSettings_Module_RydHQ_ActionsAceOnly";
+				expression="_this setVariable ['RydHQ_ActionsAceOnly',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute10
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_ReconCargo";
+				expression="_this setVariable ['RydxHQ_ReconCargo',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute11
+			{
+				property="NR6_HAL_GenSettings_Module_RydHQ_SlingDrop";
+				expression="_this setVariable ['RydHQ_SlingDrop',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute12
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_GarrisonV2";
+				expression="_this setVariable ['RydxHQ_GarrisonV2',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute13
+			{
+				property="NR6_HAL_GenSettings_Module_RydHQ_TaskActions";
+				expression="_this setVariable ['RydHQ_TaskActions',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute14
+			{
+				property="NR6_HAL_GenSettings_Module_RydHQ_RHQAutoFill";
+				expression="_this setVariable ['RydHQ_RHQAutoFill',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute15
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_NEAware";
+				expression="_this setVariable ['RydxHQ_NEAware',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=800;
+					};
+				};
+			};
+			class Attribute16
+			{
+				property="NR6_HAL_GenSettings_Module_RydHQ_SupportActions";
+				expression="_this setVariable ['RydHQ_SupportActions',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute17
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_MagicHeal";
+				expression="_this setVariable ['RydxHQ_MagicHeal',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute18
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_MagicRepair";
+				expression="_this setVariable ['RydxHQ_MagicRepair',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=1;
+					};
+				};
+			};
+			class Attribute19
+			{
+				property="NR6_HAL_GenSettings_Module_RydxHQ_AIChatDensity";
+				expression="_this setVariable ['RydxHQ_AIChatDensity',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=100;
+					};
+				};
+			};
+			nAttributes=20;
+		};
+	};
+	class Item2
+	{
+		dataType="Logic";
+		class PositionInfo
+		{
+			position[]={5.8203125,0,18.58667};
+		};
+		id=94;
+		type="NR6_Cache_Module";
+		class CustomAttributes
+		{
+			class Attribute0
+			{
+				property="NR6_Cache_Module_zbe_aiCacheDist";
+				expression="_this setVariable ['zbe_aiCacheDist',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=1500;
+					};
+				};
+			};
+			class Attribute1
+			{
+				property="NR6_Cache_Module_zbe_vehicleCacheDistCar";
+				expression="_this setVariable ['zbe_vehicleCacheDistCar',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=2000;
+					};
+				};
+			};
+			class Attribute2
+			{
+				property="NR6_Cache_Module_zbe_debug";
+				expression="_this setVariable ['zbe_debug',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute3
+			{
+				property="NR6_Cache_Module_zbe_vehicleCacheDistAir";
+				expression="_this setVariable ['zbe_vehicleCacheDistAir',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=3000;
+					};
+				};
+			};
+			class Attribute4
+			{
+				property="NR6_Cache_Module_zbe_vehicleCacheDistBoat";
+				expression="_this setVariable ['zbe_vehicleCacheDistBoat',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"SCALAR"
+							};
+						};
+						value=3000;
+					};
+				};
+			};
+			class Attribute5
+			{
+				property="NR6_Cache_Module_zbe_ObjCacheLite";
+				expression="_this setVariable ['zbe_ObjCacheLite',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute6
+			{
+				property="NR6_Cache_Module_zbe_ObjCache";
+				expression="_this setVariable ['zbe_ObjCache',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			class Attribute7
+			{
+				property="NR6_Cache_Module_zbe_NoHideMode";
+				expression="_this setVariable ['zbe_NoHideMode',_value,true];";
+				class Value
+				{
+					class data
+					{
+						class type
+						{
+							type[]=
+							{
+								"BOOL"
+							};
+						};
+						value=0;
+					};
+				};
+			};
+			nAttributes=8;
+		};
+	};
+};

@@ -13,7 +13,7 @@
 private [
 "_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_shotty","_boltRifle","_amRifle",
 "_rifleMag","_rifleTracerMag","_rifleSubsonicMag","_rifleGLMag","_rifleScopedMag","_autoRifleMag","_autoTracerMag","_autoSubsonicMag","_carbineMag","_dmrMag","_mmgMag","_mmgTracerMag","_smgMag","_pistolMag","_shottyBuck","_shottySlug","_boltRifleMag","_amRifleMag",
-"_glExplody","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_flashbang","_smokeOne","_smokeTwo","_smokeThree",
+"_glExplody","_glExplodyhp","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_flashbang","_smokeOne","_smokeTwo","_smokeThree",
 "_arMagCount","_arboxMagCount","_mmgMagCount","_mmgboxMagCount",
 "_generalAttachments_reflex","_generalAttachments_scoped","_generalAttachments_muzz","_generalAttachments_supp","_generalAttachments_gunLight","_generalAttachments_gunIR","_generalAttachments_grip",
 "_autoRifleAttachments_reflex","_autoRifleAttachments_scoped","_autoRifleAttachments_muzz","_autoRifleAttachments_supp","_autoRifleAttachments_gunLight","_autoRifleAttachments_gunIR","_autoRifleAttachments_grip",
@@ -84,6 +84,7 @@ switch (_variant) do {
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
 
 		_glExplody = "rhs_VOG25";
+		_glExplodyhp = "rhs_VOG25P";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
 		_glSmokeThree = "rhs_GRD40_Green";
@@ -201,6 +202,7 @@ switch (_variant) do {
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
 
 		_glExplody = "rhs_VOG25";
+		_glExplodyhp = "rhs_VOG25P";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
 		_glSmokeThree = "rhs_GRD40_Green";
@@ -318,6 +320,7 @@ switch (_variant) do {
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
 
 		_glExplody = "rhs_VOG25";
+		_glExplodyhp = "rhs_VOG25P";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
 		_glSmokeThree = "rhs_GRD40_Green";
@@ -435,6 +438,7 @@ switch (_variant) do {
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
 
 		_glExplody = "rhs_VOG25";
+		_glExplodyhp = "rhs_VOG25P";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
 		_glSmokeThree = "rhs_GRD40_Green";
@@ -552,6 +556,7 @@ switch (_variant) do {
 		_amRifleMag = "5Rnd_127x108_APDS_Mag";
 
 		_glExplody = "rhs_VOG25";
+		_glExplodyhp = "rhs_VOG25P";
 		_glSmokeOne = "rhs_GRD40_White";
 		_glSmokeTwo = "rhs_GRD40_Red";
 		_glSmokeThree = "rhs_GRD40_Green";

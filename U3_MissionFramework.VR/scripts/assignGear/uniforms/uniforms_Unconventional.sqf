@@ -10,7 +10,7 @@ private [
 "_gogglesArray","_gogglesRandom","_goggles","_insignia",
 "_rflmUniformArray","_rflmRandom","_rflmUniform","_leaderUniform",
 "_rflmHelmetArray","_rflmHRandom","_rflmHelmet","_coyHelmet","_slHelmet","_tlHelmet","_sniperHelmet",
-"_rflmVest","_gunnerVest","_glVest","_medVest","_coyVest","_slVest","_tlVest",
+"_rflmVest","_gunnerVest","_asstVest","_glVest","_medVest","_coyVest","_slVest","_tlVest",
 "_smallRuck","_medRuck","_largeRuck","_medicRuck","_atRuck","_armgRuck",
 "_crewUniform","_rpilotUniform","_fpilotUniform",
 "_crewmanHelmetArray","_crewmanHRandom","_crewmanHelmet","_crewmanHelmetArray","_crewmanHRandom","_navalcrewmanHelmet","_rotaryPilotHelmet","_rotaryCrewHelmet","_fixedPilotHelmet",
@@ -82,6 +82,7 @@ switch (_camoPattern) do {
 
 		_rflmVest = "UK3CB_V_Pouch";
 		_gunnerVest = "UK3CB_V_Pouch";
+		_asstVest = "UK3CB_V_Pouch";
 		_glVest = "UK3CB_V_Pouch";
 		_medVest = "UK3CB_V_Pouch";
 		_pilotVest = "UK3CB_V_Pouch";
@@ -169,13 +170,14 @@ switch (_camoPattern) do {
 
 		_rflmVest = "rhs_6b23_digi_6sh92_spetsnaz2";
 		_gunnerVest = "rhs_6b23_digi";
+		_asstVest = "rhs_6b23_digi_6sh92_Vog_Spetsnaz";
 		_glVest = "rhs_6b23_digi_6sh92_Vog_Spetsnaz";
 		_medVest = "rhs_6b23_digi_medic";
 		_pilotVest = "rhs_6b23_digi_crew";
 		_crewVest = "rhs_6b23_digi_crew";
 		_coyVest = "rhs_6b23_digi_6sh92_Spetsnaz";
 		_slVest = "rhs_6b23_digi_6sh92_Spetsnaz";
-		_tlVest = "rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz";
+		_tlVest = "rhs_6b23_digi_6sh92_Spetsnaz";
 		_sniperVest = "rhs_6b23_digi_sniper";
 
 		// ===================== Rucks ====================

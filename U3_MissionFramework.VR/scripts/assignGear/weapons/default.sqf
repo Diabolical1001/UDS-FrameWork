@@ -49,6 +49,7 @@
 		_amRifleMag = "";
 
 		_glExplody = "";
+		_glExplodyhp = "";
 		_glSmokeOne = "";
 		_glSmokeTwo = "";
 		_glSmokeThree = "";

@@ -39,6 +39,8 @@ _loadoutArray = [
 	["Rotary Wing Pilot","rotarypilot"],
 	["Rotary Wing Aircrew","rotarycrew"],
 	["Fixed Wing Pilot","fixedpilot"],
+	["Naval Officer","navalcrewmander"],
+	["Naval Crew","navalcrewman"],
 
 	// CSW and Weapons
 	["MAT Gunner","matgun"],

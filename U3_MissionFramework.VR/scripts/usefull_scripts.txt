@@ -107,3 +107,14 @@ sleep 0.2;
 //// set para vic height
 
 heli_0 flyInHeightASL [300, 300, 300];
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+/////////////////////////////
+///   map beacon script  ///
+/////////////////////////////
+
+// add to trigger
+
+_handle = execVM "scripts\becon_1.sqf";
+

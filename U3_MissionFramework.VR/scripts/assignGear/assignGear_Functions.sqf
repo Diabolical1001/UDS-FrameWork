@@ -41,6 +41,10 @@ _addClothes = {
 			_unit addHeadgear _rflmHelmet;
 			_unit addVest _gunnerVest;
 		};
+		case "asst" : {
+			_unit addHeadgear _rflmHelmet;
+			_unit addVest _asstVest;
+		};
 		case "gren" : {
 			_unit addHeadgear _rflmHelmet;
 			_unit addVest _glVest;
@@ -195,11 +199,11 @@ _addRuck = {
 			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,30];	// bandages
 			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,10];	// morphine
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,10];	// epinephrine
-			(unitBackpack _unit) addItemCargoGlobal [_bloodThree,4];	// bloodbag 1000
+			(unitBackpack _unit) addItemCargoGlobal [_bloodThree,8];	// bloodbag 1000
 			(unitBackpack _unit) addItemCargoGlobal [_bloodTwo,2];		// bloodbag 500
 			(unitBackpack _unit) addItemCargoGlobal [_bloodOne,2];		// bloodbag 250
 			(unitBackpack _unit) addItemCargoGlobal [_splint,8];		// bloodbag 250
-			(unitBackpack _unit) addItemCargoGlobal [_tourniquet,8];		// bloodbag 250
+			(unitBackpack _unit) addItemCargoGlobal [_tourniquet,4];		// bloodbag 250
 		};
 		case "fac" : {
 			_unit addBackpack _radioRuck;
@@ -208,8 +212,8 @@ _addRuck = {
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glExplody,4];
-			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeTwo,2];
-			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeThree,2];
+			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeTwo,4];
+			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeThree,4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeTwo,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeThree,1];
 		};
@@ -221,15 +225,12 @@ _addRuck = {
 			_unit addBackpack _smallRuck;
 			call _clearRuck;
 			sleep _delay;
+			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,8];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];
-			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
-			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
-			(unitBackpack _unit) addMagazineCargoGlobal [_glExplody,4];
-			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeTwo,2];
-			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeThree,2];
-			(unitBackpack _unit) addMagazineCargoGlobal [_smokeTwo,1];
-			(unitBackpack _unit) addMagazineCargoGlobal [_smokeThree,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,2];
+			(unitBackpack _unit) addMagazineCargoGlobal [_smokeTwo,2];
+			(unitBackpack _unit) addMagazineCargoGlobal [_smokeThree,2];
 		};
 		case "ar" : {
 			_unit addBackpack _armgRuck;
@@ -247,17 +248,17 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_autoRifleMag,_arMagCount];
 			(unitBackpack _unit) addMagazineCargoGlobal [_autoTracerMag,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
-			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,1];
-			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
-			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_glExplody,8];
+			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeOne,2];
 		};
 		case "rm" : {
 			_unit addBackpack _smallRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,4];
+			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,6];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "brcr" : {
 			_unit addBackpack _largeRuck;
@@ -268,12 +269,13 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_shottySlug,4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_flashbang,5];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "rmammo" : {
 			_unit addBackpack _medRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,10];
+			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,12];
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleTracerMag,4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,2];
@@ -285,8 +287,9 @@ _addRuck = {
 			if (_latMag != "") then { (unitBackpack _unit) addMagazineCargoGlobal [_latMag,1]; };
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,4];
-			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
+			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "rmsc" : {
 			_unit addBackpack _smallRuck;
@@ -295,6 +298,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleScopedMag,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "dmr" : {
 			_unit addBackpack _smallRuck;
@@ -303,6 +307,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_dmrMag,4];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "gren" : {
 			_unit addBackpack _medRuck;
@@ -310,7 +315,9 @@ _addRuck = {
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleGLMag,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glExplody,10];
+			(unitBackpack _unit) addMagazineCargoGlobal [_glExplodyhp,10];
 			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeOne,4];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "mmg" : {
 			_unit addBackpack _medRuck;
@@ -324,8 +331,9 @@ _addRuck = {
 			call _clearRuck;
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
-			(unitBackpack _unit) addMagazineCargoGlobal [_mmgMag,4];
-			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_mmgMag,2];
+			(unitBackpack _unit) addMagazineCargoGlobal [_glExplody,8];
+			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeOne,2];
 		};
 		case "matgun" : {
 			_unit addBackpack _atRuck;
@@ -470,6 +478,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeTwo,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeTwo,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeThree,1];
+			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "engi" : {
 			_unit addBackpack _medRuck;

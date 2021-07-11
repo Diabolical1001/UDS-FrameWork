@@ -10,7 +10,7 @@ private [
 "_gogglesArray","_gogglesRandom","_goggles","_insignia",
 "_rflmUniformArray","_rflmRandom","_rflmUniform","_leaderUniform",
 "_rflmHelmetArray","_rflmHRandom","_rflmHelmet","_coyHelmet","_slHelmet","_tlHelmet","_sniperHelmet",
-"_rflmVest","_gunnerVest","_glVest","_medVest","_coyVest","_slVest","_tlVest",
+"_rflmVest","_gunnerVest","_asstVest","_glVest","_medVest","_coyVest","_slVest","_tlVest",
 "_smallRuck","_medRuck","_largeRuck","_medicRuck","_atRuck","_armgRuck",
 "_crewUniform","_rpilotUniform","_fpilotUniform",
 "_crewmanHelmetArray","_crewmanHRandom","_crewmanHelmet","_crewmanHelmetArray","_crewmanHRandom","_navalcrewmanHelmet","_rotaryPilotHelmet","_rotaryCrewHelmet","_fixedPilotHelmet",
@@ -81,13 +81,14 @@ switch (_camoPattern) do {
 
 		_rflmVest = "UK3CB_BAF_V_Osprey_Rifleman_E";
 		_gunnerVest = "UK3CB_BAF_V_Osprey_MG_A";
+		_asstVest = "UK3CB_BAF_V_Osprey_Grenadier_A";
 		_glVest = "UK3CB_BAF_V_Osprey_Grenadier_A";
 		_medVest = "UK3CB_BAF_V_Osprey_Medic_B";
 		_pilotVest = "UK3CB_BAF_V_Osprey_Belt_A";
 		_crewVest = "UK3CB_BAF_V_Osprey_Belt_A";
 		_coyVest = "UK3CB_BAF_V_Osprey_SL_A";
 		_slVest = "UK3CB_BAF_V_Osprey_SL_D";
-		_tlVest = "UK3CB_BAF_V_Osprey_Grenadier_B";
+		_tlVest = "UK3CB_BAF_V_Osprey_SL_B";
 		_sniperVest = "UK3CB_BAF_V_Osprey_Marksman_A";
 
 		// ===================== Rucks ====================
@@ -167,13 +168,14 @@ switch (_camoPattern) do {
 
 		_rflmVest = "UK3CB_BAF_V_Osprey_DDPM8";
 		_gunnerVest = "UK3CB_BAF_V_Osprey_DDPM1";
+		_asstVest = "UK3CB_BAF_V_Osprey_DDPM3";
 		_glVest = "UK3CB_BAF_V_Osprey_DDPM3";
 		_medVest = "UK3CB_BAF_V_Osprey_DDPM9";
 		_pilotVest = "UK3CB_BAF_V_Osprey_DDPM1";
 		_crewVest = "UK3CB_BAF_V_Osprey_DDPM1";
 		_coyVest = "UK3CB_BAF_V_Osprey_DDPM2";
 		_slVest = "UK3CB_BAF_V_Osprey_DDPM2";
-		_tlVest = "UK3CB_BAF_V_Osprey_DDPM3";
+		_tlVest = "UK3CB_BAF_V_Osprey_DDPM7";
 		_sniperVest = "UK3CB_BAF_V_Osprey_DDPM7";
 
 		// ===================== Rucks ====================
@@ -253,13 +255,14 @@ switch (_camoPattern) do {
 
 		_rflmVest = "UK3CB_BAF_V_Osprey_DPMW8";
 		_gunnerVest = "UK3CB_BAF_V_Osprey_DPMW1";
+		_asstVest = "UK3CB_BAF_V_Osprey_DPMW3";
 		_glVest = "UK3CB_BAF_V_Osprey_DPMW3";
 		_medVest = "UK3CB_BAF_V_Osprey_DPMW9";
 		_pilotVest = "UK3CB_BAF_V_Osprey_DPMW1";
 		_crewVest = "UK3CB_BAF_V_Osprey_DPMW1";
 		_coyVest = "UK3CB_BAF_V_Osprey_DPMW2";
 		_slVest = "UK3CB_BAF_V_Osprey_DPMW2";
-		_tlVest = "UK3CB_BAF_V_Osprey_DPMW3";
+		_tlVest = "UK3CB_BAF_V_Osprey_DPMW7";
 		_sniperVest = "UK3CB_BAF_V_Osprey_DPMW7";
 
 		// ===================== Rucks ====================
@@ -339,13 +342,14 @@ switch (_camoPattern) do {
 
 		_rflmVest = "UK3CB_BAF_V_Osprey_Rifleman_E";
 		_gunnerVest = "UK3CB_BAF_V_Osprey_MG_A";
+		_asstVest = "UK3CB_BAF_V_Osprey_Grenadier_A";
 		_glVest = "UK3CB_BAF_V_Osprey_Grenadier_A";
 		_medVest = "UK3CB_BAF_V_Osprey_Medic_B";
 		_pilotVest = "UK3CB_BAF_V_Osprey_Belt_A";
 		_crewVest = "UK3CB_BAF_V_Osprey_Belt_A";
 		_coyVest = "UK3CB_BAF_V_Osprey_SL_A";
 		_slVest = "UK3CB_BAF_V_Osprey_SL_D";
-		_tlVest = "UK3CB_BAF_V_Osprey_Grenadier_B";
+		_tlVest = "UK3CB_BAF_V_Osprey_SL_B";
 		_sniperVest = "UK3CB_BAF_V_Osprey_Marksman_A";
 
 		// ===================== Rucks ====================
@@ -425,13 +429,14 @@ switch (_camoPattern) do {
 
 		_rflmVest = "UK3CB_BAF_V_Osprey_DDPM8";
 		_gunnerVest = "UK3CB_BAF_V_Osprey_DDPM1";
+		_asstVest = "UK3CB_BAF_V_Osprey_DDPM3";
 		_glVest = "UK3CB_BAF_V_Osprey_DDPM3";
 		_medVest = "UK3CB_BAF_V_Osprey_DDPM9";
 		_pilotVest = "UK3CB_BAF_V_Osprey_DDPM1";
 		_crewVest = "UK3CB_BAF_V_Osprey_DDPM1";
 		_coyVest = "UK3CB_BAF_V_Osprey_DDPM2";
 		_slVest = "UK3CB_BAF_V_Osprey_DDPM2";
-		_tlVest = "UK3CB_BAF_V_Osprey_DDPM3";
+		_tlVest = "UK3CB_BAF_V_Osprey_DDPM7";
 		_sniperVest = "UK3CB_BAF_V_Osprey_DDPM7";
 
 		// ===================== Rucks ====================
@@ -511,13 +516,14 @@ switch (_camoPattern) do {
 
 		_rflmVest = "UK3CB_BAF_V_Osprey_DPMW8";
 		_gunnerVest = "UK3CB_BAF_V_Osprey_DPMW1";
+		_asstVest = "UK3CB_BAF_V_Osprey_DPMW3";
 		_glVest = "UK3CB_BAF_V_Osprey_DPMW3";
 		_medVest = "UK3CB_BAF_V_Osprey_DPMW9";
 		_pilotVest = "UK3CB_BAF_V_Osprey_DPMW1";
 		_crewVest = "UK3CB_BAF_V_Osprey_DPMW1";
 		_coyVest = "UK3CB_BAF_V_Osprey_DPMW2";
 		_slVest = "UK3CB_BAF_V_Osprey_DPMW2";
-		_tlVest = "UK3CB_BAF_V_Osprey_DPMW3";
+		_tlVest = "UK3CB_BAF_V_Osprey_DPMW7";
 		_sniperVest = "UK3CB_BAF_V_Osprey_DPMW7";
 
 		// ===================== Rucks ====================

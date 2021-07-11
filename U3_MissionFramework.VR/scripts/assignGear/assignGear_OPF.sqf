@@ -15,38 +15,38 @@ _muzzles = 0;         				// 0 - none, 1 - muzzle, 2 - suppressor
 _pointers = 0;						// 0 - none, 1 - lights, 2 - ir pointer
 _grips = true;						// adds grips to most rhs weapons
 _launcher = "russian";				// launchers statics
-_camoPattern = "vdv_emr";  			// uniform
-_headgear = "6b28";					// helmet type
+_camoPattern = "vdv_emr_vkpo";  	// uniform
+_headgear = "6b47";					// helmet type
 _parachutes = "none";				// Available cases: "steerable", "nonsteerable", "none".
 _flashbangs = 0;					// add number for amount
 _incendiarys = 0;					// add number for amount
 _cableTies = 0;						// add number for amount
-_radioSelection = "rhs_rus";			// tfar radio selection
+_radioSelection = "rhs_rus";		// tfar radio selection
 _underwaterWeapons = true;
 _subSonicAmmo = false;				// whether subsonic ammo gets assigned
 
 //Section Values
 
 // Alpha
-_rmOneAlpha = "gren";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
+_rmOneAlpha = "rm";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
 _teamOneAlpha = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
 _rmTwoAlpha = "rmat";					// rifleman loadout for second rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default rmat
 _teamTwoAlpha = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
 
 // Bravo
-_rmOneBravo = "gren";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
+_rmOneBravo = "rm";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
 _teamOneBravo = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
 _rmTwoBravo = "rmat";					// rifleman loadout for second rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default rmat
 _teamTwoBravo = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
 
 // Charlie
-_rmOneCharlie = "gren";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
+_rmOneCharlie = "rm";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
 _teamOneCharlie = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
 _rmTwoCharlie = "rmat";					// rifleman loadout for second rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default rmat
 _teamTwoCharlie = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
 
 // Delta
-_rmOneDelta = "gren";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
+_rmOneDelta = "rm";					// rifleman loadout for first rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default gren
 _teamOneDelta = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
 _rmTwoDelta = "rmat";					// rifleman loadout for second rifleman - recommended cases: rm, rmat, gren, brcr, dmr, rmsc - default rmat
 _teamTwoDelta = "ar";					// weapons platform for first fireteam gunner/assistant - cases: ar, mmg, mat, hat, aa, hmg, shat - defaults to ar
@@ -213,7 +213,7 @@ if (_unit isKindOf "Man") then {
 			{ _unit linkItem _x } foreach _secItems;
 			for "_i" from 1 to 6 do {_unit addItemToVest _rifleMag};
 			for "_i" from 1 to 2 do {_unit addItemToVest _rifleTracerMag};
-			_unit addWeapon _rifleGL;
+			_unit addWeapon _rifle;
 			call _addSidearm;
 			["tl"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -223,8 +223,9 @@ if (_unit isKindOf "Man") then {
 		case "ar" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			for "_i" from 1 to _arMagCount do {_unit addItemToVest _autoRifleMag};
+			_unit addItemToVest _autoRifleMag;
 			_unit addWeapon _autoRifle;
+			for "_i" from 1 to _arMagCount do {_unit addItemToVest _autoRifleMag};
 			call _addSidearm;
 			["ar"] call _addRuck;
 			["ar",false,false,false] call _addAttachments;
@@ -235,7 +236,7 @@ if (_unit isKindOf "Man") then {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
 			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
-			_unit addWeapon _rifle;
+			_unit addWeapon _rifleGL;
 			["aar"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
@@ -314,8 +315,9 @@ if (_unit isKindOf "Man") then {
 		case "mmg" : {
 			["gunner"] call _addClothes;
 			["none"] call _addBasics;
-			for "_i" from 1 to 3 do {_unit addItemToVest _mmgMag};
+			_unit addItemToVest _mmgMag;
 			_unit addWeapon _mmg;
+			for "_i" from 1 to 2 do {_unit addItemToVest _mmgMag};
 			call _addSidearm;
 			["mmg"] call _addRuck;
 			["mmg",false,false,false] call _addAttachments;
@@ -326,7 +328,7 @@ if (_unit isKindOf "Man") then {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
 			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
-			_unit addWeapon _rifle;
+			_unit addWeapon _rifleGL;
 			["mmgass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
@@ -386,7 +388,7 @@ if (_unit isKindOf "Man") then {
 			["crewman"] call _addRuck;
 			["uniform"] call _IFAK;
 		};
-		// Crew Commander
+		// Naval Crew Commander
 		case "navalcrewmander" : {
 			["ncrew"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
@@ -397,7 +399,7 @@ if (_unit isKindOf "Man") then {
 			["crew"] call _addRuck;
 			["uniform"] call _IFAK;
 		};
-		// Crewman
+		// Naval Crewman
 		case "navalcrewman" : {
 			["ncrew"] call _addClothes;
 			["none"] call _addBasics;
@@ -685,7 +687,7 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addMagazineCargoGlobal [_smokeOne,24];
 			_unit addMagazineCargoGlobal [_smokeTwo,4];
 			_unit addMagazineCargoGlobal [_smokeThree,4];
-			_unit addMagazineCargoGlobal [_glExplody,12];
+			_unit addMagazineCargoGlobal [_glExplody,16];
 			_unit addMagazineCargoGlobal [_glSmokeOne,8];
 			_unit addMagazineCargoGlobal [_glSmokeTwo,3];
 			_unit addMagazineCargoGlobal [_glSmokeThree,3];
@@ -704,7 +706,8 @@ if (!(_unit isKindOf "Man")) then {
 		};
 		case "glammo" : {
 			_unit addMagazineCargoGlobal [_rifleGLMag,10];
-			_unit addMagazineCargoGlobal [_glExplody,12];
+			_unit addMagazineCargoGlobal [_glExplody,10];
+			_unit addMagazineCargoGlobal [_glExplodyhp,10];
 			_unit addMagazineCargoGlobal [_glSmokeOne,6];
 			_unit addMagazineCargoGlobal [_glSmokeTwo,6];
 			_unit addMagazineCargoGlobal [_glSmokeThree,4];
@@ -752,11 +755,11 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addItemCargoGlobal [_injectorOne,25];
 			_unit addItemCargoGlobal [_injectorTwo,18];
 			_unit addItemCargoGlobal [_bandageOne,60];
-			_unit addItemCargoGlobal [_bloodOne,15];
-			_unit addItemCargoGlobal [_bloodTwo,15];
-			_unit addItemCargoGlobal [_bloodThree,15];
+			_unit addItemCargoGlobal [_bloodOne,20];
+			_unit addItemCargoGlobal [_bloodTwo,20];
+			_unit addItemCargoGlobal [_bloodThree,20];
 			_unit addItemCargoGlobal [_tourniquet,6];
-			_unit addItemCargoGlobal [_splint,15];
+			_unit addItemCargoGlobal [_splint,20];
 		};
 
 		// ========================================

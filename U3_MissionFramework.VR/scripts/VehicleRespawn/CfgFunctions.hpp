@@ -1,7 +1,7 @@
 class UDS_VehicleRespawn {
 	tag = "UDS";
 	class VehicleRespawn {
-		file = "VehicleRespawn";
+		file = "scripts\VehicleRespawn";
 		class vehicleLoadout {};
 		class vehicleMonitor {};
 		class vehicleRespawn {};

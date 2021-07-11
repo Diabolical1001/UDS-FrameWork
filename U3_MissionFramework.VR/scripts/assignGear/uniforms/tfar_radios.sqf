@@ -24,8 +24,8 @@ switch (_radioSelection) do {
 	case "rhs_rus" : {
 		_squadRadio = "TFAR_fadak";
 		_airRadioRuck = "TFAR_mr6000l";
-		_radioRuck = "TFAR_mr3000_rhs";
-		_diverRadioRuck = "TFAR_mr3000_rhs";
+		_radioRuck = "rhs_r148_tfar";
+		_diverRadioRuck = "rhs_r148_tfar";
 		_uavRuck = "O_UAV_01_backpack_F";
 		_uavTool = "O_UavTerminal";
 	};
@@ -60,8 +60,8 @@ switch (_radioSelection) do {
 	case "ins" : {
 		_squadRadio = "TFAR_anprc148jem";
 		_airRadioRuck = "TFAR_mr6000l";
-		_radioRuck = "TFAR_anprc155_coyote";
-		_diverRadioRuck = "TFAR_anprc155_coyote";
+		_radioRuck = "UK3CB_B_I_Assault_camo_Radio";
+		_diverRadioRuck = "UK3CB_B_I_Assault_camo_Radio";
 		_uavRuck = "I_UAV_01_backpack_F";
 		_uavTool = "I_UavTerminal";
 	};
