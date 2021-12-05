@@ -18,8 +18,8 @@ _loadoutArray = [
 	["Platoon Commander","pltld"],
 	["Platoon Sergeant","secco"],
 	["Platoon FAC","pltfac"],
-	["Platoon UAV Operator","pltuavop"],
 	["Platoon Medic","pltmed"],
+	["Platoon Ammo Bearer","rmammo"],
 
 	// Section Roles
 	["Section Commander","secco"],

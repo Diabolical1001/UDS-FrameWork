@@ -1,0 +1,18 @@
+version=54;
+name="(UDS HAL|NR6 COMMANDER) A";
+author="Diabolical";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"A3_Characters_F",
+	"A3_Static_F_Mortar_01",
+	"ace_nouniformrestrictions",
+	"A3_Air_F_Heli_Light_01",
+	"ace_realisticnames",
+	"nr6_airreinforcements",
+	"nr6_tools",
+	"NR6_HAL",
+	"A3_Modules_F",
+	"nr6_reinforcements",
+	"nr6_sites"
+};

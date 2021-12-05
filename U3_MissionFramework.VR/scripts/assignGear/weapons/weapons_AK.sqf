@@ -45,7 +45,7 @@ switch (_variant) do {
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
 
-		_autoRifle = "dd_weap_rpk74m_75";
+		_autoRifle = "rhs_weap_rpk74m";
 		_mmg = "rhs_weap_pkp";
 
 		_shotty = "rhs_weap_M590_5RD";
@@ -65,9 +65,9 @@ switch (_variant) do {
 		_smgMag = "rhs_mag_9x19mm_7n31_20";
 		_pistolMag = "rhs_mag_9x18_8_57N181S";
 
-		_autoRifleMag = "rhs_75Rnd_545X39_7N22_AK";
-		_autoTracerMag = "rhs_75Rnd_545X39_AK_Green";
-		_autoSubsonicMag = "rhs_75Rnd_545X39_7U1_AK";
+		_autoRifleMag = "rhs_60Rnd_545X39_7N22_AK";
+		_autoTracerMag = "rhs_60Rnd_545X39_AK_Green";
+		_autoSubsonicMag = "rhs_60Rnd_545X39_7U1_AK";
 		_arMagCount = 3;
 		_arboxMagCount = 10;
 
@@ -281,7 +281,7 @@ switch (_variant) do {
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
 
-		_autoRifle = "dd_weap_rpk74m_75";
+		_autoRifle = "rhs_weap_rpk74m";
 		_mmg = "rhs_weap_pkp";
 
 		_shotty = "rhs_weap_M590_5RD";
@@ -301,9 +301,9 @@ switch (_variant) do {
 		_smgMag = "rhs_mag_9x19mm_7n31_20";
 		_pistolMag = "rhs_mag_9x18_8_57N181S";
 
-		_autoRifleMag = "rhs_75Rnd_545X39_7N22_AK";
-		_autoTracerMag = "rhs_75Rnd_545X39_AK_Green";
-		_autoSubsonicMag = "rhs_75Rnd_545X39_7U1_AK";
+		_autoRifleMag = "rhs_60Rnd_545X39_7N22_AK";
+		_autoTracerMag = "rhs_60Rnd_545X39_AK_Green";
+		_autoSubsonicMag = "rhs_60Rnd_545X39_7U1_AK";
 		_arMagCount = 3;
 		_arboxMagCount = 10;
 
@@ -517,7 +517,7 @@ switch (_variant) do {
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
 
-		_autoRifle = "dd_weap_rpk74m_75";
+		_autoRifle = "rhs_weap_rpk74m_npz";
 		_mmg = "rhs_weap_pkp";
 
 		_shotty = "rhs_weap_M590_5RD";
@@ -537,9 +537,9 @@ switch (_variant) do {
 		_smgMag = "rhs_mag_9x19mm_7n31_20";
 		_pistolMag = "rhs_mag_9x18_8_57N181S";
 
-		_autoRifleMag = "rhs_75Rnd_545X39_7N22_AK";
-		_autoTracerMag = "rhs_75Rnd_545X39_AK_Green";
-		_autoSubsonicMag = "rhs_75Rnd_545X39_7U1_AK";
+		_autoRifleMag = "rhs_60Rnd_545X39_7N22_AK";
+		_autoTracerMag = "rhs_60Rnd_545X39_AK_Green";
+		_autoSubsonicMag = "rhs_60Rnd_545X39_7U1_AK";
 		_arMagCount = 3;
 		_arboxMagCount = 10;
 
@@ -573,15 +573,15 @@ switch (_variant) do {
 		// ========== Attachments ==========
 
 		_generalAttachments_reflex = "rhs_acc_1p87";
-		_generalAttachments_scoped = "rhsusf_acc_su230_mrds";
+		_generalAttachments_scoped = "ACE_optic_Hamr_PIP";
 		_generalAttachments_muzz = "rhs_acc_uuk";
 		_generalAttachments_supp = "rhs_acc_tgpa";
 		_generalAttachments_gunLight = "rhs_acc_perst3_2dp_light_h";
 		_generalAttachments_gunIR = "rhs_acc_perst3_2dp_h";
 		_generalAttachments_grip = "rhs_acc_grip_ffg2";
 
-		_autoRifleAttachments_reflex = "rhs_acc_pkas";
-		_autoRifleAttachments_scoped = "rhs_acc_1p29";
+		_autoRifleAttachments_reflex = "rhs_acc_1p87";
+		_autoRifleAttachments_scoped = "ACE_optic_Hamr_PIP";
 		_autoRifleAttachments_muzz = "rhs_acc_dtk2";
 		_autoRifleAttachments_supp = "rhs_acc_tgpa";
 		_autoRifleAttachments_gunLight = "rhs_acc_2dpZenit";
@@ -589,7 +589,7 @@ switch (_variant) do {
 		_autoRifleAttachments_grip = "";
 
 		_mmgAttachments_reflex = "rhs_acc_1p63";
-		_mmgAttachments_scoped = "rhs_acc_1p78";
+		_mmgAttachments_scoped = "rhs_acc_pso1m2";
 		_mmgAttachments_muzz = "";
 		_mmgAttachments_supp = "";
 		_mmgAttachments_gunLight = "";

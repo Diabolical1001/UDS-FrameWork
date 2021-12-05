@@ -548,7 +548,7 @@ switch (_camoPattern) do {
 		_gunnerVest = "rhsusf_spcs_ocp_saw";
 		_asstVest = "rhsusf_spcs_ocp_grenadier";
 		_glVest = "rhsusf_spcs_ocp_grenadier";
-		_medVest = "rhsusf_spcs_ucp_medic";
+		_medVest = "rhsusf_spcs_ocp_medic";
 		_pilotVest = "rhsusf_spcs_ocp_crewman";
 		_crewVest = "rhsusf_spcs_ocp_crewman";
 		_coyVest = "rhsusf_spcs_ocp_squadleader";

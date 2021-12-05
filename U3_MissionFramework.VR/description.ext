@@ -84,7 +84,7 @@ class cfgNotifications {
 // ====================================================================================
 // Respawn Settings
 
-respawnButton = 0;
+respawnButton = 1;
 respawn = 3;
 respawnDelay = 120;
 respawnOnStart = 0;								// Dont respawn on start. Don't run respawn script on start.

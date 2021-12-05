@@ -118,3 +118,12 @@ heli_0 flyInHeightASL [300, 300, 300];
 
 _handle = execVM "scripts\becon_1.sqf";
 
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+/////////////////////////////
+///  disable zbe cache    ///
+/////////////////////////////
+
+group this setVariable ["zbe_cacheDisabled",true];
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-

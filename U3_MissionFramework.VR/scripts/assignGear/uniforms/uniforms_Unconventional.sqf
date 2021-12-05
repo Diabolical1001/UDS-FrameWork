@@ -203,6 +203,110 @@ switch (_camoPattern) do {
 		// ================================================
 	};
 
+	// South African Special Forces
+
+	case "sasf" : {
+		// ==================== Uniforms ==================
+
+		_rflmUniformArray = ["rhsgref_uniform_altis_lizard"];
+		_rflmRandom = (floor(random (count _rflmUniformArray)));
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
+		_crewUniform = "rhsgref_uniform_altis_lizard";
+		_leaderUniform = "rhsgref_uniform_altis_lizard";
+		_rpilotUniform = "rhsgref_uniform_altis_lizard";
+		_fpilotUniform = "U_B_PilotCoveralls";
+		_sniperUniform = "rhsgref_uniform_altis_lizard";
+
+		// ==================== Headgear ==================
+
+		switch (_headgear) do {
+			case "beret" : {
+				_rflmHelmetArray = ["rhssaf_beret_red"];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
+				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_green";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_green";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "rhssaf_beret_red";
+				_slHelmet = "rhssaf_beret_red";
+				_tlHelmet = "rhssaf_beret_red";
+				_sniperHelmet = "rhssaf_beret_red";
+			};
+			case "opscore" : {
+				_rflmHelmetArray = ["rhsusf_opscore_ut_pelt"];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = ["rhsusf_cvc_green_alt_helmet","rhsusf_cvc_green_ess"];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
+				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_green";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_green";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "rhsusf_opscore_ut_pelt_cam";
+				_slHelmet = "rhsusf_opscore_ut_pelt_nsw_cam";
+				_tlHelmet = "rhsusf_opscore_ut_pelt_cam";
+				_sniperHelmet = "rhsusf_opscore_ut_pelt_nsw_cam";
+			};
+			default {
+				_rflmHelmetArray = [""];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = [""];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
+				_rotaryPilotHelmet = "rhsusf_hgu56p";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "";
+				_slHelmet = "";
+				_tlHelmet = "";
+				_sniperHelmet = "";
+			};
+		};
+
+		// ===================== Vests ====================
+
+		_rflmVest = "rhsusf_spcs_ocp_rifleman_alt";
+		_gunnerVest = "rhsusf_spcs_ocp_saw";
+		_asstVest = "rhsusf_spcs_ocp_grenadier";
+		_glVest = "rhsusf_spcs_ocp_grenadier";
+		_medVest = "rhsusf_spcs_ocp_medic";
+		_pilotVest = "rhsusf_spcs_ocp_crewman";
+		_crewVest = "rhsusf_spcs_ocp_crewman";
+		_coyVest = "rhsusf_spcs_ocp_squadleader";
+		_slVest = "rhsusf_spcs_ocp_squadleader";
+		_tlVest = "rhsusf_spcs_ocp_teamleader";
+		_sniperVest = "rhsusf_spcs_ocp_sniper";
+
+		// ===================== Rucks ====================
+
+		_smallRuck = "B_AssaultPack_khk";
+		_medRuck = "rhsusf_assault_eagleaiii_ocp";
+		_armgRuck = "rhsusf_assault_eagleaiii_ocp";
+		_largeRuck = "B_Carryall_mcamo";
+		_medicRuck = "rhsusf_assault_eagleaiii_ocp";
+		_atRuck = "B_AssaultPack_khk";
+		_sniperRuck = "B_AssaultPack_khk";
+
+		// ===================== NVGs ====================
+
+		_nightVision = "rhsusf_ANPVS_15";
+
+		// =================== Goggles ===================
+
+		_gogglesArray = ["rhsusf_shemagh_tan","rhsusf_shemagh2_tan","G_Bandanna_blk","G_Bandanna_oli"];
+		_gogglesRandom = (floor(random (count _gogglesArray)));
+		_goggles = _gogglesArray select _gogglesRandom;
+
+		// ================================================
+	};
+
 #include "default.sqf"
 };
 

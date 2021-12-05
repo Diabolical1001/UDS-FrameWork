@@ -20,7 +20,7 @@ private [
 "_medkitOne","_medkitTwo",
 "_plasmaOne","_plasmaTwo","_plasmaThree",
 "_salineOne","_salineTwo","_salineThree",
-"_tourniquet","_splint","_bodybag"
+"_tourniquet","_splint","_bodybag","_personalAidkit"
 ];
 
 // =======================================================================
@@ -113,6 +113,7 @@ _injectorTwo = "ACE_epinephrine";
 _bodybag = "ACE_bodyBag";
 _tourniquet = "ACE_tourniquet";
 _splint = "ACE_splint";
+_personalAidkit = "ACE_personalAidKit";
 
 // ================ Advanced Gear =================
 

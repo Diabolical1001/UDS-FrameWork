@@ -203,7 +203,8 @@ _addRuck = {
 			(unitBackpack _unit) addItemCargoGlobal [_bloodTwo,2];		// bloodbag 500
 			(unitBackpack _unit) addItemCargoGlobal [_bloodOne,2];		// bloodbag 250
 			(unitBackpack _unit) addItemCargoGlobal [_splint,8];		// bloodbag 250
-			(unitBackpack _unit) addItemCargoGlobal [_tourniquet,4];		// bloodbag 250
+			(unitBackpack _unit) addItemCargoGlobal [_tourniquet,4];	// bloodbag 250
+			(unitBackpack _unit) addItemCargoGlobal [_personalAidkit,1];// PAK
 		};
 		case "fac" : {
 			_unit addBackpack _radioRuck;

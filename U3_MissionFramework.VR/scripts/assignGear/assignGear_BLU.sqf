@@ -760,6 +760,7 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addItemCargoGlobal [_bloodThree,20];
 			_unit addItemCargoGlobal [_tourniquet,6];
 			_unit addItemCargoGlobal [_splint,20];
+			_unit addItemCargoGlobal [_personalAidkit,2];
 		};
 
 		// ========================================

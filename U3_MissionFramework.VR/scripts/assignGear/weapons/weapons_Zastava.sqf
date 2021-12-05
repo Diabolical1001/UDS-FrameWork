@@ -147,6 +147,124 @@ switch (_variant) do {
 		// =================================
 	};
 
+	// SAF - M21A-PR - 5.56x45
+	case "m21a_pr" :  {
+
+		// ============ Weaponry ===========
+
+		_rifleArray = ["rhs_weap_m21a_pr"];
+		_rifleRandom = (floor(random (count _rifleArray)));
+		_rifle = _rifleArray select _rifleRandom;
+		_rifleGLArray = ["rhs_weap_m21a_pbg40"];
+		_rifleGLRandom = (floor(random (count _rifleGLArray)));
+		_rifleGL = _rifleGLArray select _rifleGLRandom;
+		_rifleScoped = "rhs_weap_m21a_pr";
+		_carbine = "rhs_weap_m21s";
+		_smg = "rhs_weap_scorpion";
+		_pistol = "rhs_weap_6p53";
+
+		_autoRifle = "rhs_weap_minimi_para_railed";
+		_mmg = "rhs_weap_fnmag";
+
+		_shotty = "rhs_weap_M590_8RD";
+
+		_dmr = "rhs_weap_l1a1";
+		_boltRifle = "rhs_weap_m40a5_wd";
+		_amRifle = "rhs_weap_m82a1";
+
+		// =========== Ammunition ==========
+
+		_rifleMag = "rhsgref_30rnd_556x45_m21";
+		_rifleTracerMag = "rhsgref_30rnd_556x45_m21_t";
+		_rifleSubsonicMag = "rhsgref_30rnd_556x45_m21";
+		_rifleGLMag = "rhsgref_30rnd_556x45_m21";
+		_rifleScopedMag = "rhsgref_30rnd_556x45_m21";
+		_carbineMag = "rhsgref_30rnd_556x45_m21";
+		_smgMag = "rhsgref_20rnd_765x17_vz61";
+		_pistolMag = "rhs_18rnd_9x21mm_7N28";
+
+		_autoRifleMag = "rhsusf_200Rnd_556x45_box";
+		_autoTracerMag = "rhsusf_200rnd_556x45_mixed_box";
+		_autoSubsonicMag = "rhsusf_200Rnd_556x45_box";
+		_arMagCount = 1;		// ar roles
+		_arboxMagCount = 4;		// ar boxes
+
+		_mmgMag = "rhsusf_100Rnd_762x51_m61_ap";
+		_mmgTracerMag = "rhsusf_100Rnd_762x51_m62_tracer";
+		_mmgMagCount = 1;		// mmg roles
+		_mmgboxMagCount = 4;	// mmg boxes
+
+		_shottyBuck = "rhsusf_5Rnd_00Buck";
+		_shottySlug = "rhsusf_5Rnd_Slug";
+
+		_dmrMag = "rhs_mag_20Rnd_762x51_m61_fnfal";
+		_boltRifleMag = "rhsusf_5Rnd_762x51_AICS_m993_Mag";
+		_amRifleMag = "rhsusf_mag_10Rnd_STD_50BMG_mk211";
+
+		_glExplody = "rhs_VOG25";
+		_glExplodyhp = "rhs_VOG25P";
+		_glSmokeOne = "rhs_GDM40";
+		_glSmokeTwo = "rhs_GRD40_Red";
+		_glSmokeThree = "rhs_GRD40_Green";
+		_glSmokeFour = "rhs_GDM40";
+		_glFlareOne = "rhs_VG40MD_White";
+		_glFlareTwo = "rhs_VG40MD_Red";
+
+		_grenade = "rhssaf_mag_br_m75";
+		_flashbang = "rhs_mag_mk84";
+		_smokeOne = "rhssaf_mag_brd_m83_white";
+		_smokeTwo = "rhssaf_mag_brd_m83_orange";
+		_smokeThree = "rhssaf_mag_brd_m83_blue";
+
+		// ========== Attachments ==========
+
+		_generalAttachments_reflex = "rhsusf_acc_eotech_xps3";
+		_generalAttachments_scoped = "rhsusf_acc_g33_xps3";
+		_generalAttachments_muzz = "rhsusf_acc_SF3P556";
+		_generalAttachments_supp = "rhsusf_acc_nt4_black";
+		_generalAttachments_gunLight = "rhs_acc_2dpZenit";
+		_generalAttachments_gunIR = "rhs_acc_perst1ik";
+		_generalAttachments_grip = "";
+
+		_autoRifleAttachments_reflex = "rhsusf_acc_eotech_xps3";
+		_autoRifleAttachments_scoped = "rhsusf_acc_ELCAN";
+		_autoRifleAttachments_muzz = "rhsusf_acc_SF3P556";
+		_autoRifleAttachments_supp = "rhsusf_acc_nt4_black";
+		_autoRifleAttachments_gunLight = "rhs_acc_2dpZenit_ris";
+		_autoRifleAttachments_gunIR = "rhs_acc_perst1ik_ris";
+		_autoRifleAttachments_grip = "";
+
+		_mmgAttachments_reflex = "rhsusf_acc_eotech_xps3";
+		_mmgAttachments_scoped = "rhsusf_acc_ELCAN";
+		_mmgAttachments_muzz = "rhsusf_acc_ARDEC_M240";
+		_mmgAttachments_supp = "muzzle_snds_H_MG_blk_F";
+		_mmgAttachments_gunLight = "";
+		_mmgAttachments_gunIR = "";
+		_mmgAttachments_grip = "";
+
+		_dmrAttachments_reflex = "rhsgref_acc_l1a1_l2a2";
+		_dmrAttachments_scoped = "rhsgref_acc_l1a1_anpvs2";
+		_dmrAttachments_muzz = "rhsgref_acc_falMuzzle_l1a1";
+		_dmrAttachments_supp = "rhsgref_sdn6_suppressor";
+		_dmrAttachments_gunLight = "";
+		_dmrAttachments_gunIR = "";
+		_dmrAttachments_grip = "";
+
+		_boltRifleAttachments_base = ["rhsusf_acc_M8541","rhsusf_acc_harris_swivel"];
+		_boltRifleAttachments_muzz = "";
+		_boltRifleAttachments_supp = "";
+
+		_amRifleAttachments_base = ["rhsusf_acc_premier"];
+
+		_pistolAttachments_reflex = "";
+		_pistolAttachments_muzz = "";
+		_pistolAttachments_supp = "";
+		_pistolAttachments_gunLight = "";
+		_pistolAttachments_gunIR = "";
+
+		// =================================
+	};
+
 	// SAF - M70B3N - 7.62x39
 	case "m70b3n" :  {
 
