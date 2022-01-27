@@ -48,6 +48,51 @@ switch (_radioSelection) do {
 		_uavTool = "B_UavTerminal";
 	};
 
+	case "baf_mtp" : {
+		_squadRadio = "TFAR_anprc152";
+		_airRadioRuck = "TFAR_mr6000l";
+		_radioRuck = "UK3CB_BAF_B_Bergen_MTP_Radio_L_B";
+		_diverRadioRuck = "UK3CB_BAF_B_Bergen_MTP_Radio_L_B";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+
+	case "baf_wd" : {
+		_squadRadio = "TFAR_anprc152";
+		_airRadioRuck = "TFAR_mr6000l";
+		_radioRuck = "UK3CB_BAF_B_Bergen_DPMW_JTAC_A";
+		_diverRadioRuck = "UK3CB_BAF_B_Bergen_DPMW_JTAC_A";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+
+	case "baf_d" : {
+		_squadRadio = "TFAR_anprc152";
+		_airRadioRuck = "TFAR_mr6000l";
+		_radioRuck = "UK3CB_BAF_B_Bergen_DDPM_JTAC_A";
+		_diverRadioRuck = "UK3CB_BAF_B_Bergen_DDPM_JTAC_A";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+
+	case "bw_fleck" : {
+		_squadRadio = "TFAR_anprc152";
+		_airRadioRuck = "TFAR_mr6000l";
+		_radioRuck = "TFAR_rt1523g_big_bwmod";
+		_diverRadioRuck = "TFAR_rt1523g_big_bwmod";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+
+	case "bw_trop" : {
+		_squadRadio = "TFAR_anprc152";
+		_airRadioRuck = "TFAR_mr6000l";
+		_radioRuck = "TFAR_rt1523g_big_bwmod_tropen";
+		_diverRadioRuck = "TFAR_rt1523g_big_bwmod_tropen";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+
 	case "aaf" : {
 		_squadRadio = "TFAR_anprc148jem";
 		_airRadioRuck = "TFAR_mr6000l";

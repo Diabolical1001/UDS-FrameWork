@@ -212,49 +212,49 @@ switch (_launcher) do {
 		_clackTwo = "ACE_M26_Clacker";
 	};
 
-	// PLA
-	case "pla" : {
+	// BW
+	case "bw" : {
 
-		_lat = "vme_pla_PF89";
-		_latMag = "vme_pla_PF89_Rocket";
+		_lat = "BWA3_RGW90_Loaded";
+		_latMag = "";
 
-		_matLaunch = "vme_pla_PF98";
-		_matATMag = "vme_pla_PF98_AT_Rocket";
-		_matHEMag = "vme_pla_PF98_MP_Rocket";
+		_matLaunch = "BWA3_PzF3";
+		_matATMag = "";
+		_matHEMag = "";
 		_matTHERMag = "";
 		_matTANDMag = "";
 		_matSpot = "";
-		_matAttachments = ["VME_PF98_Scope_FCS"];
+		_matAttachments = ["BWA3_optic_NSA80"];
 
-		_hatLaunch = "vme_pla_HJ12";
-		_hatMag = "VME_HJ12_AT";
+		_hatLaunch = "rhs_weap_fgm148";
+		_hatMag = "rhs_fgm148_magazine_AT";
 		_hatScope = "";
 
-		_aaLaunch = "vme_pla_FN6";
-		_aaMag = "vme_pla_FN6_Rocket";
+		_aaLaunch = "BWA3_Fliegerfaust";
+		_aaMag = "BWA3_Fliegerfaust_Mag";
 
-		_hmgBarrel = "VME_PLA_Type85_bag";
-		_hmgTripod = "VME_PLA_Static_tripod";
+		_hmgBarrel = "RHS_M2_Gun_Bag";
+		_hmgTripod = "RHS_M2_Tripod_Bag";
 		_hmgMag = "";
 
-		_gmgBarrel = "VME_PLA_QLZ04_bag";
-		_gmgTripod = "VME_PLA_Static_tripod";
+		_gmgBarrel = "rnt_gmw_static_barell";
+		_gmgTripod = "rnt_gmw_static_tripod";
 		_gmgMag = "";
 
-		_shatBarrel = "VME_PLA_HJ11_bag";
-		_shatTripod = "VME_PLA_Static_tripod";
+		_shatBarrel = "Redd_Milan_Static_Barrel";
+		_shatTripod = "Redd_Milan_Static_Tripod";
 		_shatMag = "";
 
-		_mortBarrel = "VME_PLA_Type87_bag";
-		_mortTripod = "VME_PLA_Mortar_tripod";
+		_mortBarrel = "Redd_Tank_M120_Tampella_Barrel";
+		_mortTripod = "Redd_Tank_M120_Tampella_Tripod";
 		_mortMag = "";
 
-		_atMine = "rhs_mine_tm62m_mag";
-		_apMine = "rhs_mine_pmn2_mag";
-		_tripFlare = "rhs_mine_sm320_red_mag";
-		_tripapMine = "rhs_mine_ozm72_a_mag";
-		_satchelSmall = "rhs_ec75_mag";
-		_satchelLarge = "rhs_ec400_mag";
+		_atMine = "rhs_mine_M19_mag";
+		_apMine = "rhsusf_mine_m14_mag";
+		_tripFlare = "rhsusf_mine_m49a1_6m_mag";
+		_tripapMine = "rhs_mine_m2a3b_trip_mag";
+		_satchelSmall = "rhsusf_m112_mag";
+		_satchelLarge = "rhsusf_m112x4_mag";
 
 		_clackOne = "ACE_Clacker";
 		_clackTwo = "ACE_M26_Clacker";
