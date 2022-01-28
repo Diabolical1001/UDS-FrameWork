@@ -215,16 +215,16 @@ switch (_launcher) do {
 	// BW
 	case "bw" : {
 
-		_lat = "BWA3_RGW90_Loaded";
+		_lat = "BWA3_PzF3_Tandem_Loaded";
 		_latMag = "";
 
-		_matLaunch = "BWA3_PzF3";
+		_matLaunch = "BWA3_RGW90_Loaded";
 		_matATMag = "";
 		_matHEMag = "";
 		_matTHERMag = "";
 		_matTANDMag = "";
 		_matSpot = "";
-		_matAttachments = ["BWA3_optic_NSA80"];
+		_matAttachments = [""];
 
 		_hatLaunch = "rhs_weap_fgm148";
 		_hatMag = "rhs_fgm148_magazine_AT";
