@@ -56,7 +56,7 @@ player createDiaryRecord ["diary", ["Radio / Freqs","
 
 // ====================================================================================
 
-player createDiaryRecord ["diary", ["Admin / Logistics","
+player createDiaryRecord ["diary", ["Admin / Logistics / Assets","
 <font color='#FFC800' size='18'>Logistics: </font><br/>
 <font color='#FFC800' size='16'>Platoon Comp: </font> <br/>
 - <br/>
@@ -66,11 +66,11 @@ player createDiaryRecord ["diary", ["Admin / Logistics","
 - <br/>
 - <br/>
 <br/>
-<font color='#FFC800' size='16'>Resupply: </font> <br/>
+<font color='#FFC800' size='16'>Supply: </font> <br/>
 - <br/>
 - <br/>
 <br/>
-<font color='#FFC800' size='16'>Support: </font> <br/>
+<font color='#FFC800' size='16'>Supports: </font> <br/>
 - <br/>
 <br/>
 "]];
@@ -78,11 +78,15 @@ player createDiaryRecord ["diary", ["Admin / Logistics","
 // ====================================================================================
 
 player createDiaryRecord ["diary", ["Mission / Situation","
-<font color='#FFC800' size='18'>Mission/Situation: </font><br/>
+<font color='#FFC800' size='18'>Situation: </font><br/>
 - <br/><br/>
-<font color='#FFC800' size='18'>ROE: </font><br/>
+<font color='#FFC800' size='18'>Mission: </font><br/>
 - <br/><br/>
-<font color='#FFC800' size='18'>Hints/Tips: </font><br/>
+<font color='#FFC800' size='18'>Rules Of Engagment: </font><br/>
+- <br/><br/>
+<font color='#FFC800' size='18'>Time / Date / Weather: </font><br/>
+- <br/><br/>
+<font color='#FFC800' size='18'>Hints / Tips: </font><br/>
 - <br/><br/>
 - <br/><br/>
 "]];

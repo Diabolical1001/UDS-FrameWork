@@ -273,7 +273,7 @@ _addRuck = {
 			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 		};
 		case "rmammo" : {
-			_unit addBackpack _medRuck;
+			_unit addBackpack _largeRuck;
 			call _clearRuck;
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,12];
@@ -287,7 +287,7 @@ _addRuck = {
 			sleep _delay;
 			if (_latMag != "") then { (unitBackpack _unit) addMagazineCargoGlobal [_latMag,1]; };
 			sleep _delay;
-			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,4];
+			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
 			(unitBackpack _unit) addItemCargoGlobal [_etool,1];

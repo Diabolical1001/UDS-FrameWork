@@ -127,3 +127,13 @@ _handle = execVM "scripts\becon_1.sqf";
 group this setVariable ["zbe_cacheDisabled",true];
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+/////////////////////////////
+///     Sound 3d call     ///
+/////////////////////////////
+
+// add to object, make sure class is in description.ext
+
+nul = [this] spawn {while {true} do {(_this select 0) say3D "sound_class"; sleep 123;};};
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
