@@ -13,42 +13,39 @@ player createDiaryRecord ["diary", ["Radio / Freqs","
 <br/>
 <font color='#FFC800' size='16'>Infantry:</font><br/>
 <br/>
-<font color='#FFC800'>Plt 1-1 LR</font>        : freq 50<br/>
-<font color='#FFC800'>FAC 1-1 LR</font>        : freq 60<br/>
-<font color='#FFC800'>Plt 1-1 SR </font>       : freq 100<br/>
-<font color='#FFC800'>Alpha 1-1 SR</font>      : freq 101<br/>
-<font color='#FFC800'>Bravo 1-1 SR</font>      : freq 102<br/>
-<font color='#FFC800'>Charlie 1-1 SR</font>    : freq 103<br/>
-<font color='#FFC800'>Delta 1-1 SR</font>      : freq 104<br/>
+<font color='#FFC800'>1-1 Platoon LR</font>        : freq 50<br/>
+<font color='#FFC800'>1-1 FAC LR</font>            : freq 60<br/>
 <br/>
-<font color='#FFC800'>SPR 1-1 SR</font>   : freq 111<br/>
-<font color='#FFC800'>MORT 1-1 SR</font>   : freq 112<br/>
+<font color='#FFC800'>1-1 Platoon SR </font>       : freq 100<br/>
+<font color='#FFC800'>1-2 Alpha SR</font>          : freq 101<br/>
+<font color='#FFC800'>1-3 Bravo SR</font>          : freq 102<br/>
+<font color='#FFC800'>1-4 Charlie SR</font>        : freq 103<br/>
+<font color='#FFC800'>1-5 Delta SR</font>          : freq 104<br/>
+<br/>
+<font color='#FFC800'>1-6 Echo (Sniper) SR</font>      : freq 105<br/>
+<font color='#FFC800'>1-7 Foxtrot (Mortar) SR</font>   : freq 106<br/>
 <br/>
 <font color='#FFC800' size='16'>Armor:</font><br/>
 <br/>
-<font color='#FFC800'>Alpha 2-1 SR</font>   : freq 121<br/>
-<font color='#FFC800'>Bravo 2-1 SR</font>   : freq 122<br/>
-<font color='#FFC800'>Charlie 2-1 SR</font>   : freq 123<br/>
-<font color='#FFC800'>Delta 2-1 SR</font>   : freq 124<br/>
-<br/>
-<font color='#FFC800'>Alpha 2-2 SR</font>   : freq 125<br/>
-<font color='#FFC800'>Bravo 2-2 SR</font>   : freq 126<br/>
-<font color='#FFC800'>Charlie 2-2 SR</font>   : freq 127<br/>
-<font color='#FFC800'>Delta 2-2 SR</font>   : freq 128<br/>
+<font color='#FFC800'>2-1 SR</font>   : freq 120<br/>
+<font color='#FFC800'>2-2 SR</font>   : freq 121<br/>
+<font color='#FFC800'>2-3 SR</font>   : freq 122<br/>
+<font color='#FFC800'>2-4 SR</font>   : freq 123<br/>
+<font color='#FFC800'>2-5 SR</font>   : freq 124<br/>
+<font color='#FFC800'>2-6 SR</font>   : freq 125<br/>
+<font color='#FFC800'>2-7 SR</font>   : freq 126<br/>
+<font color='#FFC800'>2-8 SR</font>   : freq 127<br/>
 <br/>
 <font color='#FFC800' size='16'>Rotary Wing:</font><br/>
 <br/>
-<font color='#FFC800'>Alpha 3-1 SR</font>    : freq 130<br/>
-<font color='#FFC800'>Bravo 3-1 SR</font>    : freq 131<br/>
+<font color='#FFC800'>3-1 SR</font>   : freq 130<br/>
+<font color='#FFC800'>3-2 SR</font>   : freq 131<br/>
+<font color='#FFC800'>3-3 SR</font>   : freq 132<br/>
 <br/>
 <font color='#FFC800' size='16'>Fixed Wing:</font><br/>
 <br/>
-<font color='#FFC800'>Alpha 4-1 SR</font>    : freq 140<br/>
-<font color='#FFC800'>Bravo 4-1 SR</font>    : freq 141<br/>
-<br/>
-<font color='#FFC800' size='16'>Naval:</font><br/>
-<br/>
-<font color='#FFC800'>Alpha 5-1 SR</font>    : freq 150<br/>
+<font color='#FFC800'>4-1 SR</font>   : freq 140<br/>
+<font color='#FFC800'>4-2 SR</font>   : freq 141<br/>
 <br/>
 <br/><br/>
 
