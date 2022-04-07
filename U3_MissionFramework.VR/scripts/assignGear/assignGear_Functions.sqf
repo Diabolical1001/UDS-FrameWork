@@ -185,7 +185,7 @@ _addRuck = {
 			_unit addBackpack _radioRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,8];
+			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,10];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,2];
@@ -196,13 +196,12 @@ _addRuck = {
 			_unit addBackpack _medicRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,30];	// bandages
-			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,10];	// morphine
+			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,40];	// bandages
+			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,14];	// morphine
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,10];	// epinephrine
 			(unitBackpack _unit) addItemCargoGlobal [_bloodThree,8];	// bloodbag 1000
-			(unitBackpack _unit) addItemCargoGlobal [_bloodTwo,2];		// bloodbag 500
-			(unitBackpack _unit) addItemCargoGlobal [_bloodOne,2];		// bloodbag 250
-			(unitBackpack _unit) addItemCargoGlobal [_splint,8];		// bloodbag 250
+			(unitBackpack _unit) addItemCargoGlobal [_bloodTwo,4];		// bloodbag 500
+			(unitBackpack _unit) addItemCargoGlobal [_splint,10];		// bloodbag 250
 			(unitBackpack _unit) addItemCargoGlobal [_tourniquet,4];	// bloodbag 250
 			(unitBackpack _unit) addItemCargoGlobal [_personalAidkit,1];// PAK
 		};
@@ -217,21 +216,25 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_glSmokeThree,4];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeTwo,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeThree,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 		};
 		case "uavop" : {
 			_unit addBackpack _uavRuck;
 			call _clearRuck;
 		};
 		case "tl" : {
-			_unit addBackpack _smallRuck;
+			_unit addBackpack _medRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,8];
+			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,12];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeTwo,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeThree,2];
+			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
+			(unitBackpack _unit) addItemCargoGlobal [_bloodThree,2];
+			(unitBackpack _unit) addItemCargoGlobal [_splint,2];
 		};
 		case "ar" : {
 			_unit addBackpack _armgRuck;
@@ -324,7 +327,7 @@ _addRuck = {
 			_unit addBackpack _medRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addMagazineCargoGlobal [_mmgMag,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_mmgMag,3];
 			(unitBackpack _unit) addItemCargoGlobal [_spareBarrel,1];
 		};
 		case "mmgass" : {
@@ -342,9 +345,8 @@ _addRuck = {
 			sleep _delay;
 			(unitBackpack _unit) addMagazineCargoGlobal [_matATMag,1];
 			sleep _delay;
-			(unitBackpack _unit) addMagazineCargoGlobal [_matATMag,1];
-			(unitBackpack _unit) addMagazineCargoGlobal [_matHEMag,1];
 			if (_matSpot != "") then { (unitBackpack _unit) addMagazineCargoGlobal [_matSpot,2]; };
+			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 		};
 		case "matass" : {
 			_unit addBackpack _atRuck;
@@ -354,6 +356,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_matHEMag,1];
 			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 		};
 		case "hat" : {
 			_unit addBackpack _largeRuck;
@@ -414,7 +417,7 @@ _addRuck = {
 			_unit addBackpack _smallRuck;
 			call _clearRuck;
 			(unitBackpack _unit) addMagazineCargoGlobal [_carbineMag,2];
-			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,8];
+			(unitBackpack _unit) addItemCargoGlobal [_bandageOne,10];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorOne,4];
 			(unitBackpack _unit) addItemCargoGlobal [_injectorTwo,4];
 			(unitBackpack _unit) addItemCargoGlobal [_bloodTwo,2];
@@ -491,6 +494,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
 			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 		};
 		case "demoman" : {
 			_unit addBackpack _medRuck;
@@ -503,6 +507,7 @@ _addRuck = {
 			(unitBackpack _unit) addItemCargoGlobal [_clackOne,1];
 			(unitBackpack _unit) addItemCargoGlobal [_defuseKit,1];
 			(unitBackpack _unit) addItemCargoGlobal [_etool,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_rifleMag,2];
 		};
 		default {
 			hint format ["[ERROR] Incorrect ruck call: %2, for unit: %1", _unit, _pack];
@@ -705,9 +710,9 @@ _IFAK = {
 		case "pack" : {
 			if (!isNull (unitBackpack _unit)) then {
 				(unitBackpack _unit) addItemCargoGlobal [_injectorOne,1];
-				(unitBackpack _unit) addItemCargoGlobal [_bandageOne,8];
+				(unitBackpack _unit) addItemCargoGlobal [_bandageOne,10];
 				(unitBackpack _unit) addItemCargoGlobal [_tourniquet,2];
-				(unitBackpack _unit) addItemCargoGlobal [_splint,1];
+				(unitBackpack _unit) addItemCargoGlobal [_splint,2];
 			};
 		};
 		case "vest" : {
@@ -716,17 +721,17 @@ _IFAK = {
 			(unitBackpack _unit) addItemCargoGlobal [_splint,1];
 		};
 		case "uniform" : {
-			for "_i" from 1 to 8 do {_unit addItemToUniform _bandageOne};
+			for "_i" from 1 to 10 do {_unit addItemToUniform _bandageOne};
 			for "_i" from 1 to 2 do {_unit addItemToUniform _injectorOne};
 			(unitBackpack _unit) addItemCargoGlobal [_tourniquet,2];
-			(unitBackpack _unit) addItemCargoGlobal [_splint,1];
+			(unitBackpack _unit) addItemCargoGlobal [_splint,2];
 		};
 		default {
 			if (!isNull (unitBackpack _unit)) then {
 				(unitBackpack _unit) addItemCargoGlobal [_bandageOne,6];
 				(unitBackpack _unit) addItemCargoGlobal [_injectorOne,2];
 				(unitBackpack _unit) addItemCargoGlobal [_tourniquet,2];
-				(unitBackpack _unit) addItemCargoGlobal [_splint,1];
+				(unitBackpack _unit) addItemCargoGlobal [_splint,2];
 			};
 		};
 	};
@@ -840,7 +845,7 @@ _postGearAssign = {
 	ace_maptools_mapTool_Shown = 2;
 
 	// Reset Stamina
-	_unit setStamina 200;
+	_unit setStamina 250;
 };
 
 // ============================================================

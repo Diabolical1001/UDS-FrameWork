@@ -41,6 +41,14 @@ if (hasInterface) then {
 };
 
 // ====================================================================================
+// Respawn Tickets
+// when using the opfor frame work make sure to swap out the calls from west to east with //
+
+[west, 16] call BIS_fnc_respawnTickets;
+//[east, 16] call BIS_fnc_respawnTickets;
+
+
+// ====================================================================================
 // CratePicker
 // defines for the cratepicker script based spawner, which currently exists via conveniently coloured flags
 
@@ -95,7 +103,7 @@ if (!isDedicated) then {
 					BIS_RscRespawnControlsMap_ctrlButtonSpectate ctrlEnable true;
 					BIS_RscRespawnControlsMap_ctrlButtonSpectate ctrlSetTooltip "";
 					BIS_RscRespawnControlsMap_ctrlButtonSpectate ctrlRemoveAllEventHandlers "ButtonDown";
-					BIS_RscRespawnControlsMap_ctrlButtonSpectate ctrlAddEventhandler ["ButtonDown",{["close"] call BIS_fnc_showRespawnMenu;	[true] call ace_spectator_fnc_setSpectator;	}];
+					BIS_RscRespawnControlsMap_ctrlButtonSpectate ctrlAddEventhandler ["ButtonDown",{["close"] call BIS_fnc_showRespawnMenu;	[true] call BIS_fnc_EGSpectator;	}];
 				};
             };
             sleep 0.1;

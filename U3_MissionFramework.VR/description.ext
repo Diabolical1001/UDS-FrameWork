@@ -86,9 +86,9 @@ class cfgNotifications {
 
 respawnButton = 1;
 respawn = 3;
-respawnDelay = 120;
+respawnDelay = 300;
 respawnOnStart = 0;								// Dont respawn on start. Don't run respawn script on start.
-respawnTemplates[] = {"MenuPosition","tickets"};
+respawnTemplates[] = {"MenuPosition","tickets","Wave"};
 
 // ====================================================================================
 // Disable Playable Unit AI
@@ -99,7 +99,7 @@ disabledAI = 1;
 // Misc Settings
 
 forceRotorLibSimulation = 0;
-disableRandomization[] = {"All"};
+//disableRandomization[] = {"All"};
 joinUnassigned = 1;
 aiKills = 0;
 

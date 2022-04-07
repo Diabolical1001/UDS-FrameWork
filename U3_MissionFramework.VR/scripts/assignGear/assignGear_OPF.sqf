@@ -135,7 +135,7 @@ if (_unit isKindOf "Man") then {
 			["commander"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 4 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 6 do {_unit addItemToVest _rifleMag};
 			for "_i" from 1 to 2 do {_unit addItemToVest _rifleTracerMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
@@ -578,7 +578,7 @@ if (_unit isKindOf "Man") then {
 		// Spotter
 		case "spotter" : {
 			["sniper"] call _addClothes;
-			["eastdesignator"] call _addBasics;
+			["vector"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
 			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			_unit addWeapon _rifleGL;
