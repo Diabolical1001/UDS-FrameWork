@@ -327,7 +327,7 @@ _addRuck = {
 			_unit addBackpack _medRuck;
 			call _clearRuck;
 			sleep _delay;
-			(unitBackpack _unit) addMagazineCargoGlobal [_mmgMag,3];
+			(unitBackpack _unit) addMagazineCargoGlobal [_mmgMag,4];
 			(unitBackpack _unit) addItemCargoGlobal [_spareBarrel,1];
 		};
 		case "mmgass" : {

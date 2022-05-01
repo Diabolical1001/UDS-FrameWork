@@ -35,12 +35,16 @@ player createDiaryRecord ["diary", ["Radio / Freqs","
 <font color='#FFC800'>2-6 SR</font>   : freq 125<br/>
 <font color='#FFC800'>2-7 SR</font>   : freq 126<br/>
 <font color='#FFC800'>2-8 SR</font>   : freq 127<br/>
+<font color='#FFC800'>2-9 SR</font>   : freq 128<br/>
+<font color='#FFC800'>2-10 SR</font>  : freq 129<br/>
+<font color='#FFC800'>2-11 SR</font>  : freq 130<br/>
+<font color='#FFC800'>2-12 SR</font>  : freq 131<br/>
 <br/>
 <font color='#FFC800' size='16'>Rotary Wing:</font><br/>
 <br/>
-<font color='#FFC800'>3-1 SR</font>   : freq 130<br/>
-<font color='#FFC800'>3-2 SR</font>   : freq 131<br/>
-<font color='#FFC800'>3-3 SR</font>   : freq 132<br/>
+<font color='#FFC800'>3-1 SR</font>   : freq 132<br/>
+<font color='#FFC800'>3-2 SR</font>   : freq 133<br/>
+<font color='#FFC800'>3-3 SR</font>   : freq 134<br/>
 <br/>
 <font color='#FFC800' size='16'>Fixed Wing:</font><br/>
 <br/>

@@ -79,7 +79,7 @@ _music = this spawn {while {alive someobject} do {_this say selectRandom ["sound
 
 
 /////////////////////////////
-///   Tasks markers init  ///
+///   hints sqf init  ///
 /////////////////////////////
 
 _nul = [] execVM "scripts\hint_1.sqf";

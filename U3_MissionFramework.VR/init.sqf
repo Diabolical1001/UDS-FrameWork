@@ -41,14 +41,6 @@ if (hasInterface) then {
 };
 
 // ====================================================================================
-// Respawn Tickets
-// when using the opfor frame work make sure to swap out the calls from west to east with //
-
-[west, 16] call BIS_fnc_respawnTickets;
-//[east, 16] call BIS_fnc_respawnTickets;
-
-
-// ====================================================================================
 // CratePicker
 // defines for the cratepicker script based spawner, which currently exists via conveniently coloured flags
 
@@ -60,7 +52,7 @@ r_fnc_cratePicker_OPF = compile preprocessfilelinenumbers "scripts\assignGear\as
 // ====================================================================================
 // Mission Intro
 
-["Mission Name", "Author", "Location/Description", ''] execVM "scripts\missionIntro.sqf";
+["Mission Name", "Author", "Description | Terrain", ''] execVM "scripts\missionIntro.sqf";
 
 // ====================================================================================
 // Disable Saving and Auto Saving
@@ -98,15 +90,11 @@ if (hasInterface) then { player setVariable ["CLY_removedead",false,true]; };
 if (!isDedicated) then {
     [] spawn {
         while {true} do {
-            if (([side (group player)]  call bis_fnc_respawntickets == 0) && (!alive player)) exitWith {
-                with uiNamespace do {
-					BIS_RscRespawnControlsMap_ctrlButtonSpectate ctrlEnable true;
-					BIS_RscRespawnControlsMap_ctrlButtonSpectate ctrlSetTooltip "";
-					BIS_RscRespawnControlsMap_ctrlButtonSpectate ctrlRemoveAllEventHandlers "ButtonDown";
-					BIS_RscRespawnControlsMap_ctrlButtonSpectate ctrlAddEventhandler ["ButtonDown",{["close"] call BIS_fnc_showRespawnMenu;	[true] call BIS_fnc_EGSpectator;	}];
-				};
+            if (call bis_fnc_respawntickets == 0) exitWith
+            {
+            	format ["We have no more reinforcements. Mission has failed and we must fall back."] remoteExec ["hint", 0];
             };
-            sleep 0.1;
+        sleep 0.5;
         };
     };
 };
