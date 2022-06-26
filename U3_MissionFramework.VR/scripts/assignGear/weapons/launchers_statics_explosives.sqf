@@ -356,6 +356,102 @@ switch (_launcher) do {
 		_clackTwo = "ACE_DeadManSwitch";
 	};
 
+	// SOG US
+	case "sog_us" : {
+
+		_lat = "vn_m72_mag";
+		_latMag = "";
+
+		_matLaunch = "rhs_weap_maaws";
+		_matATMag = "rhs_mag_maaws_HEAT";
+		_matHEMag = "rhs_mag_maaws_HE";
+		_matTHERMag = "rhs_mag_maaws_HEDP";
+		_matTANDMag = "";
+		_matSpot = "";
+		_matAttachments = [""];
+
+		_hatLaunch = "rhs_weap_fgm148";
+		_hatMag = "rhs_fgm148_magazine_AT";
+		_hatScope = "";
+
+		_aaLaunch = "rhs_weap_fim92";
+		_aaMag = "rhs_fim92_mag";
+
+		_hmgBarrel = "vn_b_pack_static_m2_low_01";
+		_hmgTripod = "vn_b_pack_static_base_01";
+		_hmgMag = "";
+
+		_gmgBarrel = "RHS_Mk19_Gun_Bag";
+		_gmgTripod = "RHS_Mk19_Tripod_Bag";
+		_gmgMag = "";
+
+		_shatBarrel = "vn_b_pack_static_tow";
+		_shatTripod = "vn_b_pack_static_base_01";
+		_shatMag = "";
+
+		_mortBarrel = "vn_b_pack_static_m2_01";
+		_mortTripod = "vn_b_pack_static_base_01";
+		_mortMag = "";
+
+		_atMine = "vn_mine_m15_mag";
+		_apMine = "vn_mine_m18_range_mag";
+		_tripFlare = "rhsusf_mine_m49a1_6m_mag";
+		_tripapMine = "rhs_mine_m2a3b_trip_mag";
+		_satchelSmall = "vn_mine_m112_remote_mag";
+		_satchelLarge = "vn_mine_satchel_remote_02_mag";
+
+		_clackOne = "ACE_Clacker";
+		_clackTwo = "ACE_M26_Clacker";
+	};
+
+	// SOG VN
+	case "sog_vn" : {
+
+		_lat = "vn_rpg2";
+		_latMag = "vn_rpg2_mag";
+
+		_matLaunch = "vn_rpg7";
+		_matATMag = "vn_rpg7_mag";
+		_matHEMag = "vn_rpg7_mag";
+		_matTHERMag = "";
+		_matTANDMag = "";
+		_matSpot = "";
+		_matAttachments = [""];
+
+		_hatLaunch = "launch_O_Vorona_green_F";
+		_hatMag = "Vorona_HEAT";
+		_hatScope = "";
+
+		_aaLaunch = "vn_sa7b";
+		_aaMag = "vn_sa7b_mag";
+
+		_hmgBarrel = "vn_o_pack_static_dshkm_low_01";
+		_hmgTripod = "vn_o_pack_static_base_01";
+		_hmgMag = "";
+
+		_gmgBarrel = "RHS_AGS30_Gun_Bag";
+		_gmgTripod = "RHS_AGS30_Tripod_Bag";
+		_gmgMag = "";
+
+		_shatBarrel = "vn_o_pack_static_at3_01";
+		_shatTripod = "vn_o_pack_static_base_01";
+		_shatMag = "";
+
+		_mortBarrel = "vn_o_pack_static_type53_01";
+		_mortTripod = "vn_o_pack_static_base_01";
+		_mortMag = "";
+
+		_atMine = "vn_mine_tm57_mag";
+		_apMine = "vn_mine_punji_02_mag";
+		_tripFlare = "rhs_mine_sm320_red_mag";
+		_tripapMine = "vn_mine_tripwire_f1_04_mag";
+		_satchelSmall = "rhs_ec75_mag";
+		_satchelLarge = "rhs_ec400_mag";
+
+		_clackOne = "ACE_Clacker";
+		_clackTwo = "ACE_M26_Clacker";
+	};
+
 	// Incorrect Case
 	default {
 		_lat = "";

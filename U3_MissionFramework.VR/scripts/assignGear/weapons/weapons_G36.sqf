@@ -11,7 +11,7 @@
 // Declares variables
 
 private [
-"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_shotty","_boltRifle","_amRifle",
+"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_pistolGren","_shotty","_boltRifle","_amRifle",
 "_rifleMag","_rifleTracerMag","_rifleSubsonicMag","_rifleGLMag","_rifleScopedMag","_autoRifleMag","_autoTracerMag","_autoSubsonicMag","_carbineMag","_dmrMag","_mmgMag","_mmgTracerMag","_smgMag","_pistolMag","_shottyBuck","_shottySlug","_boltRifleMag","_amRifleMag",
 "_glExplody","_glExplodyhp","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_flashbang","_smokeOne","_smokeTwo","_smokeThree",
 "_arMagCount","_arboxMagCount","_mmgMagCount","_mmgboxMagCount",
@@ -44,6 +44,7 @@ switch (_variant) do {
 		_carbine = "BWA3_G36KA0";
 		_smg = "BWA3_MP7";
 		_pistol = "BWA3_P12";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "BWA3_MG4";
 		_mmg = "BWA3_MG3";
@@ -68,7 +69,7 @@ switch (_variant) do {
 		_autoRifleMag = "BWA3_200Rnd_556x45";
 		_autoTracerMag = "BWA3_200Rnd_556x45_Tracer";
 		_autoSubsonicMag = "BWA3_200Rnd_556x45";
-		_arMagCount = 1;
+		_arMagCount = 2;
 		_arboxMagCount = 4;
 
 		_mmgMag = "BWA3_120Rnd_762x51";
@@ -162,6 +163,7 @@ switch (_variant) do {
 		_carbine = "BWA3_G36KA3";
 		_smg = "BWA3_MP7";
 		_pistol = "BWA3_P12";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "BWA3_MG4";
 		_mmg = "BWA3_MG3";
@@ -186,7 +188,7 @@ switch (_variant) do {
 		_autoRifleMag = "BWA3_200Rnd_556x45";
 		_autoTracerMag = "BWA3_200Rnd_556x45_Tracer";
 		_autoSubsonicMag = "BWA3_200Rnd_556x45";
-		_arMagCount = 1;
+		_arMagCount = 2;
 		_arboxMagCount = 4;
 
 		_mmgMag = "BWA3_120Rnd_762x51";
@@ -280,6 +282,7 @@ switch (_variant) do {
 		_carbine = "BWA3_G38C";
 		_smg = "BWA3_MP7";
 		_pistol = "BWA3_P12";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "BWA3_MG4";
 		_mmg = "BWA3_MG3";
@@ -304,7 +307,7 @@ switch (_variant) do {
 		_autoRifleMag = "BWA3_200Rnd_556x45";
 		_autoTracerMag = "BWA3_200Rnd_556x45_Tracer";
 		_autoSubsonicMag = "BWA3_200Rnd_556x45";
-		_arMagCount = 1;
+		_arMagCount = 2;
 		_arboxMagCount = 4;
 
 		_mmgMag = "BWA3_120Rnd_762x51";

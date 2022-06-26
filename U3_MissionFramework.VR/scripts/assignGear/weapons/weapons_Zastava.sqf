@@ -11,7 +11,7 @@
 // Declares Variables
 
 private [
-"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_shotty","_boltRifle","_amRifle",
+"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_pistolGren","_shotty","_boltRifle","_amRifle",
 "_rifleMag","_rifleTracerMag","_rifleSubsonicMag","_rifleGLMag","_rifleScopedMag","_autoRifleMag","_autoTracerMag","_autoSubsonicMag","_carbineMag","_dmrMag","_mmgMag","_mmgTracerMag","_smgMag","_pistolMag","_shottyBuck","_shottySlug","_boltRifleMag","_amRifleMag",
 "_glExplody","_glExplodyhp","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_flashbang","_smokeOne","_smokeTwo","_smokeThree",
 "_arMagCount","_arboxMagCount","_mmgMagCount","_mmgboxMagCount",
@@ -44,6 +44,7 @@ switch (_variant) do {
 		_carbine = "rhs_weap_m21s";
 		_smg = "rhs_weap_scorpion";
 		_pistol = "rhs_weap_6p53";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "rhs_weap_m249_pip_L_para";
 		_mmg = "rhs_weap_m84";
@@ -68,7 +69,7 @@ switch (_variant) do {
 		_autoRifleMag = "rhsusf_200rnd_556x45_M855_box";
 		_autoTracerMag = "rhsusf_200rnd_556x45_M855_mixed_box";
 		_autoSubsonicMag = "rhsusf_200rnd_556x45_M855_box";
-		_arMagCount = 1;		// ar roles
+		_arMagCount = 2;		// ar roles
 		_arboxMagCount = 4;		// ar boxes
 
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N26";
@@ -162,6 +163,7 @@ switch (_variant) do {
 		_carbine = "rhs_weap_m21s";
 		_smg = "rhs_weap_scorpion";
 		_pistol = "rhs_weap_6p53";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "rhs_weap_minimi_para_railed";
 		_mmg = "rhs_weap_fnmag";
@@ -186,7 +188,7 @@ switch (_variant) do {
 		_autoRifleMag = "rhsusf_200Rnd_556x45_box";
 		_autoTracerMag = "rhsusf_200rnd_556x45_mixed_box";
 		_autoSubsonicMag = "rhsusf_200Rnd_556x45_box";
-		_arMagCount = 1;		// ar roles
+		_arMagCount = 2;		// ar roles
 		_arboxMagCount = 4;		// ar boxes
 
 		_mmgMag = "rhsusf_100Rnd_762x51_m61_ap";
@@ -280,6 +282,7 @@ switch (_variant) do {
 		_carbine = "rhs_weap_m92";
 		_smg = "rhs_weap_scorpion";
 		_pistol = "rhs_weap_6p53";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "rhs_weap_m249_pip_L_para";
 		_mmg = "rhs_weap_m84";
@@ -304,7 +307,7 @@ switch (_variant) do {
 		_autoRifleMag = "rhsusf_200rnd_556x45_M855_box";
 		_autoTracerMag = "rhsusf_200rnd_556x45_M855_mixed_box";
 		_autoSubsonicMag = "rhsusf_200rnd_556x45_M855_box";
-		_arMagCount = 1;		// ar roles
+		_arMagCount = 2;		// ar roles
 		_arboxMagCount = 4;		// ar boxes
 
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N26";

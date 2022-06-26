@@ -86,7 +86,7 @@ class cfgNotifications {
 
 respawnButton = 1;
 respawn = 3;
-respawnDelay = 60;
+respawnDelay = 90;
 respawnOnStart = 0;								// Dont respawn on start. Don't run respawn script on start.
 respawnTemplates[] = {"MenuPosition","Spectator","tickets","Wave"};
 

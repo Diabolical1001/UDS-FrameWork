@@ -142,6 +142,7 @@ if (_unit isKindOf "Man") then {
 			["plt"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Plt Medic - doubles for COY Medic
 		case "pltmed" : {
@@ -149,7 +150,7 @@ if (_unit isKindOf "Man") then {
 			["binocular"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
 			for "_i" from 1 to 4 do {_unit addItemToUniform _smokeOne};
-			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 10 do {_unit addItemToVest _rifleMag};
 			for "_i" from 1 to 10 do {_unit addItemToVest _bandageOne};
 			for "_i" from 1 to 10 do {_unit addItemToUniform _bandageOne};
 			for "_i" from 1 to 4 do {_unit addItemToUniform _injectorOne};
@@ -158,6 +159,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["medic"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
+			_unit setVariable ["ace_medical_medicclass",2, true];
 		};
 		// Plt FAC/FO - doubles for COY FAC/FO
 		case "pltfac" : {
@@ -172,6 +174,7 @@ if (_unit isKindOf "Man") then {
 			["fac"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Plt UAV Operator
 		case "pltuavop" : {
@@ -188,6 +191,7 @@ if (_unit isKindOf "Man") then {
 			["uavop"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 
 		// ========================================
@@ -198,13 +202,14 @@ if (_unit isKindOf "Man") then {
 			["secco"] call _addClothes;
 			["eastrangefinder"] call _addBasics;
 			{ _unit linkItem _x } foreach _secItems;
-			for "_i" from 1 to 6 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
 			for "_i" from 1 to 2 do {_unit addItemToVest _rifleTracerMag};
 			_unit addWeapon _rifle;
 			call _addSidearm;
-			["plt"] call _addRuck;
+			["secco"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Section Team Leader / 2iC
 		case "sectl" : {
@@ -218,6 +223,7 @@ if (_unit isKindOf "Man") then {
 			["tl"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Automatic Rifleman
 		case "ar" : {
@@ -230,6 +236,7 @@ if (_unit isKindOf "Man") then {
 			["ar"] call _addRuck;
 			["ar",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Assistant Automatic Rifleman
 		case "aar" : {
@@ -240,6 +247,7 @@ if (_unit isKindOf "Man") then {
 			["aar"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Rifleman
 		case "rm" : {
@@ -250,6 +258,7 @@ if (_unit isKindOf "Man") then {
 			["rm"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		case "brcr" : {
 			["rflm"] call _addClothes;
@@ -258,6 +267,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["brcr"] call _addRuck;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Rifleman
 		case "rmammo" : {
@@ -268,6 +278,7 @@ if (_unit isKindOf "Man") then {
 			["rmammo"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Rifleman (disposable light AT)
 		case "rmat" : {
@@ -279,6 +290,7 @@ if (_unit isKindOf "Man") then {
 			["general",false,false,false] call _addAttachments;
 			_unit addWeapon _lat;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Scoped Rifleman
 		case "rmsc" : {
@@ -289,6 +301,7 @@ if (_unit isKindOf "Man") then {
 			["rmsc"] call _addRuck;
 			["dmr",true,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Designated Marksman
 		case "dmr" : {
@@ -300,6 +313,7 @@ if (_unit isKindOf "Man") then {
 			["dmr"] call _addRuck;
 			["dmr",true,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Grenadier
 		case "gren" : {
@@ -310,6 +324,7 @@ if (_unit isKindOf "Man") then {
 			["gren"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Machinegunner
 		case "mmg" : {
@@ -317,11 +332,12 @@ if (_unit isKindOf "Man") then {
 			["none"] call _addBasics;
 			_unit addItemToVest _mmgMag;
 			_unit addWeapon _mmg;
-			for "_i" from 1 to 2 do {_unit addItemToVest _mmgMag};
+			for "_i" from 1 to 3 do {_unit addItemToVest _mmgMag};
 			call _addSidearm;
 			["mmg"] call _addRuck;
 			["mmg",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Assistant Machinegunner
 		case "mmgass" : {
@@ -332,6 +348,7 @@ if (_unit isKindOf "Man") then {
 			["mmgass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 
 		// ========================================
@@ -347,6 +364,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["pilot"] call _addRuck;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		case "rotarycrew" : {
 			["rcrew"] call _addClothes;
@@ -357,6 +375,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["aircrew"] call _addRuck;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Fixed Wing Pilot
 		case "fixedpilot" : {
@@ -366,6 +385,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["pilot"] call _addRuck;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Crew Commander
 		case "crewmander" : {
@@ -377,6 +397,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["crew"] call _addRuck;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Crewman
 		case "crewman" : {
@@ -387,6 +408,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["crewman"] call _addRuck;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Naval Crew Commander
 		case "navalcrewmander" : {
@@ -398,6 +420,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["crew"] call _addRuck;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Naval Crewman
 		case "navalcrewman" : {
@@ -409,6 +432,7 @@ if (_unit isKindOf "Man") then {
 			call _addSidearm;
 			["crewman"] call _addRuck;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 
 		// ========================================
@@ -424,6 +448,7 @@ if (_unit isKindOf "Man") then {
 			["hmggun"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// HMG Assistant
 		case "hmgass" : {
@@ -435,6 +460,7 @@ if (_unit isKindOf "Man") then {
 			["hmgass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// SHAT Gunner
 		case "shatgun" : {
@@ -446,6 +472,7 @@ if (_unit isKindOf "Man") then {
 			["shatgun"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// SHAT Assistant
 		case "shatass" : {
@@ -457,6 +484,7 @@ if (_unit isKindOf "Man") then {
 			["shatass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// MORT Gunner
 		case "mortgun" : {
@@ -468,6 +496,7 @@ if (_unit isKindOf "Man") then {
 			["mortgun"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// MORT Assistant
 		case "mortgun" : {
@@ -479,6 +508,7 @@ if (_unit isKindOf "Man") then {
 			["mortass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 
 		// ========================================
@@ -494,6 +524,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _matLaunch;
 			["carlito",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// MAT Assisstant
 		case "matammo" : {
@@ -504,6 +535,7 @@ if (_unit isKindOf "Man") then {
 			["matass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// HAT Gunner
 		case "hatgun" : {
@@ -515,6 +547,7 @@ if (_unit isKindOf "Man") then {
 			["general",false,false,false] call _addAttachments;
 			_unit addWeapon _hatLaunch;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// HAT Assistant
 		case "hatammo" : {
@@ -525,6 +558,7 @@ if (_unit isKindOf "Man") then {
 			["hatass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// AA Gunner
 		case "aagun" : {
@@ -536,6 +570,7 @@ if (_unit isKindOf "Man") then {
 			["general",false,false,false] call _addAttachments;
 			_unit addWeapon _aaLaunch;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// AA Assistant
 		case "aaammo" : {
@@ -546,6 +581,7 @@ if (_unit isKindOf "Man") then {
 			["aaass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 
 		// ========================================
@@ -562,6 +598,7 @@ if (_unit isKindOf "Man") then {
 			["sniper"] call _addRuck;
 			["sniper",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Anti-Material Sniper
 		case "amsniper" : {
@@ -574,6 +611,7 @@ if (_unit isKindOf "Man") then {
 			["amsniper"] call _addRuck;
 			["amsniper",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Spotter
 		case "spotter" : {
@@ -584,6 +622,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifleGL;
 			["spotter"] call _addRuck;
 			["general",false,true,false] call _addAttachments;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Diver Team Leader
 		case "divertl" : {
@@ -596,6 +635,7 @@ if (_unit isKindOf "Man") then {
 			["divertl"] call _addRuck;
 			["diver",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Diver General
 		case "diver" : {
@@ -607,6 +647,7 @@ if (_unit isKindOf "Man") then {
 			["diver"] call _addRuck;
 			["diver",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Engineer
 		case "engi" : {
@@ -618,6 +659,7 @@ if (_unit isKindOf "Man") then {
 			["engi"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// Demo Man
 		case "demoman" : {
@@ -629,6 +671,7 @@ if (_unit isKindOf "Man") then {
 			["demoman"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
 			["uniform"] call _IFAK;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 
 		// ========================================
@@ -641,6 +684,7 @@ if (_unit isKindOf "Man") then {
 			_unit addWeapon _rifle;
 			["rm"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
+			_unit setVariable ["ace_medical_medicclass",1, true];
 		};
 		// ========================================
 	};
@@ -652,7 +696,6 @@ if (_unit isKindOf "Man") then {
 	// ========================================
 	// AssignGear Finisher
 
-	_unit setVariable ["Ace_medical_medicClass", 1, true];				// sets unit as medic
 	[_unit,_insignia] call bis_fnc_setUnitInsignia;						// sets unit uniform insignia
 	_unit selectWeapon (primaryWeapon _unit);							// selects unit's primary weapon
 	_unit switchMove "AmovPercMstpSlowWrflDnon";						// sets stance with weapon lowered
@@ -683,16 +726,19 @@ if (!(_unit isKindOf "Man")) then {
 			_unit addMagazineCargoGlobal [_autoRifleMag,_arboxMagCount];
 			_unit addMagazineCargoGlobal [_autoTracerMag,2];
 			_unit addMagazineCargoGlobal [_dmrMag,8];
-			_unit addMagazineCargoGlobal [_grenade,16];
-			_unit addMagazineCargoGlobal [_smokeOne,24];
-			_unit addMagazineCargoGlobal [_smokeTwo,4];
-			_unit addMagazineCargoGlobal [_smokeThree,4];
+			_unit addMagazineCargoGlobal [_shottyBuck,6];
+			_unit addMagazineCargoGlobal [_shottySlug,6];
+			_unit addMagazineCargoGlobal [_pistolMag,12];
 			_unit addMagazineCargoGlobal [_glExplody,16];
 			_unit addMagazineCargoGlobal [_glSmokeOne,8];
 			_unit addMagazineCargoGlobal [_glSmokeTwo,3];
 			_unit addMagazineCargoGlobal [_glSmokeThree,3];
-			_unit addMagazineCargoGlobal [_shottyBuck,6];
-			_unit addMagazineCargoGlobal [_shottySlug,6];
+			if (_flashbangs != 0) then { _unit addMagazineCargoGlobal [_flashbang,10]; };
+			if (_incendiarys != 0) then { _unit addMagazineCargoGlobal [_incendiary,10]; };
+			_unit addMagazineCargoGlobal [_grenade,16];
+			_unit addMagazineCargoGlobal [_smokeOne,24];
+			_unit addMagazineCargoGlobal [_smokeTwo,4];
+			_unit addMagazineCargoGlobal [_smokeThree,4];
 			_unit addItemCargoGlobal [_bandageOne,16];
 			_unit addItemCargoGlobal [_injectorOne,4];
 			_unit addItemCargoGlobal [_designatorBat,1];
@@ -770,6 +816,11 @@ if (!(_unit isKindOf "Man")) then {
 		case "snipercrate" : {
 			_unit addWeaponCargoGlobal [_vector,1];
 			_unit addMagazineCargoGlobal [_boltRifleMag,12];
+			_unit addMagazineCargoGlobal [_rifleMag,8];
+		};
+		case "amsnipercrate" : {
+			_unit addWeaponCargoGlobal [_vector,1];
+			_unit addMagazineCargoGlobal [_amRifleMag,12];
 			_unit addMagazineCargoGlobal [_rifleMag,8];
 		};
 		case "matcrate" : {

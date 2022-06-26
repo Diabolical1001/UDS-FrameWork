@@ -11,7 +11,7 @@
 // Declares variables
 
 private [
-"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_shotty","_boltRifle","_amRifle",
+"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_pistolGren","_shotty","_boltRifle","_amRifle",
 "_rifleMag","_rifleTracerMag","_rifleSubsonicMag","_rifleGLMag","_rifleScopedMag","_autoRifleMag","_autoTracerMag","_autoSubsonicMag","_carbineMag","_dmrMag","_mmgMag","_mmgTracerMag","_smgMag","_pistolMag","_shottyBuck","_shottySlug","_boltRifleMag","_amRifleMag",
 "_glExplody","_glExplodyhp","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_flashbang","_smokeOne","_smokeTwo","_smokeThree",
 "_arMagCount","_arboxMagCount","_mmgMagCount","_mmgboxMagCount",
@@ -44,6 +44,7 @@ switch (_variant) do {
 		_carbine = "UK3CB_BAF_L22";
 		_smg = "UK3CB_BAF_L91A1";
 		_pistol = "UK3CB_BAF_L9A1";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "UK3CB_BAF_L110A2";
 		_mmg = "UK3CB_BAF_L7A2";
@@ -162,6 +163,7 @@ switch (_variant) do {
 		_carbine = "UK3CB_BAF_L22A2";
 		_smg = "UK3CB_BAF_L91A1";
 		_pistol = "UK3CB_BAF_L105A2";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "UK3CB_BAF_L110A2RIS";
 		_mmg = "UK3CB_BAF_L7A2";
@@ -280,6 +282,7 @@ switch (_variant) do {
 		_carbine = "UK3CB_BAF_L22A2";
 		_smg = "UK3CB_BAF_L91A1";
 		_pistol = "UK3CB_BAF_L131A1";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "UK3CB_BAF_L110A2RIS";
 		_mmg = "UK3CB_BAF_L7A2";

@@ -11,7 +11,7 @@
 // Declares variables
 
 private [
-"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_shotty","_boltRifle","_amRifle",
+"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_pistolGren","_shotty","_boltRifle","_amRifle",
 "_rifleMag","_rifleTracerMag","_rifleSubsonicMag","_rifleGLMag","_rifleScopedMag","_autoRifleMag","_autoTracerMag","_autoSubsonicMag","_carbineMag","_dmrMag","_mmgMag","_mmgTracerMag","_smgMag","_pistolMag","_shottyBuck","_shottySlug","_boltRifleMag","_amRifleMag",
 "_glExplody","_glExplodyhp","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_flashbang","_smokeOne","_smokeTwo","_smokeThree",
 "_arMagCount","_arboxMagCount","_mmgMagCount","_mmgboxMagCount",
@@ -44,6 +44,7 @@ switch (_variant) do {
 		_carbine = "arifle_MXC_F";
 		_smg = "SMG_01_F";
 		_pistol = "hgun_Pistol_heavy_01_F";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "LMG_Mk200_F";
 		_mmg = "MMG_02_camo_F";
@@ -162,6 +163,7 @@ switch (_variant) do {
 		_carbine = "arifle_Katiba_C_F";
 		_smg = "SMG_02_F";
 		_pistol = "hgun_ACPC2_F";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "LMG_Zafir_F";
 		_mmg = "MMG_01_hex_F";
@@ -280,6 +282,7 @@ switch (_variant) do {
 		_carbine = "arifle_Mk20C_F";
 		_smg = "SMG_03C_TR_camo";
 		_pistol = "hgun_Rook40_F";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "LMG_Mk200_F";
 		_mmg = "UK3CB_MG3_KWS_G";

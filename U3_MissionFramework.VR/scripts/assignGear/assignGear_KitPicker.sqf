@@ -39,8 +39,6 @@ _loadoutArray = [
 	["Rotary Wing Pilot","rotarypilot"],
 	["Rotary Wing Aircrew","rotarycrew"],
 	["Fixed Wing Pilot","fixedpilot"],
-	["Naval Officer","navalcrewmander"],
-	["Naval Crew","navalcrewman"],
 
 	// CSW and Weapons
 	["MAT Gunner","matgun"],
@@ -61,9 +59,7 @@ _loadoutArray = [
 	["Demo Specialist","demoman"],
 	["Sniper","sniper"],
 	["AM Sniper","amsniper"],
-	["Spotter","spotter"],
-	["Diver Team Leader","divertl"],
-	["Diver","diver"]
+	["Spotter","spotter"]
 ];
 
 // pull out the strings - to be used as option text

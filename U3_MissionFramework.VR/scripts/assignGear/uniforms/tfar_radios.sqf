@@ -111,6 +111,24 @@ switch (_radioSelection) do {
 		_uavTool = "I_UavTerminal";
 	};
 
+	case "sog_us" : {
+		_squadRadio = "vn_b_item_radio_urc10";
+		_airRadioRuck = "vn_b_pack_lw_06";
+		_radioRuck = "vn_b_pack_lw_06";
+		_diverRadioRuck = "vn_b_pack_lw_06";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+
+	case "sog_vn" : {
+		_squadRadio = "vn_o_item_radio_m252";
+		_airRadioRuck = "vn_o_pack_t884_01";
+		_radioRuck = "vn_o_pack_t884_01";
+		_diverRadioRuck = "vn_o_pack_t884_01";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+
 	default {
 		_squadRadio = "";
 		_airRadioRuck = "";

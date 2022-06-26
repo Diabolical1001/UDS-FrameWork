@@ -11,7 +11,7 @@
 // Declares variables
 
 private [
-"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_shotty","_boltRifle","_amRifle",
+"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_pistolGren","_shotty","_boltRifle","_amRifle",
 "_rifleMag","_rifleTracerMag","_rifleSubsonicMag","_rifleGLMag","_rifleScopedMag","_autoRifleMag","_autoTracerMag","_autoSubsonicMag","_carbineMag","_dmrMag","_mmgMag","_mmgTracerMag","_smgMag","_pistolMag","_shottyBuck","_shottySlug","_boltRifleMag","_amRifleMag",
 "_glExplody","_glExplodyhp","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_flashbang","_smokeOne","_smokeTwo","_smokeThree",
 "_arMagCount","_arboxMagCount","_mmgMagCount","_mmgboxMagCount",
@@ -44,6 +44,7 @@ switch (_variant) do {
 		_carbine = "UK3CB_HK33KA1";
 		_smg = "UK3CB_MP5";
 		_pistol = "rhs_weap_cz99";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "UK3CB_G3SG1";
 		_mmg = "UK3CB_MG3";
@@ -68,7 +69,7 @@ switch (_variant) do {
 		_autoRifleMag = "UK3CB_G3_50rnd_762x51";
 		_autoTracerMag = "UK3CB_G3_50rnd_762x51_RT";
 		_autoSubsonicMag = "UK3CB_G3_50rnd_762x51";
-		_arMagCount = 5;
+		_arMagCount = 6;
 		_arboxMagCount = 12;
 
 		_mmgMag = "UK3CB_MG3_100rnd_762x51";
@@ -162,6 +163,7 @@ switch (_variant) do {
 		_carbine = "UK3CB_HK33KA1";
 		_smg = "UK3CB_MP5";
 		_pistol = "rhs_weap_cz99";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "UK3CB_G3SG1_RIS";
 		_mmg = "UK3CB_MG3_KWS_B";
@@ -186,7 +188,7 @@ switch (_variant) do {
 		_autoRifleMag = "UK3CB_G3_50rnd_762x51";
 		_autoTracerMag = "UK3CB_G3_50rnd_762x51_RT";
 		_autoSubsonicMag = "UK3CB_G3_50rnd_762x51";
-		_arMagCount = 5;
+		_arMagCount = 6;
 		_arboxMagCount = 12;
 
 		_mmgMag = "UK3CB_MG3_100rnd_762x51";
@@ -280,6 +282,7 @@ switch (_variant) do {
 		_carbine = "UK3CB_HK33KA3";
 		_smg = "UK3CB_MP5";
 		_pistol = "rhs_weap_cz99";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "UK3CB_G3SG1_RIS";
 		_mmg = "UK3CB_MG3_KWS_B";
@@ -304,7 +307,7 @@ switch (_variant) do {
 		_autoRifleMag = "UK3CB_G3_50rnd_762x51";
 		_autoTracerMag = "UK3CB_G3_50rnd_762x51_RT";
 		_autoSubsonicMag = "UK3CB_G3_50rnd_762x51";
-		_arMagCount = 5;
+		_arMagCount = 6;
 		_arboxMagCount = 12;
 
 		_mmgMag = "UK3CB_MG3_100rnd_762x51";
@@ -398,6 +401,7 @@ switch (_variant) do {
 		_carbine = "rhs_weap_g36c";
 		_smg = "rhsusf_weap_MP7A2";
 		_pistol = "rhsusf_weap_m9";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "rhs_weap_minimi_para_railed";
 		_mmg = "UK3CB_MG3_KWS_B";

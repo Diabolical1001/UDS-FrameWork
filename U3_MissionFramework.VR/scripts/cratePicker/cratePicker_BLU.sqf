@@ -35,6 +35,7 @@ _flag addaction ["<t color='#dddd00'>" + "Spawn Crate" + "</t>", {
 		["Ammo - HAT", "hat_ammo_b_f", "hatammo"],
 		["Ammo - AA", "aa_ammo_b_f", "aaammo"],
 		["Ammo - Sniper", "Sniper_Ammo_b_F", "snipercrate"],
+		["Ammo - AM Sniper", "Sniper_Ammo_b_F", "amsnipercrate"],
 		["Explosives - Small", "sexplosives_ammo_b_f", "demosmall"],
 		["Explosives - Large", "lexplosives_ammo_b_f", "demobig"],
 		["Explosives - AP Mines", "apmines_ammo_b_f", "apmines"],

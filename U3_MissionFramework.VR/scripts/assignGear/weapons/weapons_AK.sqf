@@ -11,7 +11,7 @@
 // Declares variables
 
 private [
-"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_shotty","_boltRifle","_amRifle",
+"_rifleArray","_rifleRandom","_rifle","_rifleGLArray","_rifleGLRandom","_rifleGL","_rifleScoped","_autoRifle","_carbine","_dmr","_mmg","_smg","_pistol","_pistolGren","_shotty","_boltRifle","_amRifle",
 "_rifleMag","_rifleTracerMag","_rifleSubsonicMag","_rifleGLMag","_rifleScopedMag","_autoRifleMag","_autoTracerMag","_autoSubsonicMag","_carbineMag","_dmrMag","_mmgMag","_mmgTracerMag","_smgMag","_pistolMag","_shottyBuck","_shottySlug","_boltRifleMag","_amRifleMag",
 "_glExplody","_glExplodyhp","_glSmokeOne","_glSmokeTwo","_glSmokeThree","_glSmokeFour","_glFlareOne","_glFlareTwo","_grenade","_flashbang","_smokeOne","_smokeTwo","_smokeThree",
 "_arMagCount","_arboxMagCount","_mmgMagCount","_mmgboxMagCount",
@@ -44,6 +44,7 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "rhs_weap_rpk74m";
 		_mmg = "rhs_weap_pkp";
@@ -68,7 +69,7 @@ switch (_variant) do {
 		_autoRifleMag = "rhs_60Rnd_545X39_7N22_AK";
 		_autoTracerMag = "rhs_60Rnd_545X39_AK_Green";
 		_autoSubsonicMag = "rhs_60Rnd_545X39_7U1_AK";
-		_arMagCount = 3;
+		_arMagCount = 5;
 		_arboxMagCount = 10;
 
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N13";
@@ -162,6 +163,7 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "UK3CB_RPK_74";
 		_mmg = "rhs_weap_pkm";
@@ -186,7 +188,7 @@ switch (_variant) do {
 		_autoRifleMag = "rhs_45Rnd_545X39_7N22_AK";
 		_autoTracerMag = "rhs_45Rnd_545X39_AK_Green";
 		_autoSubsonicMag = "rhs_45Rnd_545X39_7U1_AK";
-		_arMagCount = 6;
+		_arMagCount = 8;
 		_arboxMagCount = 14;
 
 		_mmgMag = "rhs_100Rnd_762x54mmR";
@@ -280,6 +282,7 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "rhs_weap_rpk74m";
 		_mmg = "rhs_weap_pkp";
@@ -304,7 +307,7 @@ switch (_variant) do {
 		_autoRifleMag = "rhs_60Rnd_545X39_7N22_AK";
 		_autoTracerMag = "rhs_60Rnd_545X39_AK_Green";
 		_autoSubsonicMag = "rhs_60Rnd_545X39_7U1_AK";
-		_arMagCount = 3;
+		_arMagCount = 5;
 		_arboxMagCount = 10;
 
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N13";
@@ -398,6 +401,7 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "UK3CB_RPK";
 		_mmg = "rhs_weap_pkm";
@@ -422,7 +426,7 @@ switch (_variant) do {
 		_autoRifleMag = "rhs_75Rnd_762x39mm";
 		_autoTracerMag = "rhs_75Rnd_762x39mm_tracer";
 		_autoSubsonicMag = "rhs_75Rnd_762x39mm";
-		_arMagCount = 3;
+		_arMagCount = 5;
 		_arboxMagCount = 10;
 
 		_mmgMag = "rhs_100Rnd_762x54mmR";
@@ -516,6 +520,7 @@ switch (_variant) do {
 		_carbine = "rhs_weap_aks74u";
 		_smg = "rhs_weap_pp2000";
 		_pistol = "rhs_weap_makarov_pm";
+		_pistolGren = "rhs_weap_M320";
 
 		_autoRifle = "rhs_weap_rpk74m_npz";
 		_mmg = "rhs_weap_pkp";
@@ -540,7 +545,7 @@ switch (_variant) do {
 		_autoRifleMag = "rhs_60Rnd_545X39_7N22_AK";
 		_autoTracerMag = "rhs_60Rnd_545X39_AK_Green";
 		_autoSubsonicMag = "rhs_60Rnd_545X39_7U1_AK";
-		_arMagCount = 3;
+		_arMagCount = 5;
 		_arboxMagCount = 10;
 
 		_mmgMag = "rhs_100Rnd_762x54mmR_7N13";
