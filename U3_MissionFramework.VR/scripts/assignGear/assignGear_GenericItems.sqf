@@ -7,20 +7,14 @@
 
 private [
 "_binos","_toolbox","_wireCutters","_cableTieItem","_bananas","_backupSight","_strobe","_mapLight","_uavBat","_ladder","_etool",
-"_steerableChute","_nonsteerableChute","_incendiary",
+"_steerableChute","_nonsteerableChute",
 "_facItems",
 "_westrangeFinder","_eastrangeFinder","_vector","_rangeFinderBat",
 "_westdesignator","_eastdesignator","_designatorBat","_dagr",
 "_chemlightOne","_chemlightTwo","_handFlareOne","_handFlareTwo",
 "_defuseKit",
 "_basicTools","_basicItems","_spareBarrel","_ftlItems","_secItems","_pltTools","_pltItems","_sniperItems",
-"_bandageOne","_bandageTwo","_bandageThree","_bandageFour",
-"_bloodOne","_bloodTwo","_bloodThree",
-"_injectorOne","_injectorTwo","_injectorThree",
-"_medkitOne","_medkitTwo",
-"_plasmaOne","_plasmaTwo","_plasmaThree",
-"_salineOne","_salineTwo","_salineThree",
-"_tourniquet","_splint","_bodybag","_personalAidkit"
+"_bandageOne","_bloodOne","_bloodTwo","_bloodThree","_injectorOne","_injectorTwo","_bodybag","_tourniquet","_splint","_personalAidkit"
 ];
 
 // =======================================================================
@@ -49,45 +43,58 @@ _nonsteerableChute = "ACE_NonSteerableParachute";
 _facItems = ["ACE_MapTools"];
 
 // ================= Rangefinder ==================
-
+if (isClass(configFile >> "CfgMods" >> "vn")) then {
+_binos = "vn_m19_binocs_grey";
+_westrangeFinder = "vn_m19_binocs_grey";
+_eastrangeFinder = "vn_m19_binocs_grey";
+_vector = "vn_m19_binocs_grey";
+_rangeFinderBat = "";
+}
+else {
 _binos = "Binocular";
 _westrangeFinder = "lerca_1200_black";
 _eastrangeFinder = "rhs_pdu4";
 _vector = "ACE_VectorDay";
-_rangeFinderBat = "";			// no batteries as of yet
+_rangeFinderBat = "";
+};
 
 // ================== Laser Des ===================
-
+if (isClass(configFile >> "CfgMods" >> "vn")) then {
+_westdesignator = "vn_m19_binocs_grn";
+_eastdesignator = "vn_m19_binocs_grn";
+_designatorBat = "";
+_dagr = "";
+}
+else {
 _westdesignator = "Laserdesignator_03";
 _eastdesignator = "Laserdesignator_01_khk_F";
 _designatorBat = "Laserbatteries";
 _dagr = "ACE_microDAGR";
-
+};
 // ============= General Throwables ===============
 
 _chemlightOne = "chemlight_green";
 _chemlightTwo = "chemlight_red";
 _handFlareOne = "ACE_HandFlare_Green";
 _handFlareTwo = "ACE_HandFlare_Red";
-_incendiary = "ACE_M14";
-
-// ================= Explosives ===================
-
-_atMine = "ATMine_Range_Mag";
-_apersMine = "APERSMine_Range_Mag";
-_apersBound = "APERSBoundingMine_Range_Mag";
-_apersTrip = "APERSTripMine_Wire_Mag";
-_slam = "SLAMDirectionalMine_Wire_Mag";
-_claymore = "ClaymoreDirectionalMine_Remote_Mag";
-_demoCharge = "DemoCharge_Remote_Mag";
-_satchelCharge = "SatchelCharge_Remote_Mag";
 
 // =============== Explosive Tools ================
 
 _defuseKit = "ACE_DefusalKit";
 
 // ==================== Tools =====================
-
+if (isClass(configFile >> "CfgMods" >> "vn")) then {
+_basicTools = ["vn_b_item_compass","vn_b_item_map","vn_b_item_watch"];
+_basicItems = ["ACE_MapTools",_mapLight];
+_spareBarrel = "ACE_SpareBarrel";
+_ftlItems = ["itemGPS"];
+_secItems = ["itemGPS"];
+_pltTools = [];
+_pltItems = ["itemGPS"];
+_sniperItems = ["ACE_RangeCard"];
+_backupSight = "";
+}
+else {
 _basicTools = ["ItemCompass","ItemMap","ACE_Altimeter"];
 _basicItems = ["ACE_MapTools",_mapLight];
 _spareBarrel = "ACE_SpareBarrel";
@@ -97,6 +104,7 @@ _pltTools = [];
 _pltItems = ["itemGPS"];
 _sniperItems = ["ACE_Kestrel4500","ACE_RangeCard","ACE_DAGR","ACE_ATragMX"];
 _backupSight = "";
+};
 
 // =======================================================================
 // =========================== Medical Items =============================
@@ -114,20 +122,3 @@ _bodybag = "ACE_bodyBag";
 _tourniquet = "ACE_tourniquet";
 _splint = "ACE_splint";
 _personalAidkit = "ACE_personalAidKit";
-
-// ================ Advanced Gear =================
-
-_bandageTwo = "ACE_elasticBandage";
-_bandageThree = "ACE_quikclot";
-_bandageFour = "ACE_packingBandage";
-_injectorThree = "ACE_atropine";
-_medkitOne = "ACE_personalAidKit";
-_medkitTwo = "ACE_surgicalKit";
-_plasmaOne = "ACE_plasmaIV_250";
-_plasmaTwo = "ACE_plasmaIV_500";
-_plasmaThree = "ACE_plasmaIV";
-_salineOne = "ACE_salineIV_250";
-_salineTwo = "ACE_salineIV_500";
-_salineThree = "ACE_salineIV";
-
-// =======================================================================

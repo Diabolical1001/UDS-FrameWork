@@ -46,12 +46,12 @@ switch (_variant) do {
 		_pistol = "UK3CB_USP";
 		_pistolGren = "rhs_weap_M320";
 
-		_autoRifle = "UK3CB_ACR_Rifle_Long";
+		_autoRifle = "UK3CB_MG3_KWS_B";
 		_mmg = "UK3CB_MG3_KWS_B";
 
 		_shotty = "rhs_weap_M590_8RD";
 
-		_dmr = "UK3CB_PSG1A1";
+		_dmr = "rhs_weap_svdp_npz";
 		_boltRifle = "rhs_weap_m40a5_wd";
 		_amRifle = "rhs_weap_m82a1";
 
@@ -66,9 +66,9 @@ switch (_variant) do {
 		_smgMag = "UK3CB_MP5_30Rnd_9x19_Magazine";
 		_pistolMag = "UK3CB_USP_9_15Rnd";
 
-		_autoRifleMag = "rhs_mag_100Rnd_556x45_M855A1_cmag";
-		_autoTracerMag = "rhs_mag_100Rnd_556x45_M855A1_cmag_mixed";
-		_autoSubsonicMag = "rhs_mag_100Rnd_556x45_M855A1_cmag";
+		_autoRifleMag = "UK3CB_MG3_100rnd_762x51";
+		_autoTracerMag = "UK3CB_MG3_100rnd_762x51_RM";
+		_autoSubsonicMag = "UK3CB_MG3_100rnd_762x51";
 		_arMagCount = 6;		// ar roles
 		_arboxMagCount = 16;		// ar boxes
 
@@ -80,7 +80,7 @@ switch (_variant) do {
 		_shottyBuck = "rhsusf_5Rnd_00Buck";
 		_shottySlug = "rhsusf_5Rnd_Slug";
 
-		_dmrMag = "UK3CB_G3_20rnd_762x51";
+		_dmrMag = "rhs_10Rnd_762x54mmR_7N14";
 		_boltRifleMag = "rhsusf_5Rnd_762x51_AICS_m993_Mag";
 		_amRifleMag = "rhsusf_mag_10Rnd_STD_50BMG_mk211";
 
@@ -112,10 +112,10 @@ switch (_variant) do {
 		_autoRifleAttachments_reflex = "rhsusf_acc_eotech_xps3";
 		_autoRifleAttachments_scoped = "rhsusf_acc_ELCAN_ard";
 		_autoRifleAttachments_muzz = "";
-		_autoRifleAttachments_supp = "rhsusf_acc_nt4_black";
-		_autoRifleAttachments_gunLight = "rhsusf_acc_wmx_bk";
-		_autoRifleAttachments_gunIR = "rhsusf_acc_anpeq15A";
-		_autoRifleAttachments_grip = "rhsusf_acc_harris_bipod";
+		_autoRifleAttachments_supp = "";
+		_autoRifleAttachments_gunLight = "";
+		_autoRifleAttachments_gunIR = "rhsusf_acc_anpeq15side_bk";
+		_autoRifleAttachments_grip = "";
 
 		_mmgAttachments_reflex = "rhsusf_acc_eotech_xps3";
 		_mmgAttachments_scoped = "rhsusf_acc_ELCAN_ard";
@@ -125,13 +125,13 @@ switch (_variant) do {
 		_mmgAttachments_gunIR = "rhsusf_acc_anpeq15A";
 		_mmgAttachments_grip = "";
 
-		_dmrAttachments_reflex = "uk3cb_optic_ZFSG1";
-		_dmrAttachments_scoped = "uk3cb_optic_ZFSG1";
+		_dmrAttachments_reflex = "rhsusf_acc_LEUPOLDMK4";
+		_dmrAttachments_scoped = "rhsusf_acc_LEUPOLDMK4";
 		_dmrAttachments_muzz = "";
-		_dmrAttachments_supp = "uk3cb_muzzle_snds_g3";
+		_dmrAttachments_supp = "";
 		_dmrAttachments_gunLight = "";
 		_dmrAttachments_gunIR = "";
-		_dmrAttachments_grip = "rhsusf_acc_harris_bipod";
+		_dmrAttachments_grip = "";
 
 		_boltRifleAttachments_base = ["rhsusf_acc_M8541","rhsusf_acc_harris_swivel"];
 		_boltRifleAttachments_muzz = "";

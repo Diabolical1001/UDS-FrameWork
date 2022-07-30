@@ -359,8 +359,8 @@ switch (_launcher) do {
 	// SOG US
 	case "sog_us" : {
 
-		_lat = "vn_m72_mag";
-		_latMag = "";
+		_lat = "vn_m72";
+		_latMag = "vn_m72_mag";
 
 		_matLaunch = "rhs_weap_maaws";
 		_matATMag = "rhs_mag_maaws_HEAT";

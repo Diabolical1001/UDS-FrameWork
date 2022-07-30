@@ -1,0 +1,12 @@
+version=54;
+name="UDS NR6 Spawn Temp";
+author="Diabolical";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"nr6_reinforcements",
+	"A3_Modules_F",
+	"nr6_tools",
+	"A3_Characters_F",
+	"NR6_HAL"
+};

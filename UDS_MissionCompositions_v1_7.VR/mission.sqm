@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=332;
+		nextID=387;
 	};
 	class MarkerIDProvider
 	{
@@ -20,52 +20,47 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=32;
+		nextID=41;
 	};
 	class Camera
 	{
-		pos[]={4075.6277,84.561485,3884.3716};
-		dir[]={0.22152445,-0.70227754,0.67657799};
-		up[]={0.21852441,0.7118994,0.66741365};
-		aside[]={0.95036775,4.0151644e-007,-0.311169};
+		pos[]={4020.5713,38.49971,3936.5413};
+		dir[]={-0.26326764,-0.42947948,0.86392945};
+		up[]={-0.12524335,0.90298927,0.41099304};
+		aside[]={0.95663834,-9.9826138e-008,0.29151851};
 	};
 };
 binarizationWanted=0;
-sourceName="UDS_MissionCompositions_v1_6";
+sourceName="UDS_MissionCompositions_v1_7";
 addons[]=
 {
 	"A3_Characters_F",
 	"A3_Weapons_F",
 	"ace_explosives",
-	"ace_nouniformrestrictions",
-	"FIR_PilotCrewPack_US",
 	"ace_gforces",
 	"ace_parachute",
 	"ace_medical_treatment",
 	"A3_Structures_F_Mil_Flags",
-	"UDS_reconfig",
-	"rhsusf_vehicles",
-	"rhsusf_c_weapons",
 	"A3_Weapons_F_Ammoboxes",
 	"ace_cargo",
-	"rhs_c_cars",
-	"rhs_c_weapons",
 	"A3_Modules_F_Curator_Curator",
 	"A3_Modules_F",
 	"A3_Modules_F_Curator_Misc",
 	"A3_Modules_F_Intel",
-	"Desert",
-	"CUP_WarfareBuildings",
-	"CUP_StandaloneTerrains_Core_Faction",
 	"A3_Signs_F_Signs_Ad",
 	"A3_Ui_F",
-	"A3_Modules_F_Multiplayer"
+	"A3_Modules_F_Multiplayer",
+	"A3_Soft_F_MRAP_01",
+	"ace_realisticnames",
+	"ace_rearm",
+	"ace_dragging",
+	"A3_Soft_F_MRAP_02"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=21;
+		items=14;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -89,126 +84,82 @@ class AddonsMetaData
 		};
 		class Item3
 		{
-			className="ace_nouniformrestrictions";
-			name="ACE3 - No Uniform Restrictions";
-			author="ACE-Team";
-			url="https://ace3.acemod.org/";
-		};
-		class Item4
-		{
-			className="FIR_PilotCrewPack_US";
-			name="FIR_PilotCrewPack_US";
-		};
-		class Item5
-		{
 			className="ace_parachute";
 			name="ACE3 - Parachute";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item6
+		class Item4
 		{
 			className="ace_medical_treatment";
 			name="ACE3 - Medical Treatment";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item7
+		class Item5
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item8
-		{
-			className="UDS_reconfig";
-			name="UDS_reconfig";
-			author="Diabolical";
-		};
-		class Item9
-		{
-			className="rhsusf_vehicles";
-			name="rhsusf_vehicles";
-		};
-		class Item10
-		{
-			className="rhsusf_c_weapons";
-			name="RHSUSF Weapons & Accessories";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item11
+		class Item6
 		{
 			className="ace_cargo";
 			name="ACE3 - Cargo";
 			author="ACE-Team";
 			url="https://ace3.acemod.org/";
 		};
-		class Item12
-		{
-			className="rhs_c_cars";
-			name="Tigr vehicles";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item13
-		{
-			className="rhs_c_weapons";
-			name="AFRF Weapons Pack";
-			author="Red Hammer Studios";
-			url="http://www.rhsmods.org/";
-		};
-		class Item14
+		class Item7
 		{
 			className="A3_Modules_F_Curator";
 			name="Arma 3 Zeus Update - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item15
+		class Item8
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item16
-		{
-			className="Desert";
-			name="Desert";
-		};
-		class Item17
-		{
-			className="CUP_WarfareBuildings";
-			name="CUP_WarfareBuildings";
-		};
-		class Item18
-		{
-			className="CUP_StandaloneTerrains_Core_Faction";
-			name="CUP_StandaloneTerrains_Core_Faction";
-		};
-		class Item19
+		class Item9
 		{
 			className="A3_Signs_F";
 			name="Arma 3 - Signs";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item20
+		class Item10
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item11
+		{
+			className="A3_Soft_F";
+			name="Arma 3 Alpha - Unarmored Land Vehicles";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item12
+		{
+			className="ace_rearm";
+			name="ACE3 - Rearm";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
+		class Item13
+		{
+			className="ace_dragging";
+			name="ACE3 - Dragging";
+			author="ACE-Team";
+			url="https://ace3.acemod.org/";
+		};
 	};
-};
-dlcs[]=
-{
-	"Expansion",
-	"RHS_USAF",
-	"RHS_AFRF"
 };
 randomSeed=2802520;
 class ScenarioData
@@ -238,7 +189,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=101;
+		items=97;
 		class Item0
 		{
 			dataType="Group";
@@ -312,7 +263,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -453,7 +404,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -594,7 +545,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -735,7 +686,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -857,7 +808,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -979,7 +930,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -1114,7 +1065,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -1255,7 +1206,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -1377,7 +1328,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -1499,7 +1450,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -1621,7 +1572,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -1743,7 +1694,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -1865,7 +1816,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -1987,7 +1938,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -2122,7 +2073,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -2263,7 +2214,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -2385,7 +2336,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -2507,7 +2458,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -2629,7 +2580,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -2751,7 +2702,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -2873,7 +2824,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -2995,7 +2946,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -3130,7 +3081,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -3271,7 +3222,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -3393,7 +3344,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -3515,7 +3466,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -3637,7 +3588,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -3759,7 +3710,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -3881,7 +3832,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -4003,7 +3954,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -4138,7 +4089,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -4279,7 +4230,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -4401,7 +4352,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -4523,7 +4474,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -4645,7 +4596,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -4767,7 +4718,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -4889,7 +4840,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -5011,7 +4962,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -5146,7 +5097,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -5287,7 +5238,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -5422,7 +5373,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -5563,7 +5514,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -5685,7 +5636,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -5820,7 +5771,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -5961,7 +5912,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -6083,7 +6034,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -6218,7 +6169,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -6359,7 +6310,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -6481,7 +6432,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -6616,7 +6567,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -6757,7 +6708,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -6879,7 +6830,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -7014,7 +6965,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -7155,7 +7106,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -7277,7 +7228,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -7412,7 +7363,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -7553,7 +7504,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -7675,7 +7626,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -7810,7 +7761,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -7951,7 +7902,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -8073,7 +8024,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -8208,7 +8159,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -8349,7 +8300,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -8471,7 +8422,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -8606,7 +8557,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -8747,7 +8698,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -8869,7 +8820,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -9004,7 +8955,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -9145,7 +9096,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -9267,7 +9218,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -9402,7 +9353,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -9543,7 +9494,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -9665,7 +9616,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -9800,7 +9751,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -9941,7 +9892,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -10063,7 +10014,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -10198,7 +10149,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -10339,7 +10290,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -10474,7 +10425,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -10615,7 +10566,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -10750,7 +10701,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -10891,7 +10842,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -11026,7 +10977,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -11167,7 +11118,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -11307,662 +11258,6 @@ class Mission
 			type="Flag_Blue_F";
 		};
 		class Item24
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4116.9238,5.2105293,3979.1387};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				init="call{nul = [this,""demosmall""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; }";
-			};
-			id=115;
-			type="LExplosives_Ammo_b_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_cargo_size";
-					expression="[_this, _value] call ace_cargo_fnc_setSize;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.2;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item25
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4115.4268,5.1799846,3979.0505};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				init="call{nul = [this,""latammo""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; }";
-			};
-			id=116;
-			type="LAT_Ammo_b_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_cargo_size";
-					expression="[_this, _value] call ace_cargo_fnc_setSize;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.2;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item26
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4115.8906,6.9449992,3975.0024};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				lock="UNLOCKED";
-				init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}];}";
-				name="mhq_blu_1";
-			};
-			id=117;
-			type="rhsusf_m998_w_s_2dr_fulltop";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_repair_editorLoadedWheels";
-					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="rhs_decalDoors";
-					expression="if(_value != 'NoChange')then{ [_this,'unitdecals_2',_value] call rhs_fnc_hmmwv_setDecal}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="NoChange";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="rhs_decalMask";
-					expression="if(_value != 'NoChange')then{ [_this,'unitdecals_1',_value] call rhs_fnc_hmmwv_setDecal}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="NoChange";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=-10;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ace_isRepairVehicle";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=50000;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ace_cargo_space";
-					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=80;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="ace_repair_editorLoadedTracks";
-					expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				nAttributes=9;
-			};
-		};
-		class Item27
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4117.0039,5.069725,3980.7322};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				init="nul = [this,""mmgammo""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; ";
-			};
-			id=118;
-			type="MG_Ammo_b_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_cargo_size";
-					expression="[_this, _value] call ace_cargo_fnc_setSize;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.2;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item28
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4115.7178,5.9578028,3985.7786};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="call{nul = [this] execVM ""scripts\cratePicker\cratePicker_blu.sqf"";}";
-				name="BLU_cratepicker";
-			};
-			id=119;
-			type="rhsusf_weapon_crate";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ENH_HoldAction";
-					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"ARRAY"
-								};
-							};
-							class value
-							{
-								items=13;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
-									};
-								};
-								class Item3
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="true";
-									};
-								};
-								class Item4
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="true";
-									};
-								};
-								class Item5
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item6
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item7
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item8
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item9
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"SCALAR"
-											};
-										};
-										value=10;
-									};
-								};
-								class Item10
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"SCALAR"
-											};
-										};
-										value=1000;
-									};
-								};
-								class Item11
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
-								};
-								class Item12
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=1;
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=1;
-			};
-		};
-		class Item29
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4116.2031,5.2100425,3982.0452};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				init="nul = [this,""sectionammo""] execVM ""scripts\assignGear\assignGear_BLU.sqf""; ";
-			};
-			id=120;
-			type="Section_b_Ammo_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_cargo_size";
-					expression="[_this, _value] call ace_cargo_fnc_setSize;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.2;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item30
 		{
 			dataType="Object";
 			class PositionInfo
@@ -12225,7 +11520,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item31
+		class Item25
 		{
 			dataType="Group";
 			side="East";
@@ -12297,7 +11592,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -12438,7 +11733,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -12579,7 +11874,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -12720,7 +12015,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -12842,7 +12137,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -12964,7 +12259,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -13027,7 +12322,7 @@ class Mission
 			};
 			id=126;
 		};
-		class Item32
+		class Item26
 		{
 			dataType="Group";
 			side="East";
@@ -13099,7 +12394,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -13240,7 +12535,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -13362,7 +12657,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -13484,7 +12779,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -13606,7 +12901,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -13729,7 +13024,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -13851,7 +13146,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -13973,7 +13268,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -14036,7 +13331,7 @@ class Mission
 			};
 			id=134;
 		};
-		class Item33
+		class Item27
 		{
 			dataType="Group";
 			side="East";
@@ -14108,7 +13403,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -14249,7 +13544,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -14371,7 +13666,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -14493,7 +13788,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -14615,7 +13910,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -14737,7 +14032,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -14859,7 +14154,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -14981,7 +14276,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -15044,7 +14339,7 @@ class Mission
 			};
 			id=143;
 		};
-		class Item34
+		class Item28
 		{
 			dataType="Group";
 			side="East";
@@ -15116,7 +14411,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -15257,7 +14552,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -15379,7 +14674,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -15501,7 +14796,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -15623,7 +14918,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -15745,7 +15040,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -15867,7 +15162,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -15989,7 +15284,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -16052,7 +15347,7 @@ class Mission
 			};
 			id=152;
 		};
-		class Item35
+		class Item29
 		{
 			dataType="Group";
 			side="East";
@@ -16124,7 +15419,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -16265,7 +15560,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -16387,7 +15682,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -16509,7 +15804,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -16631,7 +15926,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -16753,7 +16048,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -16875,7 +16170,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -16997,7 +16292,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -17060,7 +16355,7 @@ class Mission
 			};
 			id=161;
 		};
-		class Item36
+		class Item30
 		{
 			dataType="Group";
 			side="East";
@@ -17132,7 +16427,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -17273,7 +16568,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -17336,7 +16631,7 @@ class Mission
 			};
 			id=170;
 		};
-		class Item37
+		class Item31
 		{
 			dataType="Group";
 			side="East";
@@ -17408,7 +16703,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -17549,7 +16844,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -17671,7 +16966,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -17734,7 +17029,7 @@ class Mission
 			};
 			id=173;
 		};
-		class Item38
+		class Item32
 		{
 			dataType="Group";
 			side="East";
@@ -17806,7 +17101,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -17947,7 +17242,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -18069,7 +17364,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -18132,7 +17427,7 @@ class Mission
 			};
 			id=177;
 		};
-		class Item39
+		class Item33
 		{
 			dataType="Group";
 			side="East";
@@ -18204,7 +17499,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -18345,7 +17640,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -18467,7 +17762,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -18530,7 +17825,7 @@ class Mission
 			};
 			id=181;
 		};
-		class Item40
+		class Item34
 		{
 			dataType="Group";
 			side="East";
@@ -18602,7 +17897,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -18743,7 +18038,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -18865,7 +18160,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -18928,7 +18223,7 @@ class Mission
 			};
 			id=185;
 		};
-		class Item41
+		class Item35
 		{
 			dataType="Group";
 			side="East";
@@ -19000,7 +18295,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -19141,7 +18436,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -19263,7 +18558,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -19326,7 +18621,7 @@ class Mission
 			};
 			id=189;
 		};
-		class Item42
+		class Item36
 		{
 			dataType="Group";
 			side="East";
@@ -19398,7 +18693,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -19539,7 +18834,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -19661,7 +18956,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -19724,7 +19019,7 @@ class Mission
 			};
 			id=193;
 		};
-		class Item43
+		class Item37
 		{
 			dataType="Group";
 			side="East";
@@ -19796,7 +19091,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -19937,7 +19232,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -20059,7 +19354,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -20122,7 +19417,7 @@ class Mission
 			};
 			id=197;
 		};
-		class Item44
+		class Item38
 		{
 			dataType="Group";
 			side="East";
@@ -20194,7 +19489,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -20335,7 +19630,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -20457,7 +19752,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -20520,7 +19815,7 @@ class Mission
 			};
 			id=201;
 		};
-		class Item45
+		class Item39
 		{
 			dataType="Group";
 			side="East";
@@ -20592,7 +19887,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -20733,7 +20028,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -20855,7 +20150,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -20918,7 +20213,7 @@ class Mission
 			};
 			id=205;
 		};
-		class Item46
+		class Item40
 		{
 			dataType="Group";
 			side="East";
@@ -20990,7 +20285,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -21131,7 +20426,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -21253,7 +20548,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -21316,7 +20611,7 @@ class Mission
 			};
 			id=209;
 		};
-		class Item47
+		class Item41
 		{
 			dataType="Group";
 			side="East";
@@ -21388,7 +20683,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -21529,7 +20824,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -21651,7 +20946,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -21714,7 +21009,7 @@ class Mission
 			};
 			id=213;
 		};
-		class Item48
+		class Item42
 		{
 			dataType="Group";
 			side="East";
@@ -21786,7 +21081,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -21927,7 +21222,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -22049,7 +21344,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -22112,7 +21407,7 @@ class Mission
 			};
 			id=217;
 		};
-		class Item49
+		class Item43
 		{
 			dataType="Group";
 			side="East";
@@ -22184,7 +21479,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -22325,7 +21620,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -22388,7 +21683,7 @@ class Mission
 			};
 			id=221;
 		};
-		class Item50
+		class Item44
 		{
 			dataType="Group";
 			side="East";
@@ -22460,7 +21755,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -22601,7 +21896,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -22664,7 +21959,7 @@ class Mission
 			};
 			id=224;
 		};
-		class Item51
+		class Item45
 		{
 			dataType="Group";
 			side="East";
@@ -22736,7 +22031,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -22877,7 +22172,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -22940,7 +22235,7 @@ class Mission
 			};
 			id=227;
 		};
-		class Item52
+		class Item46
 		{
 			dataType="Group";
 			side="East";
@@ -23012,7 +22307,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -23153,7 +22448,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -23216,7 +22511,7 @@ class Mission
 			};
 			id=230;
 		};
-		class Item53
+		class Item47
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23294,7 +22589,7 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item54
+		class Item48
 		{
 			dataType="Object";
 			class PositionInfo
@@ -23311,494 +22606,7 @@ class Mission
 			id=240;
 			type="Flag_Blue_F";
 		};
-		class Item55
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3915.8879,7.0487332,3975};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				lock="UNLOCKED";
-				init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}];}";
-				name="mhq_opf_1";
-			};
-			id=244;
-			type="rhs_tigr_vdv";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_repair_editorLoadedWheels";
-					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="rhs_decalNumber_type";
-					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cDecalsTigr4NumberPlaces, _value]]] call rhs_fnc_decalsInit";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="Default";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="rhs_decalPlatoon_type";
-					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="Army";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="rhs_decalArmy_type";
-					expression="_this setVariable ['rhs_decalArmy_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="Army";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=-10;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ace_isRepairVehicle";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=50000;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="rhs_decalArmy";
-					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="ace_repair_editorLoadedTracks";
-					expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="ace_cargo_space";
-					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=80;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="rhs_decalPlatoon";
-					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				nAttributes=12;
-			};
-		};
-		class Item56
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3915.4294,5.1799846,3979.0645};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				init="call{nul = [this,""latammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
-			};
-			id=246;
-			type="LAT_Ammo_o_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_cargo_size";
-					expression="[_this, _value] call ace_cargo_fnc_setSize;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.2;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item57
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3916.9275,5.1487255,3979.1523};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				init="call{nul = [this,""demosmall""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; }";
-			};
-			id=247;
-			type="LExplosives_Ammo_o_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_cargo_size";
-					expression="[_this, _value] call ace_cargo_fnc_setSize;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.2;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item58
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3917.0066,5.1487255,3980.7466};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				init="nul = [this,""mmgammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; ";
-			};
-			id=248;
-			type="MG_Ammo_o_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_cargo_size";
-					expression="[_this, _value] call ace_cargo_fnc_setSize;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.2;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item59
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3916.2063,5.2725153,3982.0596};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				init="nul = [this,""sectionammo""] execVM ""scripts\assignGear\assignGear_OPF.sqf""; ";
-			};
-			id=249;
-			type="Section_o_Ammo_F";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_isMedicalFacility";
-					expression="_this setVariable [""ace_medical_isMedicalFacility"", _value, true];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"BOOL"
-								};
-							};
-							value=0;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_cargo_size";
-					expression="[_this, _value] call ace_cargo_fnc_setSize;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=0.2;
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item60
+		class Item49
 		{
 			dataType="Object";
 			class PositionInfo
@@ -24061,264 +22869,19 @@ class Mission
 				nAttributes=3;
 			};
 		};
-		class Item61
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3915.7214,5.417942,3985.7935};
-				angles[]={0,1.5707964,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				init="call{nul = [this] execVM ""scripts\cratePicker\cratePicker_opf.sqf"";}";
-				name="OPF_cratepicker";
-			};
-			id=251;
-			type="rhs_weapon_crate";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ENH_HoldAction";
-					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"ARRAY"
-								};
-							};
-							class value
-							{
-								items=13;
-								class Item0
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item1
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
-									};
-								};
-								class Item2
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="\a3\ui_f\data\igui\cfg\holdactions\holdaction_revive_ca.paa";
-									};
-								};
-								class Item3
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="true";
-									};
-								};
-								class Item4
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="true";
-									};
-								};
-								class Item5
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item6
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item7
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item8
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"STRING"
-											};
-										};
-										value="";
-									};
-								};
-								class Item9
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"SCALAR"
-											};
-										};
-										value=10;
-									};
-								};
-								class Item10
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"SCALAR"
-											};
-										};
-										value=1000;
-									};
-								};
-								class Item11
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=0;
-									};
-								};
-								class Item12
-								{
-									class data
-									{
-										class type
-										{
-											type[]=
-											{
-												"BOOL"
-											};
-										};
-										value=1;
-									};
-								};
-							};
-						};
-					};
-				};
-				nAttributes=2;
-			};
-		};
-		class Item62
+		class Item50
 		{
 			dataType="Layer";
 			name="Modules_Framework";
 			class Entities
 			{
-				items=15;
+				items=13;
 				class Item0
 				{
 					dataType="Logic";
 					class PositionInfo
 					{
-						position[]={4128.6938,5,4144.7852};
+						position[]={4123.2529,5,4144.2705};
 					};
 					id=253;
 					type="ModuleCurator_F";
@@ -24884,35 +23447,13 @@ class Mission
 					dataType="Comment";
 					class PositionInfo
 					{
-						position[]={4129.2788,5,3975.5701};
-					};
-					title="Vehicle Service Point";
-					description="Make sure to change the UID to your own in this module";
-					id=271;
-				};
-				class Item11
-				{
-					dataType="Comment";
-					class PositionInfo
-					{
-						position[]={3927.4006,5,3976.582};
-					};
-					title="Vehicle Service Point";
-					description="Make sure to change the UID to your own in this module";
-					id=272;
-				};
-				class Item12
-				{
-					dataType="Comment";
-					class PositionInfo
-					{
 						position[]={4014.26,5,4103.5029};
 					};
 					title="Vehicle Respawn init";
 					description="[this, 30,{} , 5, false, true, true] call UDS_fnc_vehicleRespawn;";
 					id=295;
 				};
-				class Item13
+				class Item11
 				{
 					dataType="Logic";
 					class PositionInfo
@@ -24964,7 +23505,7 @@ class Mission
 						nAttributes=2;
 					};
 				};
-				class Item14
+				class Item12
 				{
 					dataType="Trigger";
 					position[]={4113.8647,5,4134.5742};
@@ -24979,160 +23520,7 @@ class Mission
 			};
 			id=252;
 		};
-		class Item63
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4126.9648,6.4041967,3975.696};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=268;
-			type="USMC_WarfareBVehicleServicePoint";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=-10;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_isRepairFacility";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=20000;
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item64
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3927.0759,6.6445851,3976.72};
-				angles[]={0,4.712389,0};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-			};
-			id=270;
-			type="RU_WarfareBVehicleServicePoint";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=-10;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="ace_isRepairFacility";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairFacility', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=20000;
-						};
-					};
-				};
-				nAttributes=3;
-			};
-		};
-		class Item65
+		class Item51
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -25241,7 +23629,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item66
+		class Item52
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -25350,7 +23738,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item67
+		class Item53
 		{
 			dataType="Group";
 			side="West";
@@ -25422,7 +23810,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -25504,7 +23892,7 @@ class Mission
 			};
 			id=279;
 		};
-		class Item68
+		class Item54
 		{
 			dataType="Group";
 			side="West";
@@ -25576,7 +23964,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -25658,7 +24046,7 @@ class Mission
 			};
 			id=281;
 		};
-		class Item69
+		class Item55
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -25767,7 +24155,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item70
+		class Item56
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -25876,7 +24264,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item71
+		class Item57
 		{
 			dataType="Group";
 			side="East";
@@ -25948,7 +24336,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -26030,7 +24418,7 @@ class Mission
 			};
 			id=289;
 		};
-		class Item72
+		class Item58
 		{
 			dataType="Group";
 			side="East";
@@ -26102,7 +24490,7 @@ class Mission
 						class Attribute2
 						{
 							property="ENH_unitTraits_loadCoef";
-							expression="_this setUnitTrait ['LoadCoef', _value]";
+							expression="[_this, ['LoadCoef', _value]] remoteExec ['setUnitTrait', _this]";
 							class Value
 							{
 								class data
@@ -26184,452 +24572,7 @@ class Mission
 			};
 			id=291;
 		};
-		class Item73
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={4115.7808,6.9449992,3968.9084};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				lock="UNLOCKED";
-				init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}]; }";
-				name="mhq_blu_2";
-			};
-			id=293;
-			type="rhsusf_m998_w_s_2dr_fulltop";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_repair_editorLoadedWheels";
-					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="rhs_decalDoors";
-					expression="if(_value != 'NoChange')then{ [_this,'unitdecals_2',_value] call rhs_fnc_hmmwv_setDecal}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="NoChange";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="rhs_decalMask";
-					expression="if(_value != 'NoChange')then{ [_this,'unitdecals_1',_value] call rhs_fnc_hmmwv_setDecal}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="NoChange";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=-10;
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ace_isRepairVehicle";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=50000;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ace_cargo_space";
-					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=80;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="ace_repair_editorLoadedTracks";
-					expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				nAttributes=9;
-			};
-		};
-		class Item74
-		{
-			dataType="Object";
-			class PositionInfo
-			{
-				position[]={3915.9199,7.0487332,3967.946};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				skill=0.2;
-				lock="UNLOCKED";
-				init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}];}";
-				name="mhq_opf_2";
-			};
-			id=294;
-			type="rhs_tigr_vdv";
-			class CustomAttributes
-			{
-				class Attribute0
-				{
-					property="ace_repair_editorLoadedWheels";
-					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute1
-				{
-					property="rhs_decalNumber_type";
-					expression="_this setVariable ['rhs_decalNumber_type', _value];[_this,[['Number', cDecalsTigr4NumberPlaces, _value]]] call rhs_fnc_decalsInit";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="Default";
-						};
-					};
-				};
-				class Attribute2
-				{
-					property="rhs_decalPlatoon_type";
-					expression="_this setVariable ['rhs_decalPlatoon_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="Army";
-						};
-					};
-				};
-				class Attribute3
-				{
-					property="ammoBox";
-					expression="[_this,_value] call bis_fnc_initAmmoBox;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
-						};
-					};
-				};
-				class Attribute4
-				{
-					property="rhs_decalArmy_type";
-					expression="_this setVariable ['rhs_decalArmy_type', _value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="Army";
-						};
-					};
-				};
-				class Attribute5
-				{
-					property="ace_refuel_fuelCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=-10;
-						};
-					};
-				};
-				class Attribute6
-				{
-					property="ace_isRepairVehicle";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=1;
-						};
-					};
-				};
-				class Attribute7
-				{
-					property="ace_rearm_rearmCargo";
-					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=50000;
-						};
-					};
-				};
-				class Attribute8
-				{
-					property="rhs_decalArmy";
-					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightArmyPlaces,  _this getVariable ['rhs_decalArmy_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				class Attribute9
-				{
-					property="ace_repair_editorLoadedTracks";
-					expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=6;
-						};
-					};
-				};
-				class Attribute10
-				{
-					property="ace_cargo_space";
-					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"SCALAR"
-								};
-							};
-							value=80;
-						};
-					};
-				};
-				class Attribute11
-				{
-					property="rhs_decalPlatoon";
-					expression="if(parseNumber _value >= 0)then{ [_this, [ [ 'Label', cDecalsTigrRightPlatoonPlaces,  _this getVariable ['rhs_decalPlatoon_type','Army'],call compile _value] ] ] call rhs_fnc_decalsInit};";
-					class Value
-					{
-						class data
-						{
-							class type
-							{
-								type[]=
-								{
-									"STRING"
-								};
-							};
-							value="-1";
-						};
-					};
-				};
-				nAttributes=12;
-			};
-		};
-		class Item75
+		class Item59
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26667,7 +24610,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item76
+		class Item60
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26705,7 +24648,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item77
+		class Item61
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26743,7 +24686,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item78
+		class Item62
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26782,7 +24725,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item79
+		class Item63
 		{
 			dataType="Marker";
 			position[]={4102.6016,5,4015.9507};
@@ -26791,7 +24734,7 @@ class Mission
 			colorName="ColorWEST";
 			id=302;
 		};
-		class Item80
+		class Item64
 		{
 			dataType="Marker";
 			position[]={4106.4414,5,4015.9185};
@@ -26800,7 +24743,7 @@ class Mission
 			colorName="ColorWEST";
 			id=303;
 		};
-		class Item81
+		class Item65
 		{
 			dataType="Marker";
 			position[]={4109.5195,5,4015.9346};
@@ -26809,7 +24752,7 @@ class Mission
 			colorName="ColorWEST";
 			id=304;
 		};
-		class Item82
+		class Item66
 		{
 			dataType="Marker";
 			position[]={4112.7056,5,4015.9165};
@@ -26818,7 +24761,7 @@ class Mission
 			colorName="ColorWEST";
 			id=305;
 		};
-		class Item83
+		class Item67
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26856,7 +24799,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item84
+		class Item68
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26894,7 +24837,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item85
+		class Item69
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26932,7 +24875,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item86
+		class Item70
 		{
 			dataType="Object";
 			class PositionInfo
@@ -26971,7 +24914,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item87
+		class Item71
 		{
 			dataType="Marker";
 			position[]={3901.1899,5,4018.8696};
@@ -26980,7 +24923,7 @@ class Mission
 			colorName="ColorEAST";
 			id=314;
 		};
-		class Item88
+		class Item72
 		{
 			dataType="Marker";
 			position[]={3905.0503,5,4018.9604};
@@ -26989,7 +24932,7 @@ class Mission
 			colorName="ColorEAST";
 			id=315;
 		};
-		class Item89
+		class Item73
 		{
 			dataType="Marker";
 			position[]={3907.8879,5,4018.9316};
@@ -26998,7 +24941,7 @@ class Mission
 			colorName="ColorEAST";
 			id=316;
 		};
-		class Item90
+		class Item74
 		{
 			dataType="Marker";
 			position[]={3911.1948,5,4019.0586};
@@ -27007,7 +24950,7 @@ class Mission
 			colorName="ColorEAST";
 			id=317;
 		};
-		class Item91
+		class Item75
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27046,7 +24989,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item92
+		class Item76
 		{
 			dataType="Object";
 			class PositionInfo
@@ -27085,7 +25028,7 @@ class Mission
 				nAttributes=1;
 			};
 		};
-		class Item93
+		class Item77
 		{
 			dataType="Marker";
 			position[]={4115.9746,5,4015.9128};
@@ -27094,7 +25037,7 @@ class Mission
 			colorName="ColorWEST";
 			id=320;
 		};
-		class Item94
+		class Item78
 		{
 			dataType="Marker";
 			position[]={3914.4189,5,4018.9709};
@@ -27103,7 +25046,7 @@ class Mission
 			colorName="ColorEAST";
 			id=321;
 		};
-		class Item95
+		class Item79
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -27213,7 +25156,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item96
+		class Item80
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -27323,12 +25266,12 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item97
+		class Item81
 		{
 			dataType="Logic";
 			class PositionInfo
 			{
-				position[]={4116.5171,5,3968.8799};
+				position[]={4116.5176,5,3967.8962};
 			};
 			name="west_respawn_3";
 			id=328;
@@ -27433,7 +25376,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item98
+		class Item82
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -27543,7 +25486,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item99
+		class Item83
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -27653,7 +25596,7 @@ class Mission
 				nAttributes=5;
 			};
 		};
-		class Item100
+		class Item84
 		{
 			dataType="Logic";
 			class PositionInfo
@@ -27761,6 +25704,1211 @@ class Mission
 					};
 				};
 				nAttributes=5;
+			};
+		};
+		class Item85
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4119.2539,6.0410533,4016.8779};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{this addAction [""Teleport TO MHQ 1"", ""scripts\teleports\MHQ.sqf"", mhq_blu_1]; this addAction [""Teleport TO MHQ 2"", ""scripts\teleports\MHQ.sqf"", mhq_blu_2];}";
+			};
+			id=332;
+			type="SignAd_Sponsor_Vrana_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="img\heli_ca.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item86
+		{
+			dataType="Marker";
+			position[]={4119.3159,5,4015.885};
+			name="respawn_west_6";
+			type="respawn_air";
+			colorName="ColorWEST";
+			id=333;
+		};
+		class Item87
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3917.626,6.0410533,4020.5137};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				init="call{this addAction [""Teleport TO MHQ 1"", ""scripts\teleports\MHQ.sqf"", mhq_blu_1]; this addAction [""Teleport TO MHQ 2"", ""scripts\teleports\MHQ.sqf"", mhq_blu_2];}";
+			};
+			id=334;
+			type="SignAd_Sponsor_Vrana_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="img\heli_ca.paa";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item88
+		{
+			dataType="Marker";
+			position[]={3917.6389,5,4018.9451};
+			name="respawn_east_6";
+			type="respawn_air";
+			colorName="ColorEAST";
+			id=336;
+		};
+		class Item89
+		{
+			dataType="Layer";
+			name="UDS NR6 Spawn Temp";
+			id=358;
+			atlOffset=-5;
+		};
+		class Item90
+		{
+			dataType="Layer";
+			name="UDS NR6 Spawn Temp";
+			id=380;
+			atlOffset=-5;
+		};
+		class Item91
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4115.8848,7.2059455,3974.9836};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.2;
+				lock="UNLOCKED";
+				init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}];}";
+				name="mhq_blu_1";
+			};
+			id=381;
+			type="B_MRAP_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_refuel_fuelCargo";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_rearm_rearmCargo";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50000;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ace_isRepairVehicle";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ace_cargo_space";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=80;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ace_repair_editorLoadedTracks";
+					expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item92
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4115.7754,7.2059455,3967.906};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.2;
+				lock="UNLOCKED";
+				init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}]; }";
+				name="mhq_blu_2";
+			};
+			id=382;
+			type="B_MRAP_01_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_refuel_fuelCargo";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_rearm_rearmCargo";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50000;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ace_isRepairVehicle";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ace_cargo_space";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=80;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ace_repair_editorLoadedTracks";
+					expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item93
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={4115.7178,5.7898083,3985.7791};
+				angles[]={0,1.5707964,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{nul = [this] execVM ""scripts\cratePicker\cratePicker_blu.sqf"";}";
+				name="BLU_cratepicker";
+			};
+			id=383;
+			type="Box_NATO_AmmoVeh_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ENH_HoldAction";
+					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=13;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item3
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+								class Item4
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+								class Item5
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item6
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item7
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item8
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item9
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=10;
+									};
+								};
+								class Item10
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1000;
+									};
+								};
+								class Item11
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item12
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item94
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3915.9199,7.4435053,3967.9443};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.2;
+				lock="UNLOCKED";
+				init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}];}";
+				name="mhq_opf_2";
+			};
+			id=384;
+			type="O_MRAP_02_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_refuel_fuelCargo";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_rearm_rearmCargo";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50000;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ace_isRepairVehicle";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ace_repair_editorLoadedTracks";
+					expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ace_cargo_space";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=80;
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item95
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3915.8879,7.4435053,3974.9983};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				skill=0.2;
+				lock="UNLOCKED";
+				init="call{this allowDamage false; this addEventHandler [""Engine"",{(_this select 0) allowDamage true;}];}";
+				name="mhq_opf_1";
+			};
+			id=385;
+			type="O_MRAP_02_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ace_repair_editorLoadedWheels";
+					expression="_this setVariable ['ace_repair_editorLoadedWheels',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="ace_refuel_fuelCargo";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_refuel_fuelCargo"")) then {getNumber (configOf _this >> ""ace_refuel_fuelCargo"")} else {-1})) then {[_this, _value] call ace_refuel_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=-10;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="ace_rearm_rearmCargo";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_rearm_defaultSupply"")) then {getNumber (configOf _this >> ""ace_rearm_defaultSupply"")} else {-1})) then {[_this, _value] call ace_rearm_fnc_makeSource}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=50000;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="ace_isRepairVehicle";
+					expression="if (_value != (if (isNumber (configOf _this >> ""ace_repair_canRepair"")) then {getNumber (configOf _this >> ""ace_repair_canRepair"")} else {0})) then {_this setVariable ['ace_isRepairVehicle', _value, true]}";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="ace_repair_editorLoadedTracks";
+					expression="_this setVariable ['ace_repair_editorLoadedTracks',_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="ace_cargo_space";
+					expression="[_this, _value] call ace_cargo_fnc_setSpace;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=80;
+						};
+					};
+				};
+				nAttributes=7;
+			};
+		};
+		class Item96
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={3915.7209,5.7898083,3985.793};
+				angles[]={0,1.5707964,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				init="call{nul = [this] execVM ""scripts\cratePicker\cratePicker_opf.sqf"";}";
+				name="OPF_cratepicker";
+			};
+			id=386;
+			type="Box_East_AmmoVeh_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ENH_HoldAction";
+					expression="      _value params ['_name', '_iconIdle', '_iconProgress', '_conditionShow', '_conditionProgress', '_codeStart', '_codeProgress', '_codeCompletion', '_codeInterrupt', '_duration', '_priority', '_showUnconscious', '_showWindow'];      if (!is3DEN && !(_name isEqualTo '')) then      {        [          _this,          _name,          _iconIdle,          _iconProgress,          _conditionShow,          _conditionProgress,          compile _codeStart,          compile _codeProgress,          compile format ['%1 %2', '[_this select 0, _this select 2] remoteExecCall [''removeAction'', 0]; remoteExecCall ['''', _this select 0];', _codeCompletion],          compile _codeInterrupt,          nil,          _duration,          _priority,          true,          _showUnconscious,          _showWindow        ] remoteExecCall ['BIS_fnc_holdActionAdd', 0, _this];      };";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=13;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item3
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+								class Item4
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="true";
+									};
+								};
+								class Item5
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item6
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item7
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item8
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"STRING"
+											};
+										};
+										value="";
+									};
+								};
+								class Item9
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=10;
+									};
+								};
+								class Item10
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=1000;
+									};
+								};
+								class Item11
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item12
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"BOOL"
+											};
+										};
+										value=1;
+									};
+								};
+							};
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 	};
@@ -27917,7 +27065,7 @@ class Mission
 			{
 				linkID=14;
 				item0=327;
-				item1=117;
+				item1=381;
 				class CustomData
 				{
 					type="Sync";
@@ -27927,7 +27075,7 @@ class Mission
 			{
 				linkID=15;
 				item0=328;
-				item1=293;
+				item1=382;
 				class CustomData
 				{
 					type="Sync";
@@ -27937,7 +27085,7 @@ class Mission
 			{
 				linkID=16;
 				item0=330;
-				item1=244;
+				item1=385;
 				class CustomData
 				{
 					type="Sync";
@@ -27947,7 +27095,7 @@ class Mission
 			{
 				linkID=17;
 				item0=331;
-				item1=294;
+				item1=384;
 				class CustomData
 				{
 					type="Sync";

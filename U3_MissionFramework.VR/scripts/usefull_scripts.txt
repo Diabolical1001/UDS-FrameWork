@@ -137,3 +137,9 @@ group this setVariable ["zbe_cacheDisabled",true];
 nul = [this] spawn {while {true} do {(_this select 0) say3D "sound_class"; sleep 123;};};
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+/////////////////////////////
+///  Ace Fortification    ///
+/////////////////////////////
+
+[west, 800, [["class_name", 10], ["class_name", 10], ["class_name", 30]]] call ace_fortify_fnc_registerObjects

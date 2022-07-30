@@ -15,8 +15,8 @@ switch (_radioSelection) do {
 	case "rhs_us" : {
 		_squadRadio = "TFAR_anprc152";
 		_airRadioRuck = "TFAR_mr6000l";
-		_radioRuck = "TFAR_rt1523g_big_rhs";
-		_diverRadioRuck = "TFAR_rt1523g_big_rhs";
+		_radioRuck = "UK3CB_B_B_Tactical_Backpack_Radio";
+		_diverRadioRuck = "UK3CB_B_B_Tactical_Backpack_Radio";
 		_uavRuck = "B_UAV_01_backpack_F";
 		_uavTool = "B_UavTerminal";
 	};

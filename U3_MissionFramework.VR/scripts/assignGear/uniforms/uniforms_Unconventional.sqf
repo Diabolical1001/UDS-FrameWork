@@ -483,6 +483,182 @@ switch (_camoPattern) do {
 		// ================================================
 	};
 
+	// Syrian Army - Opfor
+
+	case "m93_woodland" : {
+		// ==================== Uniforms ==================
+
+		_rflmUniformArray = ["rhsgref_uniform_woodland"];
+		_rflmRandom = (floor(random (count _rflmUniformArray)));
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
+		_crewUniform = "rhsgref_uniform_olive";
+		_leaderUniform = "rhsgref_uniform_woodland_olive";
+		_rpilotUniform = "rhsgref_uniform_olive";
+		_fpilotUniform = "UK3CB_TKA_I_U_J_Pilot_Des";
+		_sniperUniform = "rhsgref_uniform_woodland";
+
+		// ==================== Headgear ==================
+
+		switch (_headgear) do {
+			case "6b26" : {
+				_rflmHelmetArray = ["rhs_6b26_green","rhs_6b26_ess_green"];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = ["UK3CB_TKP_I_H_Beret"];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
+				_rotaryPilotHelmet = "rhs_zsh7a_mike_green_alt";
+				_rotaryCrewHelmet = "rhs_zsh7a_mike_green_alt";
+				_fixedPilotHelmet = "UK3CB_TKA_O_H_zsh7a_Des_alt";
+				_coyHelmet = "UK3CB_TKP_I_H_Beret";
+				_slHelmet = "rhs_6b26_green";
+				_tlHelmet = "rhs_6b26_green";
+				_sniperHelmet = "rhs_6b26_green";
+			};
+			default {
+				_rflmHelmetArray = [""];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = [""];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
+				_rotaryPilotHelmet = "rhsusf_hgu56p";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "";
+				_slHelmet = "";
+				_tlHelmet = "";
+				_sniperHelmet = "";
+			};
+		};
+
+		// ===================== Vests ====================
+
+		_rflmVest = "rhssaf_vest_md99_md2camo_rifleman";
+		_gunnerVest = "rhssaf_vest_md99_md2camo_rifleman";
+		_asstVest = "rhssaf_vest_md99_md2camo_rifleman";
+		_glVest = "rhssaf_vest_md99_md2camo_rifleman";
+		_medVest = "rhssaf_vest_md99_md2camo_rifleman";
+		_pilotVest = "rhssaf_vest_md99_md2camo_radio";
+		_crewVest = "rhssaf_vest_md99_md2camo_radio";
+		_coyVest = "rhssaf_vest_md99_md2camo_rifleman_radio";
+		_slVest = "rhssaf_vest_md99_md2camo_rifleman_radio";
+		_tlVest = "rhssaf_vest_md99_md2camo_rifleman_radio";
+		_sniperVest = "rhssaf_vest_md99_md2camo_rifleman";
+
+		// ===================== Rucks ====================
+
+		_smallRuck = "UK3CB_LDF_B_B_ASS_WDL";
+		_medRuck = "UK3CB_CW_US_B_LATE_B_RIF_03";
+		_armgRuck = "UK3CB_CHD_B_B_RIF_WDL";
+		_largeRuck = "rhssaf_alice_md2camo";
+		_medicRuck = "UK3CB_B_Alice_Med_K";
+		_atRuck = "rhs_rpg_6b3";
+		_sniperRuck = "UK3CB_LDF_B_B_ASS_WDL";
+
+		// ===================== NVGs ====================
+
+		_nightVision = "rhsusf_ANPVS_14";
+
+		// =================== Goggles ===================
+
+		_gogglesArray = ["UK3CB_G_Balaclava2_BLK","UK3CB_G_Balaclava2_DES","UK3CB_G_Neck_Shemag_KLR_blk","UK3CB_G_Neck_Shemag_Tan","rhs_scarf"];
+		_gogglesRandom = (floor(random (count _gogglesArray)));
+		_goggles = _gogglesArray select _gogglesRandom;
+
+		// ================================================
+	};
+
+	// Polish - Woodland
+
+	case "CombatSmock_woodland" : {
+		// ==================== Uniforms ==================
+
+		_rflmUniformArray = ["UK3CB_LNM_B_U_CombatSmock_21","","UK3CB_LNM_B_U_CombatSmock_25","UK3CB_LNM_B_U_CombatSmock_26","UK3CB_LNM_B_U_CombatSmock_30","UK3CB_LNM_B_U_CombatSmock_20","UK3CB_LNM_B_U_CombatSmock_35","UK3CB_LNM_B_U_CombatSmock_36","UK3CB_LNM_B_U_CombatSmock_21"];
+		_rflmRandom = (floor(random (count _rflmUniformArray)));
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
+		_crewUniform = "rhsgref_uniform_woodland";
+		_leaderUniform = "UK3CB_LNM_B_U_CombatSmock_21";
+		_rpilotUniform = "rhsgref_uniform_woodland";
+		_fpilotUniform = "UK3CB_LDF_B_U_J_Pilot_GEO";
+		_sniperUniform = "UK3CB_LNM_B_U_CombatSmock_21";
+
+		// ==================== Headgear ==================
+
+		switch (_headgear) do {
+			case "m97" : {
+				_rflmHelmetArray = ["rhssaf_helmet_m97_woodland","rhssaf_helmet_m97_md2camo","rhssaf_helmet_m97_md2camo_black_ess"];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = ["UK3CB_TKP_I_H_Beret"];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
+				_rotaryPilotHelmet = "rhs_zsh7a_mike_green_alt";
+				_rotaryCrewHelmet = "rhs_zsh7a_mike_green_alt";
+				_fixedPilotHelmet = "UK3CB_TKA_O_H_zsh7a_Des_alt";
+				_coyHelmet = "rhssaf_beret_green";
+				_slHelmet = "rhssaf_helmet_m97_md2camo_black_ess_bare";
+				_tlHelmet = "rhssaf_helmet_m97_woodland_black_ess_bare";
+				_sniperHelmet = "rhssaf_booniehat_woodland";
+			};
+			default {
+				_rflmHelmetArray = [""];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = [""];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
+				_rotaryPilotHelmet = "rhsusf_hgu56p";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "";
+				_slHelmet = "";
+				_tlHelmet = "";
+				_sniperHelmet = "";
+			};
+		};
+
+		// ===================== Vests ====================
+
+		_rflmVest = "UK3CB_ADA_B_V_TacVest_WDL";
+		_gunnerVest = "UK3CB_CW_US_B_LATE_V_PASGT_MG_Vest";
+		_asstVest = "UK3CB_ADA_B_V_TacVest_WDL";
+		_glVest = "UK3CB_ADA_B_V_TacVest_WDL";
+		_medVest = "UK3CB_ADA_B_V_TacVest_WDL";
+		_pilotVest = "UK3CB_V_Pilot_Vest";
+		_crewVest = "UK3CB_ADA_B_V_MBAV_WDL";
+		_coyVest = "rhssaf_vest_otv_md2camo";
+		_slVest = "rhssaf_vest_otv_md2camo";
+		_tlVest = "rhssaf_vest_otv_md2camo";
+		_sniperVest = "UK3CB_ADA_B_V_TacVest_WDL";
+
+		// ===================== Rucks ====================
+
+		_smallRuck = "UK3CB_LDF_B_B_ASS_WDL";
+		_medRuck = "UK3CB_CW_US_B_LATE_B_RIF_03";
+		_armgRuck = "UK3CB_CHD_B_B_RIF_WDL";
+		_largeRuck = "rhssaf_alice_md2camo";
+		_medicRuck = "UK3CB_CHD_B_B_MD_WDL";
+		_atRuck = "UK3CB_LDF_B_B_ASS_WDL";
+		_sniperRuck = "UK3CB_LDF_B_B_ASS_WDL";
+
+		// ===================== NVGs ====================
+
+		_nightVision = "rhsusf_ANPVS_14";
+
+		// =================== Goggles ===================
+
+		_gogglesArray = ["UK3CB_G_Balaclava2_BLK","rhs_balaclava","rhs_balaclava1_olive","rhsusf_shemagh2_grn","rhs_scarf"];
+		_gogglesRandom = (floor(random (count _gogglesArray)));
+		_goggles = _gogglesArray select _gogglesRandom;
+
+		// ================================================
+	};
+
 #include "default.sqf"
 };
 

@@ -1,0 +1,9 @@
+version=54;
+name="UDS NR6 Core Temp";
+author="Diabolical";
+category="EdSubcat_Utilities";
+requiredAddons[]=
+{
+	"NR6_HAL",
+	"nr6_zbe_cache"
+};

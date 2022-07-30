@@ -1,5 +1,5 @@
 version=54;
-center[]={3994.1797,5,4031.4133};
+center[]={4050,5,4005};
 class items
 {
 	items=3;
@@ -8,9 +8,9 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={5.8203125,0,-31.41333};
+			position[]={0,0,5};
 		};
-		id=92;
+		id=6;
 		type="NR6_HAL_Core_Module";
 		class CustomAttributes
 		{
@@ -29,7 +29,7 @@ class items
 								"SCALAR"
 							};
 						};
-						value=30;
+						value=15;
 					};
 				};
 			};
@@ -39,11 +39,7 @@ class items
 	class Item1
 	{
 		dataType="Logic";
-		class PositionInfo
-		{
-			position[]={5.8203125,0,68.58667};
-		};
-		id=93;
+		id=7;
 		type="NR6_HAL_GenSettings_Module";
 		class CustomAttributes
 		{
@@ -119,7 +115,7 @@ class items
 								"BOOL"
 							};
 						};
-						value=1;
+						value=0;
 					};
 				};
 			};
@@ -176,7 +172,7 @@ class items
 								"BOOL"
 							};
 						};
-						value=1;
+						value=0;
 					};
 				};
 			};
@@ -214,7 +210,7 @@ class items
 								"BOOL"
 							};
 						};
-						value=0;
+						value=1;
 					};
 				};
 			};
@@ -252,7 +248,7 @@ class items
 								"BOOL"
 							};
 						};
-						value=0;
+						value=1;
 					};
 				};
 			};
@@ -271,7 +267,7 @@ class items
 								"BOOL"
 							};
 						};
-						value=1;
+						value=0;
 					};
 				};
 			};
@@ -347,7 +343,7 @@ class items
 								"SCALAR"
 							};
 						};
-						value=800;
+						value=0;
 					};
 				};
 			};
@@ -385,7 +381,7 @@ class items
 								"BOOL"
 							};
 						};
-						value=1;
+						value=0;
 					};
 				};
 			};
@@ -404,7 +400,7 @@ class items
 								"BOOL"
 							};
 						};
-						value=1;
+						value=0;
 					};
 				};
 			};
@@ -435,9 +431,9 @@ class items
 		dataType="Logic";
 		class PositionInfo
 		{
-			position[]={5.8203125,0,18.58667};
+			position[]={0,0,-5};
 		};
-		id=94;
+		id=8;
 		type="NR6_Cache_Module";
 		class CustomAttributes
 		{
@@ -456,7 +452,7 @@ class items
 								"SCALAR"
 							};
 						};
-						value=1500;
+						value=1200;
 					};
 				};
 			};
@@ -513,7 +509,7 @@ class items
 								"SCALAR"
 							};
 						};
-						value=3000;
+						value=30000;
 					};
 				};
 			};

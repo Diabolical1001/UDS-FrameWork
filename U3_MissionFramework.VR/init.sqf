@@ -85,18 +85,3 @@ if (hasInterface) then { player setVariable ["CLY_removedead",false,true]; };
 [300,0,true] execVM "scripts\cly_removeDead.sqf";
 
 //=====================================================================================
-// Spectator Initialisation
-
-if (!isDedicated) then {
-    [] spawn {
-        while {true} do {
-            if (call bis_fnc_respawntickets == 0) exitWith
-            {
-            	format ["We have no more reinforcements. Mission has failed and we must fall back."] remoteExec ["hint", 0];
-            };
-        sleep 0.5;
-        };
-    };
-};
-
-//=====================================================================================
