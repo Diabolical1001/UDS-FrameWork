@@ -12,11 +12,47 @@ private ["_squadRadio","_airRadioRuck","_radioRuck","_diverRadioRuck","_uavRuck"
 
 switch (_radioSelection) do {
 
-	case "rhs_us" : {
+	case "rhs_usmc_w" : {
 		_squadRadio = "TFAR_anprc152";
 		_airRadioRuck = "TFAR_mr6000l";
-		_radioRuck = "UK3CB_B_B_Tactical_Backpack_Radio";
-		_diverRadioRuck = "UK3CB_B_B_Tactical_Backpack_Radio";
+		_radioRuck = "uds_TFAR_rt1523g_big_MARPAT_Woodlaand";
+		_diverRadioRuck = "uds_TFAR_rt1523g_big_MARPAT_Woodlaand";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+
+	case "rhs_usmc_d" : {
+		_squadRadio = "TFAR_anprc152";
+		_airRadioRuck = "TFAR_mr6000l";
+		_radioRuck = "uds_TFAR_rt1523g_big_MARPAT_Desert";
+		_diverRadioRuck = "uds_TFAR_rt1523g_big_MARPAT_Desert";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+
+	case "rhs_socom_m81" : {
+		_squadRadio = "TFAR_anprc152";
+		_airRadioRuck = "TFAR_mr6000l";
+		_radioRuck = "uds_TFAR_rt1523g_big_M81";
+		_diverRadioRuck = "uds_TFAR_rt1523g_big_M81";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+	// woodland
+	case "rhs_us_ucp" : {
+		_squadRadio = "TFAR_anprc152";
+		_airRadioRuck = "TFAR_mr6000l";
+		_radioRuck = "uds_TFAR_rt1523g_big_UCP";
+		_diverRadioRuck = "uds_TFAR_rt1523g_big_UCP";
+		_uavRuck = "B_UAV_01_backpack_F";
+		_uavTool = "B_UavTerminal";
+	};
+	// multicam
+	case "rhs_us_ocp" : {
+		_squadRadio = "TFAR_anprc152";
+		_airRadioRuck = "TFAR_mr6000l";
+		_radioRuck = "TFAR_rt1523g_big_rhs";
+		_diverRadioRuck = "TFAR_rt1523g_big_rhs";
 		_uavRuck = "B_UAV_01_backpack_F";
 		_uavTool = "B_UavTerminal";
 	};

@@ -169,8 +169,7 @@ if (_unit isKindOf "Man") then {
 			{ _unit linkItem _x } foreach _secItems;
 			_unit addItemToVest _dagr;
 			_unit addItemToUniform _designatorBat;
-			for "_i" from 1 to 6 do {_unit addItemToVest _rifleMag};
-			for "_i" from 1 to 2 do {_unit addItemToVest _rifleTracerMag};
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleGLMag};
 			_unit addWeapon _rifleGL;
 			["fac"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -243,7 +242,7 @@ if (_unit isKindOf "Man") then {
 		case "aar" : {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
-			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleGLMag};
 			_unit addWeapon _rifleGL;
 			["aar"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -320,7 +319,7 @@ if (_unit isKindOf "Man") then {
 		case "gren" : {
 			["gren"] call _addClothes;
 			["none"] call _addBasics;
-			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleGLMag};
 			_unit addWeapon _rifleGL;
 			["gren"] call _addRuck;
 			["general",false,false,false] call _addAttachments;
@@ -344,7 +343,7 @@ if (_unit isKindOf "Man") then {
 		case "mmgass" : {
 			["rflm"] call _addClothes;
 			["binocular"] call _addBasics;
-			for "_i" from 1 to 8 do {_unit addItemToVest _rifleMag};
+			for "_i" from 1 to 8 do {_unit addItemToVest _rifleGLMag};
 			_unit addWeapon _rifleGL;
 			["mmgass"] call _addRuck;
 			["general",false,false,false] call _addAttachments;

@@ -3,7 +3,7 @@
 
 # UDS-FrameWork
 # UDS Arma mission framework (COOP)
-## Version: 01/08/2022
+## Version: 09/08/2022 (HFX)
 
 ### Changed
 
@@ -20,6 +20,17 @@
 
 - Tweaked Fixed wrong demo charge calls for demo specialists.
 - Tweaked Breacher roile has more ammo.
+
+### Hotfix
+
+- Added Some more radio types.
+- Added Unconventional middle-eastern insurgent uniforms
+- Added Unconventional russian nationalist uniforms
+- Added Unconventional PMC uniforms (thanks Stuart)
+
+- Fixed rifleGL calls in assign gear files
+- Fixed wrong call for satchel type items
+
 
 ### Retro Fitting
 

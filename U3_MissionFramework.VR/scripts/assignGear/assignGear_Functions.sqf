@@ -535,7 +535,7 @@ _addRuck = {
 			(unitBackpack _unit) addMagazineCargoGlobal [_grenade,2];
 			(unitBackpack _unit) addMagazineCargoGlobal [_smokeOne,1];
 			(unitBackpack _unit) addMagazineCargoGlobal [_satchelSmall,4];
-			(unitBackpack _unit) addMagazineCargoGlobal [_satchelCharge,1];
+			(unitBackpack _unit) addMagazineCargoGlobal [_satchelLarge,1];
 			(unitBackpack _unit) addItemCargoGlobal [_clackOne,1];
 			(unitBackpack _unit) addItemCargoGlobal [_defuseKit,1];
 			(unitBackpack _unit) addItemCargoGlobal [_etool,1];

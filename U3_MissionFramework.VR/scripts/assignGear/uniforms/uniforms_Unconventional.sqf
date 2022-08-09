@@ -117,17 +117,17 @@ switch (_camoPattern) do {
 
 	// Russian Nationalists
 
-	case "nationalist" : {
+	case "russian_nat" : {
 		// ==================== Uniforms ==================
 
-		_rflmUniformArray = ["rhsgref_uniform_gorka_1_f"];
+		_rflmUniformArray = ["UK3CB_CHD_B_U_CombatSmock_05","UK3CB_CHD_B_U_CombatSmock_01","UK3CB_CHD_B_U_CombatSmock_02","UK3CB_CHD_B_U_CombatSmock_09","UK3CB_CHD_B_U_CombatSmock_12","UK3CB_CHD_B_U_CombatSmock_07","UK3CB_CHD_B_U_CombatSmock_06","UK3CB_CHD_B_U_CombatSmock_04","UK3CB_CHD_B_U_CombatSmock_03","UK3CB_CHD_B_U_CombatSmock_13","UK3CB_LNM_B_U_Crew_CombatSmock_05","UK3CB_LNM_B_U_Crew_CombatSmock_06","UK3CB_LNM_B_U_Crew_CombatSmock_07","UK3CB_LNM_B_U_Crew_CombatSmock_02","UK3CB_LNM_B_U_Crew_CombatSmock_03","UK3CB_LNM_B_U_Crew_CombatSmock_04","UK3CB_LNM_B_U_Crew_CombatSmock_10","UK3CB_LNM_B_U_Crew_CombatSmock_08","UK3CB_LNM_B_U_CombatSmock_22","UK3CB_LNM_B_U_CombatSmock_23","UK3CB_LNM_B_U_CombatSmock_24","UK3CB_LSM_B_U_CombatSmock_09","UK3CB_LSM_B_U_Crew_CombatSmock_10","UK3CB_LSM_B_U_CombatSmock_32","UK3CB_LSM_B_U_CombatSmock_34","UK3CB_LSM_B_U_CombatSmock_31","UK3CB_LSM_B_U_CombatSmock_03","UK3CB_CW_SOV_O_Late_U_Spetsnaz_Uniform_Gorka_01_KLMK"];
 		_rflmRandom = (floor(random (count _rflmUniformArray)));
 		_rflmUniform = _rflmUniformArray select _rflmRandom;
 		_crewUniform = "rhsgref_uniform_flecktarn_full";
-		_leaderUniform = "rhsgref_uniform_gorka_1_f";
+		_leaderUniform = "UK3CB_CHD_B_U_CombatSmock_08";
 		_rpilotUniform = "rhsgref_uniform_gorka_1_f";
 		_fpilotUniform = "rhsgref_uniform_gorka_1_f";
-		_sniperUniform = "rhsgref_uniform_gorka_1_f";
+		_sniperUniform = "UK3CB_CHD_B_U_CombatSmock_10";
 
 		// ==================== Headgear ==================
 
@@ -196,7 +196,7 @@ switch (_camoPattern) do {
 
 		// =================== Goggles ===================
 
-		_gogglesArray = ["rhs_balaclava","rhs_balaclava1_olive"];
+		_gogglesArray = ["rhs_balaclava","rhs_balaclava1_olive","UK3CB_G_Balaclava2_BLK"];
 		_gogglesRandom = (floor(random (count _gogglesArray)));
 		_goggles = _gogglesArray select _gogglesRandom;
 
@@ -653,6 +653,198 @@ switch (_camoPattern) do {
 		// =================== Goggles ===================
 
 		_gogglesArray = ["UK3CB_G_Balaclava2_BLK","rhs_balaclava","rhs_balaclava1_olive","rhsusf_shemagh2_grn","rhs_scarf"];
+		_gogglesRandom = (floor(random (count _gogglesArray)));
+		_goggles = _gogglesArray select _gogglesRandom;
+
+		// ================================================
+	};
+
+	// Middle-Eastern Insurgents - civmix
+
+	case "mei_mix" : {
+		// ==================== Uniforms ==================
+
+		_rflmUniformArray = ["UK3CB_MEI_B_U_Jeans_Tshirt_05","UK3CB_MEI_B_U_Jeans_Tshirt_16","UK3CB_MEI_B_U_Jeans_Tshirt_06","UK3CB_MEI_B_U_Jeans_Tshirt_17","UK3CB_MEI_B_U_Jeans_Tshirt_07","UK3CB_MEI_B_U_Jeans_Tshirt_18","UK3CB_MEE_O_U_06","UK3CB_MEI_B_U_Jeans_Tshirt_02","UK3CB_MEI_B_U_Jeans_Tshirt_13","UK3CB_MEI_B_U_Jeans_Tshirt_14","UK3CB_MEI_B_U_Jeans_Tshirt_03","UK3CB_MEI_B_U_Jeans_Tshirt_09","UK3CB_MEI_B_U_Jeans_Tshirt_20","UK3CB_MEI_B_U_Jeans_Tshirt_10","UK3CB_MEI_B_U_Jeans_Tshirt_21","UK3CB_MEI_B_U_Jeans_Tshirt_11","UK3CB_MEI_B_U_Jeans_Tshirt_22","UK3CB_MEI_B_U_Jeans_Tshirt_08","UK3CB_MEI_B_U_Jeans_Tshirt_19","UK3CB_MEE_O_U_06_B","UK3CB_MEE_O_U_06_C"];
+		_rflmRandom = (floor(random (count _rflmUniformArray)));
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
+		_crewUniform = "UK3CB_ADM_B_U_Shirt_Pants_01_BLU_TCC";
+		_leaderUniform = "UK3CB_ADM_B_U_Shirt_Pants_01_BLU_CC";
+		_rpilotUniform = "UK3CB_ADM_B_U_Shirt_Pants_01_BLU_DDPM";
+		_fpilotUniform = "UK3CB_ADM_B_U_Shirt_Pants_01_BLU_DDPM";
+		_sniperUniform = "UK3CB_ADM_B_U_Shirt_Pants_01_BLU_DDPM";
+
+		// ==================== Headgear ==================
+
+		switch (_headgear) do {
+			case "none" : {
+				_rflmHelmetArray = [""];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = ["UK3CB_TKP_I_H_Beret"];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
+				_rotaryPilotHelmet = "rhs_zsh7a_mike_green_alt";
+				_rotaryCrewHelmet = "rhs_zsh7a_mike_green_alt";
+				_fixedPilotHelmet = "UK3CB_TKA_O_H_zsh7a_Des_alt";
+				_coyHelmet = "";
+				_slHelmet = "";
+				_tlHelmet = "";
+				_sniperHelmet = "";
+			};
+			default {
+				_rflmHelmetArray = [""];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = [""];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
+				_rotaryPilotHelmet = "rhsusf_hgu56p";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "";
+				_slHelmet = "";
+				_tlHelmet = "";
+				_sniperHelmet = "";
+			};
+		};
+
+		// ===================== Vests ====================
+
+		_rflmVest = "rhs_chicom_khk";
+		_gunnerVest = "rhs_belt_RPK";
+		_asstVest = "rhs_belt_AK_GL";
+		_glVest = "rhs_lifchik_vog";
+		_medVest = "rhsgref_chestrig";
+		_pilotVest = "rhs_belt_AK4_back";
+		_crewVest = "rhs_belt_AK4_back";
+		_coyVest = "rhsgref_chestrig";
+		_slVest = "rhsgref_chestrig";
+		_tlVest = "rhsgref_chestrig";
+		_sniperVest = "rhs_suspender_SKS";
+
+		// ===================== Rucks ====================
+
+		_smallRuck = "UK3CB_ADA_B_B_ASS";
+		_medRuck = "UK3CB_UN_B_B_RIF";
+		_armgRuck = "UK3CB_B_TacticalPack_Oli";
+		_largeRuck = "UK3CB_B_Alice_K";
+		_medicRuck = "UK3CB_B_Largepack_Med_Des";
+		_atRuck = "rhs_rpg_6b2";
+		_sniperRuck = "UK3CB_UN_B_B_ASS";
+
+		// ===================== NVGs ====================
+
+		_nightVision = "rhsusf_ANPVS_14";
+
+		// =================== Goggles ===================
+
+		_gogglesArray = ["UK3CB_G_Balaclava2_BLK","UK3CB_G_Balaclava2_DES","UK3CB_G_Balaclava2_MEE","UK3CB_G_Bandanna_aviator_brown_check","UK3CB_G_Bandanna_aviator_red_check","UK3CB_G_Bandanna_aviator_white_check","UK3CB_G_Bandanna_brown_check","UK3CB_G_Bandanna_red_check","UK3CB_G_Bandanna_sport_red_check","rhsusf_shemagh2_white"];
+		_gogglesRandom = (floor(random (count _gogglesArray)));
+		_goggles = _gogglesArray select _gogglesRandom;
+
+		// ================================================
+	};
+
+// PMC
+
+	case "pmc" : {
+		// ==================== Uniforms ==================
+
+		_rflmUniformArray = ["rhs_uniform_g3_tan","rhs_uniform_g3_blk","u_bg_guerilla2_1","u_bg_guerilla2_3","uk3cb_adm_b_u_shirt_pants_01_brn_cc","uk3cb_adm_b_u_shirt_pants_01_grn_ddpm"];
+		_rflmRandom = (floor(random (count _rflmUniformArray)));
+		_rflmUniform = _rflmUniformArray select _rflmRandom;
+		_crewUniform = "rhs_uniform_g3_mc";
+		_leaderUniform = "rhs_uniform_g3_mc";
+		_rpilotUniform = "rhs_uniform_g3_mc";
+		_fpilotUniform = "U_B_PilotCoveralls";
+		_sniperUniform = "rhs_uniform_g3_mc";
+
+		// ==================== Headgear ==================
+
+		switch (_headgear) do {
+			case "protech" : {
+				_rflmHelmetArray = ["rhsusf_protech_helmet_rhino","rhsusf_protech_helmet","rhsusf_protech_helmet_ess","rhsusf_protech_helmet_rhino_ess"];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = ["rhsusf_cvc_alt_helmet","rhsusf_cvc_ess"];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
+				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_green";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_green";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "rhsusf_protech_helmet_rhino";
+				_slHelmet = "rhsusf_protech_helmet_rhino";
+				_tlHelmet = "rhsusf_protech_helmet_rhino";
+				_sniperHelmet = "rhsusf_protech_helmet_rhino";
+			};
+			case "opscore" : {
+				_rflmHelmetArray = ["rhsusf_opscore_bk_pelt"];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = ["rhsusf_cvc_green_alt_helmet","rhsusf_cvc_green_ess"];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "rhsusf_bowman_cap";
+				_rotaryPilotHelmet = "rhsusf_hgu56p_visor_green";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_visor_green";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "rhsusf_opscore_mc_cover_pelt_nsw";
+				_slHelmet = "rhsusf_opscore_mc_cover_pelt_cam";
+				_tlHelmet = "rhsusf_opscore_mc_cover_pelt_nsw";
+				_sniperHelmet = "rhsusf_opscore_mc_cover";
+			};
+			default {
+				_rflmHelmetArray = [""];
+				_rflmHRandom = (floor(random (count _rflmHelmetArray)));
+				_rflmHelmet = _rflmHelmetArray select _rflmHRandom;
+				_crewmanHelmetArray = [""];
+				_crewmanHRandom = (floor(random (count _crewmanHelmetArray)));
+				_crewmanHelmet = _crewmanHelmetArray select _crewmanHRandom;
+				_navalcrewmanHelmet = "";
+				_rotaryPilotHelmet = "rhsusf_hgu56p";
+				_rotaryCrewHelmet = "rhsusf_hgu56p_mask";
+				_fixedPilotHelmet = "RHS_jetpilot_usaf";
+				_coyHelmet = "";
+				_slHelmet = "";
+				_tlHelmet = "";
+				_sniperHelmet = "";
+			};
+		};
+
+		// ===================== Vests ====================
+
+		_rflmVest = "rhsusf_plateframe_rifleman";
+		_gunnerVest = "rhsusf_plateframe_machinegunner";
+		_asstVest = "rhsusf_plateframe_grenadier";
+		_glVest = "rhsusf_plateframe_grenadier";
+		_medVest = "rhsusf_plateframe_medic";
+		_pilotVest = "rhsusf_mbav_light";
+		_crewVest = "rhsusf_mbav_light";
+		_coyVest = "rhsusf_plateframe_teamleader";
+		_slVest = "rhsusf_plateframe_teamleader";
+		_tlVest = "rhsusf_plateframe_teamleader";
+		_sniperVest = "rhsusf_plateframe_marksman";
+
+		// ===================== Rucks ====================
+
+		_smallRuck = "B_AssaultPack_blk";
+		_medRuck = "UK3CB_CW_US_B_LATE_B_RIF_04";
+		_armgRuck = "UK3CB_CW_US_B_LATE_B_RIF_04";
+		_largeRuck = "rhs_tortila_black";
+		_medicRuck = "B_TacticalPack_blk";
+		_atRuck = "B_AssaultPack_blk";
+		_sniperRuck = "B_AssaultPack_blk";
+
+		// ===================== NVGs ====================
+
+		_nightVision = "rhsusf_ANPVS_15";
+
+		// =================== Goggles ===================
+
+		_gogglesArray = [""];
 		_gogglesRandom = (floor(random (count _gogglesArray)));
 		_goggles = _gogglesArray select _gogglesRandom;
 
