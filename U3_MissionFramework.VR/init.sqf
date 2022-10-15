@@ -85,3 +85,6 @@ if (hasInterface) then { player setVariable ["CLY_removedead",false,true]; };
 [300,0,true] execVM "scripts\cly_removeDead.sqf";
 
 //=====================================================================================
+//Change to opfor variables of using opfor framework (mhq_opf_#)
+publicVariable = "mhq_blu_1";
+publicVariable = "mhq_blu_2";
