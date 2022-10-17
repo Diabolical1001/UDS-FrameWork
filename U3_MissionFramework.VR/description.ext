@@ -38,7 +38,7 @@ class Params {
 		title    = "Headless Client";
 		values[] = {0,1};
 		texts[]  = {"Off","On"};
-		default  = 1;
+		default  = 0;
     };
 };
 

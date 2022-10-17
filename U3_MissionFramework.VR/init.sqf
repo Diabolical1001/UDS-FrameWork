@@ -86,5 +86,5 @@ if (hasInterface) then { player setVariable ["CLY_removedead",false,true]; };
 
 //=====================================================================================
 //Change to opfor variables of using opfor framework (mhq_opf_#)
-publicVariable = "mhq_blu_1";
-publicVariable = "mhq_blu_2";
+publicVariable "mhq_blu_1";
+publicVariable "mhq_blu_2";
